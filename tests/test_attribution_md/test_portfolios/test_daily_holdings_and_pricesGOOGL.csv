@@ -1,0 +1,1781 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2020-12-02,GOOGL,US02079K3059,USD,Common Stock,2.0,1824.9699401855469,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-03,GOOGL,US02079K3059,USD,Common Stock,2.0,1821.8400573730469,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-04,GOOGL,US02079K3059,USD,Common Stock,2.0,1823.7600708007812,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-05,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2020-12-06,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2020-12-07,GOOGL,US02079K3059,USD,Common Stock,2.0,1817.030029296875,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-08,GOOGL,US02079K3059,USD,Common Stock,2.0,1811.3299560546875,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-09,GOOGL,US02079K3059,USD,Common Stock,2.0,1777.8599548339844,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-10,GOOGL,US02079K3059,USD,Common Stock,2.0,1767.6499938964844,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-11,GOOGL,US02079K3059,USD,Common Stock,2.0,1774.7999572753906,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-12,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2020-12-13,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2020-12-14,GOOGL,US02079K3059,USD,Common Stock,2.0,1752.2599792480469,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-15,GOOGL,US02079K3059,USD,Common Stock,2.0,1761.0800170898438,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-16,GOOGL,US02079K3059,USD,Common Stock,2.0,1757.18994140625,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-17,GOOGL,US02079K3059,USD,Common Stock,2.0,1740.5099487304688,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-18,GOOGL,US02079K3059,USD,Common Stock,2.0,1726.2199401855469,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-19,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2020-12-20,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2020-12-21,GOOGL,US02079K3059,USD,Common Stock,2.0,1734.5599365234375,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-22,GOOGL,US02079K3059,USD,Common Stock,2.0,1720.2200317382812,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-23,GOOGL,US02079K3059,USD,Common Stock,2.0,1728.22998046875,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-24,GOOGL,US02079K3059,USD,Common Stock,2.0,1734.1600036621094,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-25,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2020-12-26,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2020-12-27,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2020-12-28,GOOGL,US02079K3059,USD,Common Stock,2.0,1773.9599609375,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-29,GOOGL,US02079K3059,USD,Common Stock,2.0,1757.760009765625,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-30,GOOGL,US02079K3059,USD,Common Stock,2.0,1736.25,,0.0,20.0,Communication Services,Internet Content & Information
+2020-12-31,GOOGL,US02079K3059,USD,Common Stock,2.0,1752.6400756835938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-01,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-02,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-03,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-04,GOOGL,US02079K3059,USD,Common Stock,2.0,1726.1300659179688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-05,GOOGL,US02079K3059,USD,Common Stock,2.0,1740.050048828125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-06,GOOGL,US02079K3059,USD,Common Stock,2.0,1722.8799438476562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-07,GOOGL,US02079K3059,USD,Common Stock,2.0,1774.3400573730469,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-08,GOOGL,US02079K3059,USD,Common Stock,2.0,1797.8300476074219,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-09,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-10,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-11,GOOGL,US02079K3059,USD,Common Stock,2.0,1756.2899780273438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-12,GOOGL,US02079K3059,USD,Common Stock,2.0,1737.4299621582031,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-13,GOOGL,US02079K3059,USD,Common Stock,2.0,1747.2500610351562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-14,GOOGL,US02079K3059,USD,Common Stock,2.0,1730.9199523925781,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-15,GOOGL,US02079K3059,USD,Common Stock,2.0,1727.6199340820312,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-16,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-17,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-18,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-19,GOOGL,US02079K3059,USD,Common Stock,2.0,1784.4700622558594,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-20,GOOGL,US02079K3059,USD,Common Stock,2.0,1880.0700378417969,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-21,GOOGL,US02079K3059,USD,Common Stock,2.0,1884.1499328613281,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-22,GOOGL,US02079K3059,USD,Common Stock,2.0,1892.5599670410156,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-23,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-24,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-25,GOOGL,US02079K3059,USD,Common Stock,2.0,1894.2799377441406,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-26,GOOGL,US02079K3059,USD,Common Stock,2.0,1907.9499816894531,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-27,GOOGL,US02079K3059,USD,Common Stock,2.0,1818.9399719238281,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-28,GOOGL,US02079K3059,USD,Common Stock,2.0,1853.2000732421875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-29,GOOGL,US02079K3059,USD,Common Stock,2.0,1827.3599243164062,,0.0,20.0,Communication Services,Internet Content & Information
+2021-01-30,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-01-31,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-02-01,GOOGL,US02079K3059,USD,Common Stock,2.0,1893.070068359375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-02,GOOGL,US02079K3059,USD,Common Stock,2.0,1919.1200256347656,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2058.8800048828125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2053.6300659179688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2088.8299560546875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-06,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-02-07,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-02-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2084.5199584960938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2075.3900146484375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2086.479949951172,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2088.75,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2095.030059814453,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-13,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-02-14,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-02-15,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-02-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2110.7000732421875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2118.6199951171875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2105.8099365234375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2088.8099670410156,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-20,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-02-21,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-02-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2054.2599487304688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2060.1199340820312,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2083.8099670410156,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2015.9500122070312,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2021.9099426269531,,0.0,20.0,Communication Services,Internet Content & Information
+2021-02-27,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-02-28,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-03-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2069.6600341796875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2064.47998046875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2011.4100646972656,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2033.9300537109375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2097.0700073242188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-06,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-03-07,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-03-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2007.5,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2040.3599548339844,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2036.1900329589844,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2100.540008544922,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2050.0,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-13,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-03-14,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-03-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2054.4400024414062,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2083.8900756835938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2082.220001220703,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2021.3400268554688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2026.9599914550781,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-20,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-03-21,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-03-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2030.6900024414062,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2041.3299560546875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2032.5300598144531,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2032.4600219726562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2024.7300720214844,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-27,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-03-28,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-03-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2045.7899475097656,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2046.4700317382812,,0.0,20.0,Communication Services,Internet Content & Information
+2021-03-31,GOOGL,US02079K3059,USD,Common Stock,2.0,2062.519989013672,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2129.7799682617188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-02,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-04-03,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-04-04,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-04-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2218.9599609375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2209.2599487304688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2239.029998779297,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2250.4299926757812,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2270.6700134277344,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-10,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-04-11,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-04-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2244.6200561523438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2254.429931640625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2241.909942626953,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2285.2499389648438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2282.7499389648438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-17,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-04-18,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-04-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2289.759979248047,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2279.010009765625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2278.350067138672,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2252.519989013672,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2299.929962158203,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-24,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-04-25,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-04-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2309.929962158203,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2290.9800720214844,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2359.040069580078,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2392.760009765625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-04-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2353.5000610351562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-01,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-02,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2343.0799865722656,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2306.8299865722656,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2314.770050048828,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2337.3500061035156,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2351.929931640625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-08,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-09,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2291.750030517578,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2270.0599670410156,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2200.2499389648438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2229.040069580078,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2278.3799743652344,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-15,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-16,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2288.9199829101562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2262.469940185547,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2271.4999389648438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2306.9500732421875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2294.1299438476562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-22,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-23,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2361.0400390625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2362.8700256347656,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2380.31005859375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2362.6800537109375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2356.8499755859375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-05-29,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-30,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-05-31,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-06-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2381.179962158203,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2370.590057373047,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2347.5799560546875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2393.5699462890625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-05,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-06-06,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-06-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2402.2999572753906,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2398.43994140625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2407.9400634765625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2435.1300048828125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2430.2000427246094,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-12,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-06-13,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-06-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2448.9100646972656,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2428.3900451660156,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2415.449981689453,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2434.8699951171875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2402.220001220703,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-19,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-06-20,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-06-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2436.25,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2446.6099548339844,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2442.5399780273438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2450.0,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2450.1699829101562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-26,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-06-27,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-06-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2450.7200622558594,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2445.449981689453,,0.0,20.0,Communication Services,Internet Content & Information
+2021-06-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2441.790008544922,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2448.8900756835938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2505.1499938964844,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-03,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-07-04,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-07-05,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-07-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2523.800048828125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2529.47998046875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2500.8799743652344,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2510.3700256347656,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-10,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-07-11,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-07-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2539.510040283203,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2546.8299865722656,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2564.739990234375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2540.0999450683594,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2539.4000244140625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-17,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-07-18,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-07-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2491.56005859375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2524.1900634765625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2550.9800720214844,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2568.4298706054688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2660.2999877929688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-24,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-07-25,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-07-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2680.7000732421875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2637.9998779296875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2721.8798828125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2715.5499267578125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2694.530029296875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-07-31,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-01,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2697.0901489257812,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2712.60009765625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2702.5100708007812,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2725.0299072265625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2714.7698974609375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-07,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-08,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2738.2598876953125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2736.14013671875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2725.5801391601562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2743.8800048828125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2754.5498657226562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-14,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-15,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2766.1898803710938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2733.22998046875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2708.9801025390625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2713.599853515625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2748.590087890625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-21,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-22,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2800.830078125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2825.2301025390625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2841.5798950195312,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2828.8101196289062,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2880.0799560546875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-28,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-29,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-08-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2891.8099975585938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-08-31,GOOGL,US02079K3059,USD,Common Stock,2.0,2893.9498901367188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2904.3099975585938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2865.7400512695312,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2874.7900390625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-04,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-09-05,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-09-06,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-09-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2885.6100463867188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2873.8198852539062,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2870.8200073242188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2817.5201416015625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-11,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-09-12,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-09-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2846.6500854492188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2850.889892578125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2888.590087890625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2872.2000122070312,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2816.0000610351562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-18,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-09-19,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-09-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2774.3899536132812,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2780.6600952148438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2805.6698608398438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2824.320068359375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2844.2999267578125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-25,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-09-26,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-09-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2821.4401245117188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2716.6000366210938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2687.0700073242188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-09-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2673.5198974609375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2730.8599853515625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-02,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-10-03,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-10-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2673.1900024414062,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2720.4598999023438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2751.300048828125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2784.5001220703125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2795.7101440429688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-09,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-10-10,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-10-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2778.280029296875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2728.9801025390625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2751.6400146484375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2823.02001953125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2827.3599243164062,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-16,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-10-17,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-10-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2855.5599975585938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2864.739990234375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2835.3799438476562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2837.7200317382812,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2751.3299560546875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-23,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-10-24,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-10-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2748.9401245117188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2786.1700439453125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2924.3499755859375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2916.97998046875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2960.9201049804688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-10-30,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-10-31,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2869.9398803710938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2908.64990234375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2931.9601440429688,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2965.3500366210938,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2977.0401000976562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-06,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-07,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2980.6201171875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2978.3700561523438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2917.869873046875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2915.3298950195312,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2973.5598754882812,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-13,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-14,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2969.0399169921875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2957.5201416015625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2960.93994140625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2996.77001953125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2978.5299682617188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-20,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-21,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2926.0400390625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2915.6399536132812,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2922.39990234375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-25,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2843.6599731445312,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-27,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-28,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-11-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2910.6100463867188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-11-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2837.9501342773438,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2821.0299682617188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2859.320068359375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2840.0299072265625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-04,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-12-05,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-12-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2863.0999755859375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2945.3900146484375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2963.7298583984375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2952.7700805664062,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2960.0299072265625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-11,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-12-12,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-12-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2916.5301513671875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2878.1399536132812,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2928.8198852539062,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2888.900146484375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2834.5001220703125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-18,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-12-19,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-12-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2832.139892578125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2869.4500732421875,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2928.2998657226562,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2938.330078125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-24,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-12-25,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-12-26,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2021-12-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2958.1298828125,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2933.7399291992188,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2933.0999755859375,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2924.010009765625,,0.0,20.0,Communication Services,Internet Content & Information
+2021-12-31,GOOGL,US02079K3059,USD,Common Stock,2.0,2897.0401000976562,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-01,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-02,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2899.8300170898438,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2887.9901123046875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2755.4998779296875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2754.949951171875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2740.3399658203125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-08,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-09,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2773.389892578125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2794.7198486328125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2828.6099243164062,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2771.7401123046875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2789.6099853515625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-15,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-16,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-17,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2719.9600219726562,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2702.3300170898438,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2666.14990234375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2607.030029296875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-22,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-23,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2616.0800170898438,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2538.699951171875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2584.6600341796875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2580.10009765625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2667.0199584960938,,0.0,20.0,Communication Services,Internet Content & Information
+2022-01-29,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-30,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-01-31,GOOGL,US02079K3059,USD,Common Stock,2.0,2706.0699462890625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2752.8799438476562,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2960.0,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2861.7999267578125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2865.8599853515625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-05,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-02-06,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-02-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2784.0200805664062,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2787.9800415039062,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2831.8399047851562,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2772.39990234375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2685.6500244140625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-12,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-02-13,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-02-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2710.52001953125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2732.1701049804688,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2754.7601318359375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2650.780029296875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2608.0599975585938,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-19,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-02-20,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-02-21,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-02-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2596.2701416015625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2551.7599487304688,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2653.8198852539062,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2689.1900634765625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-02-26,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-02-27,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-02-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2701.14013671875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2681.2298583984375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2691.4300537109375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2677.9901123046875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2638.1298828125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-05,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-03-06,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-03-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2527.570037841797,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2542.0899963378906,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2668.3999633789062,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2648.590087890625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2597.4099731445312,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-12,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-03-13,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-03-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2519.0199279785156,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2583.9599609375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2665.6100463867188,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2676.7800903320312,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2722.5100708007812,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-19,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-03-20,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-03-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2722.030029296875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2797.3599243164062,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2765.5099487304688,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2831.4401245117188,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2833.4600830078125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-26,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-03-27,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-03-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2829.110107421875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2850.10986328125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2838.7701416015625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-03-31,GOOGL,US02079K3059,USD,Common Stock,2.0,2781.35009765625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2803.0099487304688,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-02,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-04-03,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-04-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2859.429931640625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2811.820068359375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2730.9600830078125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2717.7700805664062,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2665.7501220703125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-09,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-04-10,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-04-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2576.4700317382812,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2554.290008544922,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2597.8799438476562,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2534.600067138672,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-15,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-04-16,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-04-17,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-04-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2553.5299682617188,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2600.1800537109375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2560.7998657226562,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2496.2899780273438,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2392.7099609375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-23,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-04-24,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-04-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2461.479949951172,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2373.000030517578,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2285.8900451660156,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2370.449981689453,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2282.18994140625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-04-30,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-01,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2331.6600036621094,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2346.6799926757812,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-04,GOOGL,US02079K3059,USD,Common Stock,2.0,2445.2200317382812,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2330.1100158691406,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2314.929962158203,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-07,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-08,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2250.2200317382812,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2287.899932861328,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2272.050018310547,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2256.8800354003906,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2321.009979248047,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-14,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-15,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2288.8999938964844,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2329.459991455078,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-18,GOOGL,US02079K3059,USD,Common Stock,2.0,2237.989959716797,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-19,GOOGL,US02079K3059,USD,Common Stock,2.0,2207.6800537109375,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-20,GOOGL,US02079K3059,USD,Common Stock,2.0,2178.159942626953,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-21,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-22,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2229.759979248047,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2119.4000244140625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-25,GOOGL,US02079K3059,USD,Common Stock,2.0,2116.1000061035156,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-26,GOOGL,US02079K3059,USD,Common Stock,2.0,2155.850067138672,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2246.3299560546875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-05-28,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-29,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-30,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-05-31,GOOGL,US02079K3059,USD,Common Stock,2.0,2275.240020751953,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2277.8399658203125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-02,GOOGL,US02079K3059,USD,Common Stock,2.0,2352.449951171875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-03,GOOGL,US02079K3059,USD,Common Stock,2.0,2290.8200073242188,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-04,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-06-05,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-06-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2336.4100646972656,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2342.989959716797,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2343.8800048828125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-09,GOOGL,US02079K3059,USD,Common Stock,2.0,2296.7100524902344,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-10,GOOGL,US02079K3059,USD,Common Stock,2.0,2223.22998046875,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-11,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-06-12,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-06-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2127.8500366210938,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2134.3099975585938,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2195.290069580078,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-16,GOOGL,US02079K3059,USD,Common Stock,2.0,2120.6700134277344,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-17,GOOGL,US02079K3059,USD,Common Stock,2.0,2142.8700256347656,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-18,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-06-19,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-06-20,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-06-21,GOOGL,US02079K3059,USD,Common Stock,2.0,2230.8799743652344,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-22,GOOGL,US02079K3059,USD,Common Stock,2.0,2229.7500610351562,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-23,GOOGL,US02079K3059,USD,Common Stock,2.0,2244.8399353027344,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-24,GOOGL,US02079K3059,USD,Common Stock,2.0,2359.499969482422,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-25,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-06-26,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-06-27,GOOGL,US02079K3059,USD,Common Stock,2.0,2316.6700744628906,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-28,GOOGL,US02079K3059,USD,Common Stock,2.0,2240.1499938964844,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-29,GOOGL,US02079K3059,USD,Common Stock,2.0,2234.029998779297,,0.0,20.0,Communication Services,Internet Content & Information
+2022-06-30,GOOGL,US02079K3059,USD,Common Stock,2.0,2179.2599487304688,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-01,GOOGL,US02079K3059,USD,Common Stock,2.0,2174.7500610351562,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-02,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-07-03,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-07-04,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-07-05,GOOGL,US02079K3059,USD,Common Stock,2.0,2265.260009765625,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-06,GOOGL,US02079K3059,USD,Common Stock,2.0,2291.439971923828,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-07,GOOGL,US02079K3059,USD,Common Stock,2.0,2375.659942626953,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-08,GOOGL,US02079K3059,USD,Common Stock,2.0,2387.0700073242188,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-09,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-07-10,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-07-11,GOOGL,US02079K3059,USD,Common Stock,2.0,2313.5299682617188,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-12,GOOGL,US02079K3059,USD,Common Stock,2.0,2280.4100036621094,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-13,GOOGL,US02079K3059,USD,Common Stock,2.0,2227.0700073242188,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-14,GOOGL,US02079K3059,USD,Common Stock,2.0,2207.3500061035156,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-15,GOOGL,US02079K3059,USD,Common Stock,2.0,2235.5499267578125,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-16,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-07-17,GOOGL,US02079K3059,USD,Common Stock,2.0,,,,,,
+2022-07-18,GOOGL,US02079K3059,USD,Common Stock,40.0,109.02999877929688,,0.0,20.0,Communication Services,Internet Content & Information
+2022-07-19,GOOGL,US02079K3059,USD,Common Stock,40.0,113.80999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2022-07-20,GOOGL,US02079K3059,USD,Common Stock,40.0,113.9000015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2022-07-21,GOOGL,US02079K3059,USD,Common Stock,40.0,114.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2022-07-22,GOOGL,US02079K3059,USD,Common Stock,40.0,107.9000015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2022-07-23,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-07-24,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-07-25,GOOGL,US02079K3059,USD,Common Stock,40.0,107.51000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2022-07-26,GOOGL,US02079K3059,USD,Common Stock,40.0,105.0199966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2022-07-27,GOOGL,US02079K3059,USD,Common Stock,40.0,113.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2022-07-28,GOOGL,US02079K3059,USD,Common Stock,40.0,114.22000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2022-07-29,GOOGL,US02079K3059,USD,Common Stock,40.0,116.31999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2022-07-30,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-07-31,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-08-01,GOOGL,US02079K3059,USD,Common Stock,40.0,114.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-02,GOOGL,US02079K3059,USD,Common Stock,40.0,115.12999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-03,GOOGL,US02079K3059,USD,Common Stock,40.0,118.08000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-04,GOOGL,US02079K3059,USD,Common Stock,40.0,118.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-05,GOOGL,US02079K3059,USD,Common Stock,40.0,117.47000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-06,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-08-07,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-08-08,GOOGL,US02079K3059,USD,Common Stock,40.0,117.30000305175781,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-09,GOOGL,US02079K3059,USD,Common Stock,40.0,116.62999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-10,GOOGL,US02079K3059,USD,Common Stock,40.0,119.69999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-11,GOOGL,US02079K3059,USD,Common Stock,40.0,118.83999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-12,GOOGL,US02079K3059,USD,Common Stock,40.0,121.68000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-13,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-08-14,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-08-15,GOOGL,US02079K3059,USD,Common Stock,40.0,122.08000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-16,GOOGL,US02079K3059,USD,Common Stock,40.0,121.69999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-17,GOOGL,US02079K3059,USD,Common Stock,40.0,119.55000305175781,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-18,GOOGL,US02079K3059,USD,Common Stock,40.0,120.16999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-19,GOOGL,US02079K3059,USD,Common Stock,40.0,117.20999908447266,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-20,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-08-21,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-08-22,GOOGL,US02079K3059,USD,Common Stock,40.0,114.23999786376953,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-23,GOOGL,US02079K3059,USD,Common Stock,40.0,113.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-24,GOOGL,US02079K3059,USD,Common Stock,40.0,113.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-25,GOOGL,US02079K3059,USD,Common Stock,40.0,116.6500015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-26,GOOGL,US02079K3059,USD,Common Stock,40.0,110.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-27,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-08-28,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-08-29,GOOGL,US02079K3059,USD,Common Stock,40.0,109.41999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-30,GOOGL,US02079K3059,USD,Common Stock,40.0,108.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2022-08-31,GOOGL,US02079K3059,USD,Common Stock,40.0,108.22000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-01,GOOGL,US02079K3059,USD,Common Stock,40.0,109.73999786376953,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-02,GOOGL,US02079K3059,USD,Common Stock,40.0,107.8499984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-03,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-09-04,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-09-05,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-09-06,GOOGL,US02079K3059,USD,Common Stock,40.0,106.80999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-07,GOOGL,US02079K3059,USD,Common Stock,40.0,109.44999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-08,GOOGL,US02079K3059,USD,Common Stock,40.0,108.37999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-09,GOOGL,US02079K3059,USD,Common Stock,40.0,110.6500015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-10,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-09-11,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-09-12,GOOGL,US02079K3059,USD,Common Stock,40.0,110.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-13,GOOGL,US02079K3059,USD,Common Stock,40.0,104.31999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-14,GOOGL,US02079K3059,USD,Common Stock,40.0,105.0,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-15,GOOGL,US02079K3059,USD,Common Stock,40.0,102.91000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-16,GOOGL,US02079K3059,USD,Common Stock,40.0,102.80000305175781,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-17,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-09-18,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-09-19,GOOGL,US02079K3059,USD,Common Stock,40.0,103.06999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-20,GOOGL,US02079K3059,USD,Common Stock,40.0,101.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-21,GOOGL,US02079K3059,USD,Common Stock,40.0,99.27999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-22,GOOGL,US02079K3059,USD,Common Stock,40.0,100.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-23,GOOGL,US02079K3059,USD,Common Stock,40.0,98.73999786376953,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-24,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-09-25,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-09-26,GOOGL,US02079K3059,USD,Common Stock,40.0,98.16999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-27,GOOGL,US02079K3059,USD,Common Stock,40.0,97.5,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-28,GOOGL,US02079K3059,USD,Common Stock,40.0,100.05000305175781,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-29,GOOGL,US02079K3059,USD,Common Stock,40.0,97.41999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2022-09-30,GOOGL,US02079K3059,USD,Common Stock,40.0,95.6500015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-01,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-02,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-03,GOOGL,US02079K3059,USD,Common Stock,40.0,98.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-04,GOOGL,US02079K3059,USD,Common Stock,40.0,101.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-05,GOOGL,US02079K3059,USD,Common Stock,40.0,101.43000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-06,GOOGL,US02079K3059,USD,Common Stock,40.0,101.41999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-07,GOOGL,US02079K3059,USD,Common Stock,40.0,98.68000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-08,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-09,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-10,GOOGL,US02079K3059,USD,Common Stock,40.0,97.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-11,GOOGL,US02079K3059,USD,Common Stock,40.0,97.18000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-12,GOOGL,US02079K3059,USD,Common Stock,40.0,97.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-13,GOOGL,US02079K3059,USD,Common Stock,40.0,99.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-14,GOOGL,US02079K3059,USD,Common Stock,40.0,96.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-15,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-16,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-17,GOOGL,US02079K3059,USD,Common Stock,40.0,99.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-18,GOOGL,US02079K3059,USD,Common Stock,40.0,100.7699966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-19,GOOGL,US02079K3059,USD,Common Stock,40.0,99.62999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-20,GOOGL,US02079K3059,USD,Common Stock,40.0,99.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-21,GOOGL,US02079K3059,USD,Common Stock,40.0,101.12999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-22,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-23,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-24,GOOGL,US02079K3059,USD,Common Stock,40.0,102.5199966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-25,GOOGL,US02079K3059,USD,Common Stock,40.0,104.4800033569336,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-26,GOOGL,US02079K3059,USD,Common Stock,40.0,94.93000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-27,GOOGL,US02079K3059,USD,Common Stock,40.0,92.22000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-28,GOOGL,US02079K3059,USD,Common Stock,40.0,96.29000091552734,,0.0,1.0,Communication Services,Internet Content & Information
+2022-10-29,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-30,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-10-31,GOOGL,US02079K3059,USD,Common Stock,40.0,94.51000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-01,GOOGL,US02079K3059,USD,Common Stock,40.0,90.47000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-02,GOOGL,US02079K3059,USD,Common Stock,40.0,86.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-03,GOOGL,US02079K3059,USD,Common Stock,40.0,83.43000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-04,GOOGL,US02079K3059,USD,Common Stock,40.0,86.58000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-05,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-11-06,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-11-07,GOOGL,US02079K3059,USD,Common Stock,40.0,88.48999786376953,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-08,GOOGL,US02079K3059,USD,Common Stock,40.0,88.9000015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-09,GOOGL,US02079K3059,USD,Common Stock,40.0,87.31999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-10,GOOGL,US02079K3059,USD,Common Stock,40.0,93.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-11,GOOGL,US02079K3059,USD,Common Stock,40.0,96.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-12,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-11-13,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-11-14,GOOGL,US02079K3059,USD,Common Stock,40.0,95.69999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-15,GOOGL,US02079K3059,USD,Common Stock,40.0,98.44000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-16,GOOGL,US02079K3059,USD,Common Stock,40.0,98.8499984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-17,GOOGL,US02079K3059,USD,Common Stock,40.0,98.36000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-18,GOOGL,US02079K3059,USD,Common Stock,40.0,97.43000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-19,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-11-20,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-11-21,GOOGL,US02079K3059,USD,Common Stock,40.0,95.5999984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-22,GOOGL,US02079K3059,USD,Common Stock,40.0,97.05000305175781,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-23,GOOGL,US02079K3059,USD,Common Stock,40.0,98.45999908447266,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-24,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-11-25,GOOGL,US02079K3059,USD,Common Stock,40.0,97.45999908447266,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-26,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-11-27,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-11-28,GOOGL,US02079K3059,USD,Common Stock,40.0,96.05000305175781,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-29,GOOGL,US02079K3059,USD,Common Stock,40.0,95.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2022-11-30,GOOGL,US02079K3059,USD,Common Stock,40.0,100.98999786376953,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-01,GOOGL,US02079K3059,USD,Common Stock,40.0,100.98999786376953,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-02,GOOGL,US02079K3059,USD,Common Stock,40.0,100.44000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-03,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-12-04,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-12-05,GOOGL,US02079K3059,USD,Common Stock,40.0,99.4800033569336,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-06,GOOGL,US02079K3059,USD,Common Stock,40.0,96.9800033569336,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-07,GOOGL,US02079K3059,USD,Common Stock,40.0,94.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-08,GOOGL,US02079K3059,USD,Common Stock,40.0,93.70999908447266,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-09,GOOGL,US02079K3059,USD,Common Stock,40.0,92.83000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-10,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-12-11,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-12-12,GOOGL,US02079K3059,USD,Common Stock,40.0,93.30999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-13,GOOGL,US02079K3059,USD,Common Stock,40.0,95.62999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-14,GOOGL,US02079K3059,USD,Common Stock,40.0,95.06999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-15,GOOGL,US02079K3059,USD,Common Stock,40.0,90.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-16,GOOGL,US02079K3059,USD,Common Stock,40.0,90.26000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-17,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-12-18,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-12-19,GOOGL,US02079K3059,USD,Common Stock,40.0,88.44000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-20,GOOGL,US02079K3059,USD,Common Stock,40.0,89.0199966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-21,GOOGL,US02079K3059,USD,Common Stock,40.0,89.58000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-22,GOOGL,US02079K3059,USD,Common Stock,40.0,87.76000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-23,GOOGL,US02079K3059,USD,Common Stock,40.0,89.2300033569336,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-24,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-12-25,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-12-26,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2022-12-27,GOOGL,US02079K3059,USD,Common Stock,40.0,87.38999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-28,GOOGL,US02079K3059,USD,Common Stock,40.0,86.0199966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-29,GOOGL,US02079K3059,USD,Common Stock,40.0,88.44999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-30,GOOGL,US02079K3059,USD,Common Stock,40.0,88.2300033569336,,0.0,1.0,Communication Services,Internet Content & Information
+2022-12-31,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-01,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-02,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-03,GOOGL,US02079K3059,USD,Common Stock,40.0,89.12000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-04,GOOGL,US02079K3059,USD,Common Stock,40.0,88.08000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-05,GOOGL,US02079K3059,USD,Common Stock,40.0,86.19999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-06,GOOGL,US02079K3059,USD,Common Stock,40.0,87.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-07,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-08,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-09,GOOGL,US02079K3059,USD,Common Stock,40.0,88.0199966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-10,GOOGL,US02079K3059,USD,Common Stock,40.0,88.41999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-11,GOOGL,US02079K3059,USD,Common Stock,40.0,91.5199966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-12,GOOGL,US02079K3059,USD,Common Stock,40.0,91.12999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-13,GOOGL,US02079K3059,USD,Common Stock,40.0,92.12000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-14,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-15,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-16,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-17,GOOGL,US02079K3059,USD,Common Stock,40.0,91.29000091552734,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-18,GOOGL,US02079K3059,USD,Common Stock,40.0,91.12000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-19,GOOGL,US02079K3059,USD,Common Stock,40.0,93.05000305175781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-20,GOOGL,US02079K3059,USD,Common Stock,40.0,98.0199966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-21,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-22,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-23,GOOGL,US02079K3059,USD,Common Stock,40.0,99.79000091552734,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-24,GOOGL,US02079K3059,USD,Common Stock,40.0,97.69999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-25,GOOGL,US02079K3059,USD,Common Stock,40.0,95.22000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-26,GOOGL,US02079K3059,USD,Common Stock,40.0,97.5199966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-27,GOOGL,US02079K3059,USD,Common Stock,40.0,99.37000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-28,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-29,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-01-30,GOOGL,US02079K3059,USD,Common Stock,40.0,96.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-01-31,GOOGL,US02079K3059,USD,Common Stock,40.0,98.83999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-01,GOOGL,US02079K3059,USD,Common Stock,40.0,100.43000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-02,GOOGL,US02079K3059,USD,Common Stock,40.0,107.73999786376953,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-03,GOOGL,US02079K3059,USD,Common Stock,40.0,104.77999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-04,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-02-05,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-02-06,GOOGL,US02079K3059,USD,Common Stock,40.0,102.9000015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-07,GOOGL,US02079K3059,USD,Common Stock,40.0,107.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-08,GOOGL,US02079K3059,USD,Common Stock,40.0,99.37000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-09,GOOGL,US02079K3059,USD,Common Stock,40.0,95.01000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-10,GOOGL,US02079K3059,USD,Common Stock,40.0,94.56999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-11,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-02-12,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-02-13,GOOGL,US02079K3059,USD,Common Stock,40.0,94.61000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-14,GOOGL,US02079K3059,USD,Common Stock,40.0,94.68000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-15,GOOGL,US02079K3059,USD,Common Stock,40.0,96.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-16,GOOGL,US02079K3059,USD,Common Stock,40.0,95.51000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-17,GOOGL,US02079K3059,USD,Common Stock,40.0,94.3499984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-18,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-02-19,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-02-20,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-02-21,GOOGL,US02079K3059,USD,Common Stock,40.0,91.79000091552734,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-22,GOOGL,US02079K3059,USD,Common Stock,40.0,91.6500015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-23,GOOGL,US02079K3059,USD,Common Stock,40.0,90.88999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-24,GOOGL,US02079K3059,USD,Common Stock,40.0,89.12999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-25,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-02-26,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-02-27,GOOGL,US02079K3059,USD,Common Stock,40.0,89.87000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-02-28,GOOGL,US02079K3059,USD,Common Stock,40.0,90.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-01,GOOGL,US02079K3059,USD,Common Stock,40.0,90.36000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-02,GOOGL,US02079K3059,USD,Common Stock,40.0,92.0,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-03,GOOGL,US02079K3059,USD,Common Stock,40.0,93.6500015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-04,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-03-05,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-03-06,GOOGL,US02079K3059,USD,Common Stock,40.0,95.12999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-07,GOOGL,US02079K3059,USD,Common Stock,40.0,93.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-08,GOOGL,US02079K3059,USD,Common Stock,40.0,94.25,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-09,GOOGL,US02079K3059,USD,Common Stock,40.0,92.31999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-10,GOOGL,US02079K3059,USD,Common Stock,40.0,90.62999725341797,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-11,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-03-12,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-03-13,GOOGL,US02079K3059,USD,Common Stock,40.0,91.11000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-14,GOOGL,US02079K3059,USD,Common Stock,40.0,93.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-15,GOOGL,US02079K3059,USD,Common Stock,40.0,96.11000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-16,GOOGL,US02079K3059,USD,Common Stock,40.0,100.31999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-17,GOOGL,US02079K3059,USD,Common Stock,40.0,101.62000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-18,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-03-19,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-03-20,GOOGL,US02079K3059,USD,Common Stock,40.0,101.22000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-21,GOOGL,US02079K3059,USD,Common Stock,40.0,104.91999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-22,GOOGL,US02079K3059,USD,Common Stock,40.0,103.37000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-23,GOOGL,US02079K3059,USD,Common Stock,40.0,105.5999984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-24,GOOGL,US02079K3059,USD,Common Stock,40.0,105.44000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-25,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-03-26,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-03-27,GOOGL,US02079K3059,USD,Common Stock,40.0,102.45999908447266,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-28,GOOGL,US02079K3059,USD,Common Stock,40.0,101.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-29,GOOGL,US02079K3059,USD,Common Stock,40.0,101.38999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-30,GOOGL,US02079K3059,USD,Common Stock,40.0,100.88999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-03-31,GOOGL,US02079K3059,USD,Common Stock,40.0,103.7300033569336,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-01,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-02,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-03,GOOGL,US02079K3059,USD,Common Stock,40.0,104.36000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-04,GOOGL,US02079K3059,USD,Common Stock,40.0,104.72000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-05,GOOGL,US02079K3059,USD,Common Stock,40.0,104.47000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-06,GOOGL,US02079K3059,USD,Common Stock,40.0,108.41999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-07,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-08,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-09,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-10,GOOGL,US02079K3059,USD,Common Stock,40.0,106.44000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-11,GOOGL,US02079K3059,USD,Common Stock,40.0,105.3499984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-12,GOOGL,US02079K3059,USD,Common Stock,40.0,104.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-13,GOOGL,US02079K3059,USD,Common Stock,40.0,107.43000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-14,GOOGL,US02079K3059,USD,Common Stock,40.0,108.87000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-15,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-16,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-17,GOOGL,US02079K3059,USD,Common Stock,40.0,105.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-18,GOOGL,US02079K3059,USD,Common Stock,40.0,104.5,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-19,GOOGL,US02079K3059,USD,Common Stock,40.0,104.18000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-20,GOOGL,US02079K3059,USD,Common Stock,40.0,105.29000091552734,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-21,GOOGL,US02079K3059,USD,Common Stock,40.0,105.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-22,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-23,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-24,GOOGL,US02079K3059,USD,Common Stock,40.0,105.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-25,GOOGL,US02079K3059,USD,Common Stock,40.0,103.8499984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-26,GOOGL,US02079K3059,USD,Common Stock,40.0,103.70999908447266,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-27,GOOGL,US02079K3059,USD,Common Stock,40.0,107.58999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-28,GOOGL,US02079K3059,USD,Common Stock,40.0,107.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-04-29,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-04-30,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-05-01,GOOGL,US02079K3059,USD,Common Stock,40.0,107.19999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-02,GOOGL,US02079K3059,USD,Common Stock,40.0,105.31999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-03,GOOGL,US02079K3059,USD,Common Stock,40.0,105.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-04,GOOGL,US02079K3059,USD,Common Stock,40.0,104.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-05,GOOGL,US02079K3059,USD,Common Stock,40.0,105.56999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-06,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-05-07,GOOGL,US02079K3059,USD,Common Stock,40.0,,,,,,
+2023-05-08,GOOGL,US02079K3059,USD,Common Stock,40.0,107.7699966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-09,GOOGL,US02079K3059,USD,Common Stock,50.0,107.3499984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-10,GOOGL,US02079K3059,USD,Common Stock,50.0,111.75,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-11,GOOGL,US02079K3059,USD,Common Stock,50.0,116.56999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-12,GOOGL,US02079K3059,USD,Common Stock,50.0,117.51000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-13,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-05-14,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-05-15,GOOGL,US02079K3059,USD,Common Stock,50.0,116.51000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-16,GOOGL,US02079K3059,USD,Common Stock,50.0,119.51000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-17,GOOGL,US02079K3059,USD,Common Stock,50.0,120.83999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-18,GOOGL,US02079K3059,USD,Common Stock,50.0,122.83000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-19,GOOGL,US02079K3059,USD,Common Stock,50.0,122.76000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-05-21,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-05-22,GOOGL,US02079K3059,USD,Common Stock,50.0,125.05000305175781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-23,GOOGL,US02079K3059,USD,Common Stock,50.0,122.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-24,GOOGL,US02079K3059,USD,Common Stock,50.0,120.9000015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-25,GOOGL,US02079K3059,USD,Common Stock,50.0,123.4800033569336,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-26,GOOGL,US02079K3059,USD,Common Stock,50.0,124.61000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-05-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-05-29,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-05-30,GOOGL,US02079K3059,USD,Common Stock,50.0,123.66999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2023-05-31,GOOGL,US02079K3059,USD,Common Stock,50.0,122.87000274658203,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-01,GOOGL,US02079K3059,USD,Common Stock,50.0,123.72000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-02,GOOGL,US02079K3059,USD,Common Stock,50.0,124.66999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-03,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-06-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-06-05,GOOGL,US02079K3059,USD,Common Stock,50.0,126.01000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-06,GOOGL,US02079K3059,USD,Common Stock,50.0,127.30999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-07,GOOGL,US02079K3059,USD,Common Stock,50.0,122.5,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-08,GOOGL,US02079K3059,USD,Common Stock,50.0,122.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-09,GOOGL,US02079K3059,USD,Common Stock,50.0,122.2300033569336,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-10,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-06-11,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-06-12,GOOGL,US02079K3059,USD,Common Stock,50.0,123.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-13,GOOGL,US02079K3059,USD,Common Stock,50.0,123.83000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-14,GOOGL,US02079K3059,USD,Common Stock,50.0,123.66999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-15,GOOGL,US02079K3059,USD,Common Stock,50.0,125.08999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-16,GOOGL,US02079K3059,USD,Common Stock,50.0,123.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-06-18,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-06-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-06-20,GOOGL,US02079K3059,USD,Common Stock,50.0,123.0999984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-21,GOOGL,US02079K3059,USD,Common Stock,50.0,120.55000305175781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-22,GOOGL,US02079K3059,USD,Common Stock,50.0,123.1500015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-23,GOOGL,US02079K3059,USD,Common Stock,50.0,122.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-24,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-06-25,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-06-26,GOOGL,US02079K3059,USD,Common Stock,50.0,118.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-27,GOOGL,US02079K3059,USD,Common Stock,50.0,118.33000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-28,GOOGL,US02079K3059,USD,Common Stock,50.0,120.18000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-29,GOOGL,US02079K3059,USD,Common Stock,50.0,119.0999984741211,,0.0,1.0,Communication Services,Internet Content & Information
+2023-06-30,GOOGL,US02079K3059,USD,Common Stock,50.0,119.69999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-03,GOOGL,US02079K3059,USD,Common Stock,50.0,119.9000015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-05,GOOGL,US02079K3059,USD,Common Stock,50.0,121.75,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-06,GOOGL,US02079K3059,USD,Common Stock,50.0,120.11000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-07,GOOGL,US02079K3059,USD,Common Stock,50.0,119.4800033569336,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-08,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-10,GOOGL,US02079K3059,USD,Common Stock,50.0,116.44999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-11,GOOGL,US02079K3059,USD,Common Stock,50.0,117.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-12,GOOGL,US02079K3059,USD,Common Stock,50.0,118.93000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-13,GOOGL,US02079K3059,USD,Common Stock,50.0,124.54000091552734,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-14,GOOGL,US02079K3059,USD,Common Stock,50.0,125.41999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-15,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-16,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-17,GOOGL,US02079K3059,USD,Common Stock,50.0,124.6500015258789,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-18,GOOGL,US02079K3059,USD,Common Stock,50.0,123.76000213623047,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-19,GOOGL,US02079K3059,USD,Common Stock,50.0,122.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-20,GOOGL,US02079K3059,USD,Common Stock,50.0,119.19999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-21,GOOGL,US02079K3059,USD,Common Stock,50.0,120.0199966430664,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-22,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-24,GOOGL,US02079K3059,USD,Common Stock,50.0,121.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-25,GOOGL,US02079K3059,USD,Common Stock,50.0,122.20999908447266,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-26,GOOGL,US02079K3059,USD,Common Stock,50.0,129.27000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-27,GOOGL,US02079K3059,USD,Common Stock,50.0,129.39999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-28,GOOGL,US02079K3059,USD,Common Stock,50.0,132.5800018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-29,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-30,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-07-31,GOOGL,US02079K3059,USD,Common Stock,50.0,132.72000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-01,GOOGL,US02079K3059,USD,Common Stock,50.0,131.5500030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-02,GOOGL,US02079K3059,USD,Common Stock,50.0,128.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-03,GOOGL,US02079K3059,USD,Common Stock,50.0,128.4499969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-04,GOOGL,US02079K3059,USD,Common Stock,50.0,128.11000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-05,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-08-06,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-08-07,GOOGL,US02079K3059,USD,Common Stock,50.0,131.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-08,GOOGL,US02079K3059,USD,Common Stock,50.0,131.39999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-09,GOOGL,US02079K3059,USD,Common Stock,50.0,129.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-10,GOOGL,US02079K3059,USD,Common Stock,50.0,129.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-11,GOOGL,US02079K3059,USD,Common Stock,50.0,129.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-12,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-08-13,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-08-14,GOOGL,US02079K3059,USD,Common Stock,50.0,131.3300018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-15,GOOGL,US02079K3059,USD,Common Stock,50.0,129.77999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-16,GOOGL,US02079K3059,USD,Common Stock,50.0,128.6999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-17,GOOGL,US02079K3059,USD,Common Stock,50.0,129.9199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-18,GOOGL,US02079K3059,USD,Common Stock,50.0,127.45999908447266,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-08-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-08-21,GOOGL,US02079K3059,USD,Common Stock,50.0,128.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-22,GOOGL,US02079K3059,USD,Common Stock,50.0,129.0800018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-23,GOOGL,US02079K3059,USD,Common Stock,50.0,132.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-24,GOOGL,US02079K3059,USD,Common Stock,50.0,129.77999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-25,GOOGL,US02079K3059,USD,Common Stock,50.0,129.8800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-26,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-08-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-08-28,GOOGL,US02079K3059,USD,Common Stock,50.0,131.00999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-29,GOOGL,US02079K3059,USD,Common Stock,50.0,134.57000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-30,GOOGL,US02079K3059,USD,Common Stock,50.0,135.8800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-31,GOOGL,US02079K3059,USD,Common Stock,50.0,136.1699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-01,GOOGL,US02079K3059,USD,Common Stock,50.0,135.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-09-03,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-09-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-09-05,GOOGL,US02079K3059,USD,Common Stock,50.0,135.77000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-06,GOOGL,US02079K3059,USD,Common Stock,50.0,134.4600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-07,GOOGL,US02079K3059,USD,Common Stock,50.0,135.25999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-08,GOOGL,US02079K3059,USD,Common Stock,50.0,136.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-09-10,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-09-11,GOOGL,US02079K3059,USD,Common Stock,50.0,136.9199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-12,GOOGL,US02079K3059,USD,Common Stock,50.0,135.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-13,GOOGL,US02079K3059,USD,Common Stock,50.0,136.7100067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-14,GOOGL,US02079K3059,USD,Common Stock,50.0,138.10000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-15,GOOGL,US02079K3059,USD,Common Stock,50.0,137.39999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-16,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-09-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-09-18,GOOGL,US02079K3059,USD,Common Stock,50.0,138.2100067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-19,GOOGL,US02079K3059,USD,Common Stock,50.0,138.0399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-20,GOOGL,US02079K3059,USD,Common Stock,50.0,133.74000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-21,GOOGL,US02079K3059,USD,Common Stock,50.0,130.44000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-22,GOOGL,US02079K3059,USD,Common Stock,50.0,130.25,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-09-24,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-09-25,GOOGL,US02079K3059,USD,Common Stock,50.0,131.11000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-26,GOOGL,US02079K3059,USD,Common Stock,50.0,128.57000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-27,GOOGL,US02079K3059,USD,Common Stock,50.0,130.5399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-28,GOOGL,US02079K3059,USD,Common Stock,50.0,132.30999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-29,GOOGL,US02079K3059,USD,Common Stock,50.0,130.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-30,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-02,GOOGL,US02079K3059,USD,Common Stock,50.0,134.1699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-03,GOOGL,US02079K3059,USD,Common Stock,50.0,132.42999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-04,GOOGL,US02079K3059,USD,Common Stock,50.0,135.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-05,GOOGL,US02079K3059,USD,Common Stock,50.0,135.07000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-06,GOOGL,US02079K3059,USD,Common Stock,50.0,137.5800018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-07,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-08,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-09,GOOGL,US02079K3059,USD,Common Stock,50.0,138.4199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-10,GOOGL,US02079K3059,USD,Common Stock,50.0,138.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-11,GOOGL,US02079K3059,USD,Common Stock,50.0,140.5500030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-12,GOOGL,US02079K3059,USD,Common Stock,50.0,138.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-13,GOOGL,US02079K3059,USD,Common Stock,50.0,137.36000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-14,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-15,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-16,GOOGL,US02079K3059,USD,Common Stock,50.0,139.10000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-17,GOOGL,US02079K3059,USD,Common Stock,50.0,139.72000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-18,GOOGL,US02079K3059,USD,Common Stock,50.0,137.9600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-19,GOOGL,US02079K3059,USD,Common Stock,50.0,137.75,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-20,GOOGL,US02079K3059,USD,Common Stock,50.0,135.60000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-21,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-22,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-23,GOOGL,US02079K3059,USD,Common Stock,50.0,136.5,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-24,GOOGL,US02079K3059,USD,Common Stock,50.0,138.80999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-25,GOOGL,US02079K3059,USD,Common Stock,50.0,125.61000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-26,GOOGL,US02079K3059,USD,Common Stock,50.0,122.27999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-27,GOOGL,US02079K3059,USD,Common Stock,50.0,122.16999816894531,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-29,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-10-30,GOOGL,US02079K3059,USD,Common Stock,50.0,124.45999908447266,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-31,GOOGL,US02079K3059,USD,Common Stock,50.0,124.08000183105469,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-01,GOOGL,US02079K3059,USD,Common Stock,50.0,126.44999694824219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-02,GOOGL,US02079K3059,USD,Common Stock,50.0,127.48999786376953,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-03,GOOGL,US02079K3059,USD,Common Stock,50.0,129.10000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-11-05,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-11-06,GOOGL,US02079K3059,USD,Common Stock,50.0,130.25,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-07,GOOGL,US02079K3059,USD,Common Stock,50.0,130.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-08,GOOGL,US02079K3059,USD,Common Stock,50.0,131.83999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-09,GOOGL,US02079K3059,USD,Common Stock,50.0,130.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-10,GOOGL,US02079K3059,USD,Common Stock,50.0,132.58999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-11,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-11-12,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-11-13,GOOGL,US02079K3059,USD,Common Stock,50.0,132.08999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-14,GOOGL,US02079K3059,USD,Common Stock,50.0,133.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-15,GOOGL,US02079K3059,USD,Common Stock,50.0,134.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-16,GOOGL,US02079K3059,USD,Common Stock,50.0,136.92999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-17,GOOGL,US02079K3059,USD,Common Stock,50.0,135.30999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-18,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-11-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-11-20,GOOGL,US02079K3059,USD,Common Stock,50.0,136.25,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-21,GOOGL,US02079K3059,USD,Common Stock,50.0,136.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-22,GOOGL,US02079K3059,USD,Common Stock,50.0,138.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-11-24,GOOGL,US02079K3059,USD,Common Stock,50.0,136.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-25,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-11-26,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-11-27,GOOGL,US02079K3059,USD,Common Stock,50.0,136.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-28,GOOGL,US02079K3059,USD,Common Stock,50.0,137.1999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-29,GOOGL,US02079K3059,USD,Common Stock,50.0,134.99000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-30,GOOGL,US02079K3059,USD,Common Stock,50.0,132.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-01,GOOGL,US02079K3059,USD,Common Stock,50.0,131.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-03,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-04,GOOGL,US02079K3059,USD,Common Stock,50.0,129.27000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-05,GOOGL,US02079K3059,USD,Common Stock,50.0,130.99000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-06,GOOGL,US02079K3059,USD,Common Stock,50.0,130.02000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-07,GOOGL,US02079K3059,USD,Common Stock,50.0,136.92999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-08,GOOGL,US02079K3059,USD,Common Stock,50.0,134.99000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-10,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-11,GOOGL,US02079K3059,USD,Common Stock,50.0,133.2899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-12,GOOGL,US02079K3059,USD,Common Stock,50.0,132.52000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-13,GOOGL,US02079K3059,USD,Common Stock,50.0,132.57000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-14,GOOGL,US02079K3059,USD,Common Stock,50.0,131.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-15,GOOGL,US02079K3059,USD,Common Stock,50.0,132.60000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-16,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-18,GOOGL,US02079K3059,USD,Common Stock,50.0,135.8000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-19,GOOGL,US02079K3059,USD,Common Stock,50.0,136.64999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-20,GOOGL,US02079K3059,USD,Common Stock,50.0,138.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-21,GOOGL,US02079K3059,USD,Common Stock,50.0,140.4199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-22,GOOGL,US02079K3059,USD,Common Stock,50.0,141.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-24,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-25,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-26,GOOGL,US02079K3059,USD,Common Stock,50.0,141.52000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-27,GOOGL,US02079K3059,USD,Common Stock,50.0,140.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-28,GOOGL,US02079K3059,USD,Common Stock,50.0,140.22999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-29,GOOGL,US02079K3059,USD,Common Stock,50.0,139.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-30,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2023-12-31,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-02,GOOGL,US02079K3059,USD,Common Stock,50.0,138.1699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-03,GOOGL,US02079K3059,USD,Common Stock,50.0,138.9199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-04,GOOGL,US02079K3059,USD,Common Stock,50.0,136.38999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-05,GOOGL,US02079K3059,USD,Common Stock,50.0,135.72999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-06,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-07,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-08,GOOGL,US02079K3059,USD,Common Stock,50.0,138.83999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-09,GOOGL,US02079K3059,USD,Common Stock,50.0,140.9499969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-10,GOOGL,US02079K3059,USD,Common Stock,50.0,142.27999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-11,GOOGL,US02079K3059,USD,Common Stock,50.0,142.0800018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-12,GOOGL,US02079K3059,USD,Common Stock,50.0,142.64999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-13,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-14,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-15,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-16,GOOGL,US02079K3059,USD,Common Stock,50.0,142.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-17,GOOGL,US02079K3059,USD,Common Stock,50.0,141.47000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-18,GOOGL,US02079K3059,USD,Common Stock,50.0,143.47999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-19,GOOGL,US02079K3059,USD,Common Stock,50.0,146.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-21,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-22,GOOGL,US02079K3059,USD,Common Stock,50.0,145.99000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-23,GOOGL,US02079K3059,USD,Common Stock,50.0,147.0399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-24,GOOGL,US02079K3059,USD,Common Stock,50.0,148.6999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-25,GOOGL,US02079K3059,USD,Common Stock,50.0,151.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-26,GOOGL,US02079K3059,USD,Common Stock,50.0,152.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-01-29,GOOGL,US02079K3059,USD,Common Stock,50.0,153.50999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-30,GOOGL,US02079K3059,USD,Common Stock,50.0,151.4600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-31,GOOGL,US02079K3059,USD,Common Stock,50.0,140.10000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-01,GOOGL,US02079K3059,USD,Common Stock,50.0,141.16000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-02,GOOGL,US02079K3059,USD,Common Stock,50.0,142.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-03,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-02-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-02-05,GOOGL,US02079K3059,USD,Common Stock,50.0,143.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-06,GOOGL,US02079K3059,USD,Common Stock,50.0,144.10000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-07,GOOGL,US02079K3059,USD,Common Stock,50.0,145.5399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-08,GOOGL,US02079K3059,USD,Common Stock,50.0,145.91000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-09,GOOGL,US02079K3059,USD,Common Stock,50.0,149.0,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-10,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-02-11,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-02-12,GOOGL,US02079K3059,USD,Common Stock,50.0,147.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-13,GOOGL,US02079K3059,USD,Common Stock,50.0,145.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-14,GOOGL,US02079K3059,USD,Common Stock,50.0,145.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-15,GOOGL,US02079K3059,USD,Common Stock,50.0,142.77000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-16,GOOGL,US02079K3059,USD,Common Stock,50.0,140.52000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-02-18,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-02-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-02-20,GOOGL,US02079K3059,USD,Common Stock,50.0,141.1199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-21,GOOGL,US02079K3059,USD,Common Stock,50.0,142.5500030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-22,GOOGL,US02079K3059,USD,Common Stock,50.0,144.08999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-23,GOOGL,US02079K3059,USD,Common Stock,50.0,143.9600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-24,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-02-25,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-02-26,GOOGL,US02079K3059,USD,Common Stock,50.0,137.57000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-27,GOOGL,US02079K3059,USD,Common Stock,50.0,138.8800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-28,GOOGL,US02079K3059,USD,Common Stock,50.0,136.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-29,GOOGL,US02079K3059,USD,Common Stock,50.0,138.4600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-01,GOOGL,US02079K3059,USD,Common Stock,50.0,137.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-03,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-04,GOOGL,US02079K3059,USD,Common Stock,50.0,133.35000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-05,GOOGL,US02079K3059,USD,Common Stock,50.0,132.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-06,GOOGL,US02079K3059,USD,Common Stock,50.0,131.39999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-07,GOOGL,US02079K3059,USD,Common Stock,50.0,134.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-08,GOOGL,US02079K3059,USD,Common Stock,50.0,135.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-10,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-11,GOOGL,US02079K3059,USD,Common Stock,50.0,137.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-12,GOOGL,US02079K3059,USD,Common Stock,50.0,138.5,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-13,GOOGL,US02079K3059,USD,Common Stock,50.0,139.7899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-14,GOOGL,US02079K3059,USD,Common Stock,50.0,143.10000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-15,GOOGL,US02079K3059,USD,Common Stock,50.0,141.17999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-16,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-18,GOOGL,US02079K3059,USD,Common Stock,50.0,147.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-19,GOOGL,US02079K3059,USD,Common Stock,50.0,147.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-20,GOOGL,US02079K3059,USD,Common Stock,50.0,148.74000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-21,GOOGL,US02079K3059,USD,Common Stock,50.0,147.60000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-22,GOOGL,US02079K3059,USD,Common Stock,50.0,150.77000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-24,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-25,GOOGL,US02079K3059,USD,Common Stock,50.0,150.07000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-26,GOOGL,US02079K3059,USD,Common Stock,50.0,150.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-27,GOOGL,US02079K3059,USD,Common Stock,50.0,150.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-28,GOOGL,US02079K3059,USD,Common Stock,50.0,150.92999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-29,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-30,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-03-31,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-04-01,GOOGL,US02079K3059,USD,Common Stock,50.0,155.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-02,GOOGL,US02079K3059,USD,Common Stock,50.0,154.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-03,GOOGL,US02079K3059,USD,Common Stock,50.0,154.9199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-04,GOOGL,US02079K3059,USD,Common Stock,50.0,150.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-05,GOOGL,US02079K3059,USD,Common Stock,50.0,152.5,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-06,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-04-07,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-04-08,GOOGL,US02079K3059,USD,Common Stock,50.0,154.85000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-09,GOOGL,US02079K3059,USD,Common Stock,50.0,156.60000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-10,GOOGL,US02079K3059,USD,Common Stock,50.0,156.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-11,GOOGL,US02079K3059,USD,Common Stock,50.0,159.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-12,GOOGL,US02079K3059,USD,Common Stock,50.0,157.72999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-13,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-04-14,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-04-15,GOOGL,US02079K3059,USD,Common Stock,50.0,154.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-16,GOOGL,US02079K3059,USD,Common Stock,50.0,154.39999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-17,GOOGL,US02079K3059,USD,Common Stock,50.0,155.47000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-18,GOOGL,US02079K3059,USD,Common Stock,50.0,156.00999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-19,GOOGL,US02079K3059,USD,Common Stock,50.0,154.08999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-04-21,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-04-22,GOOGL,US02079K3059,USD,Common Stock,50.0,156.27999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-23,GOOGL,US02079K3059,USD,Common Stock,50.0,158.25999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-24,GOOGL,US02079K3059,USD,Common Stock,50.0,159.1300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-25,GOOGL,US02079K3059,USD,Common Stock,50.0,156.0,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-26,GOOGL,US02079K3059,USD,Common Stock,50.0,171.9499969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-04-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-04-29,GOOGL,US02079K3059,USD,Common Stock,50.0,166.14999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-30,GOOGL,US02079K3059,USD,Common Stock,50.0,162.77999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-01,GOOGL,US02079K3059,USD,Common Stock,50.0,163.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-02,GOOGL,US02079K3059,USD,Common Stock,50.0,166.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-03,GOOGL,US02079K3059,USD,Common Stock,50.0,167.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-05-05,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-05-06,GOOGL,US02079K3059,USD,Common Stock,50.0,168.10000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-07,GOOGL,US02079K3059,USD,Common Stock,50.0,171.25,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-08,GOOGL,US02079K3059,USD,Common Stock,50.0,169.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-09,GOOGL,US02079K3059,USD,Common Stock,50.0,169.9600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-10,GOOGL,US02079K3059,USD,Common Stock,50.0,168.64999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-11,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-05-12,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-05-13,GOOGL,US02079K3059,USD,Common Stock,50.0,169.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-14,GOOGL,US02079K3059,USD,Common Stock,50.0,170.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-15,GOOGL,US02079K3059,USD,Common Stock,50.0,172.50999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-16,GOOGL,US02079K3059,USD,Common Stock,50.0,174.17999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-17,GOOGL,US02079K3059,USD,Common Stock,50.0,176.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-18,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-05-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-05-20,GOOGL,US02079K3059,USD,Common Stock,50.0,176.9199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-21,GOOGL,US02079K3059,USD,Common Stock,50.0,177.85000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-22,GOOGL,US02079K3059,USD,Common Stock,50.0,176.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-23,GOOGL,US02079K3059,USD,Common Stock,50.0,173.5500030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-24,GOOGL,US02079K3059,USD,Common Stock,50.0,174.99000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-25,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-05-26,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-05-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-05-28,GOOGL,US02079K3059,USD,Common Stock,50.0,176.39999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-29,GOOGL,US02079K3059,USD,Common Stock,50.0,175.89999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-30,GOOGL,US02079K3059,USD,Common Stock,50.0,172.11000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-31,GOOGL,US02079K3059,USD,Common Stock,50.0,172.5,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-03,GOOGL,US02079K3059,USD,Common Stock,50.0,173.1699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-04,GOOGL,US02079K3059,USD,Common Stock,50.0,173.7899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-05,GOOGL,US02079K3059,USD,Common Stock,50.0,175.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-06,GOOGL,US02079K3059,USD,Common Stock,50.0,176.72999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-07,GOOGL,US02079K3059,USD,Common Stock,50.0,174.4600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-08,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-10,GOOGL,US02079K3059,USD,Common Stock,50.0,175.00999450683594,,0.2,1.0,Communication Services,Internet Content & Information
+2024-06-11,GOOGL,US02079K3059,USD,Common Stock,50.0,176.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-12,GOOGL,US02079K3059,USD,Common Stock,50.0,177.7899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-13,GOOGL,US02079K3059,USD,Common Stock,50.0,175.16000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-14,GOOGL,US02079K3059,USD,Common Stock,50.0,176.7899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-15,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-16,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-17,GOOGL,US02079K3059,USD,Common Stock,50.0,177.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-18,GOOGL,US02079K3059,USD,Common Stock,50.0,175.08999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-20,GOOGL,US02079K3059,USD,Common Stock,50.0,176.3000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-21,GOOGL,US02079K3059,USD,Common Stock,50.0,179.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-22,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-24,GOOGL,US02079K3059,USD,Common Stock,50.0,179.22000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-25,GOOGL,US02079K3059,USD,Common Stock,50.0,184.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-26,GOOGL,US02079K3059,USD,Common Stock,50.0,183.8800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-27,GOOGL,US02079K3059,USD,Common Stock,50.0,185.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-28,GOOGL,US02079K3059,USD,Common Stock,50.0,182.14999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-29,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-06-30,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-01,GOOGL,US02079K3059,USD,Common Stock,50.0,182.99000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-02,GOOGL,US02079K3059,USD,Common Stock,50.0,185.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-03,GOOGL,US02079K3059,USD,Common Stock,50.0,185.82000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-05,GOOGL,US02079K3059,USD,Common Stock,50.0,190.60000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-06,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-07,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-08,GOOGL,US02079K3059,USD,Common Stock,50.0,189.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-09,GOOGL,US02079K3059,USD,Common Stock,50.0,188.97999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-10,GOOGL,US02079K3059,USD,Common Stock,50.0,191.17999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-11,GOOGL,US02079K3059,USD,Common Stock,50.0,185.57000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-12,GOOGL,US02079K3059,USD,Common Stock,50.0,185.07000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-13,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-14,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-15,GOOGL,US02079K3059,USD,Common Stock,50.0,186.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-16,GOOGL,US02079K3059,USD,Common Stock,50.0,183.9199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-17,GOOGL,US02079K3059,USD,Common Stock,50.0,181.02000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-18,GOOGL,US02079K3059,USD,Common Stock,50.0,177.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-19,GOOGL,US02079K3059,USD,Common Stock,50.0,177.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-21,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-22,GOOGL,US02079K3059,USD,Common Stock,50.0,181.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-23,GOOGL,US02079K3059,USD,Common Stock,50.0,181.7899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-24,GOOGL,US02079K3059,USD,Common Stock,50.0,172.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-25,GOOGL,US02079K3059,USD,Common Stock,50.0,167.27999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-26,GOOGL,US02079K3059,USD,Common Stock,50.0,167.0,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-07-29,GOOGL,US02079K3059,USD,Common Stock,50.0,169.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-30,GOOGL,US02079K3059,USD,Common Stock,50.0,170.2899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-31,GOOGL,US02079K3059,USD,Common Stock,50.0,171.5399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-01,GOOGL,US02079K3059,USD,Common Stock,50.0,170.75999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-02,GOOGL,US02079K3059,USD,Common Stock,50.0,166.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-03,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-08-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-08-05,GOOGL,US02079K3059,USD,Common Stock,50.0,159.25,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-06,GOOGL,US02079K3059,USD,Common Stock,50.0,158.2899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-07,GOOGL,US02079K3059,USD,Common Stock,50.0,158.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-08,GOOGL,US02079K3059,USD,Common Stock,50.0,162.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-09,GOOGL,US02079K3059,USD,Common Stock,50.0,163.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-10,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-08-11,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-08-12,GOOGL,US02079K3059,USD,Common Stock,50.0,162.2899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-13,GOOGL,US02079K3059,USD,Common Stock,50.0,164.16000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-14,GOOGL,US02079K3059,USD,Common Stock,50.0,160.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-15,GOOGL,US02079K3059,USD,Common Stock,50.0,161.3000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-16,GOOGL,US02079K3059,USD,Common Stock,50.0,162.9600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-08-18,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-08-19,GOOGL,US02079K3059,USD,Common Stock,50.0,166.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-20,GOOGL,US02079K3059,USD,Common Stock,50.0,167.17999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-21,GOOGL,US02079K3059,USD,Common Stock,50.0,165.85000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-22,GOOGL,US02079K3059,USD,Common Stock,50.0,163.8000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-23,GOOGL,US02079K3059,USD,Common Stock,50.0,165.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-24,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-08-25,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-08-26,GOOGL,US02079K3059,USD,Common Stock,50.0,166.16000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-27,GOOGL,US02079K3059,USD,Common Stock,50.0,164.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-28,GOOGL,US02079K3059,USD,Common Stock,50.0,162.85000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-29,GOOGL,US02079K3059,USD,Common Stock,50.0,161.77999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-30,GOOGL,US02079K3059,USD,Common Stock,50.0,163.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-31,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-03,GOOGL,US02079K3059,USD,Common Stock,50.0,157.36000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-04,GOOGL,US02079K3059,USD,Common Stock,50.0,156.4499969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-05,GOOGL,US02079K3059,USD,Common Stock,50.0,157.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-06,GOOGL,US02079K3059,USD,Common Stock,50.0,150.9199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-07,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-08,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-09,GOOGL,US02079K3059,USD,Common Stock,50.0,148.7100067138672,,0.2,1.0,Communication Services,Internet Content & Information
+2024-09-10,GOOGL,US02079K3059,USD,Common Stock,50.0,148.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-11,GOOGL,US02079K3059,USD,Common Stock,50.0,151.16000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-12,GOOGL,US02079K3059,USD,Common Stock,50.0,154.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-13,GOOGL,US02079K3059,USD,Common Stock,50.0,157.4600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-14,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-15,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-16,GOOGL,US02079K3059,USD,Common Stock,50.0,158.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-17,GOOGL,US02079K3059,USD,Common Stock,50.0,159.32000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-18,GOOGL,US02079K3059,USD,Common Stock,50.0,159.80999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-19,GOOGL,US02079K3059,USD,Common Stock,50.0,162.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-20,GOOGL,US02079K3059,USD,Common Stock,50.0,163.58999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-21,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-22,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-23,GOOGL,US02079K3059,USD,Common Stock,50.0,161.85000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-24,GOOGL,US02079K3059,USD,Common Stock,50.0,162.2899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-25,GOOGL,US02079K3059,USD,Common Stock,50.0,161.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-26,GOOGL,US02079K3059,USD,Common Stock,50.0,162.72999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-27,GOOGL,US02079K3059,USD,Common Stock,50.0,163.9499969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-29,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-09-30,GOOGL,US02079K3059,USD,Common Stock,50.0,165.85000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-01,GOOGL,US02079K3059,USD,Common Stock,50.0,166.99000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-02,GOOGL,US02079K3059,USD,Common Stock,50.0,165.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-03,GOOGL,US02079K3059,USD,Common Stock,50.0,165.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-04,GOOGL,US02079K3059,USD,Common Stock,50.0,167.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-05,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-10-06,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-10-07,GOOGL,US02079K3059,USD,Common Stock,50.0,162.97999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-08,GOOGL,US02079K3059,USD,Common Stock,50.0,164.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-09,GOOGL,US02079K3059,USD,Common Stock,50.0,161.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-10,GOOGL,US02079K3059,USD,Common Stock,50.0,162.0800018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-11,GOOGL,US02079K3059,USD,Common Stock,50.0,163.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-12,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-10-13,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-10-14,GOOGL,US02079K3059,USD,Common Stock,50.0,164.9600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-15,GOOGL,US02079K3059,USD,Common Stock,50.0,165.4600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-16,GOOGL,US02079K3059,USD,Common Stock,50.0,165.16000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-17,GOOGL,US02079K3059,USD,Common Stock,50.0,162.92999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-18,GOOGL,US02079K3059,USD,Common Stock,50.0,163.4199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-10-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-10-21,GOOGL,US02079K3059,USD,Common Stock,50.0,164.07000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-22,GOOGL,US02079K3059,USD,Common Stock,50.0,165.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-23,GOOGL,US02079K3059,USD,Common Stock,50.0,162.77999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-24,GOOGL,US02079K3059,USD,Common Stock,50.0,162.72000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-25,GOOGL,US02079K3059,USD,Common Stock,50.0,165.27000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-26,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-10-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-10-28,GOOGL,US02079K3059,USD,Common Stock,50.0,166.72000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-29,GOOGL,US02079K3059,USD,Common Stock,50.0,169.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-30,GOOGL,US02079K3059,USD,Common Stock,50.0,174.4600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-31,GOOGL,US02079K3059,USD,Common Stock,50.0,171.11000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-01,GOOGL,US02079K3059,USD,Common Stock,50.0,171.2899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-11-03,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-11-04,GOOGL,US02079K3059,USD,Common Stock,50.0,169.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-05,GOOGL,US02079K3059,USD,Common Stock,50.0,169.74000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-06,GOOGL,US02079K3059,USD,Common Stock,50.0,176.50999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-07,GOOGL,US02079K3059,USD,Common Stock,50.0,180.75,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-08,GOOGL,US02079K3059,USD,Common Stock,50.0,178.35000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-11-10,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-11-11,GOOGL,US02079K3059,USD,Common Stock,50.0,180.35000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-12,GOOGL,US02079K3059,USD,Common Stock,50.0,181.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-13,GOOGL,US02079K3059,USD,Common Stock,50.0,178.8800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-14,GOOGL,US02079K3059,USD,Common Stock,50.0,175.5800018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-15,GOOGL,US02079K3059,USD,Common Stock,50.0,172.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-16,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-11-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-11-18,GOOGL,US02079K3059,USD,Common Stock,50.0,175.3000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-19,GOOGL,US02079K3059,USD,Common Stock,50.0,178.1199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-20,GOOGL,US02079K3059,USD,Common Stock,50.0,175.97999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-21,GOOGL,US02079K3059,USD,Common Stock,50.0,167.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-22,GOOGL,US02079K3059,USD,Common Stock,50.0,164.75999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-11-24,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-11-25,GOOGL,US02079K3059,USD,Common Stock,50.0,167.64999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-26,GOOGL,US02079K3059,USD,Common Stock,50.0,169.1199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-27,GOOGL,US02079K3059,USD,Common Stock,50.0,169.22999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-11-29,GOOGL,US02079K3059,USD,Common Stock,50.0,168.9499969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-30,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-02,GOOGL,US02079K3059,USD,Common Stock,50.0,171.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-03,GOOGL,US02079K3059,USD,Common Stock,50.0,171.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-04,GOOGL,US02079K3059,USD,Common Stock,50.0,174.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-05,GOOGL,US02079K3059,USD,Common Stock,50.0,172.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-06,GOOGL,US02079K3059,USD,Common Stock,50.0,174.7100067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-07,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-08,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-09,GOOGL,US02079K3059,USD,Common Stock,50.0,175.3699951171875,,0.2,1.0,Communication Services,Internet Content & Information
+2024-12-10,GOOGL,US02079K3059,USD,Common Stock,50.0,185.1699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-11,GOOGL,US02079K3059,USD,Common Stock,50.0,195.39999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-12,GOOGL,US02079K3059,USD,Common Stock,50.0,191.9600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-13,GOOGL,US02079K3059,USD,Common Stock,50.0,189.82000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-14,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-15,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-16,GOOGL,US02079K3059,USD,Common Stock,50.0,196.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-17,GOOGL,US02079K3059,USD,Common Stock,50.0,195.4199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-18,GOOGL,US02079K3059,USD,Common Stock,50.0,188.39999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-19,GOOGL,US02079K3059,USD,Common Stock,50.0,188.50999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-20,GOOGL,US02079K3059,USD,Common Stock,50.0,191.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-21,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-22,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-23,GOOGL,US02079K3059,USD,Common Stock,50.0,194.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-24,GOOGL,US02079K3059,USD,Common Stock,50.0,196.11000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-25,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-26,GOOGL,US02079K3059,USD,Common Stock,50.0,195.60000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-27,GOOGL,US02079K3059,USD,Common Stock,50.0,192.75999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-29,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2024-12-30,GOOGL,US02079K3059,USD,Common Stock,50.0,191.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-31,GOOGL,US02079K3059,USD,Common Stock,50.0,189.3000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-02,GOOGL,US02079K3059,USD,Common Stock,50.0,189.42999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-03,GOOGL,US02079K3059,USD,Common Stock,50.0,191.7899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-05,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-06,GOOGL,US02079K3059,USD,Common Stock,50.0,196.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-07,GOOGL,US02079K3059,USD,Common Stock,50.0,195.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-08,GOOGL,US02079K3059,USD,Common Stock,50.0,193.9499969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-10,GOOGL,US02079K3059,USD,Common Stock,50.0,192.0399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-11,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-12,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-13,GOOGL,US02079K3059,USD,Common Stock,50.0,191.00999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-14,GOOGL,US02079K3059,USD,Common Stock,50.0,189.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-15,GOOGL,US02079K3059,USD,Common Stock,50.0,195.5500030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-16,GOOGL,US02079K3059,USD,Common Stock,50.0,192.91000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-17,GOOGL,US02079K3059,USD,Common Stock,50.0,196.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-18,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-21,GOOGL,US02079K3059,USD,Common Stock,50.0,198.0500030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-22,GOOGL,US02079K3059,USD,Common Stock,50.0,198.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-23,GOOGL,US02079K3059,USD,Common Stock,50.0,197.97999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-24,GOOGL,US02079K3059,USD,Common Stock,50.0,200.2100067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-25,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-26,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-01-27,GOOGL,US02079K3059,USD,Common Stock,50.0,191.80999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-28,GOOGL,US02079K3059,USD,Common Stock,50.0,195.3000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-29,GOOGL,US02079K3059,USD,Common Stock,50.0,195.41000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-30,GOOGL,US02079K3059,USD,Common Stock,50.0,200.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-31,GOOGL,US02079K3059,USD,Common Stock,50.0,204.02000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-02-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-02-03,GOOGL,US02079K3059,USD,Common Stock,50.0,201.22999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-04,GOOGL,US02079K3059,USD,Common Stock,50.0,206.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-05,GOOGL,US02079K3059,USD,Common Stock,50.0,191.3300018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-06,GOOGL,US02079K3059,USD,Common Stock,50.0,191.60000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-07,GOOGL,US02079K3059,USD,Common Stock,50.0,185.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-08,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-02-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-02-10,GOOGL,US02079K3059,USD,Common Stock,50.0,186.47000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-11,GOOGL,US02079K3059,USD,Common Stock,50.0,185.32000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-12,GOOGL,US02079K3059,USD,Common Stock,50.0,183.61000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-13,GOOGL,US02079K3059,USD,Common Stock,50.0,186.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-14,GOOGL,US02079K3059,USD,Common Stock,50.0,185.22999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-15,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-02-16,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-02-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-02-18,GOOGL,US02079K3059,USD,Common Stock,50.0,183.77000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-19,GOOGL,US02079K3059,USD,Common Stock,50.0,185.27000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-20,GOOGL,US02079K3059,USD,Common Stock,50.0,184.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-21,GOOGL,US02079K3059,USD,Common Stock,50.0,179.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-22,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-02-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-02-24,GOOGL,US02079K3059,USD,Common Stock,50.0,179.25,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-25,GOOGL,US02079K3059,USD,Common Stock,50.0,175.4199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-26,GOOGL,US02079K3059,USD,Common Stock,50.0,172.72999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-27,GOOGL,US02079K3059,USD,Common Stock,50.0,168.5,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-28,GOOGL,US02079K3059,USD,Common Stock,50.0,170.27999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-03,GOOGL,US02079K3059,USD,Common Stock,50.0,167.00999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-04,GOOGL,US02079K3059,USD,Common Stock,50.0,170.9199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-05,GOOGL,US02079K3059,USD,Common Stock,50.0,173.02000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-06,GOOGL,US02079K3059,USD,Common Stock,50.0,172.35000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-07,GOOGL,US02079K3059,USD,Common Stock,50.0,173.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-08,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-10,GOOGL,US02079K3059,USD,Common Stock,50.0,165.8699951171875,,0.2,1.0,Communication Services,Internet Content & Information
+2025-03-11,GOOGL,US02079K3059,USD,Common Stock,50.0,164.0399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-12,GOOGL,US02079K3059,USD,Common Stock,50.0,167.11000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-13,GOOGL,US02079K3059,USD,Common Stock,50.0,162.75999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-14,GOOGL,US02079K3059,USD,Common Stock,50.0,165.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-15,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-16,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-17,GOOGL,US02079K3059,USD,Common Stock,50.0,164.2899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-18,GOOGL,US02079K3059,USD,Common Stock,50.0,160.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-19,GOOGL,US02079K3059,USD,Common Stock,50.0,163.88999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-20,GOOGL,US02079K3059,USD,Common Stock,50.0,162.8000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-21,GOOGL,US02079K3059,USD,Common Stock,50.0,163.99000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-22,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-24,GOOGL,US02079K3059,USD,Common Stock,50.0,167.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-25,GOOGL,US02079K3059,USD,Common Stock,50.0,170.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-26,GOOGL,US02079K3059,USD,Common Stock,50.0,165.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-27,GOOGL,US02079K3059,USD,Common Stock,50.0,162.24000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-28,GOOGL,US02079K3059,USD,Common Stock,50.0,154.3300018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-29,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-30,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-03-31,GOOGL,US02079K3059,USD,Common Stock,50.0,154.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-01,GOOGL,US02079K3059,USD,Common Stock,50.0,157.07000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-02,GOOGL,US02079K3059,USD,Common Stock,50.0,157.0399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-03,GOOGL,US02079K3059,USD,Common Stock,50.0,150.72000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-04,GOOGL,US02079K3059,USD,Common Stock,50.0,145.60000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-05,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-04-06,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-04-07,GOOGL,US02079K3059,USD,Common Stock,50.0,146.75,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-08,GOOGL,US02079K3059,USD,Common Stock,50.0,144.6999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-09,GOOGL,US02079K3059,USD,Common Stock,50.0,158.7100067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-10,GOOGL,US02079K3059,USD,Common Stock,50.0,152.82000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-11,GOOGL,US02079K3059,USD,Common Stock,50.0,157.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-12,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-04-13,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-04-14,GOOGL,US02079K3059,USD,Common Stock,50.0,159.07000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-15,GOOGL,US02079K3059,USD,Common Stock,50.0,156.30999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-16,GOOGL,US02079K3059,USD,Common Stock,50.0,153.3300018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-17,GOOGL,US02079K3059,USD,Common Stock,50.0,151.16000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-18,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-04-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-04-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-04-21,GOOGL,US02079K3059,USD,Common Stock,50.0,147.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-22,GOOGL,US02079K3059,USD,Common Stock,50.0,151.47000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-23,GOOGL,US02079K3059,USD,Common Stock,50.0,155.35000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-24,GOOGL,US02079K3059,USD,Common Stock,50.0,159.27999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-25,GOOGL,US02079K3059,USD,Common Stock,50.0,161.9600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-26,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-04-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-04-28,GOOGL,US02079K3059,USD,Common Stock,50.0,160.61000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-29,GOOGL,US02079K3059,USD,Common Stock,50.0,160.16000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-30,GOOGL,US02079K3059,USD,Common Stock,50.0,158.8000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-01,GOOGL,US02079K3059,USD,Common Stock,50.0,161.3000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-02,GOOGL,US02079K3059,USD,Common Stock,50.0,164.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-03,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-05-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-05-05,GOOGL,US02079K3059,USD,Common Stock,50.0,164.2100067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-06,GOOGL,US02079K3059,USD,Common Stock,50.0,163.22999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-07,GOOGL,US02079K3059,USD,Common Stock,50.0,151.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-08,GOOGL,US02079K3059,USD,Common Stock,50.0,154.27999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-09,GOOGL,US02079K3059,USD,Common Stock,50.0,152.75,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-10,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-05-11,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-05-12,GOOGL,US02079K3059,USD,Common Stock,50.0,158.4600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-13,GOOGL,US02079K3059,USD,Common Stock,50.0,159.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-14,GOOGL,US02079K3059,USD,Common Stock,50.0,165.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-15,GOOGL,US02079K3059,USD,Common Stock,50.0,163.9600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-16,GOOGL,US02079K3059,USD,Common Stock,50.0,166.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-05-18,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-05-19,GOOGL,US02079K3059,USD,Common Stock,50.0,166.5399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-20,GOOGL,US02079K3059,USD,Common Stock,50.0,163.97999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-21,GOOGL,US02079K3059,USD,Common Stock,50.0,168.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-22,GOOGL,US02079K3059,USD,Common Stock,50.0,170.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-23,GOOGL,US02079K3059,USD,Common Stock,50.0,168.47000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-24,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-05-25,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-05-26,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-05-27,GOOGL,US02079K3059,USD,Common Stock,50.0,172.89999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-28,GOOGL,US02079K3059,USD,Common Stock,50.0,172.36000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-29,GOOGL,US02079K3059,USD,Common Stock,50.0,171.86000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-30,GOOGL,US02079K3059,USD,Common Stock,50.0,171.74000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-31,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-02,GOOGL,US02079K3059,USD,Common Stock,50.0,169.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-03,GOOGL,US02079K3059,USD,Common Stock,50.0,166.17999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-04,GOOGL,US02079K3059,USD,Common Stock,50.0,168.0500030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-05,GOOGL,US02079K3059,USD,Common Stock,50.0,168.2100067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-06,GOOGL,US02079K3059,USD,Common Stock,50.0,173.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-07,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-08,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-09,GOOGL,US02079K3059,USD,Common Stock,50.0,176.08999633789062,,0.21,1.0,Communication Services,Internet Content & Information
+2025-06-10,GOOGL,US02079K3059,USD,Common Stock,50.0,178.60000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-11,GOOGL,US02079K3059,USD,Common Stock,50.0,177.35000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-12,GOOGL,US02079K3059,USD,Common Stock,50.0,175.6999969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-13,GOOGL,US02079K3059,USD,Common Stock,50.0,174.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-14,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-15,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-16,GOOGL,US02079K3059,USD,Common Stock,50.0,176.77000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-17,GOOGL,US02079K3059,USD,Common Stock,50.0,175.9499969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-18,GOOGL,US02079K3059,USD,Common Stock,50.0,173.32000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-20,GOOGL,US02079K3059,USD,Common Stock,50.0,166.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-21,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-22,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-23,GOOGL,US02079K3059,USD,Common Stock,50.0,165.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-24,GOOGL,US02079K3059,USD,Common Stock,50.0,166.77000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-25,GOOGL,US02079K3059,USD,Common Stock,50.0,170.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-26,GOOGL,US02079K3059,USD,Common Stock,50.0,173.5399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-27,GOOGL,US02079K3059,USD,Common Stock,50.0,178.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-29,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-06-30,GOOGL,US02079K3059,USD,Common Stock,50.0,176.22999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-01,GOOGL,US02079K3059,USD,Common Stock,50.0,175.83999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-02,GOOGL,US02079K3059,USD,Common Stock,50.0,178.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-03,GOOGL,US02079K3059,USD,Common Stock,50.0,179.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-07-05,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-07-06,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-07-07,GOOGL,US02079K3059,USD,Common Stock,50.0,176.7899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-08,GOOGL,US02079K3059,USD,Common Stock,50.0,174.36000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-09,GOOGL,US02079K3059,USD,Common Stock,50.0,176.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-10,GOOGL,US02079K3059,USD,Common Stock,50.0,177.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-11,GOOGL,US02079K3059,USD,Common Stock,50.0,180.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-12,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-07-13,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-07-14,GOOGL,US02079K3059,USD,Common Stock,50.0,181.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-15,GOOGL,US02079K3059,USD,Common Stock,50.0,182.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-16,GOOGL,US02079K3059,USD,Common Stock,50.0,182.97000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-17,GOOGL,US02079K3059,USD,Common Stock,50.0,183.5800018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-18,GOOGL,US02079K3059,USD,Common Stock,50.0,185.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-19,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-07-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-07-21,GOOGL,US02079K3059,USD,Common Stock,50.0,190.10000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-22,GOOGL,US02079K3059,USD,Common Stock,50.0,191.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-23,GOOGL,US02079K3059,USD,Common Stock,50.0,190.22999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-24,GOOGL,US02079K3059,USD,Common Stock,50.0,192.1699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-25,GOOGL,US02079K3059,USD,Common Stock,50.0,193.17999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-26,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-07-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-07-28,GOOGL,US02079K3059,USD,Common Stock,50.0,192.5800018310547,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-29,GOOGL,US02079K3059,USD,Common Stock,50.0,195.75,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-30,GOOGL,US02079K3059,USD,Common Stock,50.0,196.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-31,GOOGL,US02079K3059,USD,Common Stock,50.0,191.89999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-01,GOOGL,US02079K3059,USD,Common Stock,50.0,189.1300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-02,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-08-03,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-08-04,GOOGL,US02079K3059,USD,Common Stock,50.0,195.0399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-05,GOOGL,US02079K3059,USD,Common Stock,50.0,194.6699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-06,GOOGL,US02079K3059,USD,Common Stock,50.0,196.08999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-07,GOOGL,US02079K3059,USD,Common Stock,50.0,196.52000427246094,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-08,GOOGL,US02079K3059,USD,Common Stock,50.0,201.4199981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-09,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-08-10,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-08-11,GOOGL,US02079K3059,USD,Common Stock,50.0,201.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-12,GOOGL,US02079K3059,USD,Common Stock,50.0,203.33999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-13,GOOGL,US02079K3059,USD,Common Stock,50.0,201.9600067138672,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-14,GOOGL,US02079K3059,USD,Common Stock,50.0,202.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-15,GOOGL,US02079K3059,USD,Common Stock,50.0,203.89999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-16,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-08-17,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-08-18,GOOGL,US02079K3059,USD,Common Stock,50.0,203.5,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-19,GOOGL,US02079K3059,USD,Common Stock,50.0,201.57000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-20,GOOGL,US02079K3059,USD,Common Stock,50.0,199.32000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-21,GOOGL,US02079K3059,USD,Common Stock,50.0,199.75,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-22,GOOGL,US02079K3059,USD,Common Stock,50.0,206.08999633789062,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-23,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-08-24,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-08-25,GOOGL,US02079K3059,USD,Common Stock,50.0,208.49000549316406,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-26,GOOGL,US02079K3059,USD,Common Stock,50.0,207.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-27,GOOGL,US02079K3059,USD,Common Stock,50.0,207.47999572753906,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-28,GOOGL,US02079K3059,USD,Common Stock,50.0,211.63999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-29,GOOGL,US02079K3059,USD,Common Stock,50.0,212.91000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-30,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-08-31,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-01,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-02,GOOGL,US02079K3059,USD,Common Stock,50.0,211.35000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-03,GOOGL,US02079K3059,USD,Common Stock,50.0,230.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-04,GOOGL,US02079K3059,USD,Common Stock,50.0,232.3000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-05,GOOGL,US02079K3059,USD,Common Stock,50.0,235.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-06,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-07,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-08,GOOGL,US02079K3059,USD,Common Stock,50.0,234.0399932861328,,0.21,1.0,Communication Services,Internet Content & Information
+2025-09-09,GOOGL,US02079K3059,USD,Common Stock,50.0,239.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-10,GOOGL,US02079K3059,USD,Common Stock,50.0,239.1699981689453,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-11,GOOGL,US02079K3059,USD,Common Stock,50.0,240.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-12,GOOGL,US02079K3059,USD,Common Stock,50.0,240.8000030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-13,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-14,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-15,GOOGL,US02079K3059,USD,Common Stock,50.0,251.61000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-16,GOOGL,US02079K3059,USD,Common Stock,50.0,251.16000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-17,GOOGL,US02079K3059,USD,Common Stock,50.0,249.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-18,GOOGL,US02079K3059,USD,Common Stock,50.0,252.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-19,GOOGL,US02079K3059,USD,Common Stock,50.0,254.72000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-20,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-21,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-22,GOOGL,US02079K3059,USD,Common Stock,50.0,252.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-23,GOOGL,US02079K3059,USD,Common Stock,50.0,251.66000366210938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-24,GOOGL,US02079K3059,USD,Common Stock,50.0,247.13999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-25,GOOGL,US02079K3059,USD,Common Stock,50.0,245.7899932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-26,GOOGL,US02079K3059,USD,Common Stock,50.0,246.5399932861328,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-27,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-28,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-09-29,GOOGL,US02079K3059,USD,Common Stock,50.0,244.0500030517578,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-30,GOOGL,US02079K3059,USD,Common Stock,50.0,243.10000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-01,GOOGL,US02079K3059,USD,Common Stock,50.0,244.89999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-02,GOOGL,US02079K3059,USD,Common Stock,50.0,245.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-03,GOOGL,US02079K3059,USD,Common Stock,50.0,245.35000610351562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-04,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-10-05,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-10-06,GOOGL,US02079K3059,USD,Common Stock,50.0,250.42999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-07,GOOGL,US02079K3059,USD,Common Stock,50.0,245.75999450683594,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-08,GOOGL,US02079K3059,USD,Common Stock,50.0,244.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-09,GOOGL,US02079K3059,USD,Common Stock,50.0,241.52999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-10,GOOGL,US02079K3059,USD,Common Stock,50.0,236.57000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-11,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-10-12,GOOGL,US02079K3059,USD,Common Stock,50.0,,,,,,
+2025-10-13,GOOGL,US02079K3059,USD,Common Stock,50.0,244.14999389648438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-14,GOOGL,US02079K3059,USD,Common Stock,50.0,245.4499969482422,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-15,GOOGL,US02079K3059,USD,Common Stock,50.0,251.02999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-16,GOOGL,US02079K3059,USD,Common Stock,50.0,251.4600067138672,,0.0,1.0,Communication Services,Internet Content & Information

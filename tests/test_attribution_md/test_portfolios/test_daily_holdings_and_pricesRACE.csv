@@ -1,0 +1,128 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2023-05-18,RACE,NL0011585146,USD,Common Stock,8.0,295.1600036621094,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-05-19,RACE,NL0011585146,USD,Common Stock,8.0,298.239990234375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-05-20,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-05-21,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-05-22,RACE,NL0011585146,USD,Common Stock,8.0,301.5299987792969,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-05-23,RACE,NL0011585146,USD,Common Stock,8.0,289.8999938964844,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-05-24,RACE,NL0011585146,USD,Common Stock,8.0,286.9599914550781,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-05-25,RACE,NL0011585146,USD,Common Stock,8.0,286.6000061035156,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-05-26,RACE,NL0011585146,USD,Common Stock,8.0,290.760009765625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-05-27,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-05-28,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-05-29,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-05-30,RACE,NL0011585146,USD,Common Stock,8.0,287.3599853515625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-05-31,RACE,NL0011585146,USD,Common Stock,8.0,286.6700134277344,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-01,RACE,NL0011585146,USD,Common Stock,8.0,293.0899963378906,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-02,RACE,NL0011585146,USD,Common Stock,8.0,298.6000061035156,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-03,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-06-04,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-06-05,RACE,NL0011585146,USD,Common Stock,8.0,296.42999267578125,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-06,RACE,NL0011585146,USD,Common Stock,8.0,297.1199951171875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-07,RACE,NL0011585146,USD,Common Stock,8.0,294.5299987792969,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-08,RACE,NL0011585146,USD,Common Stock,8.0,298.239990234375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-09,RACE,NL0011585146,USD,Common Stock,8.0,297.79998779296875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-10,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-06-11,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-06-12,RACE,NL0011585146,USD,Common Stock,8.0,300.5799865722656,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-13,RACE,NL0011585146,USD,Common Stock,8.0,300.1099853515625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-14,RACE,NL0011585146,USD,Common Stock,8.0,302.7900085449219,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-15,RACE,NL0011585146,USD,Common Stock,8.0,306.1099853515625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-16,RACE,NL0011585146,USD,Common Stock,8.0,308.0199890136719,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-17,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-06-18,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-06-19,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-06-20,RACE,NL0011585146,USD,Common Stock,8.0,306.1600036621094,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-21,RACE,NL0011585146,USD,Common Stock,8.0,308.29998779296875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-22,RACE,NL0011585146,USD,Common Stock,8.0,307.2900085449219,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-23,RACE,NL0011585146,USD,Common Stock,8.0,307.5199890136719,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-24,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-06-25,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-06-26,RACE,NL0011585146,USD,Common Stock,8.0,306.489990234375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-27,RACE,NL0011585146,USD,Common Stock,8.0,314.0899963378906,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-28,RACE,NL0011585146,USD,Common Stock,8.0,317.9599914550781,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-29,RACE,NL0011585146,USD,Common Stock,8.0,320.6700134277344,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-06-30,RACE,NL0011585146,USD,Common Stock,8.0,325.2099914550781,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-01,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-02,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-03,RACE,NL0011585146,USD,Common Stock,8.0,325.8699951171875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-04,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-05,RACE,NL0011585146,USD,Common Stock,8.0,320.010009765625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-06,RACE,NL0011585146,USD,Common Stock,8.0,313.5299987792969,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-07,RACE,NL0011585146,USD,Common Stock,8.0,314.489990234375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-08,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-09,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-10,RACE,NL0011585146,USD,Common Stock,8.0,318.2900085449219,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-11,RACE,NL0011585146,USD,Common Stock,8.0,318.3900146484375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-12,RACE,NL0011585146,USD,Common Stock,8.0,322.67999267578125,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-13,RACE,NL0011585146,USD,Common Stock,8.0,323.3599853515625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-14,RACE,NL0011585146,USD,Common Stock,8.0,328.7799987792969,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-15,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-16,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-17,RACE,NL0011585146,USD,Common Stock,8.0,328.7099914550781,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-18,RACE,NL0011585146,USD,Common Stock,8.0,326.32000732421875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-19,RACE,NL0011585146,USD,Common Stock,8.0,321.0899963378906,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-20,RACE,NL0011585146,USD,Common Stock,8.0,318.6600036621094,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-21,RACE,NL0011585146,USD,Common Stock,8.0,318.010009765625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-22,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-23,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-24,RACE,NL0011585146,USD,Common Stock,8.0,317.1600036621094,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-25,RACE,NL0011585146,USD,Common Stock,8.0,316.1099853515625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-26,RACE,NL0011585146,USD,Common Stock,8.0,317.3500061035156,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-27,RACE,NL0011585146,USD,Common Stock,8.0,317.2699890136719,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-28,RACE,NL0011585146,USD,Common Stock,8.0,321.82000732421875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-07-29,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-30,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-07-31,RACE,NL0011585146,USD,Common Stock,8.0,320.3900146484375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-01,RACE,NL0011585146,USD,Common Stock,8.0,317.6199951171875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-02,RACE,NL0011585146,USD,Common Stock,8.0,313.55999755859375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-03,RACE,NL0011585146,USD,Common Stock,8.0,314.1600036621094,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-04,RACE,NL0011585146,USD,Common Stock,8.0,311.45001220703125,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-05,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-08-06,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-08-07,RACE,NL0011585146,USD,Common Stock,8.0,312.239990234375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-08,RACE,NL0011585146,USD,Common Stock,8.0,310.9800109863281,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-09,RACE,NL0011585146,USD,Common Stock,8.0,311.6099853515625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-10,RACE,NL0011585146,USD,Common Stock,8.0,314.760009765625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-11,RACE,NL0011585146,USD,Common Stock,8.0,311.19000244140625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-12,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-08-13,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-08-14,RACE,NL0011585146,USD,Common Stock,8.0,315.57000732421875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-15,RACE,NL0011585146,USD,Common Stock,8.0,315.739990234375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-16,RACE,NL0011585146,USD,Common Stock,8.0,313.3399963378906,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-17,RACE,NL0011585146,USD,Common Stock,8.0,306.0199890136719,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-18,RACE,NL0011585146,USD,Common Stock,8.0,305.75,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-19,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-08-20,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-08-21,RACE,NL0011585146,USD,Common Stock,8.0,311.9700012207031,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-22,RACE,NL0011585146,USD,Common Stock,8.0,310.55999755859375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-23,RACE,NL0011585146,USD,Common Stock,8.0,312.7900085449219,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-24,RACE,NL0011585146,USD,Common Stock,8.0,307.5299987792969,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-25,RACE,NL0011585146,USD,Common Stock,8.0,311.260009765625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-26,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-08-27,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-08-28,RACE,NL0011585146,USD,Common Stock,8.0,313.30999755859375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-29,RACE,NL0011585146,USD,Common Stock,8.0,320.5899963378906,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-30,RACE,NL0011585146,USD,Common Stock,8.0,320.2900085449219,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-08-31,RACE,NL0011585146,USD,Common Stock,8.0,317.739990234375,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-01,RACE,NL0011585146,USD,Common Stock,8.0,308.32000732421875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-02,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-09-03,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-09-04,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-09-05,RACE,NL0011585146,USD,Common Stock,8.0,305.1700134277344,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-06,RACE,NL0011585146,USD,Common Stock,8.0,302.510009765625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-07,RACE,NL0011585146,USD,Common Stock,8.0,298.7900085449219,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-08,RACE,NL0011585146,USD,Common Stock,8.0,297.19000244140625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-09,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-09-10,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-09-11,RACE,NL0011585146,USD,Common Stock,8.0,302.67999267578125,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-12,RACE,NL0011585146,USD,Common Stock,8.0,298.1199951171875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-13,RACE,NL0011585146,USD,Common Stock,8.0,299.04998779296875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-14,RACE,NL0011585146,USD,Common Stock,8.0,302.6700134277344,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-15,RACE,NL0011585146,USD,Common Stock,8.0,300.9599914550781,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-16,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-09-17,RACE,NL0011585146,USD,Common Stock,8.0,,,,,,
+2023-09-18,RACE,NL0011585146,USD,Common Stock,8.0,299.67999267578125,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-19,RACE,NL0011585146,USD,Common Stock,8.0,299.1099853515625,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-20,RACE,NL0011585146,USD,Common Stock,8.0,302.9100036621094,,0.0,1.0,Consumer Cyclical,Auto Manufacturers
+2023-09-21,RACE,NL0011585146,USD,Common Stock,0.0,291.57000732421875,,0.0,1.0,Consumer Cyclical,Auto Manufacturers

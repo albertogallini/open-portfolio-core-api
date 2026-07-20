@@ -1,0 +1,203 @@
+Name,ticker,Exchange Code,Security Type,Market Sector,FIGI,FIGI Composite,Share Class,Security Description,Security Type 2
+Nickel Spot $/Oz,XNI,,SPOT,Curncy,BBG0013HGWL5,,,XNI Curncy,SPOT
+Ruthenium Spot,XRU,,SPOT,Curncy,BBG0013HGVR1,,,XRU Curncy,SPOT
+Romanian Leu Spot,RON,,SPOT,Curncy,BBG0013HFVX5,,,USDRON Curncy,CROSS
+Neth. Ant. Guilder Spot,ANG,,SPOT,Curncy,BBG0013HFSB6,,,USDANG Curncy,CROSS
+Paraguay Guarani Spot,PYG,,SPOT,Curncy,BBG0013HGL39,,,USDPYG Curncy,CROSS
+Qatari Riyal Spot,QAR,,SPOT,Curncy,BBG0013HFPQ6,,,USDQAR Curncy,CROSS
+Kyrgyzstan Som Spot,KGS,,SPOT,Curncy,BBG0013HFSY1,,,USDKGS Curncy,CROSS
+Portuguese Escudo Spot,PTE,,SPOT,Curncy,BBG0013HFM10,,,USDPTE Curncy,CROSS
+Colombian Peso Spot,COP,,SPOT,Curncy,BBG0013HGST6,,,USDCOP Curncy,CROSS
+Barbados Dollar Spot,BBD,,SPOT,Curncy,BBG0013HGKD0,,,USDBBD Curncy,CROSS
+Lithuanian Litas Spot,LTL,,SPOT,Curncy,BBG0013HFSS8,,,USDLTL Curncy,CROSS
+Indian Rupee Spot,INR,,SPOT,Curncy,BBG0013HGBC1,,,USDINR Curncy,CROSS
+Djibouti Franc Spot,DJF,,SPOT,Curncy,BBG0013HG5Z9,,,USDDJF Curncy,CROSS
+Slovakia Koruna Spot,SKK,,SPOT,Curncy,BBG0013HGR63,,,USDSKK Curncy,CROSS
+Zambian Kwacha Spot,ZMK,,SPOT,Curncy,BBG0013HFPF8,,,USDZMK Curncy,CROSS
+South Korean Won Spot,KRW,,SPOT,Curncy,BBG0013HFJ62,,,USDKRW Curncy,CROSS
+Papua N.G. Kina Spot,PGK,,SPOT,Curncy,BBG0013HGKJ4,,,PGKUSD Curncy,CROSS
+Turkish Lira Spot,TRY,,SPOT,Curncy,BBG0013HFWV5,,,USDTRY Curncy,CROSS
+Zambian Kwacha Spot,ZMW,,SPOT,Curncy,BBG003Q8P6R7,,,USDZMW Curncy,CROSS
+Trinidad/Tobago Dol Spot,TTD,,SPOT,Curncy,BBG0013HGNF2,,,USDTTD Curncy,CROSS
+Seborga Luigini Spot,SPL,,SPOT,Curncy,BBG0013HG8P4,,,SPL Curncy,SPOT
+Mauritania Ouguiya Spot,MRU,,SPOT,Curncy,BBG00JN4KLP8,,,USDMRU Curncy,CROSS
+Namibia Dollar Spot,NAD,,SPOT,Curncy,BBG007HWSX57,,,USDNAD Curncy,CROSS
+Palladium Spot  $/Oz,XPD,,SPOT,Curncy,BBG0013HG945,,,XPDUSD Curncy,CROSS
+Euro (ESP)  Spot,EES,,SPOT,Curncy,BBG0013HGRV5,,,EURUSD Curncy,CROSS
+Libyan Dinar Spot,LYD,,SPOT,Curncy,BBG0013HG8F5,,,USDLYD Curncy,CROSS
+Cape Verde Escudo Spot,CVE,,SPOT,Curncy,BBG0013HG5S7,,,USDCVE Curncy,CROSS
+Uruguay Peso Spot,UYU,,SPOT,Curncy,BBG0013HFG68,,,USDUYU Curncy,CROSS
+Samoa (West) Tala Spot,WST,,SPOT,Curncy,BBG0013HGQX5,,,WSTUSD Curncy,CROSS
+Chilean Peso Spot,CLP,,SPOT,Curncy,BBG0013HG348,,,USDCLP Curncy,CROSS
+Venezuelan Bolivar Spot,VEB,,SPOT,Curncy,BBG0013HFP95,,,USDVEB Curncy,CROSS
+Solomon Is. Dollar Spot,SBD,,SPOT,Curncy,BBG0013HGC11,,,SBDUSD Curncy,CROSS
+Liberian Dollar Spot,LRD,,SPOT,Curncy,BBG0013HG838,,,USDLRD Curncy,CROSS
+Tuvalu Dollar Spot,TVD,,SPOT,Curncy,BBG001714770,,,TVD Curncy,SPOT
+Bhutan Ngultrum Spot,BTN,,SPOT,Curncy,BBG007HWSX02,,,USDBTN Curncy,CROSS
+Sao Tome Dobra Spot,STN,,SPOT,Curncy,BBG00JN4KLN0,,,USDSTN Curncy,CROSS
+Gold Spot   $/Oz,XAU,,SPOT,Curncy,BBG0013HGFZ7,,,XAUUSD Curncy,CROSS
+Swiss Franc Spot,CHF,,SPOT,Curncy,BBG0013HFN45,,,USDCHF Curncy,CROSS
+Uzbekistan Sum Spot,UZS,,SPOT,Curncy,BBG0013HGRL6,,,USDUZS Curncy,CROSS
+Malaysian Ringgit Spot,MYR,,SPOT,Curncy,BBG0013HFKN0,,,USDMYR Curncy,CROSS
+Laos Kip Spot,LAK,,SPOT,Curncy,BBG0013HG7W8,,,USDLAK Curncy,CROSS
+Bahraini Dinar Spot,BHD,,SPOT,Curncy,BBG0013HG231,,,USDBHD Curncy,CROSS
+Belgian Franc Spot,BEF,,SPOT,Curncy,BBG0013HG295,,,USDBEF Curncy,CROSS
+Norwegian Krone Spot,NOK,,SPOT,Curncy,BBG0013HFL85,,,USDNOK Curncy,CROSS
+Suriname Dollar Spot,SRD,,SPOT,Curncy,BBG0013HGGN8,,,USDSRD Curncy,CROSS
+Ghana Cedi Spot,GHC,,SPOT,Curncy,BBG0013HG6J5,,,USDGHC Curncy,CROSS
+Botswana Pula Spot,BWP,,SPOT,Curncy,BBG0013HG2L1,,,BWPUSD Curncy,CROSS
+Philippines Peso Spot,PHP,,SPOT,Curncy,BBG0013HFJ99,,,USDPHP Curncy,CROSS
+British Pound Spot,GBP,,SPOT,Curncy,BBG0013HFH84,,,GBPUSD Curncy,CROSS
+Finnish Markka Spot,FIM,,SPOT,Curncy,BBG0013HGCX6,,,USDFIM Curncy,CROSS
+Peruvian Sol Spot,PEN,,SPOT,Curncy,BBG0013HFZ93,,,USDPEN Curncy,CROSS
+Albanian Lek Spot,ALL,,SPOT,Curncy,BBG0013HFQP5,,,USDALL Curncy,CROSS
+Lebanese Pound Spot,LBP,,SPOT,Curncy,BBG0013HGJ07,,,USDLBP Curncy,CROSS
+New Sudanese Pound Spot,SDG,,SPOT,Curncy,BBG0013HGTC2,,,USDSDG Curncy,CROSS
+Thai Baht Onshore Spot,THO,,SPOT,Curncy,BBG0013HFJP1,,,THO Curncy,SPOT
+Belarus Ruble Spot,BYN,,SPOT,Curncy,BBG00D87WQY7,,,USDBYN Curncy,CROSS
+St. Helena Pound Spot,SHP,,SPOT,Curncy,BBG007HWSX11,,,SHPUSD Curncy,CROSS
+Andorran Peseta Spot,ADP,,SPOT,Curncy,BBG007HLC9F0,,,USDADP Curncy,CROSS
+German Mark Spot,DEM,,SPOT,Curncy,BBG0013HG160,,,USDDEM Curncy,CROSS
+Latvian Lats Spot,LVL,,SPOT,Curncy,BBG0013HFGN9,,,USDLVL Curncy,CROSS
+Argentine Peso Spot,ARS,,SPOT,Curncy,BBG0013HGSP0,,,USDARS Curncy,CROSS
+Moroccan Dirham Spot,MAD,,SPOT,Curncy,BBG0013HFR82,,,USDMAD Curncy,CROSS
+Kuwaiti Dinar Spot,KWD,,SPOT,Curncy,BBG0013HG455,,,USDKWD Curncy,CROSS
+Estonian Kroon Spot,EEK,,SPOT,Curncy,BBG0013HFXV3,,,USDEEK Curncy,CROSS
+Kazakhstan Tenge Spot,KZT,,SPOT,Curncy,BBG0013HG026,,,USDKZT Curncy,CROSS
+Tanzanian Shilling  Spot,TZS,,SPOT,Curncy,BBG0013HG0X2,,,USDTZS Curncy,CROSS
+Macau Pataca Spot,MOP,,SPOT,Curncy,BBG0013HGQF5,,,USDMOP Curncy,CROSS
+Nigeria Naira Spot,NGN,,SPOT,Curncy,BBG0013HFL21,,,USDNGN Curncy,CROSS
+Nepalese Rupee Spot,NPR,,SPOT,Curncy,BBG0013HGH29,,,USDNPR Curncy,CROSS
+Danish Krone Spot,DKK,,SPOT,Curncy,BBG0013HGCG5,,,USDDKK Curncy,CROSS
+Ukraine Hryvnia Spot,UAH,,SPOT,Curncy,BBG0013HFVD7,,,USDUAH Curncy,CROSS
+Gibraltar Pound Spot,GIP,,SPOT,Curncy,BBG007HWSWZ6,,,GIPUSD Curncy,CROSS
+Turkmenistan Manat Spot,TMM,,SPOT,Curncy,BBG0013HFVG4,,,USDTMM Curncy,CROSS
+Congolese Franc Spot,CDF,,SPOT,Curncy,BBG0013HFGZ6,,,USDCDF Curncy,CROSS
+Guyana Dollar Spot,GYD,,SPOT,Curncy,BBG0013HG6T4,,,USDGYD Curncy,CROSS
+Austrian Schilling Spot,ATS,,SPOT,Curncy,BBG0013HG1V2,,,USDATS Curncy,CROSS
+Nicaragua Cordoba Spot,NIC,,SPOT,Curncy,BBG0013HFFZ8,,,USDNIO Curncy,CROSS
+Malawi Kwacha Spot,MWK,,SPOT,Curncy,BBG0013HGJJ7,,,USDMWK Curncy,CROSS
+New Zealand Dollar Spot,NZD,,SPOT,Curncy,BBG0013HFKT4,,,NZDUSD Curncy,CROSS
+French Franc Spot,FRF,,SPOT,Curncy,BBG0013HGD55,,,USDFRF Curncy,CROSS
+Bangladesh Taka Spot,BDT,,SPOT,Curncy,BBG0013HGHM7,,,USDBDT Curncy,CROSS
+Tajikistan Somoni Spot,TJS,,SPOT,Curncy,BBG0013HGRR0,,,USDTJS Curncy,CROSS
+Maltese Lira Spot,MTL,,SPOT,Curncy,BBG0013HFFQ8,,,MTLUSD Curncy,CROSS
+Mongolian Togrog Spot,MNT,,SPOT,Curncy,BBG0013HGQ83,,,USDMNT Curncy,CROSS
+Cambodia Riel Spot,KHR,,SPOT,Curncy,BBG0013HFZF6,,,USDKHR Curncy,CROSS
+New Iraqi Dinar Spot,NID,,SPOT,Curncy,BBG0013HG9R0,,,NID Curncy,SPOT
+Luxembourg Franc Spot,LUF,,SPOT,Curncy,BBG007HWSX48,,,USDLUF Curncy,CROSS
+Falkland Is. Pound Spot,FKP,,SPOT,Curncy,BBG007HWSWW9,,,FKPUSD Curncy,CROSS
+Cypriot Pound Spot,CYP,,SPOT,Curncy,BBG0013HG9X3,,,USDCYP Curncy,CROSS
+Ghana Cedi Spot,GHS,,SPOT,Curncy,BBG0013HGVF4,,,USDGHS Curncy,CROSS
+Saudi Riyal Spot,SAR,,SPOT,Curncy,BBG0013HFMD7,,,USDSAR Curncy,CROSS
+Tunisian Dinar Spot,TND,,SPOT,Curncy,BBG0013HFNS9,,,USDTND Curncy,CROSS
+Cuban Peso Spot,CUP,,SPOT,Curncy,BBG0013HG5M3,,,USDCUP Curncy,CROSS
+Indonesian Rupiah Spot,IDR,,SPOT,Curncy,BBG0013HFHZ4,,,USDIDR Curncy,CROSS
+Taiwan Dollar Spot,TWD,,SPOT,Curncy,BBG0013HFND5,,,USDTWD Curncy,CROSS
+Vietnamese Dong Spot,VND,,SPOT,Curncy,BBG0013HFQG5,,,USDVND Curncy,CROSS
+Panamanian Balboa Spot,PAB,,SPOT,Curncy,BBG0013HGH56,,,USDPAB Curncy,CROSS
+Copper Spot $/Oz,XCU,,SPOT,Curncy,BBG0013HGXH8,,,XCU Curncy,SPOT
+Serbian Dinar Spot,RSD,,SPOT,Curncy,BBG0013HFGC1,,,USDYUM Curncy,CROSS
+Maldives Rufiyaa Spot,MVR,,SPOT,Curncy,BBG0013HFZL9,,,USDMVR Curncy,CROSS
+Old Turkish Lira Spot,TRL,,SPOT,Curncy,BBG0013HFNX3,,,USDTRL Curncy,CROSS
+Sierra Leone Leone Spot,SLL,,SPOT,Curncy,BBG0013HGNZ0,,,USDSLL Curncy,CROSS
+Ecuadorean Sucre Spot,ECS,,SPOT,Curncy,BBG0013HG0F2,,,USDECS Curncy,CROSS
+Angolan Kwanza Spot,AOA,,SPOT,Curncy,BBG0013HGGJ3,,,USDAOA Curncy,CROSS
+Mexican Peso Spot,MXN,,SPOT,Curncy,BBG0013HFYM1,,,USDMXN Curncy,CROSS
+Kenyan Shilling Spot,KES,,SPOT,Curncy,BBG0013HG3Y5,,,USDKES Curncy,CROSS
+Moldova Leu Spot,MDL,,SPOT,Curncy,BBG0013HFVM7,,,USDMDL Curncy,CROSS
+S. African Rand Spot,ZAR,,SPOT,Curncy,BBG0013HFSP1,,,USDZAR Curncy,CROSS
+Armenia Dram Spot,AMD,,SPOT,Curncy,BBG0013HFTH8,,,USDAMD Curncy,CROSS
+Sudanese Dinar Spot,SDD,,SPOT,Curncy,BBG0013HGC66,,,USDSDD Curncy,CROSS
+Mali Republic Franc Spot,MLF,,SPOT,Curncy,BBG0013HFF51,,,USDGQE Curncy,CROSS
+Zimbabwe Gold Spot,ZWG,,SPOT,Curncy,BBG01NGH6KR3,,,USDZWG Curncy,CROSS
+China Renminbi Spot,CNY,,SPOT,Curncy,BBG0013HFRM6,,,USDCNY Curncy,CROSS
+Radium Spot $/Oz,XRA,,SPOT,Curncy,BBG0013HGTX9,,,XRA Curncy,SPOT
+Silver Spot  $/Oz,XAG,,SPOT,Curncy,BBG0013HGG49,,,XAGUSD Curncy,CROSS
+Lesotho Loti Spot,LSL,,SPOT,Curncy,BBG007HWSWY7,,,USDLSL Curncy,CROSS
+Surinam Guilder Spot,SRG,,SPOT,Curncy,BBG0013HGLV8,,,USDSRG Curncy,CROSS
+Fiji Dollar Spot,FJD,,SPOT,Curncy,BBG0013HGCP5,,,FJDUSD Curncy,CROSS
+Egyptian Pound Spot,EGP,,SPOT,Curncy,BBG0013HFQ75,,,USDEGP Curncy,CROSS
+Sao Tome Dobra Spot,STD,,SPOT,Curncy,BBG0013HGLZ4,,,USDSTD Curncy,CROSS
+Guinea-Bissau Peso Spot,GWP,,SPOT,Curncy,BBG0013HFFH8,,,USDXOF Curncy,CROSS
+Aruban Guilder Spot,AWG,,SPOT,Curncy,BBG0013HFXP0,,,USDAWG Curncy,CROSS
+Old Sudanese Pound Spot,SDP,,SPOT,Curncy,BBG0013HGLM8,,,USDSDP Curncy,CROSS
+Malagascy Ariary Spot,MGA,,SPOT,Curncy,BBG0013HG8X5,,,USDMGA Curncy,CROSS
+Gambian Dalasi Spot,GMD,,SPOT,Curncy,BBG0013HG6M1,,,USDGMD Curncy,CROSS
+Iraqi Dinar Spot,IQD,,SPOT,Curncy,BBG0013HG7G6,,,USDIQD Curncy,CROSS
+Yemeni Rial Spot,YER,,SPOT,Curncy,BBG0013HGNV4,,,USDYER Curncy,CROSS
+Syrian Pound Spot,SYP,,SPOT,Curncy,BBG0013HGMR1,,,USDSYP Curncy,CROSS
+Czech Koruna Spot,CZK,,SPOT,Curncy,BBG0013HG5F1,,,USDCZK Curncy,CROSS
+Italian Lira Spot,ITL,,SPOT,Curncy,BBG0013HG3L9,,,USDITL Curncy,CROSS
+Old Zimbabwe Dollar Spot,ZWD,,SPOT,Curncy,BBG0013HFPH6,,,USDZWD Curncy,CROSS
+Iridium Spot,XRI,,SPOT,Curncy,BBG0013HGVM6,,,XRI Curncy,SPOT
+Tin Spot $/Oz,XSN,,SPOT,Curncy,BBG00DDSK510,,,XSN Curncy,SPOT
+Iranian Rial Spot,IRR,,SPOT,Curncy,BBG0013HGF69,,,USDIRR Curncy,CROSS
+El Salvador Colon Spot,SVC,,SPOT,Curncy,BBG0013HGMG3,,,USDSVC Curncy,CROSS
+Swedish Krona Spot,SEK,,SPOT,Curncy,BBG0013HFMZ3,,,USDSEK Curncy,CROSS
+Eritrean Nakfa Spot,ERN,,SPOT,Curncy,BBG0013HFW72,,,USDERN Curncy,CROSS
+UAE Dirham Spot,AED,,SPOT,Curncy,BBG0013HFP22,,,USDAED Curncy,CROSS
+Pakistani Rupee Spot,PKR,,SPOT,Curncy,BBG0013HFLM9,,,USDPKR Curncy,CROSS
+North Korea Won Spot,KPW,,SPOT,Curncy,BBG0013HGKV0,,,USDKPW Curncy,CROSS
+Thai Baht Spot,THB,,SPOT,Curncy,BBG0013HFNL6,,,USDTHB Curncy,CROSS
+Burundi Franc Spot,BIF,,SPOT,Curncy,BBG0013HG1H8,,,USDBIF Curncy,CROSS
+Kuna Spot,HRK,,SPOT,Curncy,BBG0013HFZW7,,,USDHRK Curncy,CROSS
+Mozambique Metical Spot,MZM,,SPOT,Curncy,BBG0013HGGW8,,,USDMZM Curncy,CROSS
+Dutch Guilder Spot,NLG,,SPOT,Curncy,BBG0013HFS44,,,USDNLG Curncy,CROSS
+Lead Spot $/Oz,XPB,,SPOT,Curncy,BBG0013HGWD4,,,XPB Curncy,SPOT
+Euro. Curr. Unit Spot,XEU,,SPOT,Curncy,BBG0013HFPL1,,,XEU Curncy,SPOT
+Aluminum Spot $/Oz,XAL,,SPOT,Curncy,BBG0013HGXF0,,,XAL Curncy,SPOT
+US Dollar Spot,USD,,SPOT,Curncy,BBG0013HGBT3,,,USD Curncy,SPOT
+Eswatini Lilangeni Spot,SZL,,SPOT,Curncy,BBG007HWSX20,,,USDSZL Curncy,CROSS
+Hong Kong Dollar Spot,HKD,,SPOT,Curncy,BBG0013HGDM6,,,USDHKD Curncy,CROSS
+Honduras Lempira Spot,HNL,,SPOT,Curncy,BBG0013HG6Z7,,,USDHNL Curncy,CROSS
+Brunei Dollar Spot,BND,,SPOT,Curncy,BBG0013HGK40,,,USDBND Curncy,CROSS
+Ugandan Shilling Spot,UGX,,SPOT,Curncy,BBG0013HFTY9,,,USDUGX Curncy,CROSS
+Georgia Lari Spot,GEL,,SPOT,Curncy,BBG0013HFR37,,,USDGEL Curncy,CROSS
+Australian Dollar Spot,AUD,,SPOT,Curncy,BBG0013HFHG5,,,AUDUSD Curncy,CROSS
+Vanuatu Vatu Spot,VUV,,SPOT,Curncy,BBG0013HGNL5,,,USDVUV Curncy,CROSS
+Sierra Leone Leone Spot,SLE,,SPOT,Curncy,BBG016DQW2G6,,,USDSLE Curncy,CROSS
+Israeli Shekel Spot,ILS,,SPOT,Curncy,BBG0013HGQP4,,,USDILS Curncy,CROSS
+Bahamas Dollar Spot,BSD,,SPOT,Curncy,BBG0013HGHD7,,,USDBSD Curncy,CROSS
+Sri Lankan Rupee Spot,LKR,,SPOT,Curncy,BBG0013HFKF9,,,USDLKR Curncy,CROSS
+Romanian Leu Spot,ROL,,SPOT,Curncy,BBG0013HGL66,,,USDROL Curncy,CROSS
+Myanmar Kyat Spot,MMK,,SPOT,Curncy,BBG0013HFQ02,,,USDMMK Curncy,CROSS
+Bulgarian Lev Spot,BGN,,SPOT,Curncy,BBG0013HFX61,,,USDBGN Curncy,CROSS
+Mauritius Rupee Spot,MUR,,SPOT,Curncy,BBG0013HGJQ9,,,USDMUR Curncy,CROSS
+Haiti Gourde Spot,HTG,,SPOT,Curncy,BBG0013HG776,,,USDHTG Curncy,CROSS
+Omani Rial Spot,OMR,,SPOT,Curncy,BBG0013HFLG6,,,USDOMR Curncy,CROSS
+Polish Zloty Spot,PLN,,SPOT,Curncy,BBG0013HFK96,,,USDPLN Curncy,CROSS
+Somali Shilling Spot,SOS,,SPOT,Curncy,BBG0013HGLQ4,,,USDSOS Curncy,CROSS
+Belize Dollar Spot,BZD,,SPOT,Curncy,BBG0013HGK77,,,USDBZD Curncy,CROSS
+Canadian Dollar Spot,CAD,,SPOT,Curncy,BBG0013HG2R5,,,USDCAD Curncy,CROSS
+Bolivian Boliviano Spot,BOB,,SPOT,Curncy,BBG0013HFTM2,,,USDBOB Curncy,CROSS
+Zinc Spot $/Oz,XZI,,SPOT,Curncy,BBG0013HGX06,,,XZI Curncy,SPOT
+Rhodium Spot,XRH,,SPOT,Curncy,BBG0013HGV64,,,XRH Curncy,SPOT
+Guatemala Quetzal Spot,GTQ,,SPOT,Curncy,BBG0013HG6R6,,,USDGTQ Curncy,CROSS
+Greek Drachma Spot,GRD,,SPOT,Curncy,BBG0013HGDG3,,,USDGRD Curncy,CROSS
+Japanese Yen Spot,JPY,,SPOT,Curncy,BBG0013HG3T1,,,USDJPY Curncy,CROSS
+Iceland Krona Spot,ISK,,SPOT,Curncy,BBG0013HGDR1,,,USDISK Curncy,CROSS
+Singapore Dollar Spot,SGD,,SPOT,Curncy,BBG0013HFJF2,,,USDSGD Curncy,CROSS
+Irish Punt Spot,IEP,,SPOT,Curncy,BBG0013HGFD1,,,IEPUSD Curncy,CROSS
+Mauritania Ouguiya Spot,MRO,,SPOT,Curncy,BBG0013HGQJ1,,,USDMRO Curncy,CROSS
+Costa Rican Colon Spot,CRC,,SPOT,Curncy,BBG0013HG4V6,,,USDCRC Curncy,CROSS
+Rwanda Franc Spot,RWF,,SPOT,Curncy,BBG0013HGLG5,,,USDRWF Curncy,CROSS
+Tonga Pa'Anga Spot,TOP,,SPOT,Curncy,BBG0013HGN62,,,TOPUSD Curncy,CROSS
+Dominican Repb. Spot,DOP,,SPOT,Curncy,BBG0013HG678,,,USDDOP Curncy,CROSS
+Guinea Franc Spot,GNF,,SPOT,Curncy,BBG0013HFTV2,,,USDGNF Curncy,CROSS
+Comoros Franc Spot,KMF,,SPOT,Curncy,BBG0013HGBP7,,,USDKMF Curncy,CROSS
+Azerbaijan Manat Spot,AZM,,SPOT,Curncy,BBG0013HFT42,,,USDAZM Curncy,CROSS
+Platinum Spot  $/Oz,XPT,,SPOT,Curncy,BBG0013HG9F3,,,XPTUSD Curncy,CROSS
+Slovenia Tolar Spot,SIT,,SPOT,Curncy,BBG0013HFY87,,,USDSIT Curncy,CROSS
+Seychelles Rupee Spot,SCR,,SPOT,Curncy,BBG0013HGJV3,,,USDSCR Curncy,CROSS
+Madagascar Franc Spot,MGF,,SPOT,Curncy,BBG0013HGPY6,,,USDMGF Curncy,CROSS
+Bermudian Dollar Spot,BMD,,SPOT,Curncy,BBG00GQCRBZ7,,,USDBMD Curncy,CROSS
+Jamaica Dollar Spot,JMD,,SPOT,Curncy,BBG0013HGJC4,,,USDJMD Curncy,CROSS
+Brazilian Real Spot,BRL,,SPOT,Curncy,BBG0013HFYW0,,,USDBRL Curncy,CROSS
+Afghanistan Afghani Spot,AFN,,SPOT,Curncy,BBG0013HGG85,,,USDAFN Curncy,CROSS
+Algerian Dinar Spot,DZD,,SPOT,Curncy,BBG0013HFQX6,,,USDDZD Curncy,CROSS
+Jordanian Dinar Spot,JOD,,SPOT,Curncy,BBG0013HGHV7,,,USDJOD Curncy,CROSS
+Ethiopian Birr Spot,ETB,,SPOT,Curncy,BBG0013HG6D1,,,USDETB Curncy,CROSS
+Hungarian Forint Spot,HUF,,SPOT,Curncy,BBG0013HG7B1,,,USDHUF Curncy,CROSS
+Spanish Peseta Spot,ESP,,SPOT,Curncy,BBG0013HFMR2,,,USDESP Curncy,CROSS
+Euro,EUR,,SPOT,Curncy,,,,EUR Curncy,

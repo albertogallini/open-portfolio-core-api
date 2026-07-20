@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk_engine"
+version = "0.1.0"
+description = "Factor risk model engine"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "pandas",
+    "yfinance",
+    "scipy",
+    "statsmodels",
+    "lxml",
+    "html5lib",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]

@@ -1,0 +1,25 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2023-08-21,SND,US83191H1077,USD,Common Stock,1000.0,2.0,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-08-22,SND,US83191H1077,USD,Common Stock,1000.0,1.9700000286102295,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-08-23,SND,US83191H1077,USD,Common Stock,1000.0,1.8200000524520874,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-08-24,SND,US83191H1077,USD,Common Stock,1000.0,1.8799999952316284,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-08-25,SND,US83191H1077,USD,Common Stock,1000.0,1.8600000143051147,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-08-26,SND,US83191H1077,USD,Common Stock,1000.0,,,,,,
+2023-08-27,SND,US83191H1077,USD,Common Stock,1000.0,,,,,,
+2023-08-28,SND,US83191H1077,USD,Common Stock,1000.0,1.9199999570846558,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-08-29,SND,US83191H1077,USD,Common Stock,1000.0,1.909999966621399,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-08-30,SND,US83191H1077,USD,Common Stock,1000.0,1.9500000476837158,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-08-31,SND,US83191H1077,USD,Common Stock,1000.0,1.940000057220459,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-09-01,SND,US83191H1077,USD,Common Stock,1000.0,1.9900000095367432,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-09-02,SND,US83191H1077,USD,Common Stock,1000.0,,,,,,
+2023-09-03,SND,US83191H1077,USD,Common Stock,1000.0,,,,,,
+2023-09-04,SND,US83191H1077,USD,Common Stock,1000.0,,,,,,
+2023-09-05,SND,US83191H1077,USD,Common Stock,1000.0,2.0199999809265137,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-09-06,SND,US83191H1077,USD,Common Stock,1000.0,2.109999895095825,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-09-07,SND,US83191H1077,USD,Common Stock,1000.0,2.1500000953674316,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-09-08,SND,US83191H1077,USD,Common Stock,1000.0,2.140000104904175,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-09-09,SND,US83191H1077,USD,Common Stock,1000.0,,,,,,
+2023-09-10,SND,US83191H1077,USD,Common Stock,1000.0,,,,,,
+2023-09-11,SND,US83191H1077,USD,Common Stock,1000.0,2.319999933242798,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-09-12,SND,US83191H1077,USD,Common Stock,1000.0,2.390000104904175,,0.0,1.0,Energy,Oil & Gas Equipment & Services
+2023-09-13,SND,US83191H1077,USD,Common Stock,0.0,2.319999933242798,,0.0,1.0,Energy,Oil & Gas Equipment & Services

@@ -1,0 +1,525 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2019-12-19,C,US1729674242,USD,Common Stock,25.0,78.19999694824219,,0.0,1.0,Financial Services,Banks - Diversified
+2019-12-20,C,US1729674242,USD,Common Stock,25.0,78.51000213623047,,0.0,1.0,Financial Services,Banks - Diversified
+2019-12-21,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2019-12-22,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2019-12-23,C,US1729674242,USD,Common Stock,25.0,78.76000213623047,,0.0,1.0,Financial Services,Banks - Diversified
+2019-12-24,C,US1729674242,USD,Common Stock,25.0,78.58999633789062,,0.0,1.0,Financial Services,Banks - Diversified
+2019-12-25,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2019-12-26,C,US1729674242,USD,Common Stock,25.0,79.83000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2019-12-27,C,US1729674242,USD,Common Stock,25.0,79.66999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2019-12-28,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2019-12-29,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2019-12-30,C,US1729674242,USD,Common Stock,25.0,79.51000213623047,,0.0,1.0,Financial Services,Banks - Diversified
+2019-12-31,C,US1729674242,USD,Common Stock,25.0,79.88999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-01,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-02,C,US1729674242,USD,Common Stock,25.0,81.2300033569336,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-03,C,US1729674242,USD,Common Stock,25.0,79.69999694824219,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-04,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-05,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-06,C,US1729674242,USD,Common Stock,25.0,79.44999694824219,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-07,C,US1729674242,USD,Common Stock,25.0,78.76000213623047,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-08,C,US1729674242,USD,Common Stock,25.0,79.36000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-09,C,US1729674242,USD,Common Stock,25.0,80.08000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-10,C,US1729674242,USD,Common Stock,25.0,79.25,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-11,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-12,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-13,C,US1729674242,USD,Common Stock,25.0,80.6500015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-14,C,US1729674242,USD,Common Stock,25.0,81.91000366210938,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-15,C,US1729674242,USD,Common Stock,25.0,81.23999786376953,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-16,C,US1729674242,USD,Common Stock,25.0,81.0,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-17,C,US1729674242,USD,Common Stock,25.0,81.12000274658203,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-18,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-19,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-20,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-21,C,US1729674242,USD,Common Stock,25.0,79.9000015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-22,C,US1729674242,USD,Common Stock,25.0,80.0999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-23,C,US1729674242,USD,Common Stock,25.0,79.80000305175781,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-24,C,US1729674242,USD,Common Stock,25.0,78.41999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-25,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-26,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-01-27,C,US1729674242,USD,Common Stock,25.0,76.70999908447266,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-28,C,US1729674242,USD,Common Stock,25.0,77.23999786376953,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-29,C,US1729674242,USD,Common Stock,25.0,76.4800033569336,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-30,C,US1729674242,USD,Common Stock,25.0,77.43000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-01-31,C,US1729674242,USD,Common Stock,25.0,74.41000366210938,,0.51,1.0,Financial Services,Banks - Diversified
+2020-02-01,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-02-02,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-02-03,C,US1729674242,USD,Common Stock,25.0,75.12999725341797,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-04,C,US1729674242,USD,Common Stock,25.0,76.5,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-05,C,US1729674242,USD,Common Stock,25.0,78.8499984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-06,C,US1729674242,USD,Common Stock,25.0,78.97000122070312,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-07,C,US1729674242,USD,Common Stock,25.0,78.69000244140625,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-08,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-02-09,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-02-10,C,US1729674242,USD,Common Stock,25.0,78.4800033569336,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-11,C,US1729674242,USD,Common Stock,25.0,79.08999633789062,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-12,C,US1729674242,USD,Common Stock,25.0,79.33000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-13,C,US1729674242,USD,Common Stock,25.0,79.0,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-14,C,US1729674242,USD,Common Stock,25.0,78.79000091552734,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-15,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-02-16,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-02-17,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-02-18,C,US1729674242,USD,Common Stock,25.0,77.58000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-19,C,US1729674242,USD,Common Stock,25.0,78.05000305175781,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-20,C,US1729674242,USD,Common Stock,25.0,78.22000122070312,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-21,C,US1729674242,USD,Common Stock,25.0,76.44000244140625,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-22,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-02-23,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-02-24,C,US1729674242,USD,Common Stock,25.0,72.52999877929688,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-25,C,US1729674242,USD,Common Stock,25.0,69.43000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-26,C,US1729674242,USD,Common Stock,25.0,68.18000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-27,C,US1729674242,USD,Common Stock,25.0,64.44999694824219,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-28,C,US1729674242,USD,Common Stock,25.0,63.459999084472656,,0.0,1.0,Financial Services,Banks - Diversified
+2020-02-29,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-01,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-02,C,US1729674242,USD,Common Stock,25.0,67.58999633789062,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-03,C,US1729674242,USD,Common Stock,25.0,65.05000305175781,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-04,C,US1729674242,USD,Common Stock,25.0,67.38999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-05,C,US1729674242,USD,Common Stock,25.0,63.4900016784668,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-06,C,US1729674242,USD,Common Stock,25.0,61.279998779296875,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-07,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-08,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-09,C,US1729674242,USD,Common Stock,25.0,51.369998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-10,C,US1729674242,USD,Common Stock,25.0,55.58000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-11,C,US1729674242,USD,Common Stock,25.0,50.790000915527344,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-12,C,US1729674242,USD,Common Stock,25.0,43.2599983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-13,C,US1729674242,USD,Common Stock,25.0,51.040000915527344,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-14,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-15,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-16,C,US1729674242,USD,Common Stock,25.0,41.189998626708984,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-17,C,US1729674242,USD,Common Stock,25.0,40.25,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-18,C,US1729674242,USD,Common Stock,25.0,36.43000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-19,C,US1729674242,USD,Common Stock,25.0,39.63999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-20,C,US1729674242,USD,Common Stock,25.0,38.060001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-21,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-22,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-23,C,US1729674242,USD,Common Stock,25.0,35.38999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-24,C,US1729674242,USD,Common Stock,25.0,40.65999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-25,C,US1729674242,USD,Common Stock,25.0,41.86000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-26,C,US1729674242,USD,Common Stock,25.0,46.02000045776367,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-27,C,US1729674242,USD,Common Stock,25.0,43.79999923706055,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-28,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-29,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-03-30,C,US1729674242,USD,Common Stock,25.0,44.08000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-03-31,C,US1729674242,USD,Common Stock,25.0,42.119998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-01,C,US1729674242,USD,Common Stock,25.0,38.5099983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-02,C,US1729674242,USD,Common Stock,25.0,39.22999954223633,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-03,C,US1729674242,USD,Common Stock,25.0,37.4900016784668,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-04,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-04-05,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-04-06,C,US1729674242,USD,Common Stock,25.0,41.119998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-07,C,US1729674242,USD,Common Stock,25.0,41.25,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-08,C,US1729674242,USD,Common Stock,25.0,44.2599983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-09,C,US1729674242,USD,Common Stock,25.0,47.40999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-10,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-04-11,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-04-12,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-04-13,C,US1729674242,USD,Common Stock,25.0,46.68000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-14,C,US1729674242,USD,Common Stock,25.0,45.41999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-15,C,US1729674242,USD,Common Stock,25.0,42.86000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-16,C,US1729674242,USD,Common Stock,25.0,40.52000045776367,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-17,C,US1729674242,USD,Common Stock,25.0,45.45000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-18,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-04-19,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-04-20,C,US1729674242,USD,Common Stock,25.0,44.0099983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-21,C,US1729674242,USD,Common Stock,25.0,41.56999969482422,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-22,C,US1729674242,USD,Common Stock,25.0,42.2400016784668,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-23,C,US1729674242,USD,Common Stock,25.0,42.459999084472656,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-24,C,US1729674242,USD,Common Stock,25.0,43.099998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-25,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-04-26,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-04-27,C,US1729674242,USD,Common Stock,25.0,46.560001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-28,C,US1729674242,USD,Common Stock,25.0,47.209999084472656,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-29,C,US1729674242,USD,Common Stock,25.0,50.2599983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-04-30,C,US1729674242,USD,Common Stock,25.0,48.560001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-01,C,US1729674242,USD,Common Stock,25.0,45.52000045776367,,0.51,1.0,Financial Services,Banks - Diversified
+2020-05-02,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-03,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-04,C,US1729674242,USD,Common Stock,25.0,45.119998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-05,C,US1729674242,USD,Common Stock,25.0,43.95000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-06,C,US1729674242,USD,Common Stock,25.0,42.95000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-07,C,US1729674242,USD,Common Stock,25.0,44.63999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-08,C,US1729674242,USD,Common Stock,25.0,46.31999969482422,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-09,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-10,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-11,C,US1729674242,USD,Common Stock,25.0,44.06999969482422,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-12,C,US1729674242,USD,Common Stock,25.0,42.349998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-13,C,US1729674242,USD,Common Stock,25.0,40.599998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-14,C,US1729674242,USD,Common Stock,25.0,42.060001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-15,C,US1729674242,USD,Common Stock,25.0,41.91999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-16,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-17,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-18,C,US1729674242,USD,Common Stock,25.0,45.66999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-19,C,US1729674242,USD,Common Stock,25.0,44.43000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-20,C,US1729674242,USD,Common Stock,25.0,45.470001220703125,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-21,C,US1729674242,USD,Common Stock,25.0,45.0,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-22,C,US1729674242,USD,Common Stock,25.0,44.099998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-23,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-24,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-25,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-26,C,US1729674242,USD,Common Stock,25.0,48.16999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-27,C,US1729674242,USD,Common Stock,25.0,52.2599983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-28,C,US1729674242,USD,Common Stock,25.0,49.15999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-29,C,US1729674242,USD,Common Stock,25.0,47.90999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-05-30,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-05-31,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-06-01,C,US1729674242,USD,Common Stock,25.0,49.45000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-02,C,US1729674242,USD,Common Stock,25.0,50.84000015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-03,C,US1729674242,USD,Common Stock,25.0,53.34000015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-04,C,US1729674242,USD,Common Stock,25.0,55.650001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-05,C,US1729674242,USD,Common Stock,25.0,58.86000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-06,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-06-07,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-06-08,C,US1729674242,USD,Common Stock,25.0,61.2400016784668,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-09,C,US1729674242,USD,Common Stock,25.0,59.5,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-10,C,US1729674242,USD,Common Stock,25.0,55.86000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-11,C,US1729674242,USD,Common Stock,25.0,48.38999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-12,C,US1729674242,USD,Common Stock,25.0,52.25,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-13,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-06-14,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-06-15,C,US1729674242,USD,Common Stock,25.0,52.97999954223633,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-16,C,US1729674242,USD,Common Stock,25.0,54.45000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-17,C,US1729674242,USD,Common Stock,25.0,53.0,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-18,C,US1729674242,USD,Common Stock,25.0,53.040000915527344,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-19,C,US1729674242,USD,Common Stock,25.0,52.91999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-20,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-06-21,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-06-22,C,US1729674242,USD,Common Stock,25.0,52.060001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-23,C,US1729674242,USD,Common Stock,25.0,52.95000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-24,C,US1729674242,USD,Common Stock,25.0,50.810001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-25,C,US1729674242,USD,Common Stock,25.0,52.68000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-26,C,US1729674242,USD,Common Stock,25.0,49.58000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-27,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-06-28,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-06-29,C,US1729674242,USD,Common Stock,25.0,50.290000915527344,,0.0,1.0,Financial Services,Banks - Diversified
+2020-06-30,C,US1729674242,USD,Common Stock,25.0,51.099998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-01,C,US1729674242,USD,Common Stock,25.0,50.349998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-02,C,US1729674242,USD,Common Stock,25.0,50.54999923706055,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-03,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-07-04,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-07-05,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-07-06,C,US1729674242,USD,Common Stock,25.0,51.970001220703125,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-07,C,US1729674242,USD,Common Stock,25.0,50.31999969482422,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-08,C,US1729674242,USD,Common Stock,25.0,50.880001068115234,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-09,C,US1729674242,USD,Common Stock,25.0,49.45000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-10,C,US1729674242,USD,Common Stock,25.0,52.650001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-11,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-07-12,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-07-13,C,US1729674242,USD,Common Stock,25.0,52.20000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-14,C,US1729674242,USD,Common Stock,25.0,50.150001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-15,C,US1729674242,USD,Common Stock,25.0,51.84000015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-16,C,US1729674242,USD,Common Stock,25.0,51.459999084472656,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-17,C,US1729674242,USD,Common Stock,25.0,50.220001220703125,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-18,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-07-19,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-07-20,C,US1729674242,USD,Common Stock,25.0,50.13999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-21,C,US1729674242,USD,Common Stock,25.0,51.72999954223633,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-22,C,US1729674242,USD,Common Stock,25.0,51.65999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-23,C,US1729674242,USD,Common Stock,25.0,52.08000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-24,C,US1729674242,USD,Common Stock,25.0,51.66999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-25,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-07-26,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-07-27,C,US1729674242,USD,Common Stock,25.0,51.290000915527344,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-28,C,US1729674242,USD,Common Stock,25.0,51.27000045776367,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-29,C,US1729674242,USD,Common Stock,25.0,52.52000045776367,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-30,C,US1729674242,USD,Common Stock,25.0,50.869998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2020-07-31,C,US1729674242,USD,Common Stock,25.0,50.0099983215332,,0.51,1.0,Financial Services,Banks - Diversified
+2020-08-01,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-02,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-03,C,US1729674242,USD,Common Stock,25.0,50.38999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-04,C,US1729674242,USD,Common Stock,25.0,50.13999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-05,C,US1729674242,USD,Common Stock,25.0,51.040000915527344,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-06,C,US1729674242,USD,Common Stock,25.0,50.88999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-07,C,US1729674242,USD,Common Stock,25.0,52.119998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-08,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-09,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-10,C,US1729674242,USD,Common Stock,25.0,52.86000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-11,C,US1729674242,USD,Common Stock,25.0,53.7599983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-12,C,US1729674242,USD,Common Stock,25.0,53.349998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-13,C,US1729674242,USD,Common Stock,25.0,52.88999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-14,C,US1729674242,USD,Common Stock,25.0,52.93000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-15,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-16,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-17,C,US1729674242,USD,Common Stock,25.0,51.41999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-18,C,US1729674242,USD,Common Stock,25.0,50.34000015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-19,C,US1729674242,USD,Common Stock,25.0,50.290000915527344,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-20,C,US1729674242,USD,Common Stock,25.0,49.58000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-21,C,US1729674242,USD,Common Stock,25.0,49.29999923706055,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-22,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-23,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-24,C,US1729674242,USD,Common Stock,25.0,51.060001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-25,C,US1729674242,USD,Common Stock,25.0,51.650001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-26,C,US1729674242,USD,Common Stock,25.0,50.849998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-27,C,US1729674242,USD,Common Stock,25.0,51.720001220703125,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-28,C,US1729674242,USD,Common Stock,25.0,52.279998779296875,,0.0,1.0,Financial Services,Banks - Diversified
+2020-08-29,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-30,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-08-31,C,US1729674242,USD,Common Stock,25.0,51.119998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-01,C,US1729674242,USD,Common Stock,25.0,51.20000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-02,C,US1729674242,USD,Common Stock,25.0,51.95000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-03,C,US1729674242,USD,Common Stock,25.0,51.5,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-04,C,US1729674242,USD,Common Stock,25.0,52.52000045776367,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-05,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-09-06,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-09-07,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-09-08,C,US1729674242,USD,Common Stock,25.0,51.040000915527344,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-09,C,US1729674242,USD,Common Stock,25.0,51.400001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-10,C,US1729674242,USD,Common Stock,25.0,50.95000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-11,C,US1729674242,USD,Common Stock,25.0,51.0,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-12,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-09-13,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-09-14,C,US1729674242,USD,Common Stock,25.0,48.150001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-15,C,US1729674242,USD,Common Stock,25.0,44.810001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-16,C,US1729674242,USD,Common Stock,25.0,46.02000045776367,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-17,C,US1729674242,USD,Common Stock,25.0,45.529998779296875,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-18,C,US1729674242,USD,Common Stock,25.0,44.86000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-19,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-09-20,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-09-21,C,US1729674242,USD,Common Stock,25.0,43.93000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-22,C,US1729674242,USD,Common Stock,25.0,43.290000915527344,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-23,C,US1729674242,USD,Common Stock,25.0,41.849998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-24,C,US1729674242,USD,Common Stock,25.0,42.189998626708984,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-25,C,US1729674242,USD,Common Stock,25.0,42.02000045776367,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-26,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-09-27,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-09-28,C,US1729674242,USD,Common Stock,25.0,43.34000015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-29,C,US1729674242,USD,Common Stock,25.0,42.41999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-09-30,C,US1729674242,USD,Common Stock,25.0,43.11000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-01,C,US1729674242,USD,Common Stock,25.0,43.439998626708984,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-02,C,US1729674242,USD,Common Stock,25.0,43.65999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-03,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-10-04,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-10-05,C,US1729674242,USD,Common Stock,25.0,44.90999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-06,C,US1729674242,USD,Common Stock,25.0,44.40999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-07,C,US1729674242,USD,Common Stock,25.0,44.84000015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-08,C,US1729674242,USD,Common Stock,25.0,44.720001220703125,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-09,C,US1729674242,USD,Common Stock,25.0,44.93000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-10,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-10-11,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-10-12,C,US1729674242,USD,Common Stock,25.0,45.880001068115234,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-13,C,US1729674242,USD,Common Stock,25.0,43.68000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-14,C,US1729674242,USD,Common Stock,25.0,43.029998779296875,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-15,C,US1729674242,USD,Common Stock,25.0,43.61000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-16,C,US1729674242,USD,Common Stock,25.0,43.189998626708984,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-17,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-10-18,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-10-19,C,US1729674242,USD,Common Stock,25.0,42.900001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-20,C,US1729674242,USD,Common Stock,25.0,43.52000045776367,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-21,C,US1729674242,USD,Common Stock,25.0,43.0099983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-22,C,US1729674242,USD,Common Stock,25.0,43.95000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-23,C,US1729674242,USD,Common Stock,25.0,43.95000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-24,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-10-25,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-10-26,C,US1729674242,USD,Common Stock,25.0,43.2599983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-27,C,US1729674242,USD,Common Stock,25.0,41.880001068115234,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-28,C,US1729674242,USD,Common Stock,25.0,41.130001068115234,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-29,C,US1729674242,USD,Common Stock,25.0,41.65999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-10-30,C,US1729674242,USD,Common Stock,25.0,41.41999816894531,,0.51,1.0,Financial Services,Banks - Diversified
+2020-10-31,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-01,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-02,C,US1729674242,USD,Common Stock,25.0,42.209999084472656,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-03,C,US1729674242,USD,Common Stock,25.0,43.529998779296875,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-04,C,US1729674242,USD,Common Stock,25.0,42.08000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-05,C,US1729674242,USD,Common Stock,25.0,43.06999969482422,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-06,C,US1729674242,USD,Common Stock,25.0,42.709999084472656,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-07,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-08,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-09,C,US1729674242,USD,Common Stock,25.0,47.63999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-10,C,US1729674242,USD,Common Stock,25.0,47.650001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-11,C,US1729674242,USD,Common Stock,25.0,48.93000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-12,C,US1729674242,USD,Common Stock,25.0,48.279998779296875,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-13,C,US1729674242,USD,Common Stock,25.0,48.65999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-14,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-15,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-16,C,US1729674242,USD,Common Stock,25.0,50.400001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-17,C,US1729674242,USD,Common Stock,25.0,50.72999954223633,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-18,C,US1729674242,USD,Common Stock,25.0,51.04999923706055,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-19,C,US1729674242,USD,Common Stock,25.0,52.13999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-20,C,US1729674242,USD,Common Stock,25.0,51.650001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-21,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-22,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-23,C,US1729674242,USD,Common Stock,25.0,53.29999923706055,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-24,C,US1729674242,USD,Common Stock,25.0,57.060001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-25,C,US1729674242,USD,Common Stock,25.0,57.060001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-26,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-27,C,US1729674242,USD,Common Stock,25.0,56.66999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-11-28,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-29,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-11-30,C,US1729674242,USD,Common Stock,25.0,55.06999969482422,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-01,C,US1729674242,USD,Common Stock,25.0,55.470001220703125,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-02,C,US1729674242,USD,Common Stock,25.0,57.20000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-03,C,US1729674242,USD,Common Stock,25.0,56.58000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-04,C,US1729674242,USD,Common Stock,25.0,58.619998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-05,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-12-06,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-12-07,C,US1729674242,USD,Common Stock,25.0,58.130001068115234,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-08,C,US1729674242,USD,Common Stock,25.0,58.36000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-09,C,US1729674242,USD,Common Stock,25.0,58.95000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-10,C,US1729674242,USD,Common Stock,25.0,60.5,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-11,C,US1729674242,USD,Common Stock,25.0,58.93000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-12,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-12-13,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-12-14,C,US1729674242,USD,Common Stock,25.0,58.7400016784668,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-15,C,US1729674242,USD,Common Stock,25.0,59.66999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-16,C,US1729674242,USD,Common Stock,25.0,59.75,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-17,C,US1729674242,USD,Common Stock,25.0,60.04999923706055,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-18,C,US1729674242,USD,Common Stock,25.0,59.060001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-19,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-12-20,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-12-21,C,US1729674242,USD,Common Stock,25.0,61.22999954223633,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-22,C,US1729674242,USD,Common Stock,25.0,59.2599983215332,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-23,C,US1729674242,USD,Common Stock,25.0,60.779998779296875,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-24,C,US1729674242,USD,Common Stock,25.0,60.56999969482422,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-25,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-12-26,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-12-27,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2020-12-28,C,US1729674242,USD,Common Stock,25.0,61.130001068115234,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-29,C,US1729674242,USD,Common Stock,25.0,60.90999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-30,C,US1729674242,USD,Common Stock,25.0,60.86000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2020-12-31,C,US1729674242,USD,Common Stock,25.0,61.65999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-01,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-02,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-03,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-04,C,US1729674242,USD,Common Stock,25.0,60.13999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-05,C,US1729674242,USD,Common Stock,25.0,61.70000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-06,C,US1729674242,USD,Common Stock,25.0,65.25,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-07,C,US1729674242,USD,Common Stock,25.0,66.0199966430664,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-08,C,US1729674242,USD,Common Stock,25.0,65.37000274658203,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-09,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-10,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-11,C,US1729674242,USD,Common Stock,25.0,66.44000244140625,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-12,C,US1729674242,USD,Common Stock,25.0,66.66999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-13,C,US1729674242,USD,Common Stock,25.0,66.86000061035156,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-14,C,US1729674242,USD,Common Stock,25.0,69.01000213623047,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-15,C,US1729674242,USD,Common Stock,25.0,64.2300033569336,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-16,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-17,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-18,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-19,C,US1729674242,USD,Common Stock,25.0,63.689998626708984,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-20,C,US1729674242,USD,Common Stock,25.0,63.25,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-21,C,US1729674242,USD,Common Stock,25.0,61.869998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-22,C,US1729674242,USD,Common Stock,25.0,61.33000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-23,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-24,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-25,C,US1729674242,USD,Common Stock,25.0,60.560001373291016,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-26,C,US1729674242,USD,Common Stock,25.0,60.90999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-27,C,US1729674242,USD,Common Stock,25.0,59.400001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-28,C,US1729674242,USD,Common Stock,25.0,60.34000015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2021-01-29,C,US1729674242,USD,Common Stock,25.0,57.9900016784668,,0.51,1.0,Financial Services,Banks - Diversified
+2021-01-30,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-01-31,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-02-01,C,US1729674242,USD,Common Stock,25.0,58.43000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-02,C,US1729674242,USD,Common Stock,25.0,59.58000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-03,C,US1729674242,USD,Common Stock,25.0,61.099998474121094,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-04,C,US1729674242,USD,Common Stock,25.0,62.40999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-05,C,US1729674242,USD,Common Stock,25.0,62.58000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-06,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-02-07,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-02-08,C,US1729674242,USD,Common Stock,25.0,63.650001525878906,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-09,C,US1729674242,USD,Common Stock,25.0,63.119998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-10,C,US1729674242,USD,Common Stock,25.0,63.619998931884766,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-11,C,US1729674242,USD,Common Stock,25.0,63.20000076293945,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-12,C,US1729674242,USD,Common Stock,25.0,63.630001068115234,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-13,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-02-14,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-02-15,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-02-16,C,US1729674242,USD,Common Stock,25.0,64.12000274658203,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-17,C,US1729674242,USD,Common Stock,25.0,64.76000213623047,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-18,C,US1729674242,USD,Common Stock,25.0,63.47999954223633,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-19,C,US1729674242,USD,Common Stock,25.0,65.77999877929688,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-20,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-02-21,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-02-22,C,US1729674242,USD,Common Stock,25.0,65.5199966430664,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-23,C,US1729674242,USD,Common Stock,25.0,66.73999786376953,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-24,C,US1729674242,USD,Common Stock,25.0,68.5999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-25,C,US1729674242,USD,Common Stock,25.0,67.41000366210938,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-26,C,US1729674242,USD,Common Stock,25.0,65.87999725341797,,0.0,1.0,Financial Services,Banks - Diversified
+2021-02-27,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-02-28,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-03-01,C,US1729674242,USD,Common Stock,25.0,69.54000091552734,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-02,C,US1729674242,USD,Common Stock,25.0,68.91000366210938,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-03,C,US1729674242,USD,Common Stock,25.0,70.37999725341797,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-04,C,US1729674242,USD,Common Stock,25.0,69.80999755859375,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-05,C,US1729674242,USD,Common Stock,25.0,70.2300033569336,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-06,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-03-07,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-03-08,C,US1729674242,USD,Common Stock,25.0,72.22000122070312,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-09,C,US1729674242,USD,Common Stock,25.0,70.98999786376953,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-10,C,US1729674242,USD,Common Stock,25.0,73.75,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-11,C,US1729674242,USD,Common Stock,25.0,73.30999755859375,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-12,C,US1729674242,USD,Common Stock,25.0,75.18000030517578,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-13,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-03-14,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-03-15,C,US1729674242,USD,Common Stock,25.0,74.22000122070312,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-16,C,US1729674242,USD,Common Stock,25.0,73.33000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-17,C,US1729674242,USD,Common Stock,25.0,73.5999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-18,C,US1729674242,USD,Common Stock,25.0,73.83999633789062,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-19,C,US1729674242,USD,Common Stock,25.0,73.01000213623047,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-20,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-03-21,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-03-22,C,US1729674242,USD,Common Stock,25.0,71.95999908447266,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-23,C,US1729674242,USD,Common Stock,25.0,70.91000366210938,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-24,C,US1729674242,USD,Common Stock,25.0,70.08000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-25,C,US1729674242,USD,Common Stock,25.0,71.72000122070312,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-26,C,US1729674242,USD,Common Stock,25.0,73.0199966430664,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-27,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-03-28,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-03-29,C,US1729674242,USD,Common Stock,25.0,71.58000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-30,C,US1729674242,USD,Common Stock,25.0,72.95999908447266,,0.0,1.0,Financial Services,Banks - Diversified
+2021-03-31,C,US1729674242,USD,Common Stock,25.0,72.75,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-01,C,US1729674242,USD,Common Stock,25.0,73.13999938964844,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-02,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-04-03,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-04-04,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-04-05,C,US1729674242,USD,Common Stock,25.0,72.75,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-06,C,US1729674242,USD,Common Stock,25.0,72.5999984741211,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-07,C,US1729674242,USD,Common Stock,25.0,72.69000244140625,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-08,C,US1729674242,USD,Common Stock,25.0,72.33000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-09,C,US1729674242,USD,Common Stock,25.0,72.41999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-10,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-04-11,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-04-12,C,US1729674242,USD,Common Stock,25.0,72.69000244140625,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-13,C,US1729674242,USD,Common Stock,25.0,72.05999755859375,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-14,C,US1729674242,USD,Common Stock,25.0,72.91000366210938,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-15,C,US1729674242,USD,Common Stock,25.0,72.54000091552734,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-16,C,US1729674242,USD,Common Stock,25.0,72.44999694824219,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-17,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-04-18,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-04-19,C,US1729674242,USD,Common Stock,25.0,72.12999725341797,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-20,C,US1729674242,USD,Common Stock,25.0,69.79000091552734,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-21,C,US1729674242,USD,Common Stock,25.0,70.6500015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-22,C,US1729674242,USD,Common Stock,25.0,69.80999755859375,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-23,C,US1729674242,USD,Common Stock,25.0,71.37999725341797,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-24,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-04-25,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-04-26,C,US1729674242,USD,Common Stock,25.0,72.19999694824219,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-27,C,US1729674242,USD,Common Stock,25.0,72.98999786376953,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-28,C,US1729674242,USD,Common Stock,25.0,72.91000366210938,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-29,C,US1729674242,USD,Common Stock,25.0,73.83999633789062,,0.0,1.0,Financial Services,Banks - Diversified
+2021-04-30,C,US1729674242,USD,Common Stock,25.0,71.23999786376953,,0.51,1.0,Financial Services,Banks - Diversified
+2021-05-01,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-05-02,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-05-03,C,US1729674242,USD,Common Stock,25.0,71.70999908447266,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-04,C,US1729674242,USD,Common Stock,25.0,72.33000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-05,C,US1729674242,USD,Common Stock,25.0,73.70999908447266,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-06,C,US1729674242,USD,Common Stock,25.0,74.77999877929688,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-07,C,US1729674242,USD,Common Stock,25.0,75.08000183105469,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-08,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-05-09,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-05-10,C,US1729674242,USD,Common Stock,25.0,75.12999725341797,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-11,C,US1729674242,USD,Common Stock,25.0,74.87000274658203,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-12,C,US1729674242,USD,Common Stock,25.0,74.2300033569336,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-13,C,US1729674242,USD,Common Stock,25.0,75.29000091552734,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-14,C,US1729674242,USD,Common Stock,25.0,76.55999755859375,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-15,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-05-16,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-05-17,C,US1729674242,USD,Common Stock,25.0,77.41999816894531,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-18,C,US1729674242,USD,Common Stock,25.0,76.62000274658203,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-19,C,US1729674242,USD,Common Stock,25.0,76.45999908447266,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-20,C,US1729674242,USD,Common Stock,25.0,76.19999694824219,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-21,C,US1729674242,USD,Common Stock,25.0,77.6500015258789,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-22,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-05-23,C,US1729674242,USD,Common Stock,25.0,,,,,,
+2021-05-24,C,US1729674242,USD,Common Stock,25.0,78.02999877929688,,0.0,1.0,Financial Services,Banks - Diversified
+2021-05-25,C,US1729674242,USD,Common Stock,0.0,77.27999877929688,,0.0,1.0,Financial Services,Banks - Diversified

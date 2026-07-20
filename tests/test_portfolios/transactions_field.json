@@ -1,0 +1,23 @@
+{
+    "column_mapping": {
+        "Segno": "buy_sell",
+        "Quantita": "quantity",
+        "Prezzo": "price",
+        "Divisa": "currency",
+        "ticker": "ticker",
+        "ISIN": "isin",
+        "Operazione": "transaction_date",
+        "unique_id": "figi"
+    },
+    "buy_sell_mapping":{
+        "V": "S",
+        "A": "B"
+    },
+    "date_format": "%d/%m/%Y",
+    "columns_name_row": 4,
+    "data_row_offset": 5,
+    "portfolio_base_ccy":{
+        "test_base_ccy":  "JPY",
+        "test_base_ccy2": "EUR"
+    }
+}

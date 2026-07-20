@@ -1,0 +1,82 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2019-08-20,UI,US90353W1036,USD,Common Stock,10.0,110.44999694824219,,0.0,1.0,Technology,Communication Equipment
+2019-08-21,UI,US90353W1036,USD,Common Stock,10.0,112.36000061035156,,0.0,1.0,Technology,Communication Equipment
+2019-08-22,UI,US90353W1036,USD,Common Stock,10.0,112.0999984741211,,0.0,1.0,Technology,Communication Equipment
+2019-08-23,UI,US90353W1036,USD,Common Stock,10.0,108.75,,0.0,1.0,Technology,Communication Equipment
+2019-08-24,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-08-25,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-08-26,UI,US90353W1036,USD,Common Stock,10.0,109.94000244140625,,0.0,1.0,Technology,Communication Equipment
+2019-08-27,UI,US90353W1036,USD,Common Stock,10.0,108.11000061035156,,0.0,1.0,Technology,Communication Equipment
+2019-08-28,UI,US90353W1036,USD,Common Stock,10.0,108.9800033569336,,0.0,1.0,Technology,Communication Equipment
+2019-08-29,UI,US90353W1036,USD,Common Stock,10.0,112.12000274658203,,0.0,1.0,Technology,Communication Equipment
+2019-08-30,UI,US90353W1036,USD,Common Stock,10.0,110.51000213623047,,0.0,1.0,Technology,Communication Equipment
+2019-08-31,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-01,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-02,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-03,UI,US90353W1036,USD,Common Stock,10.0,109.26000213623047,,0.0,1.0,Technology,Communication Equipment
+2019-09-04,UI,US90353W1036,USD,Common Stock,10.0,110.56999969482422,,0.0,1.0,Technology,Communication Equipment
+2019-09-05,UI,US90353W1036,USD,Common Stock,10.0,114.81999969482422,,0.0,1.0,Technology,Communication Equipment
+2019-09-06,UI,US90353W1036,USD,Common Stock,10.0,114.47000122070312,,0.0,1.0,Technology,Communication Equipment
+2019-09-07,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-08,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-09,UI,US90353W1036,USD,Common Stock,10.0,111.7300033569336,,0.0,1.0,Technology,Communication Equipment
+2019-09-10,UI,US90353W1036,USD,Common Stock,10.0,113.86000061035156,,0.0,1.0,Technology,Communication Equipment
+2019-09-11,UI,US90353W1036,USD,Common Stock,10.0,117.30000305175781,,0.0,1.0,Technology,Communication Equipment
+2019-09-12,UI,US90353W1036,USD,Common Stock,10.0,118.22000122070312,,0.0,1.0,Technology,Communication Equipment
+2019-09-13,UI,US90353W1036,USD,Common Stock,10.0,116.62000274658203,,0.0,1.0,Technology,Communication Equipment
+2019-09-14,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-15,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-16,UI,US90353W1036,USD,Common Stock,10.0,117.36000061035156,,0.0,1.0,Technology,Communication Equipment
+2019-09-17,UI,US90353W1036,USD,Common Stock,10.0,117.38999938964844,,0.0,1.0,Technology,Communication Equipment
+2019-09-18,UI,US90353W1036,USD,Common Stock,10.0,117.29000091552734,,0.0,1.0,Technology,Communication Equipment
+2019-09-19,UI,US90353W1036,USD,Common Stock,10.0,117.70999908447266,,0.0,1.0,Technology,Communication Equipment
+2019-09-20,UI,US90353W1036,USD,Common Stock,10.0,118.47000122070312,,0.0,1.0,Technology,Communication Equipment
+2019-09-21,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-22,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-23,UI,US90353W1036,USD,Common Stock,10.0,117.4800033569336,,0.0,1.0,Technology,Communication Equipment
+2019-09-24,UI,US90353W1036,USD,Common Stock,10.0,114.29000091552734,,0.0,1.0,Technology,Communication Equipment
+2019-09-25,UI,US90353W1036,USD,Common Stock,10.0,115.8499984741211,,0.0,1.0,Technology,Communication Equipment
+2019-09-26,UI,US90353W1036,USD,Common Stock,10.0,115.43000030517578,,0.0,1.0,Technology,Communication Equipment
+2019-09-27,UI,US90353W1036,USD,Common Stock,10.0,116.04000091552734,,0.0,1.0,Technology,Communication Equipment
+2019-09-28,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-29,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-09-30,UI,US90353W1036,USD,Common Stock,10.0,118.26000213623047,,0.0,1.0,Technology,Communication Equipment
+2019-10-01,UI,US90353W1036,USD,Common Stock,10.0,113.94999694824219,,0.0,1.0,Technology,Communication Equipment
+2019-10-02,UI,US90353W1036,USD,Common Stock,10.0,113.88999938964844,,0.0,1.0,Technology,Communication Equipment
+2019-10-03,UI,US90353W1036,USD,Common Stock,10.0,115.33000183105469,,0.0,1.0,Technology,Communication Equipment
+2019-10-04,UI,US90353W1036,USD,Common Stock,10.0,116.58000183105469,,0.0,1.0,Technology,Communication Equipment
+2019-10-05,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-10-06,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-10-07,UI,US90353W1036,USD,Common Stock,10.0,118.22000122070312,,0.0,1.0,Technology,Communication Equipment
+2019-10-08,UI,US90353W1036,USD,Common Stock,10.0,114.6500015258789,,0.0,1.0,Technology,Communication Equipment
+2019-10-09,UI,US90353W1036,USD,Common Stock,10.0,119.94000244140625,,0.0,1.0,Technology,Communication Equipment
+2019-10-10,UI,US90353W1036,USD,Common Stock,10.0,119.16000366210938,,0.0,1.0,Technology,Communication Equipment
+2019-10-11,UI,US90353W1036,USD,Common Stock,10.0,123.01000213623047,,0.0,1.0,Technology,Communication Equipment
+2019-10-12,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-10-13,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-10-14,UI,US90353W1036,USD,Common Stock,10.0,122.8499984741211,,0.0,1.0,Technology,Communication Equipment
+2019-10-15,UI,US90353W1036,USD,Common Stock,10.0,124.25,,0.0,1.0,Technology,Communication Equipment
+2019-10-16,UI,US90353W1036,USD,Common Stock,10.0,125.04000091552734,,0.0,1.0,Technology,Communication Equipment
+2019-10-17,UI,US90353W1036,USD,Common Stock,10.0,125.23999786376953,,0.0,1.0,Technology,Communication Equipment
+2019-10-18,UI,US90353W1036,USD,Common Stock,10.0,126.38999938964844,,0.0,1.0,Technology,Communication Equipment
+2019-10-19,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-10-20,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-10-21,UI,US90353W1036,USD,Common Stock,10.0,127.47000122070312,,0.0,1.0,Technology,Communication Equipment
+2019-10-22,UI,US90353W1036,USD,Common Stock,10.0,127.51000213623047,,0.0,1.0,Technology,Communication Equipment
+2019-10-23,UI,US90353W1036,USD,Common Stock,10.0,127.88999938964844,,0.0,1.0,Technology,Communication Equipment
+2019-10-24,UI,US90353W1036,USD,Common Stock,10.0,126.69999694824219,,0.0,1.0,Technology,Communication Equipment
+2019-10-25,UI,US90353W1036,USD,Common Stock,10.0,129.02000427246094,,0.0,1.0,Technology,Communication Equipment
+2019-10-26,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-10-27,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-10-28,UI,US90353W1036,USD,Common Stock,10.0,129.05999755859375,,0.0,1.0,Technology,Communication Equipment
+2019-10-29,UI,US90353W1036,USD,Common Stock,10.0,127.83999633789062,,0.0,1.0,Technology,Communication Equipment
+2019-10-30,UI,US90353W1036,USD,Common Stock,10.0,128.86000061035156,,0.0,1.0,Technology,Communication Equipment
+2019-10-31,UI,US90353W1036,USD,Common Stock,10.0,126.58999633789062,,0.0,1.0,Technology,Communication Equipment
+2019-11-01,UI,US90353W1036,USD,Common Stock,10.0,122.94000244140625,,0.0,1.0,Technology,Communication Equipment
+2019-11-02,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-11-03,UI,US90353W1036,USD,Common Stock,10.0,,,,,,
+2019-11-04,UI,US90353W1036,USD,Common Stock,10.0,123.91999816894531,,0.0,1.0,Technology,Communication Equipment
+2019-11-05,UI,US90353W1036,USD,Common Stock,10.0,122.87000274658203,,0.0,1.0,Technology,Communication Equipment
+2019-11-06,UI,US90353W1036,USD,Common Stock,10.0,127.16999816894531,,0.0,1.0,Technology,Communication Equipment
+2019-11-07,UI,US90353W1036,USD,Common Stock,10.0,129.99000549316406,,0.0,1.0,Technology,Communication Equipment
+2019-11-08,UI,US90353W1036,USD,Common Stock,0.0,176.74000549316406,,0.0,1.0,Technology,Communication Equipment

@@ -1,0 +1,4 @@
+isin,currency,ticker,securityType,securityType2,marketSector,exchCode,figi
+US02079K3059,USD,GOOGL,Common Stock,Common Stock,Equity,US,BBG009S39JX6
+US0378331005,USD,AAPL,Common Stock,Common Stock,Equity,US,BBG000B9XRY4
+IE00BGBN6P67,EUR,BNXG.DE,ETP,Mutual Fund,Equity,GF,BBG00NKZSS98

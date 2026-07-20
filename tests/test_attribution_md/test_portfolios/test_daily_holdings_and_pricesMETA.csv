@@ -1,0 +1,815 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2023-07-26,META,US30303M1027,USD,Common Stock,10.0,298.57000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-27,META,US30303M1027,USD,Common Stock,10.0,311.7099914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-28,META,US30303M1027,USD,Common Stock,10.0,325.4800109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2023-07-29,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-07-30,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-07-31,META,US30303M1027,USD,Common Stock,10.0,318.6000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-01,META,US30303M1027,USD,Common Stock,10.0,322.7099914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-02,META,US30303M1027,USD,Common Stock,10.0,314.30999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-03,META,US30303M1027,USD,Common Stock,10.0,313.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-04,META,US30303M1027,USD,Common Stock,10.0,310.7300109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-05,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-08-06,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-08-07,META,US30303M1027,USD,Common Stock,10.0,316.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-08,META,US30303M1027,USD,Common Stock,10.0,312.6400146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-09,META,US30303M1027,USD,Common Stock,10.0,305.2099914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-10,META,US30303M1027,USD,Common Stock,10.0,305.739990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-11,META,US30303M1027,USD,Common Stock,10.0,301.6400146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-12,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-08-13,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-08-14,META,US30303M1027,USD,Common Stock,10.0,306.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-15,META,US30303M1027,USD,Common Stock,10.0,301.95001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-16,META,US30303M1027,USD,Common Stock,10.0,294.2900085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-17,META,US30303M1027,USD,Common Stock,10.0,285.0899963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-18,META,US30303M1027,USD,Common Stock,10.0,283.25,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-19,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-08-20,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-08-21,META,US30303M1027,USD,Common Stock,10.0,289.8999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-22,META,US30303M1027,USD,Common Stock,10.0,287.6000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-23,META,US30303M1027,USD,Common Stock,10.0,294.239990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-24,META,US30303M1027,USD,Common Stock,10.0,286.75,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-25,META,US30303M1027,USD,Common Stock,10.0,285.5,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-26,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-08-27,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-08-28,META,US30303M1027,USD,Common Stock,10.0,290.260009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-29,META,US30303M1027,USD,Common Stock,10.0,297.989990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-30,META,US30303M1027,USD,Common Stock,10.0,295.1000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-08-31,META,US30303M1027,USD,Common Stock,10.0,295.8900146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-01,META,US30303M1027,USD,Common Stock,10.0,296.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-02,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-09-03,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-09-04,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-09-05,META,US30303M1027,USD,Common Stock,10.0,300.1499938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-06,META,US30303M1027,USD,Common Stock,10.0,299.1700134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-07,META,US30303M1027,USD,Common Stock,10.0,298.6700134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-08,META,US30303M1027,USD,Common Stock,10.0,297.8900146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-09,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-09-10,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-09-11,META,US30303M1027,USD,Common Stock,10.0,307.55999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-12,META,US30303M1027,USD,Common Stock,10.0,301.6600036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-13,META,US30303M1027,USD,Common Stock,10.0,305.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-14,META,US30303M1027,USD,Common Stock,10.0,311.7200012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-15,META,US30303M1027,USD,Common Stock,10.0,300.30999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-16,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-09-17,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-09-18,META,US30303M1027,USD,Common Stock,10.0,302.54998779296875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-19,META,US30303M1027,USD,Common Stock,10.0,305.07000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-20,META,US30303M1027,USD,Common Stock,10.0,299.6700134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-21,META,US30303M1027,USD,Common Stock,10.0,295.7300109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-22,META,US30303M1027,USD,Common Stock,10.0,299.0799865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-23,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-09-24,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-09-25,META,US30303M1027,USD,Common Stock,10.0,300.8299865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-26,META,US30303M1027,USD,Common Stock,10.0,298.9599914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-27,META,US30303M1027,USD,Common Stock,10.0,297.739990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-28,META,US30303M1027,USD,Common Stock,10.0,303.9599914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-29,META,US30303M1027,USD,Common Stock,10.0,300.2099914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-09-30,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-01,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-02,META,US30303M1027,USD,Common Stock,10.0,306.82000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-03,META,US30303M1027,USD,Common Stock,10.0,300.94000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-04,META,US30303M1027,USD,Common Stock,10.0,305.5799865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-05,META,US30303M1027,USD,Common Stock,10.0,304.7900085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-06,META,US30303M1027,USD,Common Stock,10.0,315.42999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-07,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-08,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-09,META,US30303M1027,USD,Common Stock,10.0,318.3599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-10,META,US30303M1027,USD,Common Stock,10.0,321.8399963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-11,META,US30303M1027,USD,Common Stock,10.0,327.82000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-12,META,US30303M1027,USD,Common Stock,10.0,324.1600036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-13,META,US30303M1027,USD,Common Stock,10.0,314.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-14,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-15,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-16,META,US30303M1027,USD,Common Stock,10.0,321.1499938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-17,META,US30303M1027,USD,Common Stock,10.0,324.0,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-18,META,US30303M1027,USD,Common Stock,10.0,316.9700012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-19,META,US30303M1027,USD,Common Stock,10.0,312.80999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-20,META,US30303M1027,USD,Common Stock,10.0,308.6499938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-21,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-22,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-23,META,US30303M1027,USD,Common Stock,10.0,314.010009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-24,META,US30303M1027,USD,Common Stock,10.0,312.54998779296875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-25,META,US30303M1027,USD,Common Stock,10.0,299.5299987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-26,META,US30303M1027,USD,Common Stock,10.0,288.3500061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-27,META,US30303M1027,USD,Common Stock,10.0,296.7300109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-28,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-29,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-10-30,META,US30303M1027,USD,Common Stock,10.0,302.6600036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2023-10-31,META,US30303M1027,USD,Common Stock,10.0,301.2699890136719,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-01,META,US30303M1027,USD,Common Stock,10.0,311.8500061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-02,META,US30303M1027,USD,Common Stock,10.0,310.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-03,META,US30303M1027,USD,Common Stock,10.0,314.6000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-04,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-11-05,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-11-06,META,US30303M1027,USD,Common Stock,10.0,315.79998779296875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-07,META,US30303M1027,USD,Common Stock,10.0,318.82000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-08,META,US30303M1027,USD,Common Stock,10.0,319.7799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-09,META,US30303M1027,USD,Common Stock,10.0,320.54998779296875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-10,META,US30303M1027,USD,Common Stock,10.0,328.7699890136719,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-11,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-11-12,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-11-13,META,US30303M1027,USD,Common Stock,10.0,329.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-14,META,US30303M1027,USD,Common Stock,10.0,336.30999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-15,META,US30303M1027,USD,Common Stock,10.0,332.7099914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-16,META,US30303M1027,USD,Common Stock,10.0,334.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-17,META,US30303M1027,USD,Common Stock,10.0,335.0400085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-18,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-11-19,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-11-20,META,US30303M1027,USD,Common Stock,10.0,339.9700012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-21,META,US30303M1027,USD,Common Stock,10.0,336.9800109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-22,META,US30303M1027,USD,Common Stock,10.0,341.489990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-23,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-11-24,META,US30303M1027,USD,Common Stock,10.0,338.2300109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-25,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-11-26,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-11-27,META,US30303M1027,USD,Common Stock,10.0,334.70001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-28,META,US30303M1027,USD,Common Stock,10.0,338.989990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-29,META,US30303M1027,USD,Common Stock,10.0,332.20001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-11-30,META,US30303M1027,USD,Common Stock,10.0,327.1499938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-01,META,US30303M1027,USD,Common Stock,10.0,324.82000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-02,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-12-03,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-12-04,META,US30303M1027,USD,Common Stock,10.0,320.0199890136719,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-05,META,US30303M1027,USD,Common Stock,10.0,318.2900085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-06,META,US30303M1027,USD,Common Stock,10.0,317.45001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-07,META,US30303M1027,USD,Common Stock,10.0,326.5899963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-08,META,US30303M1027,USD,Common Stock,10.0,332.75,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-09,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-12-10,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-12-11,META,US30303M1027,USD,Common Stock,10.0,325.2799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-12,META,US30303M1027,USD,Common Stock,10.0,334.2200012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-13,META,US30303M1027,USD,Common Stock,10.0,334.739990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-14,META,US30303M1027,USD,Common Stock,10.0,333.1700134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-15,META,US30303M1027,USD,Common Stock,10.0,334.9200134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-16,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-12-17,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-12-18,META,US30303M1027,USD,Common Stock,10.0,344.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-19,META,US30303M1027,USD,Common Stock,10.0,350.3599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-20,META,US30303M1027,USD,Common Stock,10.0,349.2799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-21,META,US30303M1027,USD,Common Stock,10.0,354.0899963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-22,META,US30303M1027,USD,Common Stock,10.0,353.3900146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-23,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-12-24,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-12-25,META,US30303M1027,USD,Common Stock,10.0,,,,,,
+2023-12-26,META,US30303M1027,USD,Common Stock,10.0,354.8299865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-27,META,US30303M1027,USD,Common Stock,10.0,357.8299865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-28,META,US30303M1027,USD,Common Stock,10.0,358.32000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-29,META,US30303M1027,USD,Common Stock,9.0,353.9599914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2023-12-30,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2023-12-31,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-01,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-02,META,US30303M1027,USD,Common Stock,9.0,346.2900085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-03,META,US30303M1027,USD,Common Stock,9.0,344.4700012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-04,META,US30303M1027,USD,Common Stock,9.0,347.1199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-05,META,US30303M1027,USD,Common Stock,9.0,351.95001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-06,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-07,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-08,META,US30303M1027,USD,Common Stock,9.0,358.6600036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-09,META,US30303M1027,USD,Common Stock,9.0,357.42999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-10,META,US30303M1027,USD,Common Stock,9.0,370.4700012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-11,META,US30303M1027,USD,Common Stock,9.0,369.6700134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-12,META,US30303M1027,USD,Common Stock,9.0,374.489990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-13,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-14,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-15,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-16,META,US30303M1027,USD,Common Stock,9.0,367.4599914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-17,META,US30303M1027,USD,Common Stock,9.0,368.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-18,META,US30303M1027,USD,Common Stock,9.0,376.1300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-19,META,US30303M1027,USD,Common Stock,9.0,383.45001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-20,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-21,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-22,META,US30303M1027,USD,Common Stock,9.0,381.7799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-23,META,US30303M1027,USD,Common Stock,9.0,385.20001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-24,META,US30303M1027,USD,Common Stock,9.0,390.70001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-25,META,US30303M1027,USD,Common Stock,9.0,393.17999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-26,META,US30303M1027,USD,Common Stock,9.0,394.1400146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-27,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-28,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-01-29,META,US30303M1027,USD,Common Stock,9.0,401.0199890136719,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-30,META,US30303M1027,USD,Common Stock,9.0,400.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-01-31,META,US30303M1027,USD,Common Stock,9.0,390.1400146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-01,META,US30303M1027,USD,Common Stock,9.0,394.7799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-02,META,US30303M1027,USD,Common Stock,9.0,474.989990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-03,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-02-04,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-02-05,META,US30303M1027,USD,Common Stock,9.0,459.4100036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-06,META,US30303M1027,USD,Common Stock,9.0,454.7200012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-07,META,US30303M1027,USD,Common Stock,9.0,469.5899963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-08,META,US30303M1027,USD,Common Stock,9.0,470.0,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-09,META,US30303M1027,USD,Common Stock,9.0,468.1099853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-10,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-02-11,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-02-12,META,US30303M1027,USD,Common Stock,9.0,468.8999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-13,META,US30303M1027,USD,Common Stock,9.0,460.1199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-14,META,US30303M1027,USD,Common Stock,9.0,473.2799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-15,META,US30303M1027,USD,Common Stock,9.0,484.0299987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-16,META,US30303M1027,USD,Common Stock,9.0,473.32000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-17,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-02-18,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-02-19,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-02-20,META,US30303M1027,USD,Common Stock,9.0,471.75,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-21,META,US30303M1027,USD,Common Stock,9.0,468.0299987792969,,0.5,1.0,Communication Services,Internet Content & Information
+2024-02-22,META,US30303M1027,USD,Common Stock,9.0,486.1300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-23,META,US30303M1027,USD,Common Stock,9.0,484.0299987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-24,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-02-25,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-02-26,META,US30303M1027,USD,Common Stock,9.0,481.739990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-27,META,US30303M1027,USD,Common Stock,9.0,487.04998779296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-28,META,US30303M1027,USD,Common Stock,9.0,484.0199890136719,,0.0,1.0,Communication Services,Internet Content & Information
+2024-02-29,META,US30303M1027,USD,Common Stock,9.0,490.1300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-01,META,US30303M1027,USD,Common Stock,9.0,502.29998779296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-02,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-03,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-04,META,US30303M1027,USD,Common Stock,9.0,498.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-05,META,US30303M1027,USD,Common Stock,9.0,490.2200012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-06,META,US30303M1027,USD,Common Stock,9.0,496.0899963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-07,META,US30303M1027,USD,Common Stock,9.0,512.1900024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-08,META,US30303M1027,USD,Common Stock,9.0,505.95001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-09,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-10,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-11,META,US30303M1027,USD,Common Stock,9.0,483.5899963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-12,META,US30303M1027,USD,Common Stock,9.0,499.75,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-13,META,US30303M1027,USD,Common Stock,9.0,495.57000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-14,META,US30303M1027,USD,Common Stock,9.0,491.8299865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-15,META,US30303M1027,USD,Common Stock,9.0,484.1000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-16,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-17,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-18,META,US30303M1027,USD,Common Stock,9.0,496.9800109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-19,META,US30303M1027,USD,Common Stock,9.0,496.239990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-20,META,US30303M1027,USD,Common Stock,9.0,505.5199890136719,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-21,META,US30303M1027,USD,Common Stock,9.0,507.760009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-22,META,US30303M1027,USD,Common Stock,9.0,509.5799865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-23,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-24,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-25,META,US30303M1027,USD,Common Stock,9.0,503.0199890136719,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-26,META,US30303M1027,USD,Common Stock,9.0,495.8900146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-27,META,US30303M1027,USD,Common Stock,9.0,493.8599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-28,META,US30303M1027,USD,Common Stock,9.0,485.5799865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2024-03-29,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-30,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-03-31,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-04-01,META,US30303M1027,USD,Common Stock,9.0,491.3500061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-02,META,US30303M1027,USD,Common Stock,9.0,497.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-03,META,US30303M1027,USD,Common Stock,9.0,506.739990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-04,META,US30303M1027,USD,Common Stock,9.0,510.9200134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-05,META,US30303M1027,USD,Common Stock,9.0,527.3400268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-06,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-04-07,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-04-08,META,US30303M1027,USD,Common Stock,9.0,519.25,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-09,META,US30303M1027,USD,Common Stock,9.0,516.9000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-10,META,US30303M1027,USD,Common Stock,9.0,519.8300170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-11,META,US30303M1027,USD,Common Stock,9.0,523.1599731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-12,META,US30303M1027,USD,Common Stock,9.0,511.8999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-13,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-04-14,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-04-15,META,US30303M1027,USD,Common Stock,9.0,500.2300109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-16,META,US30303M1027,USD,Common Stock,9.0,499.760009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-17,META,US30303M1027,USD,Common Stock,9.0,494.1700134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-18,META,US30303M1027,USD,Common Stock,9.0,501.79998779296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-19,META,US30303M1027,USD,Common Stock,9.0,481.07000732421875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-20,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-04-21,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-04-22,META,US30303M1027,USD,Common Stock,9.0,481.7300109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-23,META,US30303M1027,USD,Common Stock,9.0,496.1000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-24,META,US30303M1027,USD,Common Stock,9.0,493.5,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-25,META,US30303M1027,USD,Common Stock,9.0,441.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-26,META,US30303M1027,USD,Common Stock,9.0,443.2900085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-27,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-04-28,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-04-29,META,US30303M1027,USD,Common Stock,9.0,432.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-04-30,META,US30303M1027,USD,Common Stock,9.0,430.1700134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-01,META,US30303M1027,USD,Common Stock,9.0,439.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-02,META,US30303M1027,USD,Common Stock,9.0,441.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-03,META,US30303M1027,USD,Common Stock,9.0,451.9599914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-04,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-05-05,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-05-06,META,US30303M1027,USD,Common Stock,9.0,465.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-07,META,US30303M1027,USD,Common Stock,9.0,468.239990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-08,META,US30303M1027,USD,Common Stock,9.0,472.6000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-09,META,US30303M1027,USD,Common Stock,9.0,475.4200134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-10,META,US30303M1027,USD,Common Stock,9.0,476.20001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-11,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-05-12,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-05-13,META,US30303M1027,USD,Common Stock,9.0,468.010009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-14,META,US30303M1027,USD,Common Stock,9.0,471.8500061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-15,META,US30303M1027,USD,Common Stock,9.0,481.5400085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-16,META,US30303M1027,USD,Common Stock,9.0,473.2300109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-17,META,US30303M1027,USD,Common Stock,9.0,471.9100036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-18,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-05-19,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-05-20,META,US30303M1027,USD,Common Stock,9.0,468.8399963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-21,META,US30303M1027,USD,Common Stock,9.0,464.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-22,META,US30303M1027,USD,Common Stock,9.0,467.7799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-23,META,US30303M1027,USD,Common Stock,9.0,465.7799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-24,META,US30303M1027,USD,Common Stock,9.0,478.2200012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-25,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-05-26,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-05-27,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-05-28,META,US30303M1027,USD,Common Stock,9.0,479.9200134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-29,META,US30303M1027,USD,Common Stock,9.0,474.3599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-30,META,US30303M1027,USD,Common Stock,9.0,467.04998779296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-05-31,META,US30303M1027,USD,Common Stock,9.0,466.8299865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-01,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-02,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-03,META,US30303M1027,USD,Common Stock,9.0,477.489990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-04,META,US30303M1027,USD,Common Stock,9.0,476.989990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-05,META,US30303M1027,USD,Common Stock,9.0,495.05999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-06,META,US30303M1027,USD,Common Stock,9.0,493.760009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-07,META,US30303M1027,USD,Common Stock,9.0,492.9599914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-08,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-09,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-10,META,US30303M1027,USD,Common Stock,9.0,502.6000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-11,META,US30303M1027,USD,Common Stock,9.0,507.4700012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-12,META,US30303M1027,USD,Common Stock,9.0,508.8399963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-13,META,US30303M1027,USD,Common Stock,9.0,504.1000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-14,META,US30303M1027,USD,Common Stock,9.0,504.1600036621094,,0.5,1.0,Communication Services,Internet Content & Information
+2024-06-15,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-16,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-17,META,US30303M1027,USD,Common Stock,9.0,506.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-18,META,US30303M1027,USD,Common Stock,9.0,499.489990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-19,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-20,META,US30303M1027,USD,Common Stock,9.0,501.70001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-21,META,US30303M1027,USD,Common Stock,9.0,494.7799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-22,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-23,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-24,META,US30303M1027,USD,Common Stock,9.0,498.9100036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-25,META,US30303M1027,USD,Common Stock,9.0,510.6000061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-26,META,US30303M1027,USD,Common Stock,9.0,513.1199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-27,META,US30303M1027,USD,Common Stock,9.0,519.5599975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-28,META,US30303M1027,USD,Common Stock,9.0,504.2200012207031,,0.0,1.0,Communication Services,Internet Content & Information
+2024-06-29,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-06-30,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-01,META,US30303M1027,USD,Common Stock,9.0,504.67999267578125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-02,META,US30303M1027,USD,Common Stock,9.0,509.5,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-03,META,US30303M1027,USD,Common Stock,9.0,509.9599914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-04,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-05,META,US30303M1027,USD,Common Stock,9.0,539.9099731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-06,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-07,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-08,META,US30303M1027,USD,Common Stock,9.0,529.3200073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-09,META,US30303M1027,USD,Common Stock,9.0,530.0,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-10,META,US30303M1027,USD,Common Stock,9.0,534.6900024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-11,META,US30303M1027,USD,Common Stock,9.0,512.7000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-12,META,US30303M1027,USD,Common Stock,9.0,498.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-13,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-14,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-15,META,US30303M1027,USD,Common Stock,9.0,496.1600036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-16,META,US30303M1027,USD,Common Stock,9.0,489.7900085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-17,META,US30303M1027,USD,Common Stock,9.0,461.989990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-18,META,US30303M1027,USD,Common Stock,9.0,475.8500061035156,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-19,META,US30303M1027,USD,Common Stock,9.0,476.7900085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-20,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-21,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-22,META,US30303M1027,USD,Common Stock,9.0,487.3999938964844,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-23,META,US30303M1027,USD,Common Stock,9.0,488.69000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-24,META,US30303M1027,USD,Common Stock,9.0,461.2699890136719,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-25,META,US30303M1027,USD,Common Stock,9.0,453.4100036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-26,META,US30303M1027,USD,Common Stock,9.0,465.70001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-27,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-28,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-07-29,META,US30303M1027,USD,Common Stock,9.0,465.7099914550781,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-30,META,US30303M1027,USD,Common Stock,9.0,463.19000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-07-31,META,US30303M1027,USD,Common Stock,9.0,474.8299865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-01,META,US30303M1027,USD,Common Stock,9.0,497.739990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-02,META,US30303M1027,USD,Common Stock,9.0,488.1400146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-03,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-08-04,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-08-05,META,US30303M1027,USD,Common Stock,9.0,475.7300109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-06,META,US30303M1027,USD,Common Stock,9.0,494.0899963378906,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-07,META,US30303M1027,USD,Common Stock,9.0,488.9200134277344,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-08,META,US30303M1027,USD,Common Stock,9.0,509.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-09,META,US30303M1027,USD,Common Stock,9.0,517.77001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-10,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-08-11,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-08-12,META,US30303M1027,USD,Common Stock,9.0,515.9500122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-13,META,US30303M1027,USD,Common Stock,9.0,528.5399780273438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-14,META,US30303M1027,USD,Common Stock,9.0,526.760009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-15,META,US30303M1027,USD,Common Stock,9.0,537.3300170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-16,META,US30303M1027,USD,Common Stock,9.0,527.4199829101562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-17,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-08-18,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-08-19,META,US30303M1027,USD,Common Stock,9.0,529.280029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-20,META,US30303M1027,USD,Common Stock,9.0,526.72998046875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-21,META,US30303M1027,USD,Common Stock,9.0,535.1599731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-22,META,US30303M1027,USD,Common Stock,9.0,531.9299926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-23,META,US30303M1027,USD,Common Stock,9.0,528.0,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-24,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-08-25,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-08-26,META,US30303M1027,USD,Common Stock,9.0,521.1199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-27,META,US30303M1027,USD,Common Stock,9.0,519.0999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-28,META,US30303M1027,USD,Common Stock,9.0,516.780029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-29,META,US30303M1027,USD,Common Stock,9.0,518.219970703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-30,META,US30303M1027,USD,Common Stock,9.0,521.3099975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-08-31,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-01,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-02,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-03,META,US30303M1027,USD,Common Stock,9.0,511.760009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-04,META,US30303M1027,USD,Common Stock,9.0,512.739990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-05,META,US30303M1027,USD,Common Stock,9.0,516.8599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-06,META,US30303M1027,USD,Common Stock,9.0,500.2699890136719,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-07,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-08,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-09,META,US30303M1027,USD,Common Stock,9.0,504.7900085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-10,META,US30303M1027,USD,Common Stock,9.0,504.7900085449219,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-11,META,US30303M1027,USD,Common Stock,9.0,511.8299865722656,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-12,META,US30303M1027,USD,Common Stock,9.0,525.5999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-13,META,US30303M1027,USD,Common Stock,9.0,524.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-14,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-15,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-16,META,US30303M1027,USD,Common Stock,9.0,533.280029296875,,0.5,1.0,Communication Services,Internet Content & Information
+2024-09-17,META,US30303M1027,USD,Common Stock,9.0,536.3200073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-18,META,US30303M1027,USD,Common Stock,9.0,537.9500122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-19,META,US30303M1027,USD,Common Stock,9.0,559.0999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-20,META,US30303M1027,USD,Common Stock,9.0,561.3499755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-21,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-22,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-23,META,US30303M1027,USD,Common Stock,9.0,564.4099731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-24,META,US30303M1027,USD,Common Stock,9.0,563.3300170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-25,META,US30303M1027,USD,Common Stock,9.0,568.3099975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-26,META,US30303M1027,USD,Common Stock,9.0,567.8400268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-27,META,US30303M1027,USD,Common Stock,9.0,567.3599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-09-28,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-29,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-09-30,META,US30303M1027,USD,Common Stock,9.0,572.4400024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-01,META,US30303M1027,USD,Common Stock,9.0,576.469970703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-02,META,US30303M1027,USD,Common Stock,9.0,572.8099975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-03,META,US30303M1027,USD,Common Stock,9.0,582.77001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-04,META,US30303M1027,USD,Common Stock,9.0,595.9400024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-05,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-10-06,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-10-07,META,US30303M1027,USD,Common Stock,9.0,584.780029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-08,META,US30303M1027,USD,Common Stock,9.0,592.8900146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-09,META,US30303M1027,USD,Common Stock,9.0,590.510009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-10,META,US30303M1027,USD,Common Stock,9.0,583.8300170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-11,META,US30303M1027,USD,Common Stock,9.0,589.9500122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-12,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-10-13,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-10-14,META,US30303M1027,USD,Common Stock,9.0,590.4199829101562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-15,META,US30303M1027,USD,Common Stock,9.0,586.27001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-16,META,US30303M1027,USD,Common Stock,9.0,576.7899780273438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-17,META,US30303M1027,USD,Common Stock,9.0,576.9299926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-18,META,US30303M1027,USD,Common Stock,9.0,576.469970703125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-19,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-10-20,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-10-21,META,US30303M1027,USD,Common Stock,9.0,575.1599731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-22,META,US30303M1027,USD,Common Stock,9.0,582.010009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-23,META,US30303M1027,USD,Common Stock,9.0,563.6900024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-24,META,US30303M1027,USD,Common Stock,9.0,567.780029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-25,META,US30303M1027,USD,Common Stock,9.0,573.25,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-26,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-10-27,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-10-28,META,US30303M1027,USD,Common Stock,9.0,578.1599731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-29,META,US30303M1027,USD,Common Stock,9.0,593.280029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-30,META,US30303M1027,USD,Common Stock,9.0,591.7999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-10-31,META,US30303M1027,USD,Common Stock,9.0,567.5800170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-01,META,US30303M1027,USD,Common Stock,9.0,567.1599731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-02,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-11-03,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-11-04,META,US30303M1027,USD,Common Stock,9.0,560.6799926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-05,META,US30303M1027,USD,Common Stock,9.0,572.4299926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-06,META,US30303M1027,USD,Common Stock,9.0,572.0499877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-07,META,US30303M1027,USD,Common Stock,9.0,591.7000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-08,META,US30303M1027,USD,Common Stock,9.0,589.3400268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-09,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-11-10,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-11-11,META,US30303M1027,USD,Common Stock,9.0,583.1699829101562,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-12,META,US30303M1027,USD,Common Stock,9.0,584.8200073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-13,META,US30303M1027,USD,Common Stock,9.0,580.0,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-14,META,US30303M1027,USD,Common Stock,9.0,577.1599731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-15,META,US30303M1027,USD,Common Stock,9.0,554.0800170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-16,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-11-17,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-11-18,META,US30303M1027,USD,Common Stock,9.0,554.4000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-19,META,US30303M1027,USD,Common Stock,9.0,561.0900268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-20,META,US30303M1027,USD,Common Stock,9.0,565.52001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-21,META,US30303M1027,USD,Common Stock,9.0,563.0900268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-22,META,US30303M1027,USD,Common Stock,9.0,559.1400146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-23,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-11-24,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-11-25,META,US30303M1027,USD,Common Stock,9.0,565.1099853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-26,META,US30303M1027,USD,Common Stock,9.0,573.5399780273438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-27,META,US30303M1027,USD,Common Stock,9.0,569.2000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-28,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-11-29,META,US30303M1027,USD,Common Stock,9.0,574.3200073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2024-11-30,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-01,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-02,META,US30303M1027,USD,Common Stock,9.0,592.8300170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-03,META,US30303M1027,USD,Common Stock,9.0,613.6500244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-04,META,US30303M1027,USD,Common Stock,9.0,613.780029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-05,META,US30303M1027,USD,Common Stock,9.0,608.9299926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-06,META,US30303M1027,USD,Common Stock,9.0,623.77001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-07,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-08,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-09,META,US30303M1027,USD,Common Stock,9.0,613.5700073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-10,META,US30303M1027,USD,Common Stock,9.0,619.3200073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-11,META,US30303M1027,USD,Common Stock,9.0,632.6799926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-12,META,US30303M1027,USD,Common Stock,9.0,630.7899780273438,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-13,META,US30303M1027,USD,Common Stock,9.0,620.3499755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-14,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-15,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-16,META,US30303M1027,USD,Common Stock,9.0,624.239990234375,,0.5,1.0,Communication Services,Internet Content & Information
+2024-12-17,META,US30303M1027,USD,Common Stock,9.0,619.4400024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-18,META,US30303M1027,USD,Common Stock,9.0,597.1900024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-19,META,US30303M1027,USD,Common Stock,9.0,595.5700073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-20,META,US30303M1027,USD,Common Stock,9.0,585.25,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-21,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-22,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-23,META,US30303M1027,USD,Common Stock,9.0,599.8499755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-24,META,US30303M1027,USD,Common Stock,9.0,607.75,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-25,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-26,META,US30303M1027,USD,Common Stock,9.0,603.3499755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-27,META,US30303M1027,USD,Common Stock,9.0,599.8099975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-28,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-29,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2024-12-30,META,US30303M1027,USD,Common Stock,9.0,591.239990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2024-12-31,META,US30303M1027,USD,Common Stock,9.0,585.510009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-01,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-02,META,US30303M1027,USD,Common Stock,9.0,599.239990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-03,META,US30303M1027,USD,Common Stock,9.0,604.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-04,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-05,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-06,META,US30303M1027,USD,Common Stock,9.0,630.2000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-07,META,US30303M1027,USD,Common Stock,9.0,617.8900146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-08,META,US30303M1027,USD,Common Stock,9.0,610.719970703125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-09,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-10,META,US30303M1027,USD,Common Stock,9.0,615.8599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-11,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-12,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-13,META,US30303M1027,USD,Common Stock,9.0,608.3300170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-14,META,US30303M1027,USD,Common Stock,9.0,594.25,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-15,META,US30303M1027,USD,Common Stock,9.0,617.1199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-16,META,US30303M1027,USD,Common Stock,9.0,611.2999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-17,META,US30303M1027,USD,Common Stock,9.0,612.77001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-18,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-19,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-20,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-21,META,US30303M1027,USD,Common Stock,9.0,616.4600219726562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-22,META,US30303M1027,USD,Common Stock,9.0,623.5,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-23,META,US30303M1027,USD,Common Stock,9.0,636.4500122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-24,META,US30303M1027,USD,Common Stock,9.0,647.489990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-25,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-26,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-01-27,META,US30303M1027,USD,Common Stock,9.0,659.8800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-28,META,US30303M1027,USD,Common Stock,9.0,674.3300170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-29,META,US30303M1027,USD,Common Stock,9.0,676.489990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-30,META,US30303M1027,USD,Common Stock,9.0,687.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-01-31,META,US30303M1027,USD,Common Stock,9.0,689.1799926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-01,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-02-02,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-02-03,META,US30303M1027,USD,Common Stock,9.0,697.4600219726562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-04,META,US30303M1027,USD,Common Stock,9.0,704.1900024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-05,META,US30303M1027,USD,Common Stock,9.0,704.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-06,META,US30303M1027,USD,Common Stock,9.0,711.989990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-07,META,US30303M1027,USD,Common Stock,9.0,714.52001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-08,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-02-09,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-02-10,META,US30303M1027,USD,Common Stock,9.0,717.4000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-11,META,US30303M1027,USD,Common Stock,9.0,719.7999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-12,META,US30303M1027,USD,Common Stock,9.0,725.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-13,META,US30303M1027,USD,Common Stock,9.0,728.5599975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-14,META,US30303M1027,USD,Common Stock,9.0,736.6699829101562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-15,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-02-16,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-02-17,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-02-18,META,US30303M1027,USD,Common Stock,9.0,716.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-19,META,US30303M1027,USD,Common Stock,9.0,703.77001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-20,META,US30303M1027,USD,Common Stock,9.0,694.8400268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-21,META,US30303M1027,USD,Common Stock,9.0,683.5499877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-22,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-02-23,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-02-24,META,US30303M1027,USD,Common Stock,9.0,668.1300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-25,META,US30303M1027,USD,Common Stock,9.0,657.5,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-26,META,US30303M1027,USD,Common Stock,9.0,673.7000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-27,META,US30303M1027,USD,Common Stock,9.0,658.239990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-02-28,META,US30303M1027,USD,Common Stock,9.0,668.2000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-01,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-02,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-03,META,US30303M1027,USD,Common Stock,9.0,655.0499877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-04,META,US30303M1027,USD,Common Stock,9.0,640.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-05,META,US30303M1027,USD,Common Stock,9.0,656.469970703125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-06,META,US30303M1027,USD,Common Stock,9.0,627.9299926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-07,META,US30303M1027,USD,Common Stock,9.0,625.6599731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-08,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-09,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-10,META,US30303M1027,USD,Common Stock,9.0,597.989990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-11,META,US30303M1027,USD,Common Stock,9.0,605.7100219726562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-12,META,US30303M1027,USD,Common Stock,9.0,619.5599975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-13,META,US30303M1027,USD,Common Stock,9.0,590.6400146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-14,META,US30303M1027,USD,Common Stock,9.0,607.5999755859375,,0.525,1.0,Communication Services,Internet Content & Information
+2025-03-15,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-16,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-17,META,US30303M1027,USD,Common Stock,9.0,604.9000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-18,META,US30303M1027,USD,Common Stock,9.0,582.3599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-19,META,US30303M1027,USD,Common Stock,9.0,584.0599975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-20,META,US30303M1027,USD,Common Stock,9.0,586.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-21,META,US30303M1027,USD,Common Stock,9.0,596.25,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-22,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-23,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-24,META,US30303M1027,USD,Common Stock,9.0,618.8499755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-25,META,US30303M1027,USD,Common Stock,9.0,626.3099975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-26,META,US30303M1027,USD,Common Stock,9.0,610.97998046875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-27,META,US30303M1027,USD,Common Stock,9.0,602.5800170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-28,META,US30303M1027,USD,Common Stock,9.0,576.739990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-03-29,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-30,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-03-31,META,US30303M1027,USD,Common Stock,9.0,576.3599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-01,META,US30303M1027,USD,Common Stock,9.0,586.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-02,META,US30303M1027,USD,Common Stock,9.0,583.9299926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-03,META,US30303M1027,USD,Common Stock,9.0,531.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-04,META,US30303M1027,USD,Common Stock,9.0,504.7300109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-05,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-04-06,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-04-07,META,US30303M1027,USD,Common Stock,9.0,516.25,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-08,META,US30303M1027,USD,Common Stock,9.0,510.45001220703125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-09,META,US30303M1027,USD,Common Stock,9.0,585.77001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-10,META,US30303M1027,USD,Common Stock,9.0,546.2899780273438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-11,META,US30303M1027,USD,Common Stock,9.0,543.5700073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-12,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-04-13,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-04-14,META,US30303M1027,USD,Common Stock,9.0,531.47998046875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-15,META,US30303M1027,USD,Common Stock,9.0,521.52001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-16,META,US30303M1027,USD,Common Stock,9.0,502.30999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-17,META,US30303M1027,USD,Common Stock,9.0,501.4800109863281,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-18,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-04-19,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-04-20,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-04-21,META,US30303M1027,USD,Common Stock,9.0,484.6600036621094,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-22,META,US30303M1027,USD,Common Stock,9.0,500.2799987792969,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-23,META,US30303M1027,USD,Common Stock,9.0,520.27001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-24,META,US30303M1027,USD,Common Stock,9.0,533.1500244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-25,META,US30303M1027,USD,Common Stock,9.0,547.27001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-26,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-04-27,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-04-28,META,US30303M1027,USD,Common Stock,9.0,549.739990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-29,META,US30303M1027,USD,Common Stock,9.0,554.4400024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2025-04-30,META,US30303M1027,USD,Common Stock,9.0,549.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-01,META,US30303M1027,USD,Common Stock,9.0,572.2100219726562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-02,META,US30303M1027,USD,Common Stock,9.0,597.02001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-03,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-05-04,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-05-05,META,US30303M1027,USD,Common Stock,9.0,599.27001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-06,META,US30303M1027,USD,Common Stock,9.0,587.3099975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-07,META,US30303M1027,USD,Common Stock,9.0,596.8099975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-08,META,US30303M1027,USD,Common Stock,9.0,598.010009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-09,META,US30303M1027,USD,Common Stock,9.0,592.489990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-10,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-05-11,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-05-12,META,US30303M1027,USD,Common Stock,9.0,639.4299926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-13,META,US30303M1027,USD,Common Stock,9.0,656.030029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-14,META,US30303M1027,USD,Common Stock,9.0,659.3599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-15,META,US30303M1027,USD,Common Stock,9.0,643.8800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-16,META,US30303M1027,USD,Common Stock,9.0,640.3400268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-17,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-05-18,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-05-19,META,US30303M1027,USD,Common Stock,9.0,640.4299926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-20,META,US30303M1027,USD,Common Stock,9.0,637.0999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-21,META,US30303M1027,USD,Common Stock,9.0,635.5,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-22,META,US30303M1027,USD,Common Stock,9.0,636.5700073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-23,META,US30303M1027,USD,Common Stock,9.0,627.0599975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-24,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-05-25,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-05-26,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-05-27,META,US30303M1027,USD,Common Stock,9.0,642.3200073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-28,META,US30303M1027,USD,Common Stock,9.0,643.5800170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-29,META,US30303M1027,USD,Common Stock,9.0,645.0499877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-30,META,US30303M1027,USD,Common Stock,9.0,647.489990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-05-31,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-01,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-02,META,US30303M1027,USD,Common Stock,9.0,670.9000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-03,META,US30303M1027,USD,Common Stock,9.0,666.8499755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-04,META,US30303M1027,USD,Common Stock,9.0,687.9500122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-05,META,US30303M1027,USD,Common Stock,9.0,684.6199951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-06,META,US30303M1027,USD,Common Stock,9.0,697.7100219726562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-07,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-08,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-09,META,US30303M1027,USD,Common Stock,9.0,694.0599975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-10,META,US30303M1027,USD,Common Stock,9.0,702.4000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-11,META,US30303M1027,USD,Common Stock,9.0,694.1400146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-12,META,US30303M1027,USD,Common Stock,9.0,693.3599853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-13,META,US30303M1027,USD,Common Stock,9.0,682.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-14,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-15,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-16,META,US30303M1027,USD,Common Stock,9.0,702.1199951171875,,0.525,1.0,Communication Services,Internet Content & Information
+2025-06-17,META,US30303M1027,USD,Common Stock,9.0,697.22998046875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-18,META,US30303M1027,USD,Common Stock,9.0,695.77001953125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-19,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-20,META,US30303M1027,USD,Common Stock,9.0,682.3499755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-21,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-22,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-23,META,US30303M1027,USD,Common Stock,9.0,698.530029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-24,META,US30303M1027,USD,Common Stock,9.0,712.2000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-25,META,US30303M1027,USD,Common Stock,9.0,708.6799926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-26,META,US30303M1027,USD,Common Stock,9.0,726.0900268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-27,META,US30303M1027,USD,Common Stock,9.0,733.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-06-28,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-29,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-06-30,META,US30303M1027,USD,Common Stock,9.0,738.0900268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-01,META,US30303M1027,USD,Common Stock,9.0,719.219970703125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-02,META,US30303M1027,USD,Common Stock,9.0,713.5700073242188,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-03,META,US30303M1027,USD,Common Stock,9.0,719.010009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-04,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-07-05,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-07-06,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-07-07,META,US30303M1027,USD,Common Stock,9.0,718.3499755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-08,META,US30303M1027,USD,Common Stock,9.0,720.6699829101562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-09,META,US30303M1027,USD,Common Stock,9.0,732.780029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-10,META,US30303M1027,USD,Common Stock,9.0,727.239990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-11,META,US30303M1027,USD,Common Stock,9.0,717.510009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-12,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-07-13,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-07-14,META,US30303M1027,USD,Common Stock,9.0,720.9199829101562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-15,META,US30303M1027,USD,Common Stock,9.0,710.3900146484375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-16,META,US30303M1027,USD,Common Stock,9.0,702.9099731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-17,META,US30303M1027,USD,Common Stock,9.0,701.4099731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-18,META,US30303M1027,USD,Common Stock,9.0,704.280029296875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-19,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-07-20,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-07-21,META,US30303M1027,USD,Common Stock,9.0,712.969970703125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-22,META,US30303M1027,USD,Common Stock,9.0,704.8099975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-23,META,US30303M1027,USD,Common Stock,9.0,713.5800170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-24,META,US30303M1027,USD,Common Stock,9.0,714.7999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-25,META,US30303M1027,USD,Common Stock,9.0,712.6799926757812,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-26,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-07-27,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-07-28,META,US30303M1027,USD,Common Stock,9.0,717.6300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-29,META,US30303M1027,USD,Common Stock,9.0,700.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-30,META,US30303M1027,USD,Common Stock,9.0,695.2100219726562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-07-31,META,US30303M1027,USD,Common Stock,9.0,773.4400024414062,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-01,META,US30303M1027,USD,Common Stock,9.0,750.010009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-02,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-08-03,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-08-04,META,US30303M1027,USD,Common Stock,9.0,776.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-05,META,US30303M1027,USD,Common Stock,9.0,763.4600219726562,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-06,META,US30303M1027,USD,Common Stock,9.0,771.989990234375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-07,META,US30303M1027,USD,Common Stock,9.0,761.8300170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-08,META,US30303M1027,USD,Common Stock,9.0,769.2999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-09,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-08-10,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-08-11,META,US30303M1027,USD,Common Stock,9.0,765.8699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-12,META,US30303M1027,USD,Common Stock,9.0,790.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-13,META,US30303M1027,USD,Common Stock,9.0,780.0800170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-14,META,US30303M1027,USD,Common Stock,9.0,782.1300048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-15,META,US30303M1027,USD,Common Stock,9.0,785.22998046875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-16,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-08-17,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-08-18,META,US30303M1027,USD,Common Stock,9.0,767.3699951171875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-19,META,US30303M1027,USD,Common Stock,9.0,751.47998046875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-20,META,US30303M1027,USD,Common Stock,9.0,747.719970703125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-21,META,US30303M1027,USD,Common Stock,9.0,739.0999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-22,META,US30303M1027,USD,Common Stock,9.0,754.7899780273438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-23,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-08-24,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-08-25,META,US30303M1027,USD,Common Stock,9.0,753.2999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-26,META,US30303M1027,USD,Common Stock,9.0,754.0999755859375,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-27,META,US30303M1027,USD,Common Stock,9.0,747.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-28,META,US30303M1027,USD,Common Stock,9.0,751.1099853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-29,META,US30303M1027,USD,Common Stock,9.0,738.7000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-08-30,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-08-31,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-01,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-02,META,US30303M1027,USD,Common Stock,9.0,735.1099853515625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-03,META,US30303M1027,USD,Common Stock,9.0,737.0499877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-04,META,US30303M1027,USD,Common Stock,9.0,748.6500244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-05,META,US30303M1027,USD,Common Stock,9.0,752.4500122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-06,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-07,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-08,META,US30303M1027,USD,Common Stock,9.0,752.2999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-09,META,US30303M1027,USD,Common Stock,9.0,765.7000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-10,META,US30303M1027,USD,Common Stock,9.0,751.97998046875,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-11,META,US30303M1027,USD,Common Stock,9.0,750.9000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-12,META,US30303M1027,USD,Common Stock,9.0,755.5900268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-13,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-14,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-15,META,US30303M1027,USD,Common Stock,9.0,764.7000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-16,META,US30303M1027,USD,Common Stock,9.0,779.0,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-17,META,US30303M1027,USD,Common Stock,9.0,775.719970703125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-18,META,US30303M1027,USD,Common Stock,9.0,780.25,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-19,META,US30303M1027,USD,Common Stock,9.0,778.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-20,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-21,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-22,META,US30303M1027,USD,Common Stock,9.0,765.1599731445312,,0.525,1.0,Communication Services,Internet Content & Information
+2025-09-23,META,US30303M1027,USD,Common Stock,9.0,755.4000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-24,META,US30303M1027,USD,Common Stock,9.0,760.6599731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-25,META,US30303M1027,USD,Common Stock,9.0,748.9099731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-26,META,US30303M1027,USD,Common Stock,9.0,743.75,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-27,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-28,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-09-29,META,US30303M1027,USD,Common Stock,9.0,743.4000244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-09-30,META,US30303M1027,USD,Common Stock,9.0,734.3800048828125,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-01,META,US30303M1027,USD,Common Stock,9.0,717.3400268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-02,META,US30303M1027,USD,Common Stock,9.0,727.0499877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-03,META,US30303M1027,USD,Common Stock,9.0,710.5599975585938,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-04,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-10-05,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-10-06,META,US30303M1027,USD,Common Stock,9.0,715.6599731445312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-07,META,US30303M1027,USD,Common Stock,9.0,713.0800170898438,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-08,META,US30303M1027,USD,Common Stock,9.0,717.8400268554688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-09,META,US30303M1027,USD,Common Stock,9.0,733.510009765625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-10,META,US30303M1027,USD,Common Stock,9.0,705.2999877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-11,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-10-12,META,US30303M1027,USD,Common Stock,9.0,,,,,,
+2025-10-13,META,US30303M1027,USD,Common Stock,9.0,715.7000122070312,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-14,META,US30303M1027,USD,Common Stock,9.0,708.6500244140625,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-15,META,US30303M1027,USD,Common Stock,9.0,717.5499877929688,,0.0,1.0,Communication Services,Internet Content & Information
+2025-10-16,META,US30303M1027,USD,Common Stock,9.0,712.0700073242188,,0.0,1.0,Communication Services,Internet Content & Information

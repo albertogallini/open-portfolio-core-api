@@ -1,0 +1,181 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2021-01-14,ALB,US0126531013,USD,Common Stock,10.0,182.3699951171875,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-15,ALB,US0126531013,USD,Common Stock,10.0,180.13999938964844,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-16,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-01-17,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-01-18,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-01-19,ALB,US0126531013,USD,Common Stock,10.0,185.25,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-20,ALB,US0126531013,USD,Common Stock,10.0,180.19000244140625,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-21,ALB,US0126531013,USD,Common Stock,10.0,176.41000366210938,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-22,ALB,US0126531013,USD,Common Stock,10.0,173.7100067138672,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-23,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-01-24,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-01-25,ALB,US0126531013,USD,Common Stock,10.0,176.9199981689453,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-26,ALB,US0126531013,USD,Common Stock,10.0,175.3800048828125,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-27,ALB,US0126531013,USD,Common Stock,10.0,168.85000610351562,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-28,ALB,US0126531013,USD,Common Stock,10.0,166.3699951171875,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-29,ALB,US0126531013,USD,Common Stock,10.0,162.66000366210938,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-01-30,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-01-31,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-02-01,ALB,US0126531013,USD,Common Stock,10.0,166.3699951171875,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-02,ALB,US0126531013,USD,Common Stock,10.0,169.25,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-03,ALB,US0126531013,USD,Common Stock,10.0,161.8800048828125,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-04,ALB,US0126531013,USD,Common Stock,10.0,154.89999389648438,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-05,ALB,US0126531013,USD,Common Stock,10.0,157.1699981689453,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-06,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-02-07,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-02-08,ALB,US0126531013,USD,Common Stock,10.0,161.55999755859375,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-09,ALB,US0126531013,USD,Common Stock,10.0,158.69000244140625,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-10,ALB,US0126531013,USD,Common Stock,10.0,156.0500030517578,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-11,ALB,US0126531013,USD,Common Stock,10.0,159.85000610351562,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-12,ALB,US0126531013,USD,Common Stock,10.0,164.63999938964844,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-13,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-02-14,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-02-15,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-02-16,ALB,US0126531013,USD,Common Stock,10.0,162.1999969482422,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-17,ALB,US0126531013,USD,Common Stock,10.0,157.47000122070312,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-18,ALB,US0126531013,USD,Common Stock,10.0,141.4600067138672,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-19,ALB,US0126531013,USD,Common Stock,10.0,156.1699981689453,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-20,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-02-21,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-02-22,ALB,US0126531013,USD,Common Stock,10.0,156.49000549316406,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-23,ALB,US0126531013,USD,Common Stock,10.0,154.6199951171875,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-24,ALB,US0126531013,USD,Common Stock,10.0,160.89999389648438,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-25,ALB,US0126531013,USD,Common Stock,10.0,153.47999572753906,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-26,ALB,US0126531013,USD,Common Stock,10.0,157.2100067138672,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-02-27,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-02-28,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-03-01,ALB,US0126531013,USD,Common Stock,10.0,152.9499969482422,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-02,ALB,US0126531013,USD,Common Stock,10.0,153.72000122070312,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-03,ALB,US0126531013,USD,Common Stock,10.0,147.0,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-04,ALB,US0126531013,USD,Common Stock,10.0,141.50999450683594,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-05,ALB,US0126531013,USD,Common Stock,10.0,143.8800048828125,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-06,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-03-07,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-03-08,ALB,US0126531013,USD,Common Stock,10.0,140.69000244140625,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-09,ALB,US0126531013,USD,Common Stock,10.0,145.77000427246094,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-10,ALB,US0126531013,USD,Common Stock,10.0,152.3000030517578,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-11,ALB,US0126531013,USD,Common Stock,10.0,161.27000427246094,,0.39,1.0,Basic Materials,Specialty Chemicals
+2021-03-12,ALB,US0126531013,USD,Common Stock,10.0,157.27999877929688,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-13,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-03-14,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-03-15,ALB,US0126531013,USD,Common Stock,10.0,158.8300018310547,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-16,ALB,US0126531013,USD,Common Stock,10.0,155.36000061035156,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-17,ALB,US0126531013,USD,Common Stock,10.0,155.91000366210938,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-18,ALB,US0126531013,USD,Common Stock,10.0,152.52000427246094,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-19,ALB,US0126531013,USD,Common Stock,10.0,151.5,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-20,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-03-21,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-03-22,ALB,US0126531013,USD,Common Stock,10.0,152.14999389648438,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-23,ALB,US0126531013,USD,Common Stock,10.0,146.47000122070312,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-24,ALB,US0126531013,USD,Common Stock,10.0,146.6300048828125,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-25,ALB,US0126531013,USD,Common Stock,10.0,148.92999267578125,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-26,ALB,US0126531013,USD,Common Stock,10.0,150.39999389648438,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-27,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-03-28,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-03-29,ALB,US0126531013,USD,Common Stock,10.0,146.41000366210938,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-30,ALB,US0126531013,USD,Common Stock,10.0,145.38999938964844,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-03-31,ALB,US0126531013,USD,Common Stock,10.0,146.11000061035156,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-01,ALB,US0126531013,USD,Common Stock,10.0,150.74000549316406,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-02,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-04-03,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-04-04,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-04-05,ALB,US0126531013,USD,Common Stock,10.0,150.22000122070312,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-06,ALB,US0126531013,USD,Common Stock,10.0,152.88999938964844,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-07,ALB,US0126531013,USD,Common Stock,10.0,143.6999969482422,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-08,ALB,US0126531013,USD,Common Stock,10.0,146.1699981689453,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-09,ALB,US0126531013,USD,Common Stock,10.0,147.32000732421875,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-10,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-04-11,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-04-12,ALB,US0126531013,USD,Common Stock,10.0,147.7100067138672,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-13,ALB,US0126531013,USD,Common Stock,10.0,148.5800018310547,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-14,ALB,US0126531013,USD,Common Stock,10.0,152.92999267578125,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-15,ALB,US0126531013,USD,Common Stock,10.0,150.50999450683594,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-16,ALB,US0126531013,USD,Common Stock,10.0,152.02999877929688,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-17,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-04-18,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-04-19,ALB,US0126531013,USD,Common Stock,10.0,157.5,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-20,ALB,US0126531013,USD,Common Stock,10.0,148.52000427246094,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-21,ALB,US0126531013,USD,Common Stock,10.0,153.0500030517578,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-22,ALB,US0126531013,USD,Common Stock,10.0,155.8000030517578,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-23,ALB,US0126531013,USD,Common Stock,10.0,161.22999572753906,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-24,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-04-25,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-04-26,ALB,US0126531013,USD,Common Stock,10.0,170.57000732421875,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-27,ALB,US0126531013,USD,Common Stock,10.0,169.75,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-28,ALB,US0126531013,USD,Common Stock,10.0,169.39999389648438,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-29,ALB,US0126531013,USD,Common Stock,10.0,167.6199951171875,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-04-30,ALB,US0126531013,USD,Common Stock,10.0,168.1699981689453,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-01,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-02,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-03,ALB,US0126531013,USD,Common Stock,10.0,165.99000549316406,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-04,ALB,US0126531013,USD,Common Stock,10.0,162.11000061035156,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-05,ALB,US0126531013,USD,Common Stock,10.0,167.14999389648438,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-06,ALB,US0126531013,USD,Common Stock,10.0,152.85000610351562,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-07,ALB,US0126531013,USD,Common Stock,10.0,162.72000122070312,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-08,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-09,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-10,ALB,US0126531013,USD,Common Stock,10.0,159.47999572753906,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-11,ALB,US0126531013,USD,Common Stock,10.0,160.5,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-12,ALB,US0126531013,USD,Common Stock,10.0,154.60000610351562,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-13,ALB,US0126531013,USD,Common Stock,10.0,157.69000244140625,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-14,ALB,US0126531013,USD,Common Stock,10.0,163.80999755859375,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-15,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-16,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-17,ALB,US0126531013,USD,Common Stock,10.0,157.7899932861328,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-18,ALB,US0126531013,USD,Common Stock,10.0,159.35000610351562,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-19,ALB,US0126531013,USD,Common Stock,10.0,156.97999572753906,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-20,ALB,US0126531013,USD,Common Stock,10.0,157.99000549316406,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-21,ALB,US0126531013,USD,Common Stock,10.0,159.5800018310547,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-22,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-23,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-24,ALB,US0126531013,USD,Common Stock,10.0,159.58999633789062,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-25,ALB,US0126531013,USD,Common Stock,10.0,158.02000427246094,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-26,ALB,US0126531013,USD,Common Stock,10.0,162.1999969482422,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-27,ALB,US0126531013,USD,Common Stock,10.0,168.55999755859375,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-28,ALB,US0126531013,USD,Common Stock,10.0,167.0800018310547,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-05-29,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-30,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-05-31,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-06-01,ALB,US0126531013,USD,Common Stock,10.0,171.42999267578125,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-02,ALB,US0126531013,USD,Common Stock,10.0,170.36000061035156,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-03,ALB,US0126531013,USD,Common Stock,10.0,168.1699981689453,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-04,ALB,US0126531013,USD,Common Stock,10.0,173.5399932861328,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-05,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-06-06,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-06-07,ALB,US0126531013,USD,Common Stock,10.0,170.77999877929688,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-08,ALB,US0126531013,USD,Common Stock,10.0,176.00999450683594,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-09,ALB,US0126531013,USD,Common Stock,10.0,174.3699951171875,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-10,ALB,US0126531013,USD,Common Stock,10.0,167.77999877929688,,0.39,1.0,Basic Materials,Specialty Chemicals
+2021-06-11,ALB,US0126531013,USD,Common Stock,10.0,170.17999267578125,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-12,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-06-13,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-06-14,ALB,US0126531013,USD,Common Stock,10.0,168.33999633789062,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-15,ALB,US0126531013,USD,Common Stock,10.0,166.02999877929688,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-16,ALB,US0126531013,USD,Common Stock,10.0,165.27999877929688,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-17,ALB,US0126531013,USD,Common Stock,10.0,163.8699951171875,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-18,ALB,US0126531013,USD,Common Stock,10.0,157.97000122070312,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-19,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-06-20,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-06-21,ALB,US0126531013,USD,Common Stock,10.0,161.41000366210938,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-22,ALB,US0126531013,USD,Common Stock,10.0,161.5800018310547,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-23,ALB,US0126531013,USD,Common Stock,10.0,163.6699981689453,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-24,ALB,US0126531013,USD,Common Stock,10.0,165.97000122070312,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-25,ALB,US0126531013,USD,Common Stock,10.0,166.77000427246094,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-26,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-06-27,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-06-28,ALB,US0126531013,USD,Common Stock,10.0,169.0500030517578,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-29,ALB,US0126531013,USD,Common Stock,10.0,167.5399932861328,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-06-30,ALB,US0126531013,USD,Common Stock,10.0,168.4600067138672,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-07-01,ALB,US0126531013,USD,Common Stock,10.0,172.02999877929688,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-07-02,ALB,US0126531013,USD,Common Stock,10.0,170.64999389648438,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-07-03,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-07-04,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-07-05,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-07-06,ALB,US0126531013,USD,Common Stock,10.0,168.55999755859375,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-07-07,ALB,US0126531013,USD,Common Stock,10.0,170.0399932861328,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-07-08,ALB,US0126531013,USD,Common Stock,10.0,167.91000366210938,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-07-09,ALB,US0126531013,USD,Common Stock,10.0,175.50999450683594,,0.0,1.0,Basic Materials,Specialty Chemicals
+2021-07-10,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-07-11,ALB,US0126531013,USD,Common Stock,10.0,,,,,,
+2021-07-12,ALB,US0126531013,USD,Common Stock,0.0,187.49000549316406,,0.0,1.0,Basic Materials,Specialty Chemicals

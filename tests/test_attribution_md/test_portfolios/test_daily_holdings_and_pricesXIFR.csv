@@ -1,0 +1,9 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2023-12-04,XIFR,US65341B1061,USD,Common Stock,35.0,24.209999084472656,,0.0,1.0,Utilities,Utilities - Renewable
+2023-12-05,XIFR,US65341B1061,USD,Common Stock,35.0,24.989999771118164,,0.0,1.0,Utilities,Utilities - Renewable
+2023-12-06,XIFR,US65341B1061,USD,Common Stock,35.0,26.559999465942383,,0.0,1.0,Utilities,Utilities - Renewable
+2023-12-07,XIFR,US65341B1061,USD,Common Stock,35.0,26.100000381469727,,0.0,1.0,Utilities,Utilities - Renewable
+2023-12-08,XIFR,US65341B1061,USD,Common Stock,35.0,25.989999771118164,,0.0,1.0,Utilities,Utilities - Renewable
+2023-12-09,XIFR,US65341B1061,USD,Common Stock,35.0,,,,,,
+2023-12-10,XIFR,US65341B1061,USD,Common Stock,35.0,,,,,,
+2023-12-11,XIFR,US65341B1061,USD,Common Stock,0.0,26.809999465942383,,0.0,1.0,Utilities,Utilities - Renewable

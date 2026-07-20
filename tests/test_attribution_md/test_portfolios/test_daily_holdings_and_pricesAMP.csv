@@ -1,0 +1,276 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2020-01-21,AMP,US03076C1062,USD,Common Stock,15.0,170.25,,0.0,1.0,Financial Services,Asset Management
+2020-01-22,AMP,US03076C1062,USD,Common Stock,15.0,171.13999938964844,,0.0,1.0,Financial Services,Asset Management
+2020-01-23,AMP,US03076C1062,USD,Common Stock,15.0,171.3800048828125,,0.0,1.0,Financial Services,Asset Management
+2020-01-24,AMP,US03076C1062,USD,Common Stock,15.0,167.57000732421875,,0.0,1.0,Financial Services,Asset Management
+2020-01-25,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-01-26,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-01-27,AMP,US03076C1062,USD,Common Stock,15.0,162.39999389648438,,0.0,1.0,Financial Services,Asset Management
+2020-01-28,AMP,US03076C1062,USD,Common Stock,15.0,165.1199951171875,,0.0,1.0,Financial Services,Asset Management
+2020-01-29,AMP,US03076C1062,USD,Common Stock,15.0,166.0399932861328,,0.0,1.0,Financial Services,Asset Management
+2020-01-30,AMP,US03076C1062,USD,Common Stock,15.0,170.50999450683594,,0.0,1.0,Financial Services,Asset Management
+2020-01-31,AMP,US03076C1062,USD,Common Stock,15.0,165.41000366210938,,0.0,1.0,Financial Services,Asset Management
+2020-02-01,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-02-02,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-02-03,AMP,US03076C1062,USD,Common Stock,15.0,167.4600067138672,,0.0,1.0,Financial Services,Asset Management
+2020-02-04,AMP,US03076C1062,USD,Common Stock,15.0,173.27999877929688,,0.0,1.0,Financial Services,Asset Management
+2020-02-05,AMP,US03076C1062,USD,Common Stock,15.0,176.05999755859375,,0.0,1.0,Financial Services,Asset Management
+2020-02-06,AMP,US03076C1062,USD,Common Stock,15.0,175.91000366210938,,0.0,1.0,Financial Services,Asset Management
+2020-02-07,AMP,US03076C1062,USD,Common Stock,15.0,175.32000732421875,,0.0,1.0,Financial Services,Asset Management
+2020-02-08,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-02-09,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-02-10,AMP,US03076C1062,USD,Common Stock,15.0,175.77000427246094,,0.0,1.0,Financial Services,Asset Management
+2020-02-11,AMP,US03076C1062,USD,Common Stock,15.0,177.6300048828125,,0.0,1.0,Financial Services,Asset Management
+2020-02-12,AMP,US03076C1062,USD,Common Stock,15.0,178.63999938964844,,0.0,1.0,Financial Services,Asset Management
+2020-02-13,AMP,US03076C1062,USD,Common Stock,15.0,178.39999389648438,,0.97,1.0,Financial Services,Asset Management
+2020-02-14,AMP,US03076C1062,USD,Common Stock,15.0,178.82000732421875,,0.0,1.0,Financial Services,Asset Management
+2020-02-15,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-02-16,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-02-17,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-02-18,AMP,US03076C1062,USD,Common Stock,15.0,177.2899932861328,,0.0,1.0,Financial Services,Asset Management
+2020-02-19,AMP,US03076C1062,USD,Common Stock,15.0,179.0399932861328,,0.0,1.0,Financial Services,Asset Management
+2020-02-20,AMP,US03076C1062,USD,Common Stock,15.0,179.72000122070312,,0.0,1.0,Financial Services,Asset Management
+2020-02-21,AMP,US03076C1062,USD,Common Stock,15.0,175.42999267578125,,0.0,1.0,Financial Services,Asset Management
+2020-02-22,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-02-23,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-02-24,AMP,US03076C1062,USD,Common Stock,15.0,164.47000122070312,,0.0,1.0,Financial Services,Asset Management
+2020-02-25,AMP,US03076C1062,USD,Common Stock,15.0,156.22999572753906,,0.0,1.0,Financial Services,Asset Management
+2020-02-26,AMP,US03076C1062,USD,Common Stock,15.0,156.0,,0.0,1.0,Financial Services,Asset Management
+2020-02-27,AMP,US03076C1062,USD,Common Stock,15.0,146.17999267578125,,0.0,1.0,Financial Services,Asset Management
+2020-02-28,AMP,US03076C1062,USD,Common Stock,15.0,141.3000030517578,,0.0,1.0,Financial Services,Asset Management
+2020-02-29,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-01,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-02,AMP,US03076C1062,USD,Common Stock,15.0,150.86000061035156,,0.0,1.0,Financial Services,Asset Management
+2020-03-03,AMP,US03076C1062,USD,Common Stock,15.0,140.55999755859375,,0.0,1.0,Financial Services,Asset Management
+2020-03-04,AMP,US03076C1062,USD,Common Stock,15.0,144.4600067138672,,0.0,1.0,Financial Services,Asset Management
+2020-03-05,AMP,US03076C1062,USD,Common Stock,15.0,134.50999450683594,,0.0,1.0,Financial Services,Asset Management
+2020-03-06,AMP,US03076C1062,USD,Common Stock,15.0,126.5999984741211,,0.0,1.0,Financial Services,Asset Management
+2020-03-07,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-08,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-09,AMP,US03076C1062,USD,Common Stock,15.0,109.12999725341797,,0.0,1.0,Financial Services,Asset Management
+2020-03-10,AMP,US03076C1062,USD,Common Stock,15.0,119.27999877929688,,0.0,1.0,Financial Services,Asset Management
+2020-03-11,AMP,US03076C1062,USD,Common Stock,15.0,110.77999877929688,,0.0,1.0,Financial Services,Asset Management
+2020-03-12,AMP,US03076C1062,USD,Common Stock,15.0,92.41999816894531,,0.0,1.0,Financial Services,Asset Management
+2020-03-13,AMP,US03076C1062,USD,Common Stock,15.0,113.33999633789062,,0.0,1.0,Financial Services,Asset Management
+2020-03-14,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-15,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-16,AMP,US03076C1062,USD,Common Stock,15.0,86.33999633789062,,0.0,1.0,Financial Services,Asset Management
+2020-03-17,AMP,US03076C1062,USD,Common Stock,15.0,97.94000244140625,,0.0,1.0,Financial Services,Asset Management
+2020-03-18,AMP,US03076C1062,USD,Common Stock,15.0,93.91000366210938,,0.0,1.0,Financial Services,Asset Management
+2020-03-19,AMP,US03076C1062,USD,Common Stock,15.0,95.43000030517578,,0.0,1.0,Financial Services,Asset Management
+2020-03-20,AMP,US03076C1062,USD,Common Stock,15.0,89.83000183105469,,0.0,1.0,Financial Services,Asset Management
+2020-03-21,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-22,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-23,AMP,US03076C1062,USD,Common Stock,15.0,82.87999725341797,,0.0,1.0,Financial Services,Asset Management
+2020-03-24,AMP,US03076C1062,USD,Common Stock,15.0,100.05999755859375,,0.0,1.0,Financial Services,Asset Management
+2020-03-25,AMP,US03076C1062,USD,Common Stock,15.0,103.5999984741211,,0.0,1.0,Financial Services,Asset Management
+2020-03-26,AMP,US03076C1062,USD,Common Stock,15.0,110.87000274658203,,0.0,1.0,Financial Services,Asset Management
+2020-03-27,AMP,US03076C1062,USD,Common Stock,15.0,103.33000183105469,,0.0,1.0,Financial Services,Asset Management
+2020-03-28,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-29,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-03-30,AMP,US03076C1062,USD,Common Stock,15.0,109.1500015258789,,0.0,1.0,Financial Services,Asset Management
+2020-03-31,AMP,US03076C1062,USD,Common Stock,15.0,102.4800033569336,,0.0,1.0,Financial Services,Asset Management
+2020-04-01,AMP,US03076C1062,USD,Common Stock,15.0,94.30999755859375,,0.0,1.0,Financial Services,Asset Management
+2020-04-02,AMP,US03076C1062,USD,Common Stock,15.0,94.05000305175781,,0.0,1.0,Financial Services,Asset Management
+2020-04-03,AMP,US03076C1062,USD,Common Stock,15.0,90.31999969482422,,0.0,1.0,Financial Services,Asset Management
+2020-04-04,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-04-05,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-04-06,AMP,US03076C1062,USD,Common Stock,15.0,102.58000183105469,,0.0,1.0,Financial Services,Asset Management
+2020-04-07,AMP,US03076C1062,USD,Common Stock,15.0,103.4800033569336,,0.0,1.0,Financial Services,Asset Management
+2020-04-08,AMP,US03076C1062,USD,Common Stock,15.0,111.69000244140625,,0.0,1.0,Financial Services,Asset Management
+2020-04-09,AMP,US03076C1062,USD,Common Stock,15.0,120.47000122070312,,0.0,1.0,Financial Services,Asset Management
+2020-04-10,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-04-11,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-04-12,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-04-13,AMP,US03076C1062,USD,Common Stock,15.0,114.91999816894531,,0.0,1.0,Financial Services,Asset Management
+2020-04-14,AMP,US03076C1062,USD,Common Stock,15.0,114.30000305175781,,0.0,1.0,Financial Services,Asset Management
+2020-04-15,AMP,US03076C1062,USD,Common Stock,15.0,104.1500015258789,,0.0,1.0,Financial Services,Asset Management
+2020-04-16,AMP,US03076C1062,USD,Common Stock,15.0,101.69000244140625,,0.0,1.0,Financial Services,Asset Management
+2020-04-17,AMP,US03076C1062,USD,Common Stock,15.0,110.94999694824219,,0.0,1.0,Financial Services,Asset Management
+2020-04-18,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-04-19,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-04-20,AMP,US03076C1062,USD,Common Stock,15.0,110.11000061035156,,0.0,1.0,Financial Services,Asset Management
+2020-04-21,AMP,US03076C1062,USD,Common Stock,15.0,103.44999694824219,,0.0,1.0,Financial Services,Asset Management
+2020-04-22,AMP,US03076C1062,USD,Common Stock,15.0,104.91000366210938,,0.0,1.0,Financial Services,Asset Management
+2020-04-23,AMP,US03076C1062,USD,Common Stock,15.0,104.3499984741211,,0.0,1.0,Financial Services,Asset Management
+2020-04-24,AMP,US03076C1062,USD,Common Stock,15.0,107.4800033569336,,0.0,1.0,Financial Services,Asset Management
+2020-04-25,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-04-26,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-04-27,AMP,US03076C1062,USD,Common Stock,15.0,112.44999694824219,,0.0,1.0,Financial Services,Asset Management
+2020-04-28,AMP,US03076C1062,USD,Common Stock,15.0,113.4800033569336,,0.0,1.0,Financial Services,Asset Management
+2020-04-29,AMP,US03076C1062,USD,Common Stock,15.0,118.0199966430664,,0.0,1.0,Financial Services,Asset Management
+2020-04-30,AMP,US03076C1062,USD,Common Stock,15.0,114.94000244140625,,0.0,1.0,Financial Services,Asset Management
+2020-05-01,AMP,US03076C1062,USD,Common Stock,15.0,111.26000213623047,,0.0,1.0,Financial Services,Asset Management
+2020-05-02,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-03,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-04,AMP,US03076C1062,USD,Common Stock,15.0,113.05999755859375,,0.0,1.0,Financial Services,Asset Management
+2020-05-05,AMP,US03076C1062,USD,Common Stock,15.0,110.7300033569336,,0.0,1.0,Financial Services,Asset Management
+2020-05-06,AMP,US03076C1062,USD,Common Stock,15.0,107.27999877929688,,0.0,1.0,Financial Services,Asset Management
+2020-05-07,AMP,US03076C1062,USD,Common Stock,15.0,121.7300033569336,,0.0,1.0,Financial Services,Asset Management
+2020-05-08,AMP,US03076C1062,USD,Common Stock,15.0,125.61000061035156,,0.0,1.0,Financial Services,Asset Management
+2020-05-09,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-10,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-11,AMP,US03076C1062,USD,Common Stock,15.0,123.87000274658203,,0.0,1.0,Financial Services,Asset Management
+2020-05-12,AMP,US03076C1062,USD,Common Stock,15.0,121.1500015258789,,0.0,1.0,Financial Services,Asset Management
+2020-05-13,AMP,US03076C1062,USD,Common Stock,15.0,117.37000274658203,,0.0,1.0,Financial Services,Asset Management
+2020-05-14,AMP,US03076C1062,USD,Common Stock,15.0,122.5999984741211,,0.0,1.0,Financial Services,Asset Management
+2020-05-15,AMP,US03076C1062,USD,Common Stock,15.0,121.9800033569336,,1.04,1.0,Financial Services,Asset Management
+2020-05-16,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-17,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-18,AMP,US03076C1062,USD,Common Stock,15.0,131.92999267578125,,0.0,1.0,Financial Services,Asset Management
+2020-05-19,AMP,US03076C1062,USD,Common Stock,15.0,128.5399932861328,,0.0,1.0,Financial Services,Asset Management
+2020-05-20,AMP,US03076C1062,USD,Common Stock,15.0,131.6300048828125,,0.0,1.0,Financial Services,Asset Management
+2020-05-21,AMP,US03076C1062,USD,Common Stock,15.0,132.1199951171875,,0.0,1.0,Financial Services,Asset Management
+2020-05-22,AMP,US03076C1062,USD,Common Stock,15.0,132.4600067138672,,0.0,1.0,Financial Services,Asset Management
+2020-05-23,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-24,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-25,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-26,AMP,US03076C1062,USD,Common Stock,15.0,140.0399932861328,,0.0,1.0,Financial Services,Asset Management
+2020-05-27,AMP,US03076C1062,USD,Common Stock,15.0,146.22000122070312,,0.0,1.0,Financial Services,Asset Management
+2020-05-28,AMP,US03076C1062,USD,Common Stock,15.0,143.63999938964844,,0.0,1.0,Financial Services,Asset Management
+2020-05-29,AMP,US03076C1062,USD,Common Stock,15.0,140.07000732421875,,0.0,1.0,Financial Services,Asset Management
+2020-05-30,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-05-31,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-06-01,AMP,US03076C1062,USD,Common Stock,15.0,143.94000244140625,,0.0,1.0,Financial Services,Asset Management
+2020-06-02,AMP,US03076C1062,USD,Common Stock,15.0,146.39999389648438,,0.0,1.0,Financial Services,Asset Management
+2020-06-03,AMP,US03076C1062,USD,Common Stock,15.0,151.47999572753906,,0.0,1.0,Financial Services,Asset Management
+2020-06-04,AMP,US03076C1062,USD,Common Stock,15.0,153.1199951171875,,0.0,1.0,Financial Services,Asset Management
+2020-06-05,AMP,US03076C1062,USD,Common Stock,15.0,155.57000732421875,,0.0,1.0,Financial Services,Asset Management
+2020-06-06,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-06-07,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-06-08,AMP,US03076C1062,USD,Common Stock,15.0,162.6999969482422,,0.0,1.0,Financial Services,Asset Management
+2020-06-09,AMP,US03076C1062,USD,Common Stock,15.0,159.58999633789062,,0.0,1.0,Financial Services,Asset Management
+2020-06-10,AMP,US03076C1062,USD,Common Stock,15.0,154.0500030517578,,0.0,1.0,Financial Services,Asset Management
+2020-06-11,AMP,US03076C1062,USD,Common Stock,15.0,139.08999633789062,,0.0,1.0,Financial Services,Asset Management
+2020-06-12,AMP,US03076C1062,USD,Common Stock,15.0,146.63999938964844,,0.0,1.0,Financial Services,Asset Management
+2020-06-13,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-06-14,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-06-15,AMP,US03076C1062,USD,Common Stock,15.0,150.17999267578125,,0.0,1.0,Financial Services,Asset Management
+2020-06-16,AMP,US03076C1062,USD,Common Stock,15.0,153.50999450683594,,0.0,1.0,Financial Services,Asset Management
+2020-06-17,AMP,US03076C1062,USD,Common Stock,15.0,149.69000244140625,,0.0,1.0,Financial Services,Asset Management
+2020-06-18,AMP,US03076C1062,USD,Common Stock,15.0,150.52999877929688,,0.0,1.0,Financial Services,Asset Management
+2020-06-19,AMP,US03076C1062,USD,Common Stock,15.0,148.35000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-06-20,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-06-21,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-06-22,AMP,US03076C1062,USD,Common Stock,15.0,148.27999877929688,,0.0,1.0,Financial Services,Asset Management
+2020-06-23,AMP,US03076C1062,USD,Common Stock,15.0,148.61000061035156,,0.0,1.0,Financial Services,Asset Management
+2020-06-24,AMP,US03076C1062,USD,Common Stock,15.0,142.9600067138672,,0.0,1.0,Financial Services,Asset Management
+2020-06-25,AMP,US03076C1062,USD,Common Stock,15.0,151.5500030517578,,0.0,1.0,Financial Services,Asset Management
+2020-06-26,AMP,US03076C1062,USD,Common Stock,15.0,147.02999877929688,,0.0,1.0,Financial Services,Asset Management
+2020-06-27,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-06-28,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-06-29,AMP,US03076C1062,USD,Common Stock,15.0,148.36000061035156,,0.0,1.0,Financial Services,Asset Management
+2020-06-30,AMP,US03076C1062,USD,Common Stock,15.0,150.0399932861328,,0.0,1.0,Financial Services,Asset Management
+2020-07-01,AMP,US03076C1062,USD,Common Stock,15.0,145.8300018310547,,0.0,1.0,Financial Services,Asset Management
+2020-07-02,AMP,US03076C1062,USD,Common Stock,15.0,145.4499969482422,,0.0,1.0,Financial Services,Asset Management
+2020-07-03,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-07-04,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-07-05,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-07-06,AMP,US03076C1062,USD,Common Stock,15.0,150.1999969482422,,0.0,1.0,Financial Services,Asset Management
+2020-07-07,AMP,US03076C1062,USD,Common Stock,15.0,146.1300048828125,,0.0,1.0,Financial Services,Asset Management
+2020-07-08,AMP,US03076C1062,USD,Common Stock,15.0,148.41000366210938,,0.0,1.0,Financial Services,Asset Management
+2020-07-09,AMP,US03076C1062,USD,Common Stock,15.0,143.2899932861328,,0.0,1.0,Financial Services,Asset Management
+2020-07-10,AMP,US03076C1062,USD,Common Stock,15.0,148.5800018310547,,0.0,1.0,Financial Services,Asset Management
+2020-07-11,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-07-12,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-07-13,AMP,US03076C1062,USD,Common Stock,15.0,147.99000549316406,,0.0,1.0,Financial Services,Asset Management
+2020-07-14,AMP,US03076C1062,USD,Common Stock,15.0,149.8000030517578,,0.0,1.0,Financial Services,Asset Management
+2020-07-15,AMP,US03076C1062,USD,Common Stock,15.0,154.10000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-07-16,AMP,US03076C1062,USD,Common Stock,15.0,152.88999938964844,,0.0,1.0,Financial Services,Asset Management
+2020-07-17,AMP,US03076C1062,USD,Common Stock,15.0,153.3699951171875,,0.0,1.0,Financial Services,Asset Management
+2020-07-18,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-07-19,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-07-20,AMP,US03076C1062,USD,Common Stock,15.0,154.3800048828125,,0.0,1.0,Financial Services,Asset Management
+2020-07-21,AMP,US03076C1062,USD,Common Stock,15.0,157.3300018310547,,0.0,1.0,Financial Services,Asset Management
+2020-07-22,AMP,US03076C1062,USD,Common Stock,15.0,157.9600067138672,,0.0,1.0,Financial Services,Asset Management
+2020-07-23,AMP,US03076C1062,USD,Common Stock,15.0,156.80999755859375,,0.0,1.0,Financial Services,Asset Management
+2020-07-24,AMP,US03076C1062,USD,Common Stock,15.0,155.25999450683594,,0.0,1.0,Financial Services,Asset Management
+2020-07-25,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-07-26,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-07-27,AMP,US03076C1062,USD,Common Stock,15.0,156.33999633789062,,0.0,1.0,Financial Services,Asset Management
+2020-07-28,AMP,US03076C1062,USD,Common Stock,15.0,154.0500030517578,,0.0,1.0,Financial Services,Asset Management
+2020-07-29,AMP,US03076C1062,USD,Common Stock,15.0,156.91000366210938,,0.0,1.0,Financial Services,Asset Management
+2020-07-30,AMP,US03076C1062,USD,Common Stock,15.0,152.0399932861328,,0.0,1.0,Financial Services,Asset Management
+2020-07-31,AMP,US03076C1062,USD,Common Stock,15.0,153.6300048828125,,0.0,1.0,Financial Services,Asset Management
+2020-08-01,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-02,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-03,AMP,US03076C1062,USD,Common Stock,15.0,155.69000244140625,,0.0,1.0,Financial Services,Asset Management
+2020-08-04,AMP,US03076C1062,USD,Common Stock,15.0,153.4199981689453,,0.0,1.0,Financial Services,Asset Management
+2020-08-05,AMP,US03076C1062,USD,Common Stock,15.0,156.1699981689453,,0.0,1.0,Financial Services,Asset Management
+2020-08-06,AMP,US03076C1062,USD,Common Stock,15.0,155.85000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-08-07,AMP,US03076C1062,USD,Common Stock,15.0,159.83999633789062,,1.04,1.0,Financial Services,Asset Management
+2020-08-08,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-09,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-10,AMP,US03076C1062,USD,Common Stock,15.0,160.8300018310547,,0.0,1.0,Financial Services,Asset Management
+2020-08-11,AMP,US03076C1062,USD,Common Stock,15.0,162.5500030517578,,0.0,1.0,Financial Services,Asset Management
+2020-08-12,AMP,US03076C1062,USD,Common Stock,15.0,161.0800018310547,,0.0,1.0,Financial Services,Asset Management
+2020-08-13,AMP,US03076C1062,USD,Common Stock,15.0,159.0,,0.0,1.0,Financial Services,Asset Management
+2020-08-14,AMP,US03076C1062,USD,Common Stock,15.0,159.66000366210938,,0.0,1.0,Financial Services,Asset Management
+2020-08-15,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-16,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-17,AMP,US03076C1062,USD,Common Stock,15.0,157.8300018310547,,0.0,1.0,Financial Services,Asset Management
+2020-08-18,AMP,US03076C1062,USD,Common Stock,15.0,156.5,,0.0,1.0,Financial Services,Asset Management
+2020-08-19,AMP,US03076C1062,USD,Common Stock,15.0,156.85000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-08-20,AMP,US03076C1062,USD,Common Stock,15.0,155.13999938964844,,0.0,1.0,Financial Services,Asset Management
+2020-08-21,AMP,US03076C1062,USD,Common Stock,15.0,154.50999450683594,,0.0,1.0,Financial Services,Asset Management
+2020-08-22,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-23,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-24,AMP,US03076C1062,USD,Common Stock,15.0,157.72000122070312,,0.0,1.0,Financial Services,Asset Management
+2020-08-25,AMP,US03076C1062,USD,Common Stock,15.0,156.99000549316406,,0.0,1.0,Financial Services,Asset Management
+2020-08-26,AMP,US03076C1062,USD,Common Stock,15.0,155.74000549316406,,0.0,1.0,Financial Services,Asset Management
+2020-08-27,AMP,US03076C1062,USD,Common Stock,15.0,159.10000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-08-28,AMP,US03076C1062,USD,Common Stock,15.0,158.88999938964844,,0.0,1.0,Financial Services,Asset Management
+2020-08-29,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-30,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-08-31,AMP,US03076C1062,USD,Common Stock,15.0,156.8000030517578,,0.0,1.0,Financial Services,Asset Management
+2020-09-01,AMP,US03076C1062,USD,Common Stock,15.0,157.16000366210938,,0.0,1.0,Financial Services,Asset Management
+2020-09-02,AMP,US03076C1062,USD,Common Stock,15.0,159.72999572753906,,0.0,1.0,Financial Services,Asset Management
+2020-09-03,AMP,US03076C1062,USD,Common Stock,15.0,156.33999633789062,,0.0,1.0,Financial Services,Asset Management
+2020-09-04,AMP,US03076C1062,USD,Common Stock,15.0,156.5399932861328,,0.0,1.0,Financial Services,Asset Management
+2020-09-05,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-09-06,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-09-07,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-09-08,AMP,US03076C1062,USD,Common Stock,15.0,149.50999450683594,,0.0,1.0,Financial Services,Asset Management
+2020-09-09,AMP,US03076C1062,USD,Common Stock,15.0,150.10000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-09-10,AMP,US03076C1062,USD,Common Stock,15.0,150.07000732421875,,0.0,1.0,Financial Services,Asset Management
+2020-09-11,AMP,US03076C1062,USD,Common Stock,15.0,152.10000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-09-12,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-09-13,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-09-14,AMP,US03076C1062,USD,Common Stock,15.0,156.02999877929688,,0.0,1.0,Financial Services,Asset Management
+2020-09-15,AMP,US03076C1062,USD,Common Stock,15.0,153.85000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-09-16,AMP,US03076C1062,USD,Common Stock,15.0,157.42999267578125,,0.0,1.0,Financial Services,Asset Management
+2020-09-17,AMP,US03076C1062,USD,Common Stock,15.0,157.0,,0.0,1.0,Financial Services,Asset Management
+2020-09-18,AMP,US03076C1062,USD,Common Stock,15.0,157.7100067138672,,0.0,1.0,Financial Services,Asset Management
+2020-09-19,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-09-20,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-09-21,AMP,US03076C1062,USD,Common Stock,15.0,150.38999938964844,,0.0,1.0,Financial Services,Asset Management
+2020-09-22,AMP,US03076C1062,USD,Common Stock,15.0,148.69000244140625,,0.0,1.0,Financial Services,Asset Management
+2020-09-23,AMP,US03076C1062,USD,Common Stock,15.0,145.35000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-09-24,AMP,US03076C1062,USD,Common Stock,15.0,144.61000061035156,,0.0,1.0,Financial Services,Asset Management
+2020-09-25,AMP,US03076C1062,USD,Common Stock,15.0,146.74000549316406,,0.0,1.0,Financial Services,Asset Management
+2020-09-26,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-09-27,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-09-28,AMP,US03076C1062,USD,Common Stock,15.0,151.47999572753906,,0.0,1.0,Financial Services,Asset Management
+2020-09-29,AMP,US03076C1062,USD,Common Stock,15.0,150.3800048828125,,0.0,1.0,Financial Services,Asset Management
+2020-09-30,AMP,US03076C1062,USD,Common Stock,15.0,154.11000061035156,,0.0,1.0,Financial Services,Asset Management
+2020-10-01,AMP,US03076C1062,USD,Common Stock,15.0,155.30999755859375,,0.0,1.0,Financial Services,Asset Management
+2020-10-02,AMP,US03076C1062,USD,Common Stock,15.0,158.85000610351562,,0.0,1.0,Financial Services,Asset Management
+2020-10-03,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-10-04,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-10-05,AMP,US03076C1062,USD,Common Stock,15.0,162.66000366210938,,0.0,1.0,Financial Services,Asset Management
+2020-10-06,AMP,US03076C1062,USD,Common Stock,15.0,159.8000030517578,,0.0,1.0,Financial Services,Asset Management
+2020-10-07,AMP,US03076C1062,USD,Common Stock,15.0,164.88999938964844,,0.0,1.0,Financial Services,Asset Management
+2020-10-08,AMP,US03076C1062,USD,Common Stock,15.0,169.30999755859375,,0.0,1.0,Financial Services,Asset Management
+2020-10-09,AMP,US03076C1062,USD,Common Stock,15.0,170.33999633789062,,0.0,1.0,Financial Services,Asset Management
+2020-10-10,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-10-11,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-10-12,AMP,US03076C1062,USD,Common Stock,15.0,172.0399932861328,,0.0,1.0,Financial Services,Asset Management
+2020-10-13,AMP,US03076C1062,USD,Common Stock,15.0,166.72999572753906,,0.0,1.0,Financial Services,Asset Management
+2020-10-14,AMP,US03076C1062,USD,Common Stock,15.0,167.07000732421875,,0.0,1.0,Financial Services,Asset Management
+2020-10-15,AMP,US03076C1062,USD,Common Stock,15.0,170.97999572753906,,0.0,1.0,Financial Services,Asset Management
+2020-10-16,AMP,US03076C1062,USD,Common Stock,15.0,169.9499969482422,,0.0,1.0,Financial Services,Asset Management
+2020-10-17,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-10-18,AMP,US03076C1062,USD,Common Stock,15.0,,,,,,
+2020-10-19,AMP,US03076C1062,USD,Common Stock,15.0,169.0399932861328,,0.0,1.0,Financial Services,Asset Management
+2020-10-20,AMP,US03076C1062,USD,Common Stock,15.0,167.99000549316406,,0.0,1.0,Financial Services,Asset Management
+2020-10-21,AMP,US03076C1062,USD,Common Stock,0.0,166.75,,0.0,1.0,Financial Services,Asset Management

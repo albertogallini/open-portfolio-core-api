@@ -1,0 +1,807 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2019-02-19,PFE,US7170811035,USD,Common Stock,19.0,42.60000028991699,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-02-20,PFE,US7170811035,USD,Common Stock,19.0,42.20000185394287,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-02-21,PFE,US7170811035,USD,Common Stock,19.0,42.140001083374024,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-02-22,PFE,US7170811035,USD,Common Stock,19.0,42.960000892639165,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-02-23,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-02-24,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-02-25,PFE,US7170811035,USD,Common Stock,19.0,43.07999841308594,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-02-26,PFE,US7170811035,USD,Common Stock,19.0,43.02000166320801,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-02-27,PFE,US7170811035,USD,Common Stock,19.0,42.92999849700928,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-02-28,PFE,US7170811035,USD,Common Stock,19.0,43.349999870300294,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-01,PFE,US7170811035,USD,Common Stock,19.0,43.359999328613284,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-03-03,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-03-04,PFE,US7170811035,USD,Common Stock,19.0,43.06999895477295,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-05,PFE,US7170811035,USD,Common Stock,19.0,42.89000066375733,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-06,PFE,US7170811035,USD,Common Stock,19.0,41.86000016784668,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-07,PFE,US7170811035,USD,Common Stock,19.0,41.39000150299073,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-08,PFE,US7170811035,USD,Common Stock,19.0,40.890000442504885,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-09,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-03-10,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-03-11,PFE,US7170811035,USD,Common Stock,19.0,41.49999956512451,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-12,PFE,US7170811035,USD,Common Stock,19.0,41.729999168396,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-13,PFE,US7170811035,USD,Common Stock,19.0,42.010000083923345,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-14,PFE,US7170811035,USD,Common Stock,19.0,41.1900002746582,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-15,PFE,US7170811035,USD,Common Stock,19.0,41.78000048065186,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-16,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-03-17,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-03-18,PFE,US7170811035,USD,Common Stock,19.0,41.80999885559082,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-19,PFE,US7170811035,USD,Common Stock,19.0,42.30000045776367,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-20,PFE,US7170811035,USD,Common Stock,19.0,42.169999458312994,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-21,PFE,US7170811035,USD,Common Stock,19.0,42.35000177001953,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-22,PFE,US7170811035,USD,Common Stock,19.0,41.850000709533695,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-23,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-03-24,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-03-25,PFE,US7170811035,USD,Common Stock,19.0,41.88999854278565,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-26,PFE,US7170811035,USD,Common Stock,19.0,42.41999797821045,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-27,PFE,US7170811035,USD,Common Stock,19.0,42.01999954223633,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-28,PFE,US7170811035,USD,Common Stock,19.0,42.29000099945068,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-29,PFE,US7170811035,USD,Common Stock,19.0,42.46999929046631,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-03-30,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-03-31,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-01,PFE,US7170811035,USD,Common Stock,19.0,42.83999935150147,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-02,PFE,US7170811035,USD,Common Stock,19.0,42.9099995803833,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-03,PFE,US7170811035,USD,Common Stock,19.0,42.83999935150147,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-04,PFE,US7170811035,USD,Common Stock,19.0,42.74000074768067,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-05,PFE,US7170811035,USD,Common Stock,19.0,42.98999926757813,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-06,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-08,PFE,US7170811035,USD,Common Stock,19.0,43.13999918365479,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-09,PFE,US7170811035,USD,Common Stock,19.0,42.83999935150147,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-10,PFE,US7170811035,USD,Common Stock,19.0,42.73000128936768,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-11,PFE,US7170811035,USD,Common Stock,19.0,42.269998062133794,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-12,PFE,US7170811035,USD,Common Stock,19.0,41.71000025177002,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-13,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-14,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-15,PFE,US7170811035,USD,Common Stock,19.0,42.089999771118165,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-16,PFE,US7170811035,USD,Common Stock,19.0,40.91999881744385,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-17,PFE,US7170811035,USD,Common Stock,19.0,39.879998863220216,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-18,PFE,US7170811035,USD,Common Stock,19.0,39.380001823425296,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-19,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-20,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-21,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-22,PFE,US7170811035,USD,Common Stock,19.0,38.979999366760254,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-23,PFE,US7170811035,USD,Common Stock,19.0,39.41999965667725,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-24,PFE,US7170811035,USD,Common Stock,19.0,39.36999834442139,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-25,PFE,US7170811035,USD,Common Stock,19.0,39.610001426696776,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-26,PFE,US7170811035,USD,Common Stock,19.0,39.96999800872803,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-27,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-04-29,PFE,US7170811035,USD,Common Stock,19.0,39.58999848937989,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-04-30,PFE,US7170811035,USD,Common Stock,19.0,40.60999952697754,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-01,PFE,US7170811035,USD,Common Stock,19.0,40.76999890136719,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-02,PFE,US7170811035,USD,Common Stock,19.0,41.009997962951665,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-03,PFE,US7170811035,USD,Common Stock,19.0,41.39000150299073,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-04,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-05-05,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-05-06,PFE,US7170811035,USD,Common Stock,19.0,41.64999948120117,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-07,PFE,US7170811035,USD,Common Stock,19.0,40.82999967193604,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-08,PFE,US7170811035,USD,Common Stock,19.0,40.95000121307373,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-09,PFE,US7170811035,USD,Common Stock,19.0,40.640001922607425,,0.341556,1.054,Healthcare,Drug Manufacturers - General
+2019-05-10,PFE,US7170811035,USD,Common Stock,19.0,40.720001609802246,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-11,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-05-12,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-05-13,PFE,US7170811035,USD,Common Stock,19.0,40.57000169372559,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-14,PFE,US7170811035,USD,Common Stock,19.0,40.6600008392334,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-15,PFE,US7170811035,USD,Common Stock,19.0,41.149998420715335,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-16,PFE,US7170811035,USD,Common Stock,19.0,41.64000002288819,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-17,PFE,US7170811035,USD,Common Stock,19.0,41.47000119018555,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-18,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-05-19,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-05-20,PFE,US7170811035,USD,Common Stock,19.0,41.58999871063233,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-21,PFE,US7170811035,USD,Common Stock,19.0,41.66999839782715,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-22,PFE,US7170811035,USD,Common Stock,19.0,41.990001167297365,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-23,PFE,US7170811035,USD,Common Stock,19.0,41.92000093841553,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-24,PFE,US7170811035,USD,Common Stock,19.0,41.949999313354496,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-05-26,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-05-27,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-05-28,PFE,US7170811035,USD,Common Stock,19.0,41.900002021789554,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-29,PFE,US7170811035,USD,Common Stock,19.0,41.71999971008301,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-30,PFE,US7170811035,USD,Common Stock,19.0,41.900002021789554,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-05-31,PFE,US7170811035,USD,Common Stock,19.0,41.51999848175049,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-06-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-06-03,PFE,US7170811035,USD,Common Stock,19.0,41.92000093841553,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-04,PFE,US7170811035,USD,Common Stock,19.0,42.230000228881835,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-05,PFE,US7170811035,USD,Common Stock,19.0,42.4799987487793,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-06,PFE,US7170811035,USD,Common Stock,19.0,42.7100023727417,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-07,PFE,US7170811035,USD,Common Stock,19.0,42.91999903869629,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-08,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-06-09,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-06-10,PFE,US7170811035,USD,Common Stock,19.0,43.06999895477295,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-11,PFE,US7170811035,USD,Common Stock,19.0,42.67000051879883,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-12,PFE,US7170811035,USD,Common Stock,19.0,43.07999841308594,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-13,PFE,US7170811035,USD,Common Stock,19.0,42.50000168609619,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-14,PFE,US7170811035,USD,Common Stock,19.0,42.75999966430664,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-15,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-06-16,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-06-17,PFE,US7170811035,USD,Common Stock,19.0,42.88000120544434,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-18,PFE,US7170811035,USD,Common Stock,19.0,43.06999895477295,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-19,PFE,US7170811035,USD,Common Stock,19.0,43.499999786376954,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-20,PFE,US7170811035,USD,Common Stock,19.0,43.599998390197754,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-21,PFE,US7170811035,USD,Common Stock,19.0,43.66999861907959,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-22,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-06-23,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-06-24,PFE,US7170811035,USD,Common Stock,19.0,43.76000178527832,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-25,PFE,US7170811035,USD,Common Stock,19.0,43.76000178527832,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-26,PFE,US7170811035,USD,Common Stock,19.0,42.98999926757813,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-27,PFE,US7170811035,USD,Common Stock,19.0,43.42999955749512,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-28,PFE,US7170811035,USD,Common Stock,19.0,43.32000149536133,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-06-29,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-06-30,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-01,PFE,US7170811035,USD,Common Stock,19.0,43.77000124359131,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-02,PFE,US7170811035,USD,Common Stock,19.0,44.220000991821294,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-03,PFE,US7170811035,USD,Common Stock,19.0,44.399999282836916,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-04,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-05,PFE,US7170811035,USD,Common Stock,19.0,43.92000115966797,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-06,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-08,PFE,US7170811035,USD,Common Stock,19.0,43.299998558044436,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-09,PFE,US7170811035,USD,Common Stock,19.0,43.369998786926274,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-10,PFE,US7170811035,USD,Common Stock,19.0,44.060001617431645,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-11,PFE,US7170811035,USD,Common Stock,19.0,42.97999980926514,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-12,PFE,US7170811035,USD,Common Stock,19.0,42.399999061584474,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-13,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-14,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-15,PFE,US7170811035,USD,Common Stock,19.0,42.75000020599366,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-16,PFE,US7170811035,USD,Common Stock,19.0,42.84999880981446,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-17,PFE,US7170811035,USD,Common Stock,19.0,42.74000074768067,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-18,PFE,US7170811035,USD,Common Stock,19.0,43.059999496459966,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-19,PFE,US7170811035,USD,Common Stock,19.0,42.76999912261963,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-20,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-21,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-22,PFE,US7170811035,USD,Common Stock,19.0,42.82000043487549,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-23,PFE,US7170811035,USD,Common Stock,19.0,43.090001892089845,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-24,PFE,US7170811035,USD,Common Stock,19.0,42.89000066375733,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-25,PFE,US7170811035,USD,Common Stock,19.0,42.67000051879883,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-26,PFE,US7170811035,USD,Common Stock,19.0,43.090001892089845,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-27,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-07-29,PFE,US7170811035,USD,Common Stock,19.0,41.45000227355957,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-30,PFE,US7170811035,USD,Common Stock,19.0,38.79000161743164,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-07-31,PFE,US7170811035,USD,Common Stock,19.0,38.839998908996584,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-01,PFE,US7170811035,USD,Common Stock,19.0,38.24999870300293,,0.341556,1.054,Healthcare,Drug Manufacturers - General
+2019-08-02,PFE,US7170811035,USD,Common Stock,19.0,38.00000018310547,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-03,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-08-04,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-08-05,PFE,US7170811035,USD,Common Stock,19.0,36.96000022888184,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-06,PFE,US7170811035,USD,Common Stock,19.0,36.95000077056885,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-07,PFE,US7170811035,USD,Common Stock,19.0,36.58000070953369,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-08,PFE,US7170811035,USD,Common Stock,19.0,36.87000108337403,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-09,PFE,US7170811035,USD,Common Stock,19.0,36.35000110626221,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-10,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-08-11,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-08-12,PFE,US7170811035,USD,Common Stock,19.0,35.3900008392334,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-13,PFE,US7170811035,USD,Common Stock,19.0,35.19999906921387,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-14,PFE,US7170811035,USD,Common Stock,19.0,34.23999880218506,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-15,PFE,US7170811035,USD,Common Stock,19.0,34.47999786376953,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-16,PFE,US7170811035,USD,Common Stock,19.0,34.65000071716309,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-17,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-08-18,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-08-19,PFE,US7170811035,USD,Common Stock,19.0,35.180000152587894,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-20,PFE,US7170811035,USD,Common Stock,19.0,34.60999886322022,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-21,PFE,US7170811035,USD,Common Stock,19.0,34.870000862121586,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-22,PFE,US7170811035,USD,Common Stock,19.0,35.07999752807617,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-23,PFE,US7170811035,USD,Common Stock,19.0,34.34000142669678,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-24,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-08-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-08-26,PFE,US7170811035,USD,Common Stock,19.0,34.8399984664917,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-27,PFE,US7170811035,USD,Common Stock,19.0,34.34000142669678,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-28,PFE,US7170811035,USD,Common Stock,19.0,35.07999752807617,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-29,PFE,US7170811035,USD,Common Stock,19.0,35.33000006866455,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-30,PFE,US7170811035,USD,Common Stock,19.0,35.55000021362305,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-08-31,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-03,PFE,US7170811035,USD,Common Stock,19.0,36.120001502990725,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-04,PFE,US7170811035,USD,Common Stock,19.0,35.83000112915039,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-05,PFE,US7170811035,USD,Common Stock,19.0,36.3399976272583,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-06,PFE,US7170811035,USD,Common Stock,19.0,36.50000102233887,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-08,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-09,PFE,US7170811035,USD,Common Stock,19.0,36.82999922943115,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-10,PFE,US7170811035,USD,Common Stock,19.0,37.380001602172854,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-11,PFE,US7170811035,USD,Common Stock,19.0,37.409999977111816,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-12,PFE,US7170811035,USD,Common Stock,19.0,37.27999897766114,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-13,PFE,US7170811035,USD,Common Stock,19.0,36.90999891662598,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-14,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-15,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-16,PFE,US7170811035,USD,Common Stock,19.0,36.82999922943115,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-17,PFE,US7170811035,USD,Common Stock,19.0,36.50000102233887,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-18,PFE,US7170811035,USD,Common Stock,19.0,36.379999481201175,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-19,PFE,US7170811035,USD,Common Stock,19.0,36.510000480651854,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-20,PFE,US7170811035,USD,Common Stock,19.0,36.68999877166748,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-21,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-22,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-23,PFE,US7170811035,USD,Common Stock,19.0,36.2399990234375,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-24,PFE,US7170811035,USD,Common Stock,19.0,36.00999942016602,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-25,PFE,US7170811035,USD,Common Stock,19.0,35.90000135803223,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-26,PFE,US7170811035,USD,Common Stock,19.0,35.77999981689453,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-27,PFE,US7170811035,USD,Common Stock,19.0,36.220000106811526,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-09-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-29,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-09-30,PFE,US7170811035,USD,Common Stock,19.0,35.92999973297119,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-01,PFE,US7170811035,USD,Common Stock,19.0,35.429998672485354,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-02,PFE,US7170811035,USD,Common Stock,19.0,34.69999800872803,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-03,PFE,US7170811035,USD,Common Stock,19.0,35.45000160980225,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-04,PFE,US7170811035,USD,Common Stock,19.0,35.92999973297119,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-05,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-10-06,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-10-07,PFE,US7170811035,USD,Common Stock,19.0,35.83000112915039,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-08,PFE,US7170811035,USD,Common Stock,19.0,35.429998672485354,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-09,PFE,US7170811035,USD,Common Stock,19.0,35.69000067138672,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-10,PFE,US7170811035,USD,Common Stock,19.0,35.78999927520752,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-11,PFE,US7170811035,USD,Common Stock,19.0,36.10999802398682,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-12,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-10-13,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-10-14,PFE,US7170811035,USD,Common Stock,19.0,36.29999979400635,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-15,PFE,US7170811035,USD,Common Stock,19.0,36.50000102233887,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-16,PFE,US7170811035,USD,Common Stock,19.0,36.3399976272583,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-17,PFE,US7170811035,USD,Common Stock,19.0,36.459999168395996,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-18,PFE,US7170811035,USD,Common Stock,19.0,36.459999168395996,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-19,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-10-20,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-10-21,PFE,US7170811035,USD,Common Stock,19.0,36.459999168395996,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-22,PFE,US7170811035,USD,Common Stock,19.0,36.43000079345703,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-23,PFE,US7170811035,USD,Common Stock,19.0,36.769998458862304,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-24,PFE,US7170811035,USD,Common Stock,19.0,36.389998939514165,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-25,PFE,US7170811035,USD,Common Stock,19.0,36.769998458862304,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-26,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-10-27,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-10-28,PFE,US7170811035,USD,Common Stock,19.0,37.27999897766114,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-29,PFE,US7170811035,USD,Common Stock,19.0,38.21000086975098,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-30,PFE,US7170811035,USD,Common Stock,19.0,38.47999830627442,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-10-31,PFE,US7170811035,USD,Common Stock,19.0,38.37000024414063,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-01,PFE,US7170811035,USD,Common Stock,19.0,38.38999916076661,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-11-03,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-11-04,PFE,US7170811035,USD,Common Stock,19.0,38.02999855804443,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-05,PFE,US7170811035,USD,Common Stock,19.0,37.480000205993655,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-06,PFE,US7170811035,USD,Common Stock,19.0,37.61000120544434,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-07,PFE,US7170811035,USD,Common Stock,19.0,36.90999891662598,,0.341556,1.054,Healthcare,Drug Manufacturers - General
+2019-11-08,PFE,US7170811035,USD,Common Stock,19.0,37.04999937438965,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-09,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-11-10,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-11-11,PFE,US7170811035,USD,Common Stock,19.0,36.930001853942876,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-12,PFE,US7170811035,USD,Common Stock,19.0,36.96999968719483,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-13,PFE,US7170811035,USD,Common Stock,19.0,36.59999962615967,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-14,PFE,US7170811035,USD,Common Stock,19.0,36.549998313903814,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-15,PFE,US7170811035,USD,Common Stock,19.0,37.27999897766114,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-16,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-11-17,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-11-18,PFE,US7170811035,USD,Common Stock,19.0,37.21999820709229,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-19,PFE,US7170811035,USD,Common Stock,19.0,37.659998497009276,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-20,PFE,US7170811035,USD,Common Stock,19.0,37.04999937438965,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-21,PFE,US7170811035,USD,Common Stock,19.0,37.74000220489502,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-22,PFE,US7170811035,USD,Common Stock,19.0,38.32999839019776,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-23,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-11-24,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-11-25,PFE,US7170811035,USD,Common Stock,19.0,38.679999534606935,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-26,PFE,US7170811035,USD,Common Stock,19.0,38.290000556945806,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-27,PFE,US7170811035,USD,Common Stock,19.0,38.62999822235108,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-11-29,PFE,US7170811035,USD,Common Stock,19.0,38.520000160217286,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-11-30,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-02,PFE,US7170811035,USD,Common Stock,19.0,38.290000556945806,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-03,PFE,US7170811035,USD,Common Stock,19.0,38.05000149536133,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-04,PFE,US7170811035,USD,Common Stock,19.0,38.14000064086914,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-05,PFE,US7170811035,USD,Common Stock,19.0,38.02999855804443,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-06,PFE,US7170811035,USD,Common Stock,19.0,38.290000556945806,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-08,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-09,PFE,US7170811035,USD,Common Stock,19.0,38.31999893188477,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-10,PFE,US7170811035,USD,Common Stock,19.0,38.47999830627442,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-11,PFE,US7170811035,USD,Common Stock,19.0,38.22000032806397,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-12,PFE,US7170811035,USD,Common Stock,19.0,38.539999076843266,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-13,PFE,US7170811035,USD,Common Stock,19.0,38.32999839019776,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-14,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-15,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-16,PFE,US7170811035,USD,Common Stock,19.0,39.1399987411499,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-17,PFE,US7170811035,USD,Common Stock,19.0,38.89999967956543,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-18,PFE,US7170811035,USD,Common Stock,19.0,38.89000022125244,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-19,PFE,US7170811035,USD,Common Stock,19.0,38.96999990844727,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-20,PFE,US7170811035,USD,Common Stock,19.0,39.23000190734864,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-21,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-22,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-23,PFE,US7170811035,USD,Common Stock,19.0,39.32000105285645,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-24,PFE,US7170811035,USD,Common Stock,19.0,39.28999865722656,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-26,PFE,US7170811035,USD,Common Stock,19.0,39.380001823425296,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-27,PFE,US7170811035,USD,Common Stock,19.0,39.32000105285645,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-29,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2019-12-30,PFE,US7170811035,USD,Common Stock,19.0,38.90999913787842,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2019-12-31,PFE,US7170811035,USD,Common Stock,19.0,39.18000059509278,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-02,PFE,US7170811035,USD,Common Stock,19.0,39.1399987411499,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-03,PFE,US7170811035,USD,Common Stock,19.0,38.93000207519531,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-04,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-05,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-06,PFE,US7170811035,USD,Common Stock,19.0,38.88000076293945,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-07,PFE,US7170811035,USD,Common Stock,19.0,38.74999976348877,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-08,PFE,US7170811035,USD,Common Stock,19.0,39.05999905395508,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-09,PFE,US7170811035,USD,Common Stock,19.0,38.89000022125244,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-10,PFE,US7170811035,USD,Common Stock,19.0,39.48999988555909,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-11,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-12,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-13,PFE,US7170811035,USD,Common Stock,19.0,39.41000019836426,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-14,PFE,US7170811035,USD,Common Stock,19.0,40.07000063323975,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-15,PFE,US7170811035,USD,Common Stock,19.0,40.67000029754639,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-16,PFE,US7170811035,USD,Common Stock,19.0,40.60999952697754,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-17,PFE,US7170811035,USD,Common Stock,19.0,40.51000092315674,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-18,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-19,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-20,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-21,PFE,US7170811035,USD,Common Stock,19.0,40.34000209045411,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-22,PFE,US7170811035,USD,Common Stock,19.0,40.19000217437744,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-23,PFE,US7170811035,USD,Common Stock,19.0,40.70999813079834,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-24,PFE,US7170811035,USD,Common Stock,19.0,39.81999809265137,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-26,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-01-27,PFE,US7170811035,USD,Common Stock,19.0,40.15999977874756,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-28,PFE,US7170811035,USD,Common Stock,19.0,38.14000064086914,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-29,PFE,US7170811035,USD,Common Stock,19.0,37.579998809814455,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-01-30,PFE,US7170811035,USD,Common Stock,19.0,37.06999829101563,,0.360531,1.054,Healthcare,Drug Manufacturers - General
+2020-01-31,PFE,US7170811035,USD,Common Stock,19.0,37.240001144409185,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-02-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-02-03,PFE,US7170811035,USD,Common Stock,19.0,37.50999858093262,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-04,PFE,US7170811035,USD,Common Stock,19.0,37.69000089263916,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-05,PFE,US7170811035,USD,Common Stock,19.0,38.16999901580811,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-06,PFE,US7170811035,USD,Common Stock,19.0,38.25999816131592,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-07,PFE,US7170811035,USD,Common Stock,19.0,38.05000149536133,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-08,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-02-09,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-02-10,PFE,US7170811035,USD,Common Stock,19.0,37.80999841308594,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-11,PFE,US7170811035,USD,Common Stock,19.0,38.08999932861328,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-12,PFE,US7170811035,USD,Common Stock,19.0,37.74000220489502,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-13,PFE,US7170811035,USD,Common Stock,19.0,36.930001853942876,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-14,PFE,US7170811035,USD,Common Stock,19.0,36.510000480651854,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-15,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-02-16,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-02-17,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-02-18,PFE,US7170811035,USD,Common Stock,19.0,36.319998710632326,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-19,PFE,US7170811035,USD,Common Stock,19.0,36.229999565124515,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-20,PFE,US7170811035,USD,Common Stock,19.0,35.85000004577637,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-21,PFE,US7170811035,USD,Common Stock,19.0,35.71999904632568,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-22,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-02-23,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-02-24,PFE,US7170811035,USD,Common Stock,19.0,34.66999963378906,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-25,PFE,US7170811035,USD,Common Stock,19.0,33.929999511718755,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-26,PFE,US7170811035,USD,Common Stock,19.0,34.72000094604493,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-27,PFE,US7170811035,USD,Common Stock,19.0,34.09999834442139,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-28,PFE,US7170811035,USD,Common Stock,19.0,33.420001003265384,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-02-29,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-02,PFE,US7170811035,USD,Common Stock,19.0,34.88000032043457,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-03,PFE,US7170811035,USD,Common Stock,19.0,34.299999572753904,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-04,PFE,US7170811035,USD,Common Stock,19.0,36.39999839782715,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-05,PFE,US7170811035,USD,Common Stock,19.0,35.46000106811523,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-06,PFE,US7170811035,USD,Common Stock,19.0,35.020000778198245,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-08,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-09,PFE,US7170811035,USD,Common Stock,19.0,33.760000679016116,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-10,PFE,US7170811035,USD,Common Stock,19.0,34.58999994659424,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-11,PFE,US7170811035,USD,Common Stock,19.0,32.170000362396244,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-12,PFE,US7170811035,USD,Common Stock,19.0,30.02000022506714,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-13,PFE,US7170811035,USD,Common Stock,19.0,32.710001266479495,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-14,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-15,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-16,PFE,US7170811035,USD,Common Stock,19.0,30.17999959945679,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-17,PFE,US7170811035,USD,Common Stock,19.0,32.160000904083255,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-18,PFE,US7170811035,USD,Common Stock,19.0,32.36000012207031,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-19,PFE,US7170811035,USD,Common Stock,19.0,30.42000067138672,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-20,PFE,US7170811035,USD,Common Stock,19.0,29.010000656127932,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-21,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-22,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-23,PFE,US7170811035,USD,Common Stock,19.0,28.490000679016113,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-24,PFE,US7170811035,USD,Common Stock,19.0,29.699999465942383,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-25,PFE,US7170811035,USD,Common Stock,19.0,29.749998767852784,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-26,PFE,US7170811035,USD,Common Stock,19.0,31.750000999450684,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-27,PFE,US7170811035,USD,Common Stock,19.0,30.900000804901126,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-29,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-03-30,PFE,US7170811035,USD,Common Stock,19.0,32.669999412536626,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-03-31,PFE,US7170811035,USD,Common Stock,19.0,32.640001037597656,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-01,PFE,US7170811035,USD,Common Stock,19.0,31.750000999450684,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-02,PFE,US7170811035,USD,Common Stock,19.0,32.870000640869144,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-03,PFE,US7170811035,USD,Common Stock,19.0,33.64000114822388,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-04,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-04-05,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-04-06,PFE,US7170811035,USD,Common Stock,19.0,34.57000102996826,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-07,PFE,US7170811035,USD,Common Stock,19.0,33.61000076293946,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-08,PFE,US7170811035,USD,Common Stock,19.0,34.59999940490723,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-09,PFE,US7170811035,USD,Common Stock,19.0,35.3900008392334,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-10,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-04-11,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-04-12,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-04-13,PFE,US7170811035,USD,Common Stock,19.0,35.13999829864502,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-14,PFE,US7170811035,USD,Common Stock,19.0,36.44000025177002,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-15,PFE,US7170811035,USD,Common Stock,19.0,35.970001586914066,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-16,PFE,US7170811035,USD,Common Stock,19.0,35.87999842071533,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-17,PFE,US7170811035,USD,Common Stock,19.0,36.90999891662598,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-18,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-04-19,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-04-20,PFE,US7170811035,USD,Common Stock,19.0,36.079999649047856,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-21,PFE,US7170811035,USD,Common Stock,19.0,35.62000044250488,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-22,PFE,US7170811035,USD,Common Stock,19.0,36.24999848175049,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-23,PFE,US7170811035,USD,Common Stock,19.0,36.68999877166748,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-24,PFE,US7170811035,USD,Common Stock,19.0,37.380001602172854,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-04-26,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-04-27,PFE,US7170811035,USD,Common Stock,19.0,38.32999839019776,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-28,PFE,US7170811035,USD,Common Stock,19.0,37.91000103759766,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-29,PFE,US7170811035,USD,Common Stock,19.0,38.12000172424317,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-04-30,PFE,US7170811035,USD,Common Stock,19.0,38.36000078582764,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-01,PFE,US7170811035,USD,Common Stock,19.0,37.639999580383304,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-03,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-04,PFE,US7170811035,USD,Common Stock,19.0,37.620000663757324,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-05,PFE,US7170811035,USD,Common Stock,19.0,38.510000701904296,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-06,PFE,US7170811035,USD,Common Stock,19.0,38.510000701904296,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-07,PFE,US7170811035,USD,Common Stock,19.0,36.96000022888184,,0.360531,1.054,Healthcare,Drug Manufacturers - General
+2020-05-08,PFE,US7170811035,USD,Common Stock,19.0,37.21999820709229,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-09,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-10,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-11,PFE,US7170811035,USD,Common Stock,19.0,38.09999878692627,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-12,PFE,US7170811035,USD,Common Stock,19.0,37.35999866485596,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-13,PFE,US7170811035,USD,Common Stock,19.0,37.04999937438965,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-14,PFE,US7170811035,USD,Common Stock,19.0,37.92000049591065,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-15,PFE,US7170811035,USD,Common Stock,19.0,37.760001121521,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-16,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-17,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-18,PFE,US7170811035,USD,Common Stock,19.0,38.07000041198731,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-19,PFE,US7170811035,USD,Common Stock,19.0,37.68000143432617,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-20,PFE,US7170811035,USD,Common Stock,19.0,37.630000122070314,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-21,PFE,US7170811035,USD,Common Stock,19.0,37.26000006103516,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-22,PFE,US7170811035,USD,Common Stock,19.0,37.49999912261963,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-23,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-24,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-26,PFE,US7170811035,USD,Common Stock,19.0,37.489999664306644,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-27,PFE,US7170811035,USD,Common Stock,19.0,37.409999977111816,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-28,PFE,US7170811035,USD,Common Stock,19.0,38.17999847412109,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-29,PFE,US7170811035,USD,Common Stock,19.0,38.190001953125005,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-05-30,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-05-31,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-06-01,PFE,US7170811035,USD,Common Stock,19.0,35.46000106811523,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-02,PFE,US7170811035,USD,Common Stock,19.0,36.15999933624268,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-03,PFE,US7170811035,USD,Common Stock,19.0,36.15999933624268,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-04,PFE,US7170811035,USD,Common Stock,19.0,36.00999942016602,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-05,PFE,US7170811035,USD,Common Stock,19.0,35.99000050354004,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-06,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-06-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-06-08,PFE,US7170811035,USD,Common Stock,19.0,36.59000016784668,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-09,PFE,US7170811035,USD,Common Stock,19.0,36.210000648498536,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-10,PFE,US7170811035,USD,Common Stock,19.0,35.92000027465821,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-11,PFE,US7170811035,USD,Common Stock,19.0,33.29999946212769,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-12,PFE,US7170811035,USD,Common Stock,19.0,33.750001220703126,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-13,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-06-14,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-06-15,PFE,US7170811035,USD,Common Stock,19.0,33.360000232696535,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-16,PFE,US7170811035,USD,Common Stock,19.0,33.40000007629395,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-17,PFE,US7170811035,USD,Common Stock,19.0,33.5599994506836,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-18,PFE,US7170811035,USD,Common Stock,19.0,33.2400007019043,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-19,PFE,US7170811035,USD,Common Stock,19.0,33.420001003265384,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-20,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-06-21,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-06-22,PFE,US7170811035,USD,Common Stock,19.0,33.109999702453614,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-23,PFE,US7170811035,USD,Common Stock,19.0,32.77000002670288,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-24,PFE,US7170811035,USD,Common Stock,19.0,32.18999927902222,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-25,PFE,US7170811035,USD,Common Stock,19.0,32.320000278472904,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-26,PFE,US7170811035,USD,Common Stock,19.0,32.03999936294556,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-27,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-06-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-06-29,PFE,US7170811035,USD,Common Stock,19.0,32.640001037597656,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-06-30,PFE,US7170811035,USD,Common Stock,19.0,32.69999979782104,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-01,PFE,US7170811035,USD,Common Stock,19.0,33.740001762390136,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-02,PFE,US7170811035,USD,Common Stock,19.0,34.51000025939942,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-03,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-07-04,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-07-05,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-07-06,PFE,US7170811035,USD,Common Stock,19.0,34.51000025939942,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-07,PFE,US7170811035,USD,Common Stock,19.0,34.03000213623047,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-08,PFE,US7170811035,USD,Common Stock,19.0,33.750001220703126,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-09,PFE,US7170811035,USD,Common Stock,19.0,33.4600008468628,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-10,PFE,US7170811035,USD,Common Stock,19.0,33.830000907897954,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-11,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-07-12,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-07-13,PFE,US7170811035,USD,Common Stock,19.0,35.20999852752686,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-14,PFE,US7170811035,USD,Common Stock,19.0,35.23000146484375,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-15,PFE,US7170811035,USD,Common Stock,19.0,35.71999904632568,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-16,PFE,US7170811035,USD,Common Stock,19.0,35.60000152587891,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-17,PFE,US7170811035,USD,Common Stock,19.0,36.24999848175049,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-18,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-07-19,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-07-20,PFE,US7170811035,USD,Common Stock,19.0,36.50000102233887,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-21,PFE,US7170811035,USD,Common Stock,19.0,36.68999877166748,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-22,PFE,US7170811035,USD,Common Stock,19.0,38.55999799346924,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-23,PFE,US7170811035,USD,Common Stock,19.0,38.40999807739258,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-24,PFE,US7170811035,USD,Common Stock,19.0,37.659998497009276,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-07-26,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-07-27,PFE,US7170811035,USD,Common Stock,19.0,37.5400009765625,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-28,PFE,US7170811035,USD,Common Stock,19.0,39.02000122070313,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-29,PFE,US7170811035,USD,Common Stock,19.0,39.2600002822876,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-07-30,PFE,US7170811035,USD,Common Stock,19.0,38.74000030517578,,0.360531,1.054,Healthcare,Drug Manufacturers - General
+2020-07-31,PFE,US7170811035,USD,Common Stock,19.0,38.47999830627442,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-03,PFE,US7170811035,USD,Common Stock,19.0,38.35000132751465,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-04,PFE,US7170811035,USD,Common Stock,19.0,38.38999916076661,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-05,PFE,US7170811035,USD,Common Stock,19.0,38.44999993133545,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-06,PFE,US7170811035,USD,Common Stock,19.0,38.270001640319826,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-07,PFE,US7170811035,USD,Common Stock,19.0,38.44999993133545,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-08,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-09,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-10,PFE,US7170811035,USD,Common Stock,19.0,38.38999916076661,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-11,PFE,US7170811035,USD,Common Stock,19.0,37.78999949645996,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-12,PFE,US7170811035,USD,Common Stock,19.0,38.32999839019776,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-13,PFE,US7170811035,USD,Common Stock,19.0,38.16999901580811,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-14,PFE,US7170811035,USD,Common Stock,19.0,38.06000095367432,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-15,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-16,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-17,PFE,US7170811035,USD,Common Stock,19.0,38.35000132751465,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-18,PFE,US7170811035,USD,Common Stock,19.0,38.36000078582764,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-19,PFE,US7170811035,USD,Common Stock,19.0,38.25999816131592,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-20,PFE,US7170811035,USD,Common Stock,19.0,38.720001388549804,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-21,PFE,US7170811035,USD,Common Stock,19.0,38.88000076293945,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-22,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-23,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-24,PFE,US7170811035,USD,Common Stock,19.0,38.839998908996584,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-25,PFE,US7170811035,USD,Common Stock,19.0,38.40999807739258,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-26,PFE,US7170811035,USD,Common Stock,19.0,38.05000149536133,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-27,PFE,US7170811035,USD,Common Stock,19.0,37.8599997253418,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-28,PFE,US7170811035,USD,Common Stock,19.0,37.91000103759766,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-08-29,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-30,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-08-31,PFE,US7170811035,USD,Common Stock,19.0,37.78999949645996,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-01,PFE,US7170811035,USD,Common Stock,19.0,36.88000054168701,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-02,PFE,US7170811035,USD,Common Stock,19.0,37.19999929046631,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-03,PFE,US7170811035,USD,Common Stock,19.0,36.39999839782715,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-04,PFE,US7170811035,USD,Common Stock,19.0,36.360000564575195,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-05,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-09-06,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-09-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-09-08,PFE,US7170811035,USD,Common Stock,19.0,35.92999973297119,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-09,PFE,US7170811035,USD,Common Stock,19.0,36.18000227355957,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-10,PFE,US7170811035,USD,Common Stock,19.0,35.64999881744385,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-11,PFE,US7170811035,USD,Common Stock,19.0,36.070000190734866,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-12,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-09-13,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-09-14,PFE,US7170811035,USD,Common Stock,19.0,37.0100015411377,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-15,PFE,US7170811035,USD,Common Stock,19.0,36.96000022888184,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-16,PFE,US7170811035,USD,Common Stock,19.0,36.78000193786621,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-17,PFE,US7170811035,USD,Common Stock,19.0,36.81999977111816,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-18,PFE,US7170811035,USD,Common Stock,19.0,36.63000202178955,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-19,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-09-20,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-09-21,PFE,US7170811035,USD,Common Stock,19.0,36.01999887847901,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-22,PFE,US7170811035,USD,Common Stock,19.0,36.24999848175049,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-23,PFE,US7170811035,USD,Common Stock,19.0,35.99999996185303,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-24,PFE,US7170811035,USD,Common Stock,19.0,35.76000090026856,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-25,PFE,US7170811035,USD,Common Stock,19.0,36.05000127410889,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-26,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-09-27,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-09-28,PFE,US7170811035,USD,Common Stock,19.0,36.389998939514165,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-29,PFE,US7170811035,USD,Common Stock,19.0,36.16999879455567,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-09-30,PFE,US7170811035,USD,Common Stock,19.0,36.69999822998047,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-01,PFE,US7170811035,USD,Common Stock,19.0,36.370000022888185,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-02,PFE,US7170811035,USD,Common Stock,19.0,36.379999481201175,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-03,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-10-04,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-10-05,PFE,US7170811035,USD,Common Stock,19.0,36.74999954223633,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-06,PFE,US7170811035,USD,Common Stock,19.0,36.16999879455567,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-07,PFE,US7170811035,USD,Common Stock,19.0,36.469998626708986,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-08,PFE,US7170811035,USD,Common Stock,19.0,36.89,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-09,PFE,US7170811035,USD,Common Stock,19.0,36.7900013961792,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-10,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-10-11,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-10-12,PFE,US7170811035,USD,Common Stock,19.0,36.81999977111816,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-13,PFE,US7170811035,USD,Common Stock,19.0,36.89999945831299,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-14,PFE,US7170811035,USD,Common Stock,19.0,36.86000162506104,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-15,PFE,US7170811035,USD,Common Stock,19.0,36.549998313903814,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-16,PFE,US7170811035,USD,Common Stock,19.0,37.94999887084961,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-17,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-10-18,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-10-19,PFE,US7170811035,USD,Common Stock,19.0,37.79999895477295,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-20,PFE,US7170811035,USD,Common Stock,19.0,37.489999664306644,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-21,PFE,US7170811035,USD,Common Stock,19.0,37.080001770019535,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-22,PFE,US7170811035,USD,Common Stock,19.0,37.429998893737796,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-23,PFE,US7170811035,USD,Common Stock,19.0,38.17999847412109,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-24,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-10-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-10-26,PFE,US7170811035,USD,Common Stock,19.0,37.92000049591065,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-27,PFE,US7170811035,USD,Common Stock,19.0,37.429998893737796,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-28,PFE,US7170811035,USD,Common Stock,19.0,35.45000160980225,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-29,PFE,US7170811035,USD,Common Stock,19.0,35.279998756408695,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-30,PFE,US7170811035,USD,Common Stock,19.0,35.47999998474121,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-10-31,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-02,PFE,US7170811035,USD,Common Stock,19.0,36.229999565124515,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-03,PFE,US7170811035,USD,Common Stock,19.0,36.18999771118164,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-04,PFE,US7170811035,USD,Common Stock,19.0,37.330000289916995,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-05,PFE,US7170811035,USD,Common Stock,19.0,36.389998939514165,,0.360531,1.054,Healthcare,Drug Manufacturers - General
+2020-11-06,PFE,US7170811035,USD,Common Stock,19.0,36.39999839782715,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-08,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-09,PFE,US7170811035,USD,Common Stock,19.0,39.19999951171875,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-10,PFE,US7170811035,USD,Common Stock,19.0,38.679999534606935,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-11,PFE,US7170811035,USD,Common Stock,19.0,38.50000124359131,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-12,PFE,US7170811035,USD,Common Stock,19.0,37.55000043487549,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-13,PFE,US7170811035,USD,Common Stock,19.0,38.61999876403809,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-14,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-15,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-16,PFE,US7170811035,USD,Common Stock,19.0,37.330000289916995,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-17,PFE,US7170811035,USD,Common Stock,38.0,36.040000915527344,,0.0,1.054,Healthcare,Drug Manufacturers - General
+2020-11-18,PFE,US7170811035,USD,Common Stock,38.0,36.31999969482422,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-11-19,PFE,US7170811035,USD,Common Stock,19.0,36.189998626708984,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-11-20,PFE,US7170811035,USD,Common Stock,19.0,36.70000076293945,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-11-21,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-22,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-23,PFE,US7170811035,USD,Common Stock,19.0,36.52000045776367,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-11-24,PFE,US7170811035,USD,Common Stock,19.0,36.599998474121094,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-11-25,PFE,US7170811035,USD,Common Stock,19.0,36.529998779296875,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-11-26,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-27,PFE,US7170811035,USD,Common Stock,19.0,37.22999954223633,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-11-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-29,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-11-30,PFE,US7170811035,USD,Common Stock,19.0,38.310001373291016,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-01,PFE,US7170811035,USD,Common Stock,19.0,39.40999984741211,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-02,PFE,US7170811035,USD,Common Stock,19.0,40.79999923706055,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-03,PFE,US7170811035,USD,Common Stock,19.0,40.09000015258789,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-04,PFE,US7170811035,USD,Common Stock,19.0,40.34000015258789,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-05,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-12-06,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-12-07,PFE,US7170811035,USD,Common Stock,19.0,41.25,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-08,PFE,US7170811035,USD,Common Stock,19.0,42.560001373291016,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-09,PFE,US7170811035,USD,Common Stock,19.0,41.849998474121094,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-10,PFE,US7170811035,USD,Common Stock,19.0,41.72999954223633,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-11,PFE,US7170811035,USD,Common Stock,19.0,41.119998931884766,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-12,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-12-13,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-12-14,PFE,US7170811035,USD,Common Stock,19.0,39.209999084472656,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-15,PFE,US7170811035,USD,Common Stock,19.0,38.709999084472656,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-16,PFE,US7170811035,USD,Common Stock,19.0,37.84000015258789,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-17,PFE,US7170811035,USD,Common Stock,19.0,38.029998779296875,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-18,PFE,US7170811035,USD,Common Stock,19.0,37.68000030517578,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-19,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-12-20,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-12-21,PFE,US7170811035,USD,Common Stock,19.0,37.380001068115234,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-22,PFE,US7170811035,USD,Common Stock,19.0,36.7400016784668,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-23,PFE,US7170811035,USD,Common Stock,19.0,37.439998626708984,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-24,PFE,US7170811035,USD,Common Stock,19.0,37.27000045776367,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-12-26,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-12-27,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2020-12-28,PFE,US7170811035,USD,Common Stock,19.0,36.81999969482422,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-29,PFE,US7170811035,USD,Common Stock,19.0,37.04999923706055,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-30,PFE,US7170811035,USD,Common Stock,19.0,36.7400016784668,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2020-12-31,PFE,US7170811035,USD,Common Stock,19.0,36.810001373291016,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-03,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-04,PFE,US7170811035,USD,Common Stock,19.0,36.810001373291016,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-05,PFE,US7170811035,USD,Common Stock,19.0,37.189998626708984,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-06,PFE,US7170811035,USD,Common Stock,19.0,36.869998931884766,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-07,PFE,US7170811035,USD,Common Stock,19.0,37.060001373291016,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-08,PFE,US7170811035,USD,Common Stock,19.0,37.130001068115234,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-09,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-10,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-11,PFE,US7170811035,USD,Common Stock,19.0,37.77000045776367,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-12,PFE,US7170811035,USD,Common Stock,19.0,37.18000030517578,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-13,PFE,US7170811035,USD,Common Stock,19.0,36.86000061035156,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-14,PFE,US7170811035,USD,Common Stock,19.0,36.75,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-15,PFE,US7170811035,USD,Common Stock,19.0,36.70000076293945,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-16,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-17,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-18,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-19,PFE,US7170811035,USD,Common Stock,19.0,36.72999954223633,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-20,PFE,US7170811035,USD,Common Stock,19.0,36.5,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-21,PFE,US7170811035,USD,Common Stock,19.0,36.47999954223633,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-22,PFE,US7170811035,USD,Common Stock,19.0,36.54999923706055,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-23,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-24,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-25,PFE,US7170811035,USD,Common Stock,19.0,37.279998779296875,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-26,PFE,US7170811035,USD,Common Stock,19.0,37.310001373291016,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-27,PFE,US7170811035,USD,Common Stock,19.0,36.2400016784668,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-28,PFE,US7170811035,USD,Common Stock,19.0,35.86000061035156,,0.39,1.0,Healthcare,Drug Manufacturers - General
+2021-01-29,PFE,US7170811035,USD,Common Stock,19.0,35.900001525878906,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-01-30,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-01-31,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-02-01,PFE,US7170811035,USD,Common Stock,19.0,35.79999923706055,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-02,PFE,US7170811035,USD,Common Stock,19.0,34.9900016784668,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-03,PFE,US7170811035,USD,Common Stock,19.0,34.84000015258789,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-04,PFE,US7170811035,USD,Common Stock,19.0,34.88999938964844,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-05,PFE,US7170811035,USD,Common Stock,19.0,34.91999816894531,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-06,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-02-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-02-08,PFE,US7170811035,USD,Common Stock,19.0,34.81999969482422,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-09,PFE,US7170811035,USD,Common Stock,19.0,34.970001220703125,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-10,PFE,US7170811035,USD,Common Stock,19.0,34.7400016784668,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-11,PFE,US7170811035,USD,Common Stock,19.0,34.43000030517578,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-12,PFE,US7170811035,USD,Common Stock,19.0,34.720001220703125,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-13,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-02-14,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-02-15,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-02-16,PFE,US7170811035,USD,Common Stock,19.0,34.689998626708984,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-17,PFE,US7170811035,USD,Common Stock,19.0,34.88999938964844,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-18,PFE,US7170811035,USD,Common Stock,19.0,34.560001373291016,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-19,PFE,US7170811035,USD,Common Stock,19.0,34.439998626708984,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-20,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-02-21,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-02-22,PFE,US7170811035,USD,Common Stock,19.0,34.2599983215332,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-23,PFE,US7170811035,USD,Common Stock,19.0,33.90999984741211,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-24,PFE,US7170811035,USD,Common Stock,19.0,33.75,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-25,PFE,US7170811035,USD,Common Stock,19.0,33.81999969482422,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-26,PFE,US7170811035,USD,Common Stock,19.0,33.4900016784668,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-02-27,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-02-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-03-01,PFE,US7170811035,USD,Common Stock,19.0,33.689998626708984,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-02,PFE,US7170811035,USD,Common Stock,19.0,33.5099983215332,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-03,PFE,US7170811035,USD,Common Stock,19.0,34.38999938964844,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-04,PFE,US7170811035,USD,Common Stock,19.0,34.20000076293945,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-05,PFE,US7170811035,USD,Common Stock,19.0,34.38999938964844,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-06,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-03-07,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-03-08,PFE,US7170811035,USD,Common Stock,19.0,34.349998474121094,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-09,PFE,US7170811035,USD,Common Stock,19.0,34.45000076293945,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-10,PFE,US7170811035,USD,Common Stock,19.0,34.93000030517578,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-11,PFE,US7170811035,USD,Common Stock,19.0,34.709999084472656,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-12,PFE,US7170811035,USD,Common Stock,19.0,34.939998626708984,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-13,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-03-14,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-03-15,PFE,US7170811035,USD,Common Stock,19.0,35.40999984741211,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-16,PFE,US7170811035,USD,Common Stock,19.0,35.83000183105469,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-17,PFE,US7170811035,USD,Common Stock,19.0,35.790000915527344,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-18,PFE,US7170811035,USD,Common Stock,19.0,35.77000045776367,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-19,PFE,US7170811035,USD,Common Stock,19.0,35.529998779296875,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-20,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-03-21,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-03-22,PFE,US7170811035,USD,Common Stock,19.0,36.0,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-23,PFE,US7170811035,USD,Common Stock,19.0,35.36000061035156,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-24,PFE,US7170811035,USD,Common Stock,19.0,35.61000061035156,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-25,PFE,US7170811035,USD,Common Stock,19.0,35.66999816894531,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-26,PFE,US7170811035,USD,Common Stock,19.0,36.25,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-27,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-03-28,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-03-29,PFE,US7170811035,USD,Common Stock,19.0,36.619998931884766,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-30,PFE,US7170811035,USD,Common Stock,19.0,36.11000061035156,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-03-31,PFE,US7170811035,USD,Common Stock,19.0,36.22999954223633,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-01,PFE,US7170811035,USD,Common Stock,19.0,36.29999923706055,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-04-03,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-04-04,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-04-05,PFE,US7170811035,USD,Common Stock,19.0,36.279998779296875,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-06,PFE,US7170811035,USD,Common Stock,19.0,36.04999923706055,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-07,PFE,US7170811035,USD,Common Stock,19.0,35.90999984741211,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-08,PFE,US7170811035,USD,Common Stock,19.0,35.959999084472656,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-09,PFE,US7170811035,USD,Common Stock,19.0,36.599998474121094,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-10,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-04-11,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-04-12,PFE,US7170811035,USD,Common Stock,19.0,36.970001220703125,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-13,PFE,US7170811035,USD,Common Stock,19.0,37.15999984741211,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-14,PFE,US7170811035,USD,Common Stock,19.0,37.16999816894531,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-15,PFE,US7170811035,USD,Common Stock,19.0,37.599998474121094,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-16,PFE,US7170811035,USD,Common Stock,19.0,38.56999969482422,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-17,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-04-18,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-04-19,PFE,US7170811035,USD,Common Stock,19.0,38.93000030517578,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-20,PFE,US7170811035,USD,Common Stock,19.0,39.029998779296875,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-21,PFE,US7170811035,USD,Common Stock,19.0,39.529998779296875,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-22,PFE,US7170811035,USD,Common Stock,19.0,38.63999938964844,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-23,PFE,US7170811035,USD,Common Stock,19.0,38.65999984741211,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-24,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-04-25,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-04-26,PFE,US7170811035,USD,Common Stock,19.0,38.68000030517578,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-27,PFE,US7170811035,USD,Common Stock,19.0,38.45000076293945,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-28,PFE,US7170811035,USD,Common Stock,19.0,38.810001373291016,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-29,PFE,US7170811035,USD,Common Stock,19.0,38.599998474121094,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-04-30,PFE,US7170811035,USD,Common Stock,19.0,38.650001525878906,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-05-01,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-05-02,PFE,US7170811035,USD,Common Stock,19.0,,,,,,
+2021-05-03,PFE,US7170811035,USD,Common Stock,19.0,39.83000183105469,,0.0,1.0,Healthcare,Drug Manufacturers - General
+2021-05-04,PFE,US7170811035,USD,Common Stock,0.0,39.95000076293945,,0.0,1.0,Healthcare,Drug Manufacturers - General

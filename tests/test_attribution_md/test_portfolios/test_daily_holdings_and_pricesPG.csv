@@ -1,0 +1,327 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2020-01-21,PG,US7427181091,USD,Common Stock,15.0,126.08999633789062,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-01-22,PG,US7427181091,USD,Common Stock,15.0,126.30999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-01-23,PG,US7427181091,USD,Common Stock,15.0,124.98999786376953,,0.746,1.0,Consumer Defensive,Household & Personal Products
+2020-01-24,PG,US7427181091,USD,Common Stock,15.0,125.13999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-01-25,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-01-26,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-01-27,PG,US7427181091,USD,Common Stock,15.0,125.69000244140625,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-01-28,PG,US7427181091,USD,Common Stock,15.0,126.02999877929688,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-01-29,PG,US7427181091,USD,Common Stock,15.0,125.05999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-01-30,PG,US7427181091,USD,Common Stock,15.0,125.94999694824219,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-01-31,PG,US7427181091,USD,Common Stock,15.0,124.62000274658203,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-01,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-02-02,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-02-03,PG,US7427181091,USD,Common Stock,15.0,125.11000061035156,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-04,PG,US7427181091,USD,Common Stock,15.0,125.66000366210938,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-05,PG,US7427181091,USD,Common Stock,15.0,126.80999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-06,PG,US7427181091,USD,Common Stock,15.0,127.13999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-07,PG,US7427181091,USD,Common Stock,15.0,126.08000183105469,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-08,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-02-09,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-02-10,PG,US7427181091,USD,Common Stock,15.0,126.16999816894531,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-11,PG,US7427181091,USD,Common Stock,15.0,124.16000366210938,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-12,PG,US7427181091,USD,Common Stock,15.0,123.44999694824219,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-13,PG,US7427181091,USD,Common Stock,15.0,124.95999908447266,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-14,PG,US7427181091,USD,Common Stock,15.0,126.13999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-15,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-02-16,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-02-17,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-02-18,PG,US7427181091,USD,Common Stock,15.0,124.87000274658203,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-19,PG,US7427181091,USD,Common Stock,15.0,125.44000244140625,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-20,PG,US7427181091,USD,Common Stock,15.0,126.58000183105469,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-21,PG,US7427181091,USD,Common Stock,15.0,126.69999694824219,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-22,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-02-23,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-02-24,PG,US7427181091,USD,Common Stock,15.0,123.30000305175781,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-25,PG,US7427181091,USD,Common Stock,15.0,121.43000030517578,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-26,PG,US7427181091,USD,Common Stock,15.0,120.16000366210938,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-27,PG,US7427181091,USD,Common Stock,15.0,113.5,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-28,PG,US7427181091,USD,Common Stock,15.0,113.2300033569336,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-02-29,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-01,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-02,PG,US7427181091,USD,Common Stock,15.0,119.55999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-03,PG,US7427181091,USD,Common Stock,15.0,118.16999816894531,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-04,PG,US7427181091,USD,Common Stock,15.0,124.5,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-05,PG,US7427181091,USD,Common Stock,15.0,121.62999725341797,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-06,PG,US7427181091,USD,Common Stock,15.0,121.66000366210938,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-07,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-08,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-09,PG,US7427181091,USD,Common Stock,15.0,116.05999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-10,PG,US7427181091,USD,Common Stock,15.0,120.55000305175781,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-11,PG,US7427181091,USD,Common Stock,15.0,111.58999633789062,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-12,PG,US7427181091,USD,Common Stock,15.0,101.83999633789062,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-13,PG,US7427181091,USD,Common Stock,15.0,114.06999969482422,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-14,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-15,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-16,PG,US7427181091,USD,Common Stock,15.0,108.5,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-17,PG,US7427181091,USD,Common Stock,15.0,118.23999786376953,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-18,PG,US7427181091,USD,Common Stock,15.0,117.44999694824219,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-19,PG,US7427181091,USD,Common Stock,15.0,110.83000183105469,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-20,PG,US7427181091,USD,Common Stock,15.0,102.43000030517578,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-21,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-22,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-23,PG,US7427181091,USD,Common Stock,15.0,97.69999694824219,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-24,PG,US7427181091,USD,Common Stock,15.0,103.2699966430664,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-25,PG,US7427181091,USD,Common Stock,15.0,100.91999816894531,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-26,PG,US7427181091,USD,Common Stock,15.0,107.37999725341797,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-27,PG,US7427181091,USD,Common Stock,15.0,110.16999816894531,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-28,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-29,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-03-30,PG,US7427181091,USD,Common Stock,15.0,115.0,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-03-31,PG,US7427181091,USD,Common Stock,15.0,110.0,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-01,PG,US7427181091,USD,Common Stock,15.0,109.33000183105469,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-02,PG,US7427181091,USD,Common Stock,15.0,114.4000015258789,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-03,PG,US7427181091,USD,Common Stock,15.0,115.08000183105469,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-04,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-04-05,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-04-06,PG,US7427181091,USD,Common Stock,15.0,117.80999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-07,PG,US7427181091,USD,Common Stock,15.0,112.7699966430664,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-08,PG,US7427181091,USD,Common Stock,15.0,115.0999984741211,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-09,PG,US7427181091,USD,Common Stock,15.0,114.66000366210938,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-10,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-04-11,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-04-12,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-04-13,PG,US7427181091,USD,Common Stock,15.0,115.94999694824219,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-14,PG,US7427181091,USD,Common Stock,15.0,120.95999908447266,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-15,PG,US7427181091,USD,Common Stock,15.0,121.22000122070312,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-16,PG,US7427181091,USD,Common Stock,15.0,121.5,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-17,PG,US7427181091,USD,Common Stock,15.0,124.69000244140625,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-18,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-04-19,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-04-20,PG,US7427181091,USD,Common Stock,15.0,120.5999984741211,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-21,PG,US7427181091,USD,Common Stock,15.0,119.68000030517578,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-22,PG,US7427181091,USD,Common Stock,15.0,119.4000015258789,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-23,PG,US7427181091,USD,Common Stock,15.0,119.4000015258789,,0.791,1.0,Consumer Defensive,Household & Personal Products
+2020-04-24,PG,US7427181091,USD,Common Stock,15.0,118.77999877929688,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-25,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-04-26,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-04-27,PG,US7427181091,USD,Common Stock,15.0,117.44999694824219,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-28,PG,US7427181091,USD,Common Stock,15.0,116.88999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-29,PG,US7427181091,USD,Common Stock,15.0,117.08000183105469,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-04-30,PG,US7427181091,USD,Common Stock,15.0,117.87000274658203,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-01,PG,US7427181091,USD,Common Stock,15.0,116.81999969482422,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-02,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-03,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-04,PG,US7427181091,USD,Common Stock,15.0,115.7699966430664,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-05,PG,US7427181091,USD,Common Stock,15.0,116.01000213623047,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-06,PG,US7427181091,USD,Common Stock,15.0,113.0999984741211,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-07,PG,US7427181091,USD,Common Stock,15.0,112.16999816894531,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-08,PG,US7427181091,USD,Common Stock,15.0,115.94999694824219,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-09,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-10,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-11,PG,US7427181091,USD,Common Stock,15.0,115.30999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-12,PG,US7427181091,USD,Common Stock,15.0,114.55000305175781,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-13,PG,US7427181091,USD,Common Stock,15.0,113.91999816894531,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-14,PG,US7427181091,USD,Common Stock,15.0,113.80999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-15,PG,US7427181091,USD,Common Stock,15.0,114.61000061035156,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-16,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-17,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-18,PG,US7427181091,USD,Common Stock,15.0,116.20999908447266,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-19,PG,US7427181091,USD,Common Stock,15.0,112.44000244140625,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-20,PG,US7427181091,USD,Common Stock,15.0,113.27999877929688,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-21,PG,US7427181091,USD,Common Stock,15.0,111.62000274658203,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-22,PG,US7427181091,USD,Common Stock,15.0,112.5999984741211,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-23,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-24,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-25,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-26,PG,US7427181091,USD,Common Stock,15.0,112.02999877929688,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-27,PG,US7427181091,USD,Common Stock,15.0,113.88999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-28,PG,US7427181091,USD,Common Stock,15.0,116.05999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-29,PG,US7427181091,USD,Common Stock,15.0,115.91999816894531,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-05-30,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-05-31,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-06-01,PG,US7427181091,USD,Common Stock,15.0,117.25,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-02,PG,US7427181091,USD,Common Stock,15.0,118.05999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-03,PG,US7427181091,USD,Common Stock,15.0,118.52999877929688,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-04,PG,US7427181091,USD,Common Stock,15.0,116.05000305175781,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-05,PG,US7427181091,USD,Common Stock,15.0,118.33000183105469,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-06,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-06-07,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-06-08,PG,US7427181091,USD,Common Stock,15.0,119.05000305175781,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-09,PG,US7427181091,USD,Common Stock,15.0,118.33999633789062,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-10,PG,US7427181091,USD,Common Stock,15.0,119.2300033569336,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-11,PG,US7427181091,USD,Common Stock,15.0,116.26000213623047,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-12,PG,US7427181091,USD,Common Stock,15.0,115.62000274658203,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-13,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-06-14,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-06-15,PG,US7427181091,USD,Common Stock,15.0,116.69000244140625,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-16,PG,US7427181091,USD,Common Stock,15.0,118.12999725341797,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-17,PG,US7427181091,USD,Common Stock,15.0,117.93000030517578,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-18,PG,US7427181091,USD,Common Stock,15.0,119.27999877929688,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-19,PG,US7427181091,USD,Common Stock,15.0,118.91999816894531,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-20,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-06-21,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-06-22,PG,US7427181091,USD,Common Stock,15.0,117.75,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-23,PG,US7427181091,USD,Common Stock,15.0,117.7300033569336,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-24,PG,US7427181091,USD,Common Stock,15.0,116.41999816894531,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-25,PG,US7427181091,USD,Common Stock,15.0,117.88999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-26,PG,US7427181091,USD,Common Stock,15.0,115.2300033569336,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-27,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-06-28,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-06-29,PG,US7427181091,USD,Common Stock,15.0,117.66000366210938,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-06-30,PG,US7427181091,USD,Common Stock,15.0,119.56999969482422,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-01,PG,US7427181091,USD,Common Stock,15.0,119.9800033569336,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-02,PG,US7427181091,USD,Common Stock,15.0,120.87999725341797,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-03,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-07-04,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-07-05,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-07-06,PG,US7427181091,USD,Common Stock,15.0,121.62999725341797,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-07,PG,US7427181091,USD,Common Stock,15.0,122.22000122070312,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-08,PG,US7427181091,USD,Common Stock,15.0,122.88999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-09,PG,US7427181091,USD,Common Stock,15.0,122.4800033569336,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-10,PG,US7427181091,USD,Common Stock,15.0,123.88999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-11,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-07-12,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-07-13,PG,US7427181091,USD,Common Stock,15.0,124.05000305175781,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-14,PG,US7427181091,USD,Common Stock,15.0,125.08999633789062,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-15,PG,US7427181091,USD,Common Stock,15.0,124.5,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-16,PG,US7427181091,USD,Common Stock,15.0,124.76000213623047,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-17,PG,US7427181091,USD,Common Stock,15.0,125.62999725341797,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-18,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-07-19,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-07-20,PG,US7427181091,USD,Common Stock,15.0,125.23999786376953,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-21,PG,US7427181091,USD,Common Stock,15.0,125.06999969482422,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-22,PG,US7427181091,USD,Common Stock,15.0,126.13999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-23,PG,US7427181091,USD,Common Stock,15.0,126.16000366210938,,0.791,1.0,Consumer Defensive,Household & Personal Products
+2020-07-24,PG,US7427181091,USD,Common Stock,15.0,125.95999908447266,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-25,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-07-26,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-07-27,PG,US7427181091,USD,Common Stock,15.0,126.31999969482422,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-28,PG,US7427181091,USD,Common Stock,15.0,127.87999725341797,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-29,PG,US7427181091,USD,Common Stock,15.0,128.30999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-30,PG,US7427181091,USD,Common Stock,15.0,131.4199981689453,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-07-31,PG,US7427181091,USD,Common Stock,15.0,131.1199951171875,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-01,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-02,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-03,PG,US7427181091,USD,Common Stock,15.0,131.2899932861328,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-04,PG,US7427181091,USD,Common Stock,15.0,133.7899932861328,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-05,PG,US7427181091,USD,Common Stock,15.0,133.44000244140625,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-06,PG,US7427181091,USD,Common Stock,15.0,132.7100067138672,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-07,PG,US7427181091,USD,Common Stock,15.0,133.5500030517578,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-08,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-09,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-10,PG,US7427181091,USD,Common Stock,15.0,134.10000610351562,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-11,PG,US7427181091,USD,Common Stock,15.0,133.22999572753906,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-12,PG,US7427181091,USD,Common Stock,15.0,135.4600067138672,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-13,PG,US7427181091,USD,Common Stock,15.0,135.77999877929688,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-14,PG,US7427181091,USD,Common Stock,15.0,135.10000610351562,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-15,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-16,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-17,PG,US7427181091,USD,Common Stock,15.0,135.5,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-18,PG,US7427181091,USD,Common Stock,15.0,136.50999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-19,PG,US7427181091,USD,Common Stock,15.0,135.77000427246094,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-20,PG,US7427181091,USD,Common Stock,15.0,136.85000610351562,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-21,PG,US7427181091,USD,Common Stock,15.0,137.44000244140625,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-22,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-23,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-24,PG,US7427181091,USD,Common Stock,15.0,138.50999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-25,PG,US7427181091,USD,Common Stock,15.0,139.05999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-26,PG,US7427181091,USD,Common Stock,15.0,138.38999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-27,PG,US7427181091,USD,Common Stock,15.0,138.2100067138672,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-28,PG,US7427181091,USD,Common Stock,15.0,138.77000427246094,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-08-29,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-30,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-08-31,PG,US7427181091,USD,Common Stock,15.0,138.3300018310547,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-01,PG,US7427181091,USD,Common Stock,15.0,138.17999267578125,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-02,PG,US7427181091,USD,Common Stock,15.0,140.50999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-03,PG,US7427181091,USD,Common Stock,15.0,138.25999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-04,PG,US7427181091,USD,Common Stock,15.0,137.9600067138672,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-05,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-09-06,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-09-07,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-09-08,PG,US7427181091,USD,Common Stock,15.0,135.94000244140625,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-09,PG,US7427181091,USD,Common Stock,15.0,138.14999389648438,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-10,PG,US7427181091,USD,Common Stock,15.0,136.6999969482422,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-11,PG,US7427181091,USD,Common Stock,15.0,138.13999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-12,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-09-13,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-09-14,PG,US7427181091,USD,Common Stock,15.0,138.6300048828125,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-15,PG,US7427181091,USD,Common Stock,15.0,138.6300048828125,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-16,PG,US7427181091,USD,Common Stock,15.0,137.6999969482422,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-17,PG,US7427181091,USD,Common Stock,15.0,137.52000427246094,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-18,PG,US7427181091,USD,Common Stock,15.0,137.3699951171875,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-19,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-09-20,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-09-21,PG,US7427181091,USD,Common Stock,15.0,136.7100067138672,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-22,PG,US7427181091,USD,Common Stock,15.0,137.9600067138672,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-23,PG,US7427181091,USD,Common Stock,15.0,136.30999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-24,PG,US7427181091,USD,Common Stock,15.0,136.9199981689453,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-25,PG,US7427181091,USD,Common Stock,15.0,137.6199951171875,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-26,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-09-27,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-09-28,PG,US7427181091,USD,Common Stock,15.0,138.00999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-29,PG,US7427181091,USD,Common Stock,15.0,137.25999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-09-30,PG,US7427181091,USD,Common Stock,15.0,138.99000549316406,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-01,PG,US7427181091,USD,Common Stock,15.0,139.24000549316406,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-02,PG,US7427181091,USD,Common Stock,15.0,138.1199951171875,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-03,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-10-04,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-10-05,PG,US7427181091,USD,Common Stock,15.0,139.38999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-06,PG,US7427181091,USD,Common Stock,15.0,139.61000061035156,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-07,PG,US7427181091,USD,Common Stock,15.0,140.6999969482422,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-08,PG,US7427181091,USD,Common Stock,15.0,141.64999389648438,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-09,PG,US7427181091,USD,Common Stock,15.0,142.9199981689453,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-10,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-10-11,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-10-12,PG,US7427181091,USD,Common Stock,15.0,144.49000549316406,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-13,PG,US7427181091,USD,Common Stock,15.0,144.2100067138672,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-14,PG,US7427181091,USD,Common Stock,15.0,144.0399932861328,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-15,PG,US7427181091,USD,Common Stock,15.0,143.8300018310547,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-16,PG,US7427181091,USD,Common Stock,15.0,144.38999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-17,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-10-18,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-10-19,PG,US7427181091,USD,Common Stock,15.0,141.91000366210938,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-20,PG,US7427181091,USD,Common Stock,15.0,142.47999572753906,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-21,PG,US7427181091,USD,Common Stock,15.0,143.25,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-22,PG,US7427181091,USD,Common Stock,15.0,141.4499969482422,,0.791,1.0,Consumer Defensive,Household & Personal Products
+2020-10-23,PG,US7427181091,USD,Common Stock,15.0,142.3800048828125,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-24,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-10-25,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-10-26,PG,US7427181091,USD,Common Stock,15.0,141.3000030517578,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-27,PG,US7427181091,USD,Common Stock,15.0,142.36000061035156,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-28,PG,US7427181091,USD,Common Stock,15.0,137.66000366210938,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-29,PG,US7427181091,USD,Common Stock,15.0,137.57000732421875,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-30,PG,US7427181091,USD,Common Stock,15.0,137.10000610351562,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-10-31,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-01,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-02,PG,US7427181091,USD,Common Stock,15.0,138.5,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-03,PG,US7427181091,USD,Common Stock,15.0,141.22000122070312,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-04,PG,US7427181091,USD,Common Stock,15.0,140.63999938964844,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-05,PG,US7427181091,USD,Common Stock,15.0,142.3800048828125,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-06,PG,US7427181091,USD,Common Stock,15.0,143.22999572753906,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-07,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-08,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-09,PG,US7427181091,USD,Common Stock,15.0,137.99000549316406,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-10,PG,US7427181091,USD,Common Stock,15.0,140.25999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-11,PG,US7427181091,USD,Common Stock,15.0,142.07000732421875,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-12,PG,US7427181091,USD,Common Stock,15.0,142.14999389648438,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-13,PG,US7427181091,USD,Common Stock,15.0,144.27999877929688,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-14,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-15,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-16,PG,US7427181091,USD,Common Stock,15.0,142.42999267578125,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-17,PG,US7427181091,USD,Common Stock,15.0,141.8800048828125,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-18,PG,US7427181091,USD,Common Stock,15.0,139.6999969482422,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-19,PG,US7427181091,USD,Common Stock,15.0,139.52999877929688,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-20,PG,US7427181091,USD,Common Stock,15.0,139.3000030517578,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-21,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-22,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-23,PG,US7427181091,USD,Common Stock,15.0,138.75999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-24,PG,US7427181091,USD,Common Stock,15.0,138.30999755859375,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-25,PG,US7427181091,USD,Common Stock,15.0,138.67999267578125,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-26,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-27,PG,US7427181091,USD,Common Stock,15.0,138.61000061035156,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-11-28,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-29,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-11-30,PG,US7427181091,USD,Common Stock,15.0,138.8699951171875,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-12-01,PG,US7427181091,USD,Common Stock,15.0,139.3699951171875,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-12-02,PG,US7427181091,USD,Common Stock,15.0,138.36000061035156,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-12-03,PG,US7427181091,USD,Common Stock,15.0,137.33999633789062,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-12-04,PG,US7427181091,USD,Common Stock,15.0,137.47000122070312,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-12-05,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-12-06,PG,US7427181091,USD,Common Stock,15.0,,,,,,
+2020-12-07,PG,US7427181091,USD,Common Stock,15.0,137.67999267578125,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-12-08,PG,US7427181091,USD,Common Stock,15.0,138.0500030517578,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-12-09,PG,US7427181091,USD,Common Stock,15.0,136.41000366210938,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-12-10,PG,US7427181091,USD,Common Stock,15.0,135.50999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products
+2020-12-11,PG,US7427181091,USD,Common Stock,0.0,136.50999450683594,,0.0,1.0,Consumer Defensive,Household & Personal Products

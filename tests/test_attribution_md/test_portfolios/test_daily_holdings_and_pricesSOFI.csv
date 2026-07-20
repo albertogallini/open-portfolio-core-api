@@ -1,0 +1,9 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2023-12-04,SOFI,US83406F1021,USD,Common Stock,75.0,7.960000038146973,,0.0,1.0,Financial Services,Credit Services
+2023-12-05,SOFI,US83406F1021,USD,Common Stock,75.0,7.989999771118164,,0.0,1.0,Financial Services,Credit Services
+2023-12-06,SOFI,US83406F1021,USD,Common Stock,75.0,7.889999866485596,,0.0,1.0,Financial Services,Credit Services
+2023-12-07,SOFI,US83406F1021,USD,Common Stock,75.0,7.960000038146973,,0.0,1.0,Financial Services,Credit Services
+2023-12-08,SOFI,US83406F1021,USD,Common Stock,75.0,8.130000114440918,,0.0,1.0,Financial Services,Credit Services
+2023-12-09,SOFI,US83406F1021,USD,Common Stock,75.0,,,,,,
+2023-12-10,SOFI,US83406F1021,USD,Common Stock,75.0,,,,,,
+2023-12-11,SOFI,US83406F1021,USD,Common Stock,0.0,8.069999694824219,,0.0,1.0,Financial Services,Credit Services

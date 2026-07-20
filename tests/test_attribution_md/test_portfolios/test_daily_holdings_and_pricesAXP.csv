@@ -1,0 +1,166 @@
+date,ticker,isin,ccy,securityType,quantity,Close,FX Rates,Dividends,Stock Splits,sector,industry
+2019-02-19,AXP,US0258161092,USD,Common Stock,14.0,106.5,,0.0,1.0,Financial Services,Credit Services
+2019-02-20,AXP,US0258161092,USD,Common Stock,14.0,106.77999877929688,,0.0,1.0,Financial Services,Credit Services
+2019-02-21,AXP,US0258161092,USD,Common Stock,14.0,106.61000061035156,,0.0,1.0,Financial Services,Credit Services
+2019-02-22,AXP,US0258161092,USD,Common Stock,14.0,107.44000244140625,,0.0,1.0,Financial Services,Credit Services
+2019-02-23,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-02-24,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-02-25,AXP,US0258161092,USD,Common Stock,14.0,106.93000030517578,,0.0,1.0,Financial Services,Credit Services
+2019-02-26,AXP,US0258161092,USD,Common Stock,14.0,106.94000244140625,,0.0,1.0,Financial Services,Credit Services
+2019-02-27,AXP,US0258161092,USD,Common Stock,14.0,107.41999816894531,,0.0,1.0,Financial Services,Credit Services
+2019-02-28,AXP,US0258161092,USD,Common Stock,14.0,107.73999786376953,,0.0,1.0,Financial Services,Credit Services
+2019-03-01,AXP,US0258161092,USD,Common Stock,14.0,108.9000015258789,,0.0,1.0,Financial Services,Credit Services
+2019-03-02,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-03-03,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-03-04,AXP,US0258161092,USD,Common Stock,14.0,109.0,,0.0,1.0,Financial Services,Credit Services
+2019-03-05,AXP,US0258161092,USD,Common Stock,14.0,108.8499984741211,,0.0,1.0,Financial Services,Credit Services
+2019-03-06,AXP,US0258161092,USD,Common Stock,14.0,108.9800033569336,,0.0,1.0,Financial Services,Credit Services
+2019-03-07,AXP,US0258161092,USD,Common Stock,14.0,107.86000061035156,,0.0,1.0,Financial Services,Credit Services
+2019-03-08,AXP,US0258161092,USD,Common Stock,14.0,107.9800033569336,,0.0,1.0,Financial Services,Credit Services
+2019-03-09,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-03-10,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-03-11,AXP,US0258161092,USD,Common Stock,14.0,109.55999755859375,,0.0,1.0,Financial Services,Credit Services
+2019-03-12,AXP,US0258161092,USD,Common Stock,14.0,110.43000030517578,,0.0,1.0,Financial Services,Credit Services
+2019-03-13,AXP,US0258161092,USD,Common Stock,14.0,112.13999938964844,,0.0,1.0,Financial Services,Credit Services
+2019-03-14,AXP,US0258161092,USD,Common Stock,14.0,112.3499984741211,,0.0,1.0,Financial Services,Credit Services
+2019-03-15,AXP,US0258161092,USD,Common Stock,14.0,113.5199966430664,,0.0,1.0,Financial Services,Credit Services
+2019-03-16,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-03-17,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-03-18,AXP,US0258161092,USD,Common Stock,14.0,113.55000305175781,,0.0,1.0,Financial Services,Credit Services
+2019-03-19,AXP,US0258161092,USD,Common Stock,14.0,112.66999816894531,,0.0,1.0,Financial Services,Credit Services
+2019-03-20,AXP,US0258161092,USD,Common Stock,14.0,110.7699966430664,,0.0,1.0,Financial Services,Credit Services
+2019-03-21,AXP,US0258161092,USD,Common Stock,14.0,111.81999969482422,,0.0,1.0,Financial Services,Credit Services
+2019-03-22,AXP,US0258161092,USD,Common Stock,14.0,109.45999908447266,,0.0,1.0,Financial Services,Credit Services
+2019-03-23,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-03-24,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-03-25,AXP,US0258161092,USD,Common Stock,14.0,109.04000091552734,,0.0,1.0,Financial Services,Credit Services
+2019-03-26,AXP,US0258161092,USD,Common Stock,14.0,109.5,,0.0,1.0,Financial Services,Credit Services
+2019-03-27,AXP,US0258161092,USD,Common Stock,14.0,108.9800033569336,,0.0,1.0,Financial Services,Credit Services
+2019-03-28,AXP,US0258161092,USD,Common Stock,14.0,109.16000366210938,,0.0,1.0,Financial Services,Credit Services
+2019-03-29,AXP,US0258161092,USD,Common Stock,14.0,109.30000305175781,,0.0,1.0,Financial Services,Credit Services
+2019-03-30,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-03-31,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-01,AXP,US0258161092,USD,Common Stock,14.0,111.69999694824219,,0.0,1.0,Financial Services,Credit Services
+2019-04-02,AXP,US0258161092,USD,Common Stock,14.0,111.0,,0.0,1.0,Financial Services,Credit Services
+2019-04-03,AXP,US0258161092,USD,Common Stock,14.0,110.55999755859375,,0.0,1.0,Financial Services,Credit Services
+2019-04-04,AXP,US0258161092,USD,Common Stock,14.0,110.12000274658203,,0.39,1.0,Financial Services,Credit Services
+2019-04-05,AXP,US0258161092,USD,Common Stock,14.0,110.95999908447266,,0.0,1.0,Financial Services,Credit Services
+2019-04-06,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-07,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-08,AXP,US0258161092,USD,Common Stock,14.0,110.69999694824219,,0.0,1.0,Financial Services,Credit Services
+2019-04-09,AXP,US0258161092,USD,Common Stock,14.0,109.8499984741211,,0.0,1.0,Financial Services,Credit Services
+2019-04-10,AXP,US0258161092,USD,Common Stock,14.0,110.16000366210938,,0.0,1.0,Financial Services,Credit Services
+2019-04-11,AXP,US0258161092,USD,Common Stock,14.0,109.8499984741211,,0.0,1.0,Financial Services,Credit Services
+2019-04-12,AXP,US0258161092,USD,Common Stock,14.0,110.91000366210938,,0.0,1.0,Financial Services,Credit Services
+2019-04-13,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-14,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-15,AXP,US0258161092,USD,Common Stock,14.0,110.52999877929688,,0.0,1.0,Financial Services,Credit Services
+2019-04-16,AXP,US0258161092,USD,Common Stock,14.0,111.87999725341797,,0.0,1.0,Financial Services,Credit Services
+2019-04-17,AXP,US0258161092,USD,Common Stock,14.0,111.76000213623047,,0.0,1.0,Financial Services,Credit Services
+2019-04-18,AXP,US0258161092,USD,Common Stock,14.0,113.66999816894531,,0.0,1.0,Financial Services,Credit Services
+2019-04-19,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-20,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-21,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-22,AXP,US0258161092,USD,Common Stock,14.0,112.33000183105469,,0.0,1.0,Financial Services,Credit Services
+2019-04-23,AXP,US0258161092,USD,Common Stock,14.0,113.97000122070312,,0.0,1.0,Financial Services,Credit Services
+2019-04-24,AXP,US0258161092,USD,Common Stock,14.0,114.0199966430664,,0.0,1.0,Financial Services,Credit Services
+2019-04-25,AXP,US0258161092,USD,Common Stock,14.0,115.87999725341797,,0.0,1.0,Financial Services,Credit Services
+2019-04-26,AXP,US0258161092,USD,Common Stock,14.0,117.5999984741211,,0.0,1.0,Financial Services,Credit Services
+2019-04-27,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-28,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-04-29,AXP,US0258161092,USD,Common Stock,14.0,116.76000213623047,,0.0,1.0,Financial Services,Credit Services
+2019-04-30,AXP,US0258161092,USD,Common Stock,14.0,117.2300033569336,,0.0,1.0,Financial Services,Credit Services
+2019-05-01,AXP,US0258161092,USD,Common Stock,14.0,117.0199966430664,,0.0,1.0,Financial Services,Credit Services
+2019-05-02,AXP,US0258161092,USD,Common Stock,14.0,117.25,,0.0,1.0,Financial Services,Credit Services
+2019-05-03,AXP,US0258161092,USD,Common Stock,14.0,119.3499984741211,,0.0,1.0,Financial Services,Credit Services
+2019-05-04,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-05-05,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-05-06,AXP,US0258161092,USD,Common Stock,14.0,119.33999633789062,,0.0,1.0,Financial Services,Credit Services
+2019-05-07,AXP,US0258161092,USD,Common Stock,14.0,118.22000122070312,,0.0,1.0,Financial Services,Credit Services
+2019-05-08,AXP,US0258161092,USD,Common Stock,14.0,117.48999786376953,,0.0,1.0,Financial Services,Credit Services
+2019-05-09,AXP,US0258161092,USD,Common Stock,14.0,117.26000213623047,,0.0,1.0,Financial Services,Credit Services
+2019-05-10,AXP,US0258161092,USD,Common Stock,14.0,118.45999908447266,,0.0,1.0,Financial Services,Credit Services
+2019-05-11,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-05-12,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-05-13,AXP,US0258161092,USD,Common Stock,14.0,115.9000015258789,,0.0,1.0,Financial Services,Credit Services
+2019-05-14,AXP,US0258161092,USD,Common Stock,14.0,117.01000213623047,,0.0,1.0,Financial Services,Credit Services
+2019-05-15,AXP,US0258161092,USD,Common Stock,14.0,117.66000366210938,,0.0,1.0,Financial Services,Credit Services
+2019-05-16,AXP,US0258161092,USD,Common Stock,14.0,119.83999633789062,,0.0,1.0,Financial Services,Credit Services
+2019-05-17,AXP,US0258161092,USD,Common Stock,14.0,119.06999969482422,,0.0,1.0,Financial Services,Credit Services
+2019-05-18,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-05-19,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-05-20,AXP,US0258161092,USD,Common Stock,14.0,119.83999633789062,,0.0,1.0,Financial Services,Credit Services
+2019-05-21,AXP,US0258161092,USD,Common Stock,14.0,120.55000305175781,,0.0,1.0,Financial Services,Credit Services
+2019-05-22,AXP,US0258161092,USD,Common Stock,14.0,120.01000213623047,,0.0,1.0,Financial Services,Credit Services
+2019-05-23,AXP,US0258161092,USD,Common Stock,14.0,118.43000030517578,,0.0,1.0,Financial Services,Credit Services
+2019-05-24,AXP,US0258161092,USD,Common Stock,14.0,119.51000213623047,,0.0,1.0,Financial Services,Credit Services
+2019-05-25,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-05-26,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-05-27,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-05-28,AXP,US0258161092,USD,Common Stock,14.0,118.16999816894531,,0.0,1.0,Financial Services,Credit Services
+2019-05-29,AXP,US0258161092,USD,Common Stock,14.0,117.01000213623047,,0.0,1.0,Financial Services,Credit Services
+2019-05-30,AXP,US0258161092,USD,Common Stock,14.0,116.73999786376953,,0.0,1.0,Financial Services,Credit Services
+2019-05-31,AXP,US0258161092,USD,Common Stock,14.0,114.70999908447266,,0.0,1.0,Financial Services,Credit Services
+2019-06-01,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-06-02,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-06-03,AXP,US0258161092,USD,Common Stock,14.0,114.62000274658203,,0.0,1.0,Financial Services,Credit Services
+2019-06-04,AXP,US0258161092,USD,Common Stock,14.0,116.8499984741211,,0.0,1.0,Financial Services,Credit Services
+2019-06-05,AXP,US0258161092,USD,Common Stock,14.0,118.12000274658203,,0.0,1.0,Financial Services,Credit Services
+2019-06-06,AXP,US0258161092,USD,Common Stock,14.0,119.43000030517578,,0.0,1.0,Financial Services,Credit Services
+2019-06-07,AXP,US0258161092,USD,Common Stock,14.0,121.11000061035156,,0.0,1.0,Financial Services,Credit Services
+2019-06-08,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-06-09,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-06-10,AXP,US0258161092,USD,Common Stock,14.0,122.66000366210938,,0.0,1.0,Financial Services,Credit Services
+2019-06-11,AXP,US0258161092,USD,Common Stock,14.0,123.2300033569336,,0.0,1.0,Financial Services,Credit Services
+2019-06-12,AXP,US0258161092,USD,Common Stock,14.0,122.02999877929688,,0.0,1.0,Financial Services,Credit Services
+2019-06-13,AXP,US0258161092,USD,Common Stock,14.0,121.86000061035156,,0.0,1.0,Financial Services,Credit Services
+2019-06-14,AXP,US0258161092,USD,Common Stock,14.0,122.0,,0.0,1.0,Financial Services,Credit Services
+2019-06-15,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-06-16,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-06-17,AXP,US0258161092,USD,Common Stock,14.0,121.44999694824219,,0.0,1.0,Financial Services,Credit Services
+2019-06-18,AXP,US0258161092,USD,Common Stock,14.0,123.43000030517578,,0.0,1.0,Financial Services,Credit Services
+2019-06-19,AXP,US0258161092,USD,Common Stock,14.0,124.68000030517578,,0.0,1.0,Financial Services,Credit Services
+2019-06-20,AXP,US0258161092,USD,Common Stock,14.0,124.91999816894531,,0.0,1.0,Financial Services,Credit Services
+2019-06-21,AXP,US0258161092,USD,Common Stock,14.0,124.7300033569336,,0.0,1.0,Financial Services,Credit Services
+2019-06-22,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-06-23,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-06-24,AXP,US0258161092,USD,Common Stock,14.0,124.13999938964844,,0.0,1.0,Financial Services,Credit Services
+2019-06-25,AXP,US0258161092,USD,Common Stock,14.0,123.16000366210938,,0.0,1.0,Financial Services,Credit Services
+2019-06-26,AXP,US0258161092,USD,Common Stock,14.0,123.58999633789062,,0.0,1.0,Financial Services,Credit Services
+2019-06-27,AXP,US0258161092,USD,Common Stock,14.0,123.94000244140625,,0.0,1.0,Financial Services,Credit Services
+2019-06-28,AXP,US0258161092,USD,Common Stock,14.0,123.44000244140625,,0.0,1.0,Financial Services,Credit Services
+2019-06-29,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-06-30,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-01,AXP,US0258161092,USD,Common Stock,14.0,124.91999816894531,,0.0,1.0,Financial Services,Credit Services
+2019-07-02,AXP,US0258161092,USD,Common Stock,14.0,125.0999984741211,,0.0,1.0,Financial Services,Credit Services
+2019-07-03,AXP,US0258161092,USD,Common Stock,14.0,125.86000061035156,,0.39,1.0,Financial Services,Credit Services
+2019-07-04,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-05,AXP,US0258161092,USD,Common Stock,14.0,125.4000015258789,,0.0,1.0,Financial Services,Credit Services
+2019-07-06,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-07,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-08,AXP,US0258161092,USD,Common Stock,14.0,124.8499984741211,,0.0,1.0,Financial Services,Credit Services
+2019-07-09,AXP,US0258161092,USD,Common Stock,14.0,125.9000015258789,,0.0,1.0,Financial Services,Credit Services
+2019-07-10,AXP,US0258161092,USD,Common Stock,14.0,126.88999938964844,,0.0,1.0,Financial Services,Credit Services
+2019-07-11,AXP,US0258161092,USD,Common Stock,14.0,127.27999877929688,,0.0,1.0,Financial Services,Credit Services
+2019-07-12,AXP,US0258161092,USD,Common Stock,14.0,127.95999908447266,,0.0,1.0,Financial Services,Credit Services
+2019-07-13,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-14,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-15,AXP,US0258161092,USD,Common Stock,14.0,128.57000732421875,,0.0,1.0,Financial Services,Credit Services
+2019-07-16,AXP,US0258161092,USD,Common Stock,14.0,128.05999755859375,,0.0,1.0,Financial Services,Credit Services
+2019-07-17,AXP,US0258161092,USD,Common Stock,14.0,127.08000183105469,,0.0,1.0,Financial Services,Credit Services
+2019-07-18,AXP,US0258161092,USD,Common Stock,14.0,128.39999389648438,,0.0,1.0,Financial Services,Credit Services
+2019-07-19,AXP,US0258161092,USD,Common Stock,14.0,124.81999969482422,,0.0,1.0,Financial Services,Credit Services
+2019-07-20,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-21,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-22,AXP,US0258161092,USD,Common Stock,14.0,126.0,,0.0,1.0,Financial Services,Credit Services
+2019-07-23,AXP,US0258161092,USD,Common Stock,14.0,128.1999969482422,,0.0,1.0,Financial Services,Credit Services
+2019-07-24,AXP,US0258161092,USD,Common Stock,14.0,127.94999694824219,,0.0,1.0,Financial Services,Credit Services
+2019-07-25,AXP,US0258161092,USD,Common Stock,14.0,127.1500015258789,,0.0,1.0,Financial Services,Credit Services
+2019-07-26,AXP,US0258161092,USD,Common Stock,14.0,126.77999877929688,,0.0,1.0,Financial Services,Credit Services
+2019-07-27,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-28,AXP,US0258161092,USD,Common Stock,14.0,,,,,,
+2019-07-29,AXP,US0258161092,USD,Common Stock,14.0,127.19000244140625,,0.0,1.0,Financial Services,Credit Services
+2019-07-30,AXP,US0258161092,USD,Common Stock,14.0,126.47000122070312,,0.0,1.0,Financial Services,Credit Services
+2019-07-31,AXP,US0258161092,USD,Common Stock,14.0,124.37000274658203,,0.0,1.0,Financial Services,Credit Services
+2019-08-01,AXP,US0258161092,USD,Common Stock,14.0,124.08999633789062,,0.0,1.0,Financial Services,Credit Services
+2019-08-02,AXP,US0258161092,USD,Common Stock,0.0,124.30999755859375,,0.0,1.0,Financial Services,Credit Services
