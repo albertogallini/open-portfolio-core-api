@@ -14,7 +14,7 @@ Permission is hereby granted, free of charge, to any person or entity obtaining 
 
 2. **Non-Commercial License Grant**:
    - Subject to these terms, you are granted a worldwide, non-exclusive, revocable, royalty-free license to use, copy, modify, merge, publish, distribute, and/or sublicense the Software for non-commercial purposes only.
-   - Any use of the Software for commercial purposes requires a separate commercial license, obtainable by contacting Alberto Gallini at info@openport.com.
+   - Any use of the Software for commercial purposes requires a separate commercial license, obtainable by contacting Alberto Gallini at support@open-portfolio.com.
 
 3. **Attribution**:
    - All copies or substantial portions of the Software, whether in source or binary form, must include this license and the following copyright notice:  
@@ -25,7 +25,7 @@ Permission is hereby granted, free of charge, to any person or entity obtaining 
    - You may not remove or alter any copyright notices or this license from the Software.
 
 5. **Data Protection (EU GDPR Compliance)**:
-   - If the Software processes personal data as defined under Regulation (EU) 2016/679 (GDPR), you must ensure compliance with applicable data protection laws. Alberto Gallini is not responsible for your compliance with GDPR or other data protection regulations. For inquiries regarding data processing, contact info@openport.com.
+   - If the Software processes personal data as defined under Regulation (EU) 2016/679 (GDPR), you must ensure compliance with applicable data protection laws. Alberto Gallini is not responsible for your compliance with GDPR or other data protection regulations. For inquiries regarding data processing, contact support@open-portfolio.com.
 
 6. **No Warranty**:
    - The Software is provided "as is," without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. In no event shall Alberto Gallini be liable for any claim, damages, or other liability, whether in contract, tort, or otherwise, arising from or in connection with the Software.
@@ -43,7 +43,7 @@ Permission is hereby granted, free of charge, to any person or entity obtaining 
    - Any disputes arising under this license shall be resolved exclusively in the state or federal courts located in New York City, New York, United States. For users in the European Union, this does not affect your rights under mandatory consumer protection laws or data protection laws (e.g., GDPR) of your country of residence.
 
 10. **Commercial License Inquiries**:
-    - For commercial use, including integration into commercial products or services, contact Alberto Gallini at info@openport.com to obtain a commercial license. Terms and fees will be provided upon request.
+    - For commercial use, including integration into commercial products or services, contact Alberto Gallini at support@open-portfolio.com to obtain a commercial license. Terms and fees will be provided upon request.
 
 11. **Severability**:
     - If any provision of this license is found to be unenforceable or invalid, the remaining provisions shall remain in full force and effect.
