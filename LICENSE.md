@@ -10,7 +10,7 @@ Permission is hereby granted, free of charge, to any person or entity obtaining 
 
 ### 1. Definitions
 
-**1.1 "Software"** means the Open Portfolio Core Api, including its source code, object code, compiled binaries, APIs, API responses and outputs, configuration files, algorithms, and any portion thereof, whether used standalone, embedded, hosted, or accessed remotely (including via SaaS, API-as-a-service, or similar remote-access arrangement).
+**1.1 "Software"** means the OpenPort Extension for OpenBB, including its source code, object code, compiled binaries, APIs, API responses and outputs, configuration files, algorithms, and any portion thereof, whether used standalone, embedded, hosted, or accessed remotely (including via SaaS, API-as-a-service, or similar remote-access arrangement).
 
 **1.2 "Non-Commercial Purposes"** means use of the Software solely for personal study, education, academic research, or non-profit activity, where no party — the user, their employer, or any third party — derives direct or indirect monetary gain, business advantage, or operational benefit from that use. For the avoidance of doubt, non-commercial use excludes any of the activities described in Section 1.3.
 
@@ -74,8 +74,17 @@ Permission is hereby granted, free of charge, to any person or entity obtaining 
 
 ### 9. Governing Law and Jurisdiction
 
-- This license is governed by the laws of the State of New York, United States, without regard to its conflict of law principles.
-- Any disputes arising under this license shall be resolved exclusively in the state or federal courts located in New York City, New York, United States. For users in the European Union, this does not affect your rights under mandatory consumer protection laws or data protection laws (e.g., GDPR) of your country of residence.
+9.1 This license is governed by the laws of the State of New York, United States, without regard to its conflict of law principles, except where mandatory local law applies as set out in Section 9.3.
+
+9.2 Any disputes arising under this license may be brought, at Alberto Gallini's sole election, in:
+
+  (a) the state or federal courts located in New York City, New York, United States; or
+
+  (b) the courts of the European Union member state, or of Switzerland, in which the alleged infringing party is domiciled, resides, or conducts business.
+
+Licensee consents to personal jurisdiction and venue in whichever forum Alberto Gallini elects under this Section 9.2, and waives any objection to that forum on grounds of inconvenience or improper venue.
+
+9.3 For users in the European Union or Switzerland, this Section does not affect your rights under mandatory consumer protection laws or data protection laws (e.g., GDPR, the Swiss Federal Act on Data Protection) of your country of residence, which apply notwithstanding Section 9.1.
 
 ### 10. Commercial License Inquiries
 
