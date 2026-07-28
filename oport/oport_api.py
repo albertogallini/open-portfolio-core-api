@@ -1320,14 +1320,15 @@ def get_index_constituents(
         print("Status:", response.status_code)
         print("Final URL:", response.url)
         print("Content length:", len(response.text))
-        rows = soup.find_all("tr", {"class": "row-HX5UXsDj listRow"})
+        #rows = soup.find_all("tr", {"class": "row-HX5UXsDj listRow"})
+        rows = soup.select('tr[class*="row-"]')
         print(f"Found {len(rows)} table rows")
 
 
         # Extracting the ticker and market cap
         components = []
         totalMKTcap = 0
-        for row in soup.find_all("tr", {"class": "row-HX5UXsDj listRow"}):
+        for row in rows:
             cells = row.find_all("td")
             if len(cells) >= 2:
                 ticker = cells[0].find("a").text.strip()
