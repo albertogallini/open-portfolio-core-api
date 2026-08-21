@@ -16,8 +16,20 @@ class TestIndexConstituents(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        import os
+        from pathlib import Path
         # Suppress DeprecationWarnings
         warnings.simplefilter("ignore", DeprecationWarning)
+        
+        # Load environment variables from .env file (TV_SESSION_ID, TV_SESSION_ID_SIGN, TV_SP_ID, TV_DEVICE_T)
+        env_path = Path(__file__).parent.parent / ".env"
+        if env_path.exists():
+            with open(env_path, "r") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#"):
+                        key, value = line.split("=", 1)
+                        os.environ[key] = value
 
     def test_get_index_constituents(self):
 

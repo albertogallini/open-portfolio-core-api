@@ -1186,53 +1186,57 @@ def get_index_constituents(
     ftp_user: Optional[str],
     ftp_pass: Optional[str],
 ) -> pd.DataFrame:
-    
-    # ==============================================================================
-    # ⚠️ WARNING: Update these values when the script starts failing (Cookie Expiration)
-    # ==============================================================================
-
-    # 1. HARVESTED COOKIES (Updated from fresh working request ~ April 19, 2026)
-    HARVESTED_COOKIES = {
-        'sessionid': 'REMOVED_SECRET',
-        'sessionid_sign': 'REMOVED_SECRET',
-        '_sp_id.cf1a': 'REMOVED_SECRET',
-        '_sp_ses.cf1a': '*',
-        'device_t': 'REMOVED_SECRET',
-        'etg': '31fe40b3-4542-4e0a-958a-3ea3949bb1fe',
-        'png': '31fe40b3-4542-4e0a-958a-3ea3949bb1fe',
-        'cachec': '31fe40b3-4542-4e0a-958a-3ea3949bb1fe',
-        'tv_ecuid': '31fe40b3-4542-4e0a-958a-3ea3949bb1fe',
-        'cookiePrivacyPreferenceBannerProduction': 'ignored',
-        'g_state': '{"i_l":0,"i_ll":1776616386431,"i_e":{"enable_itp_optimization":1},"i_et":1776616386367}',
-        'sp': '50b337f0-6623-46fe-989a-2906b4122858',
-    }
-
- 
-    # 2. HARVESTED REQUEST HEADERS — now matching EXACTLY the working curl/browser request
-    REQUEST_HEADERS = {
-        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-        'accept-encoding': 'gzip, deflate, br, zstd',
-        'accept-language': 'en-US,en;q=0.9,it;q=0.8',
-        'cache-control': 'max-age=0',
-        'priority': 'u=0, i',
-        # ────────────────────────────────────────────────────────────────
-        # Critical fixes: exact values from your working request
-        'referer': 'https://www.tradingview.com/symbols/DJ-DJI/',  # or make dynamic below
-        'sec-ch-ua': '"Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"',
-        'sec-ch-ua-mobile': '?0',
-        'sec-ch-ua-platform': '"Linux"',
-        # ────────────────────────────────────────────────────────────────
-        'sec-fetch-dest': 'document',
-        'sec-fetch-mode': 'navigate',
-        'sec-fetch-site': 'same-origin',
-        'sec-fetch-user': '?1',
-        'upgrade-insecure-requests': '1',
-        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'
-    }
-    # ==============================================================================
-
     try:
         err_collector = error_collector.get_collector()
+
+        import os
+
+        # ==============================================================================
+        # 1. SECURE CREDENTIAL & COOKIE RETRIEVAL
+        # Fetch sensitive values from environment variables instead of hardcoding
+        # ==============================================================================
+        session_id = os.getenv("TV_SESSION_ID")
+        session_id_sign = os.getenv("TV_SESSION_ID_SIGN")
+        device_t = os.getenv("TV_DEVICE_T")
+
+        # Optional warning if primary auth tokens are missing
+        if not session_id or not session_id_sign:
+            print("Warning: TV_SESSION_ID or TV_SESSION_ID_SIGN environment variables are missing.")
+
+        harvested_cookies = {
+            'sessionid': session_id or '',
+            'sessionid_sign': session_id_sign or '',
+            'device_t': device_t or '',
+            '_sp_id.cf1a': os.getenv("TV_SP_ID", ""),
+            '_sp_ses.cf1a': '*',
+            'cookiePrivacyPreferenceBannerProduction': 'ignored',
+        }
+
+        # Filter out empty cookie values
+        harvested_cookies = {k: v for k, v in harvested_cookies.items() if v}
+
+        # ==============================================================================
+        # 2. DYNAMIC & SECURE HEADERS
+        # ==============================================================================
+        formatted_ticker = index_ticker.replace(":", "-").upper()
+        
+        request_headers = {
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'accept-encoding': 'gzip, deflate, br, zstd',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'priority': 'u=0, i',
+            'referer': f'https://www.tradingview.com/symbols/{formatted_ticker}/',
+            'sec-ch-ua': '"Google Chrome";v="143", "Chromium";v="143"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Linux"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'same-origin',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'
+        }
 
         if filesystem_folder is not None:
             filesystem_folder = filesystem_folder.replace("|", "/")
@@ -1241,15 +1245,13 @@ def get_index_constituents(
 
         additional_fields = additional_fields.split("|") if additional_fields else []
 
-        # --- 🛠️ SESSION INITIALIZATION 🛠️ ---
-        # 1. Create a session object
+        # ==============================================================================
+        # 4. SESSION INITIALIZATION & REQUEST EXECUTION
+        # ==============================================================================
         session = requests.Session()
+        session.headers.update(request_headers)
         
-        # 2. Add the full set of harvested headers
-        session.headers.update(REQUEST_HEADERS)
-        
-        # 3. Add the harvested cookies
-        for name, value in HARVESTED_COOKIES.items():
+        for name, value in harvested_cookies.items():
             session.cookies.set(name, value)
         # ------------------------------------
         # Helper function to check if the ticker exists on TradingView
@@ -1331,7 +1333,16 @@ def get_index_constituents(
         for row in rows:
             cells = row.find_all("td")
             if len(cells) >= 2:
-                ticker = cells[0].find("a").text.strip()
+                a_tag = cells[0].find("a")
+                comp_ticker = a_tag.text.strip()
+                href = a_tag.get("href", "")
+                
+                exchange = ""
+                if href and href.startswith("/symbols/"):
+                    parts = href.split("/")[2].split("-")
+                    if len(parts) >= 2:
+                        exchange = parts[0]
+                        
                 market_cap_text = cells[1].get_text(strip=True)
                 try:
                     market_cap_value = float(
@@ -1343,7 +1354,7 @@ def get_index_constituents(
                         market_cap_value *= 1000
                 except ValueError:
                     market_cap_value = 0
-                components.append((ticker, market_cap_value))
+                components.append((comp_ticker, market_cap_value, exchange))
                 totalMKTcap += market_cap_value
 
         # Create a DataFrame to store prices and weights
@@ -1360,50 +1371,83 @@ def get_index_constituents(
         # Fetch data from Yahoo Finance for each ticker over the last 30 days
         cont = 0
 
-        for ticker in components:
-            try:
-                stock = yf.Ticker(ticker[0])
-                # print(stock.info)
-                history = stock.history(period=period, interval="1d")
-                quarterly_stmt = stock.quarterly_income_stmt
-                # Convert history dates to timezone-naive
-                history.index = history.index.tz_localize(None)
+        for comp in components:
+            raw_ticker = comp[0]
+            exchange = comp[2] if len(comp) > 2 else ""
+            
+            suffixes = [""]
+            if exchange == "XETR": suffixes = [".DE"]
+            elif exchange == "EURONEXT": suffixes = [".AS", ".PA", ".BR", ".LS"]
+            elif exchange == "BME": suffixes = [".MC"]
+            elif exchange == "MIL": suffixes = [".MI"]
+            elif exchange == "SIX": suffixes = [".SW"]
+            elif exchange == "LSE": suffixes = [".L"]
+            elif exchange == "OMXSTO": suffixes = [".ST"]
+            elif exchange == "OMXC": suffixes = [".CO"]
+            elif exchange == "OMXHEL": suffixes = [".HE"]
+            elif exchange == "OSL": suffixes = [".OL"]
+            elif exchange in ["BSE", "NSE"]: suffixes = [".BO", ".NS"]
+            elif exchange == "TSE": suffixes = [".T"]
+            elif exchange == "HKEX": suffixes = [".HK"]
+            elif exchange == "SZSE": suffixes = [".SZ"]
+            elif exchange == "SSE": suffixes = [".SS"]
+            elif exchange == "KRX": suffixes = [".KS", ".KQ"]
+            elif exchange == "TWSE": suffixes = [".TW"]
 
-                # Get Basic Avg Shares for each date in the history
-                history["Basic Avg Shares"] = history.index.map(
-                    lambda date: get_basic_avg_shares(quarterly_stmt, date)
-                )
-                history["ccy"] = history.index.map(
-                    lambda date: stock.fast_info["currency"]
-                )
-                history["securityType"] = history.index.map(lambda date: "Common Stock")
+            success = False
+            for suffix in suffixes:
+                full_ticker = raw_ticker + suffix
+                try:
+                    stock = yf.Ticker(full_ticker)
+                    # print(stock.info)
+                    history = stock.history(period=period, interval="1d")
+                    if history.empty:
+                        continue
 
-                for field in additional_fields:
-                    history[field] = stock.info.get(field, None)
+                    quarterly_stmt = stock.quarterly_income_stmt
+                    # Convert history dates to timezone-naive
+                    history.index = history.index.tz_localize(None)
 
-                # Calculate market cap
-                history["Market Cap"] = history["Close"] * history["Basic Avg Shares"]
-                history["Ticker"] = ticker[0]
-                history["Date"] = history.index
-                # print(history.columns)
-                to_add = history[
-                    [
-                        "Ticker",
-                        "Date",
-                        "Market Cap",
-                        "Basic Avg Shares",
-                        "Close",
-                        "ccy",
-                        "securityType",
+                    # Get Basic Avg Shares for each date in the history
+                    history["Basic Avg Shares"] = history.index.map(
+                        lambda date: get_basic_avg_shares(quarterly_stmt, date)
+                    )
+                    history["ccy"] = history.index.map(
+                        lambda date: stock.fast_info["currency"]
+                    )
+                    history["securityType"] = history.index.map(lambda date: "Common Stock")
+
+                    for field in additional_fields:
+                        history[field] = stock.info.get(field, None)
+
+                    # Calculate market cap
+                    history["Market Cap"] = history["Close"] * history["Basic Avg Shares"]
+                    history["Ticker"] = full_ticker
+                    history["Date"] = history.index
+                    # print(history.columns)
+                    to_add = history[
+                        [
+                            "Ticker",
+                            "Date",
+                            "Market Cap",
+                            "Basic Avg Shares",
+                            "Close",
+                            "ccy",
+                            "securityType",
+                        ]
+                        + additional_fields
                     ]
-                    + additional_fields
-                ]
-                if not to_add.empty:
-                    df = pd.concat([df, to_add])
-            except Exception as e:
-                print(e)
-                continue
-            cont += 1
+                    if not to_add.empty:
+                        df = pd.concat([df, to_add])
+                        success = True
+                        break # Successfully fetched, stop trying suffixes
+                except Exception as e:
+                    print(e)
+                    continue
+            
+            if success:
+                cont += 1
+
 
         df.rename(
             columns={"Basic Avg Shares": "quantity", "Ticker": "ticker"}, inplace=True
@@ -1499,6 +1543,7 @@ def get_index_constituents(
         )
 
     return None
+
 
 
 def regime_calibration_logic(
