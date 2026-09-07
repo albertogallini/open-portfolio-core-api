@@ -7,6 +7,7 @@ from oport.oport_api import (
     risk_calibration_logic,
     get_factor_covariance_logic,
     get_portfolio_risk_logic,
+    get_portfolio_tree_risk_logic,
     RISK_MODEL_FILE
 )
 from oport import fields, error_collector
@@ -137,6 +138,93 @@ class TestRiskApi(unittest.TestCase):
         self.assertIsInstance(df_risk, pd.DataFrame)
         self.assertFalse(df_risk.empty, "Portfolio risk decomposition (fallback) is empty")
         print("Portfolio Risk Decomposition (Fallback) successful.")
+
+    def test_05_portfolio_tree_risk(self):
+        print("\n=== Testing Portfolio Tree Risk (Euler decomposition) ===")
+        df_tree = get_portfolio_tree_risk_logic(
+            portfolio_name=self.portfolio_name,
+            source=self.source,
+            filesystem_folder=self.test_data_dir,
+            bucket_name=None,
+            access_key_id=None,
+            secret_access_key=None,
+            s3_host=None,
+            s3_port=None,
+            ftp_host=None,
+            ftp_user=None,
+            ftp_pass=None,
+            input_date=self.input_date,
+        )
+
+        if df_tree is None:
+            collector = error_collector.get_collector()
+            print("ERRORS:", collector.get_errors())
+
+        self.assertIsInstance(df_tree, pd.DataFrame)
+        self.assertFalse(df_tree.empty, "Portfolio tree risk is empty")
+        self.assertIn("portfolio", df_tree.index)
+
+        # Required columns
+        for col in ("weight", "total_vol", "factor_vol", "idio_vol", "RC_vol", "RC_pct", "VaR_pct"):
+            self.assertIn(col, df_tree.columns, f"Missing column: {col}")
+
+        security_rows = df_tree.drop(index="portfolio")
+        self.assertFalse(security_rows.empty, "No security rows returned")
+
+        # Euler invariants
+        self.assertAlmostEqual(security_rows["RC_pct"].sum(), 100.0, places=1,
+                               msg="RC_pct must sum to 100")
+        portfolio_vol = df_tree.loc["portfolio", "total_vol"]
+        self.assertAlmostEqual(security_rows["RC_vol"].sum(), portfolio_vol, places=1,
+                               msg="RC_vol must sum to portfolio total_vol")
+
+        # Portfolio row consistent with get_portfolio_risk_logic
+        df_risk = get_portfolio_risk_logic(
+            portfolio_name=self.portfolio_name,
+            source=self.source,
+            filesystem_folder=self.test_data_dir,
+            bucket_name=None,
+            access_key_id=None,
+            secret_access_key=None,
+            s3_host=None,
+            s3_port=None,
+            ftp_host=None,
+            ftp_user=None,
+            ftp_pass=None,
+            input_date=self.input_date,
+        )
+        self.assertAlmostEqual(
+            df_tree.loc["portfolio", "total_vol"],
+            df_risk.loc["portfolio", "total_vol"],
+            places=2,
+            msg="Tree risk portfolio vol must match get_portfolio_risk",
+        )
+
+        print("Portfolio Tree Risk (security rows):")
+        print(security_rows[["weight", "total_vol", "RC_vol", "RC_pct"]].to_string())
+        print("Portfolio row:")
+        print(df_tree.loc[["portfolio"]].to_string())
+
+    def test_06_portfolio_tree_risk_weekend_fallback(self):
+        print("\n=== Testing Portfolio Tree Risk Weekend Fallback ===")
+        df_tree = get_portfolio_tree_risk_logic(
+            portfolio_name=self.portfolio_name,
+            source=self.source,
+            filesystem_folder=self.test_data_dir,
+            bucket_name=None,
+            access_key_id=None,
+            secret_access_key=None,
+            s3_host=None,
+            s3_port=None,
+            ftp_host=None,
+            ftp_user=None,
+            ftp_pass=None,
+            input_date=self.monday_date,
+        )
+        self.assertIsInstance(df_tree, pd.DataFrame)
+        self.assertFalse(df_tree.empty, "Portfolio tree risk (fallback) is empty")
+        self.assertIn("portfolio", df_tree.index)
+        print("Portfolio Tree Risk (Fallback) successful.")
 
     @classmethod
     def tearDownClass(cls):

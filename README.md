@@ -29,6 +29,7 @@
 | 8 | `regime_calibration` | Calibrates a Wasserstein-HMM regime model on the factor-return history of an already-calibrated risk model. Uses a strictly causal rolling HMM with predictive model-order selection and Wasserstein identity tracking so regime labels stay stable across refits. Serialises the fitted calibrator to `regime_model.pkl`. Requires `risk_calibration` first. | `risk_model.pkl`; optional date range; regime-order / window knobs (`min_regimes`, `max_regimes`, `estimation_window`, `refit_frequency`, `order_selection_holdout`) | Per-regime summary DataFrame (`persistence_p_ii`, `expected_dwell_days`, `pct_of_sample`, …); `regime_model.pkl` written to storage |
 | 9 | `get_regime_summary` | Loads the latest `regime_model.pkl` and returns a snapshot of the currently active regime joined with the full per-regime summary (persistence, expected dwell time, sample share). | `regime_model.pkl` in storage | DataFrame with current-regime fields (`confidence`, `expected_dwell_days`, `as_of`) plus summary columns for every tracked regime |
 | 10 | `construct_portfolio` | Builds a regime-aware, transaction-cost-aware target portfolio over a universe (index constituents or existing portfolio holdings). Maps the current regime's conditional factor moments onto each name via its Barra-style factor exposures, then solves a long-only mean-variance problem with optional name-count and weight caps. Requires both `risk_model.pkl` and `regime_model.pkl`. | Universe name (holdings prefix); risk + regime models; optional date, `target_n`, `max_weight`, `transaction_cost_bps`, `risk_aversion` | DataFrame indexed by ticker: `weight`, `prev_weight`, `trade`, `expected_return_regime`, `regime_id`, `regime_confidence`, `expected_hold_days` |
+| 11 | `get_portfolio_tree_risk` | Euler risk-contribution decomposition as of a given date. For each holding it computes standalone volatility (total, factor, idiosyncratic) and its Euler contribution to portfolio risk (`RC_vol`, `RC_pct`). Security rows sum exactly to the portfolio total (Euler's theorem). The portfolio summary row is identical to `get_portfolio_risk` output. Requires `risk_model.pkl`. | Portfolio holdings; `risk_model.pkl`; optional date, confidence level, horizon, and market value | DataFrame with one row per holding + `portfolio` summary row: `weight`, `total_vol`, `factor_vol`, `idio_vol`, `factor_share`, `RC_vol`, `RC_pct`; portfolio row also carries `total_var`, `sigma_daily`, `sigma_horizon`, `VaR_pct` |
 
 ---
 
@@ -336,6 +337,49 @@ result = obb.oport.construct_portfolio(
 print(result.to_df())
 ```
 
+### 11. Portfolio Tree Risk (Euler Risk-Contribution Decomposition)
+
+Returns one row per holding with standalone risk metrics and its Euler contribution to portfolio risk, plus a `portfolio` summary row identical to `get_portfolio_risk` output.
+
+The Euler decomposition (`RC_vol`, `RC_pct`) satisfies:
+- `sum(security_rows["RC_vol"]) == portfolio total_vol`
+- `sum(security_rows["RC_pct"]) == 100.0`
+
+| Column | Security rows | Portfolio row |
+|--------|--------------|---------------|
+| `weight` | Portfolio weight (0–100 scale) | 100 |
+| `total_vol` | Annualised standalone vol (%) | Portfolio total vol (%) |
+| `factor_vol` | Factor component of standalone vol (%) | Portfolio factor vol (%) |
+| `idio_vol` | Idio component of standalone vol (%) | Portfolio idio vol (%) |
+| `factor_share` | Factor share of standalone variance | Portfolio factor share |
+| `RC_vol` | Euler vol contribution (%), sums to `total_vol` | `= total_vol` |
+| `RC_pct` | % share of portfolio variance, sums to 100 | 100.0 |
+| `total_var` | — | Annualised portfolio variance |
+| `confidence` | — | VaR confidence level |
+| `horizon_days` | — | VaR horizon (trading days) |
+| `sigma_daily` | — | Daily 1-sigma (%) |
+| `sigma_horizon` | — | Horizon-scaled sigma (%) |
+| `VaR_pct` | — | Parametric VaR (% of portfolio value) |
+| `VaR_value` | — | VaR in currency units *(when `portfolio_mv` supplied)* |
+
+```python
+# Basic call — security-level risk budget as of a given date
+result = obb.oport.get_portfolio_tree_risk(
+    portfolio_name="my_portfolio",
+    source="filesystem",
+    filesystem_folder="/path/to/folder",
+    input_date="2024-10-28",   # defaults to today if omitted
+)
+df = result.to_df()
+print(df[["weight", "total_vol", "RC_vol", "RC_pct"]])
+
+# Security rows sort by largest risk contributor
+security_rows = df[df["ticker"] != "portfolio"]
+print(security_rows.nlargest(10, "RC_pct"))
+```
+
+**Pipeline dependency:** run `risk_calibration` first to generate `risk_model.pkl`.
+
 ---
 
 ## Troubleshooting
@@ -346,7 +390,7 @@ print(result.to_df())
 | File not found | Wrong `filesystem_folder` or missing input files |
 | S3/FTP errors | Invalid credentials or network connectivity issue |
 | Date format errors | Use `MM-DD-YYYY` or `YYYY-MM-DD` for `start_date`/`end_date` |
-| `No calibrated risk model found` | Run `risk_calibration` first to generate `risk_model.pkl` |
+| `No calibrated risk model found` | Run `risk_calibration` first to generate `risk_model.pkl`; required by `get_portfolio_risk` and `get_portfolio_tree_risk` |
 | `No calibrated regime model found` | Run `regime_calibration` first to generate `regime_model.pkl` (after `risk_calibration`) |
 | Empty constructed portfolio / missing universe | No `<universe_name>_DAILY_HOLDINGS` files and no exposures on the risk model; check universe name and that both pickles sit in the same folder as the holdings |
 
