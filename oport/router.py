@@ -16,6 +16,7 @@ from oport.oport_api import (
     risk_calibration_logic,
     get_factor_covariance_logic,
     get_portfolio_risk_logic,
+    get_portfolio_tree_risk_logic,
 )
 from oport import fields
 from oport import error_collector
@@ -29,6 +30,7 @@ from oport.oport_api import (
     RISK_CALIBRATION,
     FACTOR_COVARIANCE,
     PORTFOLIO_RISK,
+    PORTFOLIO_TREE_RISK,
 )
 
 router = Router(prefix="", description="Suite to manage user portfolios.")
@@ -1114,6 +1116,86 @@ def get_portfolio_risk(
     response = []
     for index, row in r.iterrows():
         row_dict = {}
+        for column, value in row.items():
+            row_dict[column] = None if pd.isna(value) else value
+        response.append(row_dict)
+    error_collector.clear_collector()
+    return OBBject(results=response, provider="open port")
+
+
+@router.command(
+    methods=["GET"],
+    examples=[
+        PythonEx(
+            description="Euler risk-contribution tree for a given portfolio.",
+            code=[
+                'obb.oport.get_portfolio_tree_risk(portfolio_name="test_e2e_stocksplits", input_date="2021-11-05", source="filesystem", filesystem_folder="tests/test_attribution_md/test_portfolios")',
+            ],
+        )
+    ],
+)
+def get_portfolio_tree_risk(
+    portfolio_name: Annotated[
+        str, Query(description="The name of the portfolio.", example="test_e2e_stocksplits")
+    ] = "test",
+    source: Annotated[
+        Literal["filesystem", "s3", "ftp"],
+        Query(description="The source of data.", example="filesystem"),
+    ] = "filesystem",
+    filesystem_folder: Annotated[
+        Optional[str],
+        Query(description="Filesystem path where portfolio and model are stored.", example=None),
+    ] = None,
+    bucket_name: Annotated[
+        Optional[str], Query(description="S3 bucket for portfolio and model.", example=None)
+    ] = None,
+    access_key_id: Annotated[
+        Optional[str], Query(description="S3 access key.", example=None)
+    ] = None,
+    secret_access_key: Annotated[
+        Optional[str], Query(description="S3 secret key.", example=None)
+    ] = None,
+    s3_host: Annotated[
+        Optional[str], Query(description="S3 host address.", example=None)
+    ] = None,
+    s3_port: Annotated[
+        Optional[str], Query(description="S3 host port.", example=None)
+    ] = None,
+    ftp_host: Annotated[
+        Optional[str], Query(description="FTP host name.", example=None)
+    ] = None,
+    ftp_user: Annotated[
+        Optional[str], Query(description="FTP user name.", example=None)
+    ] = None,
+    ftp_pass: Annotated[
+        Optional[str], Query(description="FTP password.", example=None)
+    ] = None,
+    input_date: Annotated[
+        Optional[str], Query(description="Date for the risk snapshot. Format: 'YYYY-MM-DD'.", example="2021-11-05")
+    ] = None,
+) -> OBBject:
+    """Euler risk-contribution decomposition: one row per holding plus a portfolio summary row."""
+    r = get_portfolio_tree_risk_logic(
+        portfolio_name,
+        source,
+        filesystem_folder,
+        bucket_name,
+        access_key_id,
+        secret_access_key,
+        s3_host,
+        s3_port,
+        ftp_host,
+        ftp_user,
+        ftp_pass,
+        input_date,
+    )
+
+    if r is None:
+        return create_error_obbject(PORTFOLIO_TREE_RISK)
+
+    response = []
+    for index, row in r.iterrows():
+        row_dict = {"ticker": index}
         for column, value in row.items():
             row_dict[column] = None if pd.isna(value) else value
         response.append(row_dict)

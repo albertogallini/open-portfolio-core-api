@@ -37,6 +37,7 @@ PORTFOLIO_RISK = "PORTFOLIO_RISK"
 REGIME_CALIBRATION = "REGIME_CALIBRATION"
 REGIME_SUMMARY = "REGIME_SUMMARY"
 PORTFOLIO_CONSTRUCTION = "PORTFOLIO_CONSTRUCTION"
+PORTFOLIO_TREE_RISK = "PORTFOLIO_TREE_RISK"
 
 # API Names
 ApiNames = {
@@ -51,6 +52,7 @@ ApiNames = {
     REGIME_CALIBRATION: "REGIME CALIBRATION",
     REGIME_SUMMARY: "REGIME SUMMARY",
     PORTFOLIO_CONSTRUCTION: "PORTFOLIO CONSTRUCTION",
+    PORTFOLIO_TREE_RISK: "PORTFOLIO TREE RISK",
 }
 
 RISK_MODEL_FILE = "risk_model.pkl"
@@ -1833,6 +1835,163 @@ def construct_portfolio_logic(
     except Exception as err_msg:
         err_collector.record_error(
             operation_name=ApiNames[PORTFOLIO_CONSTRUCTION], error_details=str(err_msg)
+        )
+
+    return None
+
+
+def get_portfolio_tree_risk_logic(
+    portfolio_name: str,
+    source: str,
+    filesystem_folder: Optional[str],
+    bucket_name: Optional[str],
+    access_key_id: Optional[str],
+    secret_access_key: Optional[str],
+    s3_host: Optional[str],
+    s3_port: Optional[str],
+    ftp_host: Optional[str],
+    ftp_user: Optional[str],
+    ftp_pass: Optional[str],
+    input_date: Optional[str] = None,
+    confidence: float = 0.95,
+    horizon_days: int = 1,
+    portfolio_mv: Optional[float] = None,
+) -> pd.DataFrame:
+    """
+    Euler risk-contribution decomposition for a portfolio as of a given date.
+
+    Loads the same calibrated risk model and portfolio weights as
+    get_portfolio_risk_logic, then returns one row per holding (standalone
+    risk metrics + Euler vol / variance contributions) plus a 'portfolio'
+    summary row that matches get_portfolio_risk output.
+
+    Output columns (security rows):
+      weight        -- portfolio weight (0-100 scale)
+      total_vol     -- annualised standalone vol (%)
+      factor_vol    -- factor component of standalone vol (%)
+      idio_vol      -- idio component of standalone vol (%)
+      factor_share  -- factor share of standalone variance
+      RC_vol        -- Euler vol contribution (%), sums to portfolio total_vol
+      RC_pct        -- % share of portfolio variance, sums to 100
+
+    Portfolio row additionally carries total_var, factor_var, idio_var,
+    confidence, horizon_days, sigma_daily, sigma_horizon, VaR_pct
+    (and VaR_value when portfolio_mv is provided).
+    """
+    err_collector = error_collector.get_collector()
+
+    if filesystem_folder is not None:
+        filesystem_folder = filesystem_folder.replace("|", "/")
+    else:
+        filesystem_folder = ""
+
+    try:
+        import pandas as pd
+        config = const_and_utils.Config(
+            source=source,
+            filesystem_folder=filesystem_folder,
+            output_file_name=portfolio_name,
+            bucket_name=bucket_name,
+            access_key_id=access_key_id,
+            secret_access_key=secret_access_key,
+            s3_host=s3_host,
+            s3_port=s3_port,
+            ftp_host=ftp_host,
+            ftp_user=ftp_user,
+            ftp_pass=ftp_pass,
+        )
+        config.validate()
+
+        from datetime import datetime, timedelta
+        if input_date:
+            t_date = pd.to_datetime(input_date).date()
+        else:
+            t_date = datetime.now().date()
+
+        # Load risk model
+        model_path = filesystem_folder + "/" + RISK_MODEL_FILE if filesystem_folder else RISK_MODEL_FILE
+        cal = const_and_utils.read_pickle(config, model_path)
+        if cal is None:
+            raise ValueError("No calibrated risk model found. Please run risk_calibration first.")
+
+        # Resolve portfolio holdings folder
+        portfolio_holdings_prefix = portfolio_name + "_" + const_and_utils.DAILY_HOLDINGS_PREFIX
+        current_folder = filesystem_folder
+        portfolio_holdings_files = const_and_utils.list_files(
+            config=config,
+            input_folder=current_folder,
+            prefix=portfolio_holdings_prefix,
+        )
+
+        if not portfolio_holdings_files:
+            subfolder = os.path.join(filesystem_folder, portfolio_name)
+            if os.path.exists(subfolder) and os.path.isdir(subfolder):
+                current_folder = subfolder
+                portfolio_holdings_files = const_and_utils.list_files(
+                    config=config,
+                    input_folder=current_folder,
+                    prefix=portfolio_holdings_prefix,
+                )
+
+        portfolio_config = const_and_utils.Config(
+            source=source,
+            filesystem_folder=current_folder,
+            output_file_name=portfolio_name,
+            bucket_name=bucket_name,
+            access_key_id=access_key_id,
+            secret_access_key=secret_access_key,
+            s3_host=s3_host,
+            s3_port=s3_port,
+            ftp_host=ftp_host,
+            ftp_user=ftp_user,
+            ftp_pass=ftp_pass,
+        )
+
+        # Compute daily performance over a 10-day window to handle weekends/holidays
+        t_date_start = t_date - timedelta(days=10)
+        df_h_perf = functions_performance_daily.compute_performance_daily(
+            config=portfolio_config,
+            prefix=portfolio_holdings_prefix,
+            start_date=t_date_start,
+            end_date=t_date,
+            holdings_files=portfolio_holdings_files,
+        )
+
+        if df_h_perf.empty:
+            raise ValueError("The portfolio does not have valid weight on the specified date or before.")
+
+        # Find the most recent date with valid weights
+        df_valid = df_h_perf.dropna(subset=["quantity", "Close"])
+        valid_dates = [d for d in df_valid[fields.FIELD_DATE].unique() if d <= t_date]
+        if not valid_dates:
+            raise ValueError("The portfolio does not have valid weight on the specified date or before.")
+        t_date = max(valid_dates)
+
+        df_h_agg, _, _ = functions_aggregation.aggregate(
+            portfolio_daily_fields=df_h_perf,
+            start_date=t_date,
+            end_date=t_date,
+        )
+        if df_h_agg.empty:
+            raise ValueError("The portfolio does not have valid weight on the specified date or before.")
+
+        weight_col = fields.FIELD_EVAL_MKTVALUE_WEIGHTS_HLDS
+        if weight_col not in df_h_agg.columns:
+            raise ValueError(f"No weight column found after aggregation. Expected {weight_col}")
+
+        weights = df_h_agg.groupby(fields.FIELD_TICKER)[weight_col].sum()
+
+        return functions_risk.get_security_risk_contributions(
+            cal,
+            weights,
+            confidence=confidence,
+            horizon_days=horizon_days,
+            portfolio_mv=portfolio_mv,
+        )
+
+    except Exception as err_msg:
+        err_collector.record_error(
+            operation_name=ApiNames[PORTFOLIO_TREE_RISK], error_details=str(err_msg)
         )
 
     return None

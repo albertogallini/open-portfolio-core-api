@@ -6,6 +6,7 @@ Wrapper functions for the factor risk model outputs from risk_engine.
 
 import sys
 import datetime
+from typing import Optional
 import numpy as np
 import pandas as pd
 
@@ -232,6 +233,132 @@ def get_portfolio_factor_contributions(cal, weights):
     decomp = cal.get_risk_decomposer()
     pr = decomp.portfolio_risk(weights / 100.0)
     return pr.factor_contributions.to_frame(name="contribution")
+
+def get_security_risk_contributions(
+    cal,
+    weights: pd.Series,
+    confidence: float = 0.95,
+    horizon_days: int = 1,
+    portfolio_mv: Optional[float] = None,
+) -> pd.DataFrame:
+    """
+    Euler risk-contribution decomposition: one row per portfolio holding,
+    plus a 'portfolio' summary row identical to get_portfolio_risk output.
+
+    Security rows expose:
+      weight        -- portfolio weight (0-100 scale)
+      total_vol     -- annualised standalone vol of the stock (%)
+      factor_vol    -- factor component of standalone vol (%)
+      idio_vol      -- idio component of standalone vol (%)
+      factor_share  -- factor_var / total_var of the standalone stock (0-1)
+      RC_vol        -- Euler vol contribution to portfolio total_vol (%),
+                       security rows sum to portfolio total_vol
+      RC_pct        -- % share of portfolio variance, security rows sum to 100
+
+    Portfolio row additionally exposes total_var, factor_var, idio_var,
+    confidence, horizon_days, sigma_daily, sigma_horizon, VaR_pct (and
+    VaR_value when portfolio_mv is provided) — identical to get_portfolio_risk.
+
+    Tickers absent from the risk model exposure matrix are silently excluded;
+    the portfolio row reflects only the covered subset.
+    weights must be on the same 0-100 percentage scale as get_portfolio_risk.
+    """
+    Z_SCORES = {0.95: 1.6449, 0.99: 2.3263}
+    if confidence not in Z_SCORES:
+        raise ValueError(f"Unsupported confidence level: {confidence}. Use 0.95 or 0.99.")
+    z = Z_SCORES[confidence]
+    ANNUALIZATION_SCALE = 252.0
+
+    decomp = cal.get_risk_decomposer()
+    w_frac = weights / 100.0
+
+    tickers = w_frac.index.intersection(decomp.X.index)
+    if tickers.empty:
+        raise ValueError("None of the portfolio tickers are present in the risk model.")
+
+    w_arr   = w_frac.loc[tickers].values.astype(float)
+    X_arr   = decomp.X.loc[tickers].values.astype(float)   # [N x K]
+    F_arr   = decomp.F.values.astype(float)                 # [K x K]
+    D_arr   = decomp.D.reindex(tickers).fillna(0.0).values.astype(float)  # [N]
+
+    # (Sigma @ w) decomposed into factor and idio parts
+    fe             = X_arr.T @ w_arr          # [K] portfolio factor exposures
+    F_fe           = F_arr @ fe               # [K]
+    factor_sigma_w = X_arr @ F_fe             # [N] factor part of (Sigma @ w)
+    idio_sigma_w   = D_arr * w_arr            # [N] idio part  of (Sigma @ w)
+    sigma_w        = factor_sigma_w + idio_sigma_w
+
+    t_var_daily    = float(w_arr @ sigma_w)
+    sigma_p_daily  = float(np.sqrt(max(t_var_daily, 0.0)))
+
+    # Euler contributions (variance share and vol contribution)
+    RC_pct = (w_arr * sigma_w / t_var_daily * 100.0) if t_var_daily > 0 else np.zeros(len(tickers))
+    RC_vol = (w_arr * sigma_w / sigma_p_daily * np.sqrt(ANNUALIZATION_SCALE) * 100.0) if sigma_p_daily > 0 else np.zeros(len(tickers))
+
+    # Portfolio-level summary via decomp.portfolio_risk (consistent with get_portfolio_risk)
+    pr = decomp.portfolio_risk(w_frac.loc[tickers])
+
+    total_vol_annual  = pr.total_vol  / 100.0
+    factor_vol_annual = pr.factor_vol / 100.0
+    idio_vol_annual   = pr.idio_vol   / 100.0
+    total_var_annual  = pr.total_var  * ANNUALIZATION_SCALE
+    factor_var_annual = pr.factor_var * ANNUALIZATION_SCALE
+    idio_var_annual   = pr.idio_var   * ANNUALIZATION_SCALE
+
+    sigma_daily_dec   = total_vol_annual / np.sqrt(ANNUALIZATION_SCALE)
+    sigma_horizon_dec = sigma_daily_dec * np.sqrt(horizon_days)
+    var_pct_dec       = z * sigma_horizon_dec
+
+    # Security rows
+    rows = []
+    for i, ticker in enumerate(tickers):
+        sr = decomp.stock_risk(ticker, scale=ANNUALIZATION_SCALE)
+        row = {
+            "weight":        w_arr[i] * 100.0,
+            "total_vol":     sr.total_vol    if sr is not None else np.nan,
+            "factor_vol":    sr.factor_vol   if sr is not None else np.nan,
+            "idio_vol":      sr.idio_vol     if sr is not None else np.nan,
+            "factor_share":  sr.factor_share if sr is not None else np.nan,
+            "RC_vol":        RC_vol[i],
+            "RC_pct":        RC_pct[i],
+            "total_var":     np.nan,
+            "factor_var":    np.nan,
+            "idio_var":      np.nan,
+            "confidence":    np.nan,
+            "horizon_days":  np.nan,
+            "sigma_daily":   np.nan,
+            "sigma_horizon": np.nan,
+            "VaR_pct":       np.nan,
+        }
+        if portfolio_mv is not None:
+            row["VaR_value"] = np.nan
+        rows.append((ticker, row))
+
+    # Portfolio summary row — mirrors get_portfolio_risk column layout
+    portfolio_row = {
+        "weight":        100.0,
+        "total_vol":     total_vol_annual  * 100.0,
+        "factor_vol":    factor_vol_annual * 100.0,
+        "idio_vol":      idio_vol_annual   * 100.0,
+        "factor_share":  pr.factor_share,
+        "RC_vol":        total_vol_annual  * 100.0,
+        "RC_pct":        100.0,
+        "total_var":     total_var_annual  * 100.0 ** 2,
+        "factor_var":    factor_var_annual * 100.0 ** 2,
+        "idio_var":      idio_var_annual   * 100.0 ** 2,
+        "confidence":    confidence,
+        "horizon_days":  horizon_days,
+        "sigma_daily":   sigma_daily_dec   * 100.0,
+        "sigma_horizon": sigma_horizon_dec * 100.0,
+        "VaR_pct":       var_pct_dec       * 100.0,
+    }
+    if portfolio_mv is not None:
+        portfolio_row["VaR_value"] = var_pct_dec * portfolio_mv
+
+    index = [t for t, _ in rows] + ["portfolio"]
+    data  = [r for _, r in rows] + [portfolio_row]
+    return pd.DataFrame(data, index=index)
+
 
 def update_model_daily(cal, date):
     """

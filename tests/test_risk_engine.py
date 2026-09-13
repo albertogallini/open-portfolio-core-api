@@ -26,6 +26,7 @@ from oport.functions.functions_risk import (
     get_single_stock_risk,
     get_portfolio_risk,
     get_portfolio_factor_contributions,
+    get_security_risk_contributions,
     update_model_daily
 )
 
@@ -135,6 +136,60 @@ class TestRiskEngine(unittest.TestCase):
         self.assertIsInstance(port_contrib_df, pd.DataFrame)
         self.assertFalse(port_contrib_df.empty)
         self.assertIn("contribution", port_contrib_df.columns)
+
+    def test_get_security_risk_contributions(self):
+        """Euler risk-contribution decomposition: structure, invariants, and portfolio-row consistency."""
+        ew_weights = pd.Series(1.0 / len(MY_UNIVERSE) * 100.0, index=MY_UNIVERSE)
+
+        tree_df = get_security_risk_contributions(self.cal, ew_weights)
+        self.assertIsInstance(tree_df, pd.DataFrame)
+        self.assertFalse(tree_df.empty)
+
+        # Portfolio summary row must be present
+        self.assertIn("portfolio", tree_df.index)
+
+        # Required columns present on all rows
+        for col in ("weight", "total_vol", "factor_vol", "idio_vol", "factor_share", "RC_vol", "RC_pct"):
+            self.assertIn(col, tree_df.columns)
+
+        # Security rows: standalone vols must be positive
+        security_rows = tree_df.drop(index="portfolio")
+        self.assertTrue((security_rows["total_vol"] > 0).all(), "All standalone total_vols should be positive")
+        self.assertTrue((security_rows["factor_vol"] >= 0).all())
+        self.assertTrue((security_rows["idio_vol"] >= 0).all())
+
+        # Euler invariant: RC_pct sums to ~100 across security rows
+        rc_pct_sum = security_rows["RC_pct"].sum()
+        self.assertAlmostEqual(rc_pct_sum, 100.0, places=3, msg="RC_pct should sum to 100")
+
+        # Euler invariant: RC_vol sums to portfolio total_vol
+        portfolio_total_vol = tree_df.loc["portfolio", "total_vol"]
+        rc_vol_sum = security_rows["RC_vol"].sum()
+        self.assertAlmostEqual(rc_vol_sum, portfolio_total_vol, places=3,
+                               msg="RC_vol should sum to portfolio total_vol")
+
+        # Portfolio row total_vol matches get_portfolio_risk output
+        port_risk_df = get_portfolio_risk(self.cal, ew_weights)
+        self.assertAlmostEqual(
+            tree_df.loc["portfolio", "total_vol"],
+            port_risk_df.loc["portfolio", "total_vol"],
+            places=3,
+            msg="Tree-risk portfolio total_vol must match get_portfolio_risk",
+        )
+        self.assertAlmostEqual(
+            tree_df.loc["portfolio", "VaR_pct"],
+            port_risk_df.loc["portfolio", "VaR_pct"],
+            places=3,
+            msg="Tree-risk portfolio VaR_pct must match get_portfolio_risk",
+        )
+
+        # VaR_value included when portfolio_mv supplied
+        tree_mv = get_security_risk_contributions(self.cal, ew_weights, portfolio_mv=1_000_000)
+        self.assertIn("VaR_value", tree_mv.columns)
+        self.assertFalse(pd.isna(tree_mv.loc["portfolio", "VaR_value"]))
+
+        print("Security risk contributions (top 5 by RC_pct):")
+        print(security_rows.nlargest(5, "RC_pct")[["weight", "total_vol", "RC_vol", "RC_pct"]])
 
     def test_update_model_daily(self):
         """Test Output 8 logic: Incremental daily update on existing calibrated model."""
