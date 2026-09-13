@@ -92,3 +92,8 @@ __pypackages__/
 
 # macOS
 .DS_Store
+
+# Continue
+.continue
+.env.new
+./scripts/*.py
