@@ -15,6 +15,30 @@ import datetime
 import pandas as pd
 
 
+def _aligned_returns(ticker_data: pd.DataFrame, benchmark_r: pd.DataFrame):
+    """Return the ticker and benchmark return series over the dates they share.
+
+    A holding's history is usually shorter than the benchmark's - it may enter
+    or leave the portfolio inside the window - so indicators that compare the
+    two have to be computed on common dates rather than by position.
+    Returns (None, None) when there is nothing meaningful to compare.
+    """
+    if benchmark_r is None or benchmark_r.empty:
+        return None, None
+    if FIELD_DATE not in benchmark_r.columns or FIELD_DATE not in ticker_data.columns:
+        return None, None
+
+    benchmark_suffix = "_benchmark"
+    merged = ticker_data[[FIELD_DATE, FIELD_EVAL_RETURN]].merge(
+        benchmark_r[[FIELD_DATE, FIELD_EVAL_RETURN]],
+        on=FIELD_DATE,
+        suffixes=("", benchmark_suffix),
+    )
+    if len(merged) < 2:
+        return None, None
+    return merged[FIELD_EVAL_RETURN], merged[FIELD_EVAL_RETURN + benchmark_suffix]
+
+
 def get_perf_indicator(
     ticker_symbol: str,
     target_date: datetime.date,
@@ -260,11 +284,17 @@ def get_perf_indicator(
                 var_99 = mean_return + z_score * std_dev
                 result[perf_field] = (1 - np.exp(var_99)) * 100
             elif FIELD_EVAL_TRACKING_ERROR in perf_field and not benchmark_r.empty:
-                result[perf_field] = np.std(
-                    ticker_data[FIELD_EVAL_RETURN] - benchmark_r[FIELD_EVAL_RETURN]
-                ) * np.sqrt(
-                    252
-                )  # Annualized
+                ticker_returns, benchmark_returns = _aligned_returns(
+                    ticker_data, benchmark_r
+                )
+                if ticker_returns is None:
+                    result[perf_field] = None
+                else:
+                    result[perf_field] = np.std(
+                        ticker_returns - benchmark_returns
+                    ) * np.sqrt(
+                        252
+                    )  # Annualized
             elif FIELD_EVAL_SHARPE_RATIO in perf_field:
                 risk_free_rate = 0.01  # Assumed risk-free rate #TODO: acquire the risk-free rates (1M Tsy bond yield is a good proxy)
                 result[perf_field] = (
@@ -276,11 +306,19 @@ def get_perf_indicator(
                     * np.sqrt(252)
                 )  # Annualized
             elif FIELD_EVAL_BETA in perf_field and not benchmark_r.empty:
-                covariance_matrix = np.cov(
-                    ticker_data[FIELD_EVAL_RETURN], benchmark_r[FIELD_EVAL_RETURN]
+                ticker_returns, benchmark_returns = _aligned_returns(
+                    ticker_data, benchmark_r
                 )
-                beta = covariance_matrix[0, 1] / covariance_matrix[1, 1]
-                result[perf_field] = beta
+                if ticker_returns is None:
+                    result[perf_field] = None
+                else:
+                    covariance_matrix = np.cov(ticker_returns, benchmark_returns)
+                    benchmark_variance = covariance_matrix[1, 1]
+                    result[perf_field] = (
+                        covariance_matrix[0, 1] / benchmark_variance
+                        if benchmark_variance
+                        else None
+                    )
             else:
                 continue
 
