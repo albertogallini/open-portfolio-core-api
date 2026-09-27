@@ -179,7 +179,16 @@ class FactorBuilder:
 
         row["value_ep"]    = safe_ratio(net_income,   mkt_cap)
         row["value_bp"]    = safe_ratio(book_equity,  mkt_cap)
-        row["quality_roe"] = safe_ratio(net_income,   book_equity)
+        # Negative book equity (e.g. DELL post-LBO: buybacks/debt drove
+        # common equity to roughly -$1.4B..-$2.8B) makes book-equity-as-
+        # denominator ratios uninterpretable rather than merely extreme: a
+        # profitable company divided by negative equity produces a
+        # NEGATIVE "ROE" that looks like a low-quality loss-maker, the
+        # opposite of what's true. Standard practice (Fama-French HML/ROE
+        # construction) is to exclude negative-book-equity names from
+        # these ratios rather than let the sign flip stand -- treated as
+        # missing here, same as any other unavailable fundamental.
+        row["quality_roe"] = safe_ratio(net_income, book_equity) if (book_equity is not None and book_equity > 0) else np.nan
         row["quality_gm"]  = safe_ratio(gross_profit, revenue)
 
         return row

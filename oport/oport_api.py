@@ -1563,7 +1563,7 @@ def regime_calibration_logic(
     end_date: str = "",
     min_regimes: int = 2,
     max_regimes: int = 4,
-    estimation_window: int = 252,
+    estimation_window: Optional[int] = None,
     refit_frequency: int = 21,
     order_selection_holdout: int = 21,
     min_params_multiplier: float = 10.0,
@@ -1578,6 +1578,15 @@ def regime_calibration_logic(
     parameters than the window can support (see RegimeCalibrator.run);
     lower it only for small illustrative/test fits where you accept the
     resulting fit is not statistically meaningful.
+
+    estimation_window: leave as None (the default) to derive a value that
+    actually satisfies min_params_multiplier for the real factor count and
+    max_regimes -- a fixed 252 default silently violated that guard for
+    any realistic (~9-dimensional) continuous factor set, since the guard
+    only depends on estimation_window/max_regimes/min_params_multiplier,
+    not on how much history is loaded. Pass an explicit value only if you
+    have deliberately sized it yourself (see functions_regime.
+    initialize_regime_model).
     """
     err_collector = error_collector.get_collector()
 
@@ -1624,15 +1633,22 @@ def regime_calibration_logic(
             dt_end = pd.to_datetime(end_date)
             fr = fr[fr.index <= dt_end]
 
-        # 3. Fit the regime model
-        regime_cal, regime_cfg = functions_regime.initialize_regime_model(
-            factor_returns=fr,
+        # 3. Fit the regime model. estimation_window is only forwarded when
+        #    the caller explicitly set it -- otherwise initialize_regime_model
+        #    derives a value self-consistent with min_params_multiplier/
+        #    max_regimes for the real factor count (see its docstring).
+        regime_kwargs = dict(
             min_regimes=min_regimes,
             max_regimes=max_regimes,
-            estimation_window=estimation_window,
             refit_frequency=refit_frequency,
             order_selection_holdout=order_selection_holdout,
             min_params_multiplier=min_params_multiplier,
+        )
+        if estimation_window is not None:
+            regime_kwargs["estimation_window"] = estimation_window
+        regime_cal, regime_cfg = functions_regime.initialize_regime_model(
+            factor_returns=fr,
+            **regime_kwargs,
         )
 
         # 4. Persist it, same pattern as the risk model pickle
@@ -1784,10 +1800,13 @@ def construct_portfolio_logic(
             raise ValueError("No calibrated regime model found. Please run regime_calibration first.")
 
         # 2. Resolve the universe + current weights (same holdings-file
-        #    pattern as risk_calibration_logic / get_portfolio_risk_logic;
-        #    if the universe has no current weights on file -- e.g. a
-        #    freshly-defined index -- current_weights is None and the
-        #    optimizer starts from zero, so turnover cost = full entry cost)
+        #    pattern as risk_calibration_logic / get_portfolio_risk_logic).
+        #    `universe_name` can itself be an index (e.g. an S&P/Nasdaq
+        #    universe carries its own market-cap weights in its holdings
+        #    file) -- so "current weights" here doubles as "start the
+        #    optimizer from the index" when there is no separate portfolio.
+        #    Only when NO holdings snapshot exists at all (anywhere at or
+        #    before t_date) does this fall back to a 100%-cash start.
         universe_prefix = universe_name + "_" + const_and_utils.DAILY_HOLDINGS_PREFIX
         holdings_files = const_and_utils.list_files(
             config=config, input_folder=filesystem_folder, prefix=universe_prefix,
@@ -1800,7 +1819,14 @@ def construct_portfolio_logic(
                 t_date = pd.to_datetime(input_date).date()
             else:
                 t_date = datetime.now().date()
-            t_date_start = t_date - timedelta(days=10)
+            # A tight +/-10-day window silently produced a cash start
+            # whenever the run date didn't line up with a recent holdings
+            # snapshot (e.g. running against an index whose file is only
+            # refreshed periodically). Look back far enough to find the
+            # most recent snapshot ON OR BEFORE t_date instead -- that IS
+            # the index's (or portfolio's) current weights as of t_date --
+            # and only treat it as missing if there is truly nothing.
+            t_date_start = t_date - timedelta(days=400)
 
             df_perf = functions_performance_daily.compute_performance_daily(
                 config=config,
@@ -1812,9 +1838,18 @@ def construct_portfolio_logic(
             df_valid = df_perf.dropna(subset=["quantity", "Close"])
             valid_dates = [d for d in df_valid[fields.FIELD_DATE].unique() if d <= t_date]
             if valid_dates:
-                t_date = max(valid_dates)
+                snapshot_date = max(valid_dates)
+                staleness_days = (t_date - snapshot_date).days
+                if staleness_days > 10:
+                    print(
+                        "Warning: construct_portfolio_logic: no {} holdings snapshot "
+                        "within 10 days of {} -- using the most recent one available, "
+                        "from {} ({} days stale).".format(
+                            universe_name, t_date, snapshot_date, staleness_days
+                        )
+                    )
                 df_agg, _, _ = functions_aggregation.aggregate(
-                    portfolio_daily_fields=df_perf, start_date=t_date, end_date=t_date,
+                    portfolio_daily_fields=df_perf, start_date=snapshot_date, end_date=snapshot_date,
                 )
                 weight_col = fields.FIELD_EVAL_MKTVALUE_WEIGHTS_HLDS
                 if not df_agg.empty and weight_col in df_agg.columns:
@@ -1822,7 +1857,18 @@ def construct_portfolio_logic(
                     universe_tickers = list(current_weights.index)
 
         if not universe_tickers:
-            # fall back to every ticker the risk model was calibrated on
+            # Truly no holdings/index snapshot on file at all -- fall back
+            # to every ticker the risk model was calibrated on, starting
+            # from cash (full entry cost). This is now the genuine
+            # last-resort path, not the common case.
+            print(
+                "Warning: construct_portfolio_logic: no {} holdings snapshot found "
+                "on or before {} -- starting from 100% cash (turnover = 1.0) over "
+                "the full risk-model universe instead of the index/portfolio's own "
+                "weights.".format(
+                    universe_name, t_date if holdings_files else input_date
+                )
+            )
             exposures = functions_regime.get_latest_exposures(risk_cal)
             universe_tickers = list(exposures.index)
 
