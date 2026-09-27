@@ -138,7 +138,6 @@ class DailyCalibrator:
                 result = self._calibrate_one_day(date, builder)
                 if result is not None:
                     self.model.ingest(result)
-                    self.latest_exposures = result.exposures
                     if store_exposures:
                         self.exposures_history[date] = result.exposures.copy()
 
@@ -154,6 +153,14 @@ class DailyCalibrator:
             except Exception as exc:
                 logger.error("Error on %s: %s", date, exc, exc_info=True)
                 continue
+
+        # Exposures as of the LAST trading day, for forecasting / risk
+        # queries (get_risk_decomposer, regime-portfolio construction).
+        # Deliberately separate from the regression exposures above: those
+        # are built as of t-1 (predicting the t-1 -> t return), while this
+        # is built as of t (predicting t -> t+1).
+        if trading_days:
+            self.latest_exposures = builder.build(self.tickers, trading_days[-1])
 
         logger.info(
             "Calibration complete. %d days processed.",
@@ -187,10 +194,16 @@ class DailyCalibrator:
         if len(returns) < self.cfg.min_stocks_in_regression:
             return None
 
-        # ── 2. Exposure matrix  X_t ──────────────────────────────────────────
+        # ── 2. Exposure matrix  X_{t-1}  ─────────────────────────────────────
+        # Regressed against r_t = P_t/P_{t-1} - 1, exposures MUST be built as
+        # of prev_date, not date: price-based factors (short_rev, size,
+        # value_ep/bp, liquidity, low_vol) all read the price/volume history
+        # up to and including target_date, so building them at t would put
+        # r_t itself inside the regressors (e.g. short_rev = -(P_t/P_{t-w}-1)
+        # contains -r_t) -- a direct look-ahead leak of the regressand.
         exposures = builder.build(
             tickers     = returns.index.tolist(),
-            target_date = date,
+            target_date = prev_date,
         )
         if exposures.empty:
             return None

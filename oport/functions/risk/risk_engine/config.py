@@ -24,6 +24,13 @@ class ModelConfig:
     winsor_sigma: float = 3.0           # winsorise continuous exposures at ±N·σ
     min_stocks_in_regression: int = 50  # skip date if universe too thin
 
+    # ── Fundamentals reporting lag ───────────────────────────────────────────
+    # A quarter-end date is not when the market learns the numbers: 10-Qs
+    # come out ~30-45 days later, 10-Ks up to ~90. Filtering fundamentals on
+    # quarter-end date alone lets the model see earnings before the market
+    # did. report_lag_days is subtracted from target_date before filtering.
+    report_lag_days: int = 45
+
     # ── EWMA half-lives (trading days) ───────────────────────────────────────
     factor_cov_halflife: int = 63   # factor return covariance  (~3 months)
     idio_var_halflife:   int = 21   # idiosyncratic variance    (~1 month)

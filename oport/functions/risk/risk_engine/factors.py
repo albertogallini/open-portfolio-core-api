@@ -163,7 +163,9 @@ class FactorBuilder:
         row["size"] = np.log(mkt_cap) if (mkt_cap and mkt_cap > 0) else np.nan
 
         # ── Fundamental factors ──────────────────────────────────────────────
-        inc, _cf, bs = get_quarterly_fundamentals(ticker, target_date)
+        inc, _cf, bs = get_quarterly_fundamentals(
+            ticker, target_date, report_lag_days=self.cfg.report_lag_days
+        )
 
         net_income   = first_valid_ttm(inc, _NET_INCOME_FIELDS)
         revenue      = first_valid_ttm(inc, _REVENUE_FIELDS)
