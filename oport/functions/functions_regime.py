@@ -94,7 +94,12 @@ def get_current_regime(cal: RegimeCalibrator) -> pd.DataFrame:
     2. Snapshot of the currently active regime.
     """
     rid = cal.current_regime_
-    conf = float(cal.regime_prob_.iloc[-1][rid])
+    # Confidence is the one-step-ahead PREDICTED probability of regime `rid`
+    # at T+1 (pi_{T+1} = p_T . A), not the filtered probability at T -- the
+    # filtered probability describes where we believe we ARE, which is a
+    # different (and less relevant, for anything forward-looking) question
+    # than where we expect to BE next.
+    conf = float(cal.predicted_next_proba().get(rid, 0.0))
     row = {
         "regime_id": rid,
         "confidence": conf,
@@ -197,10 +202,14 @@ def construct_regime_portfolio(
     """
     from . import functions_risk
 
-    if regime is None:
-        regime = regime_cal.current_regime_
-    regime_confidence = float(regime_cal.regime_prob_.iloc[-1][regime])
-    expected_hold_days = regime_cal.expected_dwell_time(regime)
+    # display_regime is what we report (id, confidence, dwell time). The
+    # FORECAST used for expected returns is separate: when the caller does
+    # not pin a specific regime, conditional_moments(None) blends every
+    # regime's moments by the predicted next-day belief rather than
+    # hard-picking display_regime -- see RegimeCalibrator.conditional_moments.
+    display_regime = regime if regime is not None else regime_cal.current_regime_
+    regime_confidence = float(regime_cal.predicted_next_proba().get(display_regime, 0.0))
+    expected_hold_days = regime_cal.expected_dwell_time(display_regime)
     mu_f_regime, _ = regime_cal.conditional_moments(regime)
 
     exposures = get_latest_exposures(risk_cal)
@@ -208,22 +217,27 @@ def construct_regime_portfolio(
     idio_var = get_latest_idio_var(risk_cal, universe)
 
     # Regime only speaks to the continuous style/technical factors (see
-    # _select_regime_factors); sector-dummy factors keep their
-    # unconditional historical mean so the risk term below still sees
-    # the FULL factor covariance (sector risk isn't dropped), while only
-    # the regime-sensitive factors actually tilt expected return.
-    full_hist_mean = functions_risk.get_factor_returns(risk_cal.model).mean()
-    mu_f = full_hist_mean.copy()
-    mu_f.update(mu_f_regime)
-
+    # _select_regime_factors). Sector-dummy factors get a flat 0 prior
+    # instead of their unconditional historical mean: that mean is a 30-40%
+    # annualised bull-market average acting as the market/beta term, and
+    # handing every stock that as a baseline expected return is pure
+    # extrapolation, not a regime call. The regime-sensitive factors are
+    # shrunk toward their OWN unconditional mean by regime_tilt_alpha,
+    # rather than fully trusting a single regime-conditional estimate.
     pcfg = cfg or RegimeModelConfig()
+    alpha = pcfg.regime_tilt_alpha
+    full_hist_mean = functions_risk.get_factor_returns(risk_cal.model).mean()
+    mu_f = pd.Series(0.0, index=full_hist_mean.index)
+    mu_uncond_regime = full_hist_mean.reindex(mu_f_regime.index)
+    mu_f.loc[mu_f_regime.index] = mu_uncond_regime + alpha * (mu_f_regime - mu_uncond_regime)
+
     pc = PortfolioConstructor(pcfg)
     return pc.construct(
         exposures=exposures,
         factor_cov=factor_cov,
         idio_var=idio_var,
         regime_factor_mean=mu_f,
-        regime_id=regime,
+        regime_id=display_regime,
         regime_confidence=regime_confidence,
         expected_hold_days=expected_hold_days,
         current_weights=current_weights,

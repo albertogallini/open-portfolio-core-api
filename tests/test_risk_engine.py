@@ -197,6 +197,145 @@ class TestRiskEngine(unittest.TestCase):
         updated_model = update_model_daily(self.cal, date=TRAIN_END)
         self.assertIsNotNone(updated_model)
 
+    def test_no_lookahead_leakage_in_regression_exposures(self):
+        """
+        A1 regression test: the exposure matrix used in day t's cross-
+        sectional regression must be built as of t-1. Perturbing t's price
+        for one stock must NOT change that exposure matrix -- price-based
+        factors (short_rev, size, value_ep/bp, liquidity, low_vol) all read
+        price/volume history up to and including their target_date, so
+        building them at t would put the day's own return inside the
+        regressors.
+        """
+        from oport.functions.risk.risk_engine.factors import FactorBuilder
+
+        cal = self.cal
+        dates = cal._prices.index
+        date = dates[len(dates) // 2]
+        prev_date = dates[dates < date][-1]
+
+        tickers = cal._prices.columns[cal._prices.loc[date].notna()].tolist()
+        builder = FactorBuilder(cal.cfg, cal._prices, cal._volumes)
+
+        exposures_before = builder.build(tickers=tickers, target_date=prev_date)
+
+        perturbed_prices = cal._prices.copy()
+        shocked_ticker = tickers[0]
+        perturbed_prices.loc[date, shocked_ticker] *= 1.25  # +25% shock ON day t only
+        builder_perturbed = FactorBuilder(cal.cfg, perturbed_prices, cal._volumes)
+
+        # Exposures built as of t-1 (the fixed behaviour) must be untouched
+        # by a shock injected at t.
+        exposures_after = builder_perturbed.build(tickers=tickers, target_date=prev_date)
+        pd.testing.assert_frame_equal(exposures_before, exposures_after)
+
+        # Positive control: exposures built as of t itself (the old, leaky
+        # target_date) DO pick up the shock -- confirms this test would
+        # have caught the original bug.
+        exposures_date_before = builder.build(tickers=tickers, target_date=date)
+        exposures_date_after = builder_perturbed.build(tickers=tickers, target_date=date)
+        self.assertFalse(exposures_date_before.equals(exposures_date_after))
+
+
+class TestFundamentalsPointInTime(unittest.TestCase):
+    """A2/A3/A4: fundamentals must not leak unpublished filings, must be
+    filtered identically regardless of call order, and TTM sums from
+    partial history must not be understated."""
+
+    def test_ttm_scales_partial_quarters(self):
+        from oport.functions.risk.risk_engine.data import get_ttm
+
+        df4 = pd.DataFrame({"NI": [10.0, 10.0, 10.0, 10.0]})
+        self.assertAlmostEqual(get_ttm(df4, "NI"), 40.0)
+
+        # Only 2 of 4 quarters available: summing as-is would understate
+        # TTM by half. Scale to a 4-quarter-equivalent instead.
+        df2 = pd.DataFrame({"NI": [10.0, 10.0]})
+        self.assertAlmostEqual(get_ttm(df2, "NI"), 40.0)
+
+        # A single quarter is too little to extrapolate from.
+        df1 = pd.DataFrame({"NI": [10.0]})
+        self.assertIsNone(get_ttm(df1, "NI"))
+
+    def test_fundamentals_cache_keyed_by_ticker_not_quarter(self):
+        """A3: the cache holds RAW frames keyed by ticker alone. A
+        (ticker, quarter) key would lock in whichever call's target_date
+        filter ran first for the rest of that quarter."""
+        from oport.functions.risk.risk_engine.data import (
+            get_quarterly_fundamentals, financial_cache,
+        )
+        ticker = "AAPL"
+        get_quarterly_fundamentals(ticker, datetime.date.today())
+        self.assertIn(ticker, financial_cache)
+        self.assertNotIsInstance(next(iter(financial_cache.keys())), tuple)
+
+    def test_point_in_time_filtering_is_call_order_independent(self):
+        """A2/A3: a target_date strictly between two known quarter-ends
+        must only see the earlier one; a big report_lag must push a
+        quarter back out of view even after its period-end date has
+        passed. Dates are derived from AAPL's OWN live quarters so this
+        doesn't hardcode calendar assumptions about what yfinance returns."""
+        from oport.functions.risk.risk_engine.data import (
+            get_quarterly_fundamentals, financial_cache,
+        )
+        ticker = "AAPL"
+        get_quarterly_fundamentals(ticker, datetime.date.today(), report_lag_days=0)
+        raw = financial_cache.get(ticker)
+        if raw is None or len(raw) < 2:
+            self.skipTest("Not enough live AAPL quarterly history to run this check.")
+
+        quarter_ends = sorted(raw.index)
+        early_q, late_q = quarter_ends[-2], quarter_ends[-1]
+        mid_date = early_q + (late_q - early_q) / 2
+
+        inc_mid, _, _ = get_quarterly_fundamentals(ticker, mid_date, report_lag_days=0)
+        self.assertIn(early_q, inc_mid.index)
+        self.assertNotIn(late_q, inc_mid.index)
+
+        after_late = late_q + datetime.timedelta(days=10)
+        inc_lagged, _, _ = get_quarterly_fundamentals(ticker, after_late, report_lag_days=90)
+        self.assertNotIn(late_q, inc_lagged.index,
+                          "A quarter should not be visible before it clears report_lag_days.")
+
+        inc_no_lag, _, _ = get_quarterly_fundamentals(ticker, after_late, report_lag_days=0)
+        self.assertIn(late_q, inc_no_lag.index)
+
+
+class TestFactorSummarySanityBounds(unittest.TestCase):
+    """D2: FactorRiskModel.summary() must warn on implausible factors
+    (|Sharpe| > 4 or avg |t| > 1.5) rather than reporting them silently --
+    exactly the numbers a look-ahead leak like A1 would have produced."""
+
+    def test_implausible_sharpe_triggers_warning(self):
+        from oport.functions.risk.risk_engine.model import FactorRiskModel
+
+        stats = pd.DataFrame({
+            "sharpe": [-12.5, 0.8],
+            "avg_t_stat": [0.9, 0.5],
+        }, index=["short_rev", "momentum"])
+        with self.assertLogs("oport.functions.risk.risk_engine.model", level="WARNING") as cm:
+            FactorRiskModel._warn_on_implausible_factors(stats)
+        self.assertTrue(any("short_rev" in msg for msg in cm.output))
+
+    def test_plausible_factors_do_not_warn(self):
+        from oport.functions.risk.risk_engine.model import FactorRiskModel
+
+        records = []
+        handler = logging.Handler()
+        handler.emit = records.append
+        logger_ = logging.getLogger("oport.functions.risk.risk_engine.model")
+        logger_.addHandler(handler)
+        try:
+            stats = pd.DataFrame({
+                "sharpe": [0.5, -0.3],
+                "avg_t_stat": [1.0, 0.8],
+            }, index=["momentum", "value_ep"])
+            FactorRiskModel._warn_on_implausible_factors(stats)
+        finally:
+            logger_.removeHandler(handler)
+        self.assertEqual(len(records), 0)
+
+
 if __name__ == "__main__":
     import os
     current_directory = os.getcwd()

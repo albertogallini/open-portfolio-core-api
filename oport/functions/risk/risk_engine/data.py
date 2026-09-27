@@ -22,7 +22,9 @@ import yfinance as yf
 logger = logging.getLogger(__name__)
 
 # ── Global caches ─────────────────────────────────────────────────────────────
-# Keyed by (ticker, (year, quarter))
+# Keyed by ticker only, holding the RAW (unfiltered-by-date) yfinance frames.
+# The point-in-time / report-lag filter is re-applied on every call in
+# get_quarterly_fundamentals() so the result never depends on call order.
 financial_cache:      Dict = {}
 cashflow_cache:       Dict = {}
 balance_sheet_cache:  Dict = {}
@@ -32,12 +34,6 @@ _price_panel:   Optional[pd.DataFrame] = None   # date × ticker, adj close
 _volume_panel:  Optional[pd.DataFrame] = None   # date × ticker, volume
 _sector_cache:  Dict[str, str]         = {}      # ticker → GICS sector string
 _shares_cache:  Dict[str, float]       = {}      # ticker → shares outstanding
-
-
-# ── Utilities ─────────────────────────────────────────────────────────────────
-
-def get_quarter(date: datetime.date) -> Tuple[int, int]:
-    return date.year, (date.month - 1) // 3 + 1
 
 
 # ── Universe ──────────────────────────────────────────────────────────────────
@@ -118,59 +114,68 @@ def get_volume_panel() -> pd.DataFrame:
 def get_quarterly_fundamentals(
     ticker_symbol: str,
     target_date: datetime.date,
+    report_lag_days: int = 45,
 ) -> Tuple[Optional[pd.DataFrame], Optional[pd.DataFrame], Optional[pd.DataFrame]]:
     """
-    Return (income_stmt, cashflow, balance_sheet) DataFrames as of target_date.
+    Return (income_stmt, cashflow, balance_sheet) DataFrames containing only
+    statements that would have been PUBLISHED by target_date, i.e. with
+    period-end date <= target_date - report_lag_days. A quarter-end date is
+    not a publication date: 10-Qs land ~30-45 days later, 10-Ks up to ~90.
 
     Each DataFrame is sorted descending by period-end date, capped at 8 quarters.
-    Uses global caches to avoid redundant yfinance calls.
+    Raw (unfiltered) yfinance frames are cached per ticker so this filter is
+    reapplied identically on every call, independent of call order.
     """
-    cache_key = (ticker_symbol, get_quarter(target_date))
+    if ticker_symbol not in financial_cache:
+        try:
+            ticker = yf.Ticker(ticker_symbol)
 
-    if (
-        cache_key in financial_cache
-        and cache_key in cashflow_cache
-        and cache_key in balance_sheet_cache
-    ):
-        return (
-            financial_cache[cache_key],
-            cashflow_cache[cache_key],
-            balance_sheet_cache[cache_key],
-        )
+            def _clean(df: pd.DataFrame) -> pd.DataFrame:
+                df = df.T.copy()
+                df.index = pd.to_datetime(df.index).date
+                return df.sort_index(ascending=False)
 
-    try:
-        ticker = yf.Ticker(ticker_symbol)
+            financial_cache[ticker_symbol]     = _clean(ticker.quarterly_income_stmt)
+            cashflow_cache[ticker_symbol]      = _clean(ticker.quarterly_cashflow)
+            balance_sheet_cache[ticker_symbol] = _clean(ticker.quarterly_balance_sheet)
 
-        def _clean(df: pd.DataFrame) -> pd.DataFrame:
-            df = df.T.copy()
-            df.index = pd.to_datetime(df.index).date
-            df.sort_index(ascending=False, inplace=True)
-            return df[df.index <= target_date].head(8)
+        except Exception as exc:
+            logger.debug("Fundamental fetch failed for %s: %s", ticker_symbol, exc)
+            financial_cache[ticker_symbol]     = None
+            cashflow_cache[ticker_symbol]      = None
+            balance_sheet_cache[ticker_symbol] = None
 
-        inc = _clean(ticker.quarterly_income_stmt)
-        cf  = _clean(ticker.quarterly_cashflow)
-        bs  = _clean(ticker.quarterly_balance_sheet)
+    as_of = target_date - datetime.timedelta(days=report_lag_days)
 
-        financial_cache[cache_key]     = inc
-        cashflow_cache[cache_key]      = cf
-        balance_sheet_cache[cache_key] = bs
-        return inc, cf, bs
+    def _as_of(df: Optional[pd.DataFrame]) -> Optional[pd.DataFrame]:
+        if df is None:
+            return None
+        return df[df.index <= as_of].head(8)
 
-    except Exception as exc:
-        logger.debug("Fundamental fetch failed for %s: %s", ticker_symbol, exc)
-        return None, None, None
+    return (
+        _as_of(financial_cache[ticker_symbol]),
+        _as_of(cashflow_cache[ticker_symbol]),
+        _as_of(balance_sheet_cache[ticker_symbol]),
+    )
 
 
 # ── Fundamental aggregation helpers ──────────────────────────────────────────
 
 def get_ttm(df: Optional[pd.DataFrame], field: str) -> Optional[float]:
-    """Sum the most-recent 4 quarters of a field (trailing twelve months)."""
+    """
+    Trailing-twelve-month sum of a field. yfinance often exposes only
+    ~5-8 quarters of history, so fewer than 4 available quarters is common
+    (especially early in a name's history); summing just 2-3 quarters and
+    calling it "TTM" understates it by up to half, so short series are
+    scaled up to a 4-quarter-equivalent instead of summed as-is.
+    """
     if df is None or field not in df.columns:
         return None
     series = df[field].dropna().head(4)
-    if len(series) < 2:
+    n = len(series)
+    if n < 2:
         return None
-    return float(series.sum())
+    return float(series.sum()) * (4.0 / n)
 
 
 def get_latest_bs(df: Optional[pd.DataFrame], field: str) -> Optional[float]:
@@ -213,6 +218,13 @@ def get_sector(ticker_symbol: str) -> str:
 
 
 def get_shares_outstanding(ticker_symbol: str) -> Optional[float]:
+    """
+    Current shares outstanding, applied to every historical target_date the
+    caller uses it for. yfinance does not expose historical share counts, so
+    buybacks/issuance/splits between then and now slightly skew the `size`
+    factor and market-cap-based ratios (value_ep, value_bp) for older dates.
+    Acceptable for now; not point-in-time correct.
+    """
     if ticker_symbol in _shares_cache:
         v = _shares_cache[ticker_symbol]
         return None if np.isnan(v) else v
