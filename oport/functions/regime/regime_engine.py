@@ -375,6 +375,19 @@ def select_model_order(X: np.ndarray, cfg: RegimeModelConfig) -> Tuple[int, _Gau
         if score > best_score:
             best_k, best_model, best_score = k, model, score
 
+    if best_k is None:
+        # Nothing beat the -inf starting score: on a short or degenerate window
+        # every candidate's predictive log-likelihood comes back -inf or NaN, and
+        # NaN > -inf is False, so no order is ever selected. Building
+        # _GaussianHMM(None) from that surfaces much later and far away, as
+        # "int() argument must be ... not 'NoneType'" raised inside kmeans2.
+        logger.warning(
+            "Predictive model-order selection scored no finite likelihood for "
+            "K in [%d, %d] on a %d-row window; falling back to K=%d.",
+            cfg.min_regimes, cfg.max_regimes, len(X), cfg.min_regimes,
+        )
+        best_k = cfg.min_regimes
+
     # refit the winning K on the FULL window (still causal: window end == t)
     final_model = _GaussianHMM(best_k, cfg)
     final_model.fit(X)
