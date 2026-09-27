@@ -301,6 +301,58 @@ class TestFundamentalsPointInTime(unittest.TestCase):
         self.assertIn(late_q, inc_no_lag.index)
 
 
+class TestNegativeBookEquityGuard(unittest.TestCase):
+    """LBO-style balance sheets (e.g. DELL, whose buyback/debt history left
+    common equity around -$1.4B..-$2.8B) carry structurally negative book
+    equity. net_income / negative_book_equity flips ROE's sign into
+    something that reads as a loss-maker for a profitable company -- an
+    artifact, not a real quality signal. Guard must treat negative book
+    equity as missing (NaN) for ROE, the same convention Fama-French use
+    when excluding negative-book-equity names from HML/ROE construction."""
+
+    def test_negative_book_equity_yields_nan_roe_not_a_sign_flip(self):
+        import oport.functions.risk.risk_engine.factors as factors_mod
+        from oport.functions.risk.risk_engine.config import ModelConfig
+
+        idx = pd.bdate_range("2024-01-01", periods=260)
+        prices = pd.DataFrame({"DELL": np.linspace(50.0, 60.0, len(idx))}, index=idx)
+        volumes = pd.DataFrame({"DELL": [1_000_000] * len(idx)}, index=idx)
+
+        income_df = pd.DataFrame(
+            {"Net Income": [1e9, 1e9, 1e9, 1e9]},
+            index=[datetime.date(2024, 1, 1) - datetime.timedelta(days=90 * i) for i in range(4)],
+        )
+        bs_df = pd.DataFrame(
+            {"Common Stock Equity": [-2e9]},
+            index=[datetime.date(2024, 1, 1)],
+        )
+
+        orig_fund   = factors_mod.get_quarterly_fundamentals
+        orig_shares = factors_mod.get_shares_outstanding
+        factors_mod.get_quarterly_fundamentals = lambda *a, **k: (income_df, None, bs_df)
+        factors_mod.get_shares_outstanding = lambda ticker: 1e8  # -> positive mkt_cap
+        try:
+            builder = factors_mod.FactorBuilder(ModelConfig(), prices, volumes)
+            row = builder._compute_row("DELL", idx[-1], prices)
+        finally:
+            factors_mod.get_quarterly_fundamentals = orig_fund
+            factors_mod.get_shares_outstanding = orig_shares
+
+        self.assertIsNotNone(row)
+        self.assertTrue(
+            np.isnan(row["quality_roe"]),
+            "Negative book equity must yield NaN quality_roe, not a sign-flipped ratio "
+            f"(got {row['quality_roe']})",
+        )
+        # value_ep (net_income / mkt_cap) doesn't divide by book equity, so
+        # a profitable company must still show a positive earnings yield.
+        self.assertGreater(row["value_ep"], 0.0)
+        # value_bp is left as a real (if extreme) negative book yield --
+        # winsorization handles that at the cross-sectional step, unlike
+        # quality_roe's sign-flip which is uninterpretable at any scale.
+        self.assertLess(row["value_bp"], 0.0)
+
+
 class TestFactorSummarySanityBounds(unittest.TestCase):
     """D2: FactorRiskModel.summary() must warn on implausible factors
     (|Sharpe| > 4 or avg |t| > 1.5) rather than reporting them silently --

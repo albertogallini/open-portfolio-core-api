@@ -98,6 +98,76 @@ class TestGaussianHMMFixes(unittest.TestCase):
         self.assertIsNotNone(cal.current_regime_)
 
 
+class TestInitializeRegimeModelDefaultWindow(unittest.TestCase):
+    """functions_regime.initialize_regime_model's estimation_window default
+    must actually satisfy its OWN min_params_multiplier guard for the real
+    factor count -- a fixed estimation_window=252 default silently
+    violated that guard for any realistic (~9-dimensional) continuous
+    factor set regardless of how much history was loaded, which is
+    exactly the mismatch that pushed a prior run to relax
+    min_params_multiplier to 8.5 instead of fixing the real problem."""
+
+    def test_default_estimation_window_satisfies_its_own_guard(self):
+        from oport.functions.functions_regime import initialize_regime_model
+
+        fr = _make_synthetic_factor_returns(n_days=450, seed=2)
+        cal, cfg = initialize_regime_model(factor_returns=fr)  # no estimation_window override
+
+        worst_case_params = n_hmm_params(fr.shape[1], cfg.max_regimes, cfg.cov_type)
+        usable_days = cfg.estimation_window - cfg.order_selection_holdout
+        self.assertGreaterEqual(
+            usable_days, cfg.min_params_multiplier * worst_case_params,
+            "Derived default estimation_window doesn't satisfy its own guard.",
+        )
+        self.assertIsNotNone(cal.current_regime_)
+
+
+class TestLowMassFallbackStaysInRawUnits(unittest.TestCase):
+    """Regression test for the template-unit bug: when a persistent
+    regime's belief-weighted mass drops below the w_sum>=5 threshold in a
+    given calibration, the fallback must reuse the persistent RAW-scale
+    estimate from an earlier calibration -- NOT the Wasserstein template
+    book's mean/cov, which live in Z-SCORED (standardized) units. Mixing
+    the two previously let an O(1) z-scored value silently stand in for an
+    O(1e-4..1e-3) raw daily factor mean."""
+
+    def test_fallback_uses_raw_estimate_not_zscored_template(self):
+        cfg = _synthetic_cfg()
+        cal = RegimeCalibrator(cfg)
+
+        dates = pd.bdate_range("2020-01-01", periods=30)
+        fr = pd.DataFrame(
+            {"f1": np.full(30, 0.001), "f2": np.full(30, 0.0005)}, index=dates
+        )
+        # Regime 0 has ample belief mass; regime 1 has only ~0.6 days of
+        # mass (w_sum < 5) -- exactly the "~1 day of mass" scenario from
+        # the bug report.
+        prob_df = pd.DataFrame(
+            {0: np.full(30, 0.98), 1: np.full(30, 0.02)}, index=dates
+        )
+
+        # Seed a persistent raw-scale estimate for regime 1, as an earlier
+        # (real) calibration with adequate mass would have.
+        raw_mean_1 = pd.Series([0.0020, -0.0010], index=["f1", "f2"])
+        cal._raw_regime_mean[1] = raw_mean_1
+        cal._raw_regime_cov[1] = pd.DataFrame(
+            np.eye(2) * 1e-4, index=["f1", "f2"], columns=["f1", "f2"]
+        )
+        # And a z-scored Wasserstein template for regime 1 -- O(1) scale,
+        # the value the old code incorrectly fell back to.
+        cal._template_book.means[1] = np.array([0.5, -0.3])
+        cal._template_book.covs[1] = np.eye(2)
+
+        cal._fit_conditional_moments(fr, prob_df, [0, 1])
+
+        pd.testing.assert_series_equal(cal.regime_mean_[1], raw_mean_1)
+        self.assertLess(
+            float(cal.regime_mean_[1].abs().max()), 0.01,
+            "regime_mean_[1] should be a raw daily factor mean, not the "
+            "O(1) z-scored template value.",
+        )
+
+
 class TestRegimeConditionalMoments(unittest.TestCase):
 
     @classmethod

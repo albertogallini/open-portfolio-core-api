@@ -477,6 +477,11 @@ class RegimeCalibrator:
         self._template_book = _RegimeTemplateBook(cfg)
         self._last_model: Optional[_GaussianHMM] = None
         self._last_mapping: Optional[Dict[int, int]] = None
+        # Persistent, RAW-return-scale (not z-scored) EMA of each regime's
+        # conditional moments, carried across calls to run() -- see the
+        # fallback branch below for why this exists.
+        self._raw_regime_mean: Dict[int, pd.Series] = {}
+        self._raw_regime_cov: Dict[int, pd.DataFrame] = {}
 
     # -- data ingestion -----------------------------------------------------
     def load_factor_returns(self, factor_returns: pd.DataFrame) -> None:
@@ -607,6 +612,16 @@ class RegimeCalibrator:
         # fitting on those same returns, so an in-sample average of "days
         # labeled regime X" is biased high/low by construction -- it is not
         # an estimate of what regime X actually predicts.
+        self._fit_conditional_moments(fr, prob_df, all_ids)
+
+        return self
+
+    def _fit_conditional_moments(self, fr: pd.DataFrame, prob_df: pd.DataFrame, all_ids: List[int]) -> None:
+        """Populate regime_mean_/regime_cov_ (RAW daily-return units) for
+        every tracked regime id, belief-weighting the next day's return by
+        the causal filtered probability at t (see run()'s call site).
+        Factored out of run() so the low-belief-mass fallback path is
+        directly unit-testable without re-deriving a full HMM fit."""
         R_next = fr.shift(-1).loc[prob_df.index].dropna()
         P_aligned = prob_df.loc[R_next.index]
         for rid in all_ids:
@@ -618,19 +633,42 @@ class RegimeCalibrator:
                 cov = (centered.mul(w, axis=0).T @ centered) / w_sum
                 self.regime_mean_[rid] = mean
                 self.regime_cov_[rid] = cov
-            elif rid in self._template_book.means:
-                cols = fr.columns
-                self.regime_mean_[rid] = pd.Series(self._template_book.means[rid], index=cols)
-                self.regime_cov_[rid] = pd.DataFrame(
-                    self._template_book.covs[rid], index=cols, columns=cols
-                )
+                # Update the persistent RAW-scale estimate for this regime
+                # id so a future low-mass call can fall back to it (EMA
+                # across calibrations, same half-life as the template book).
+                alpha = self._template_book.ema_alpha
+                if rid in self._raw_regime_mean:
+                    self._raw_regime_mean[rid] = (1 - alpha) * self._raw_regime_mean[rid] + alpha * mean
+                    self._raw_regime_cov[rid] = (1 - alpha) * self._raw_regime_cov[rid] + alpha * cov
+                else:
+                    self._raw_regime_mean[rid] = mean
+                    self._raw_regime_cov[rid] = cov
+            elif rid in self._raw_regime_mean:
+                # Negligible belief-weighted mass THIS run, but this
+                # persistent regime id had adequate mass in an earlier
+                # calibration -- reuse that raw-scale estimate.
+                #
+                # NB: self._template_book.means/covs (Wasserstein identity
+                # tracking) live in Z-SCORED units -- they are fit on
+                # fr_std, the causally-standardized HMM input -- while
+                # regime_mean_/regime_cov_ must be in RAW daily-return
+                # units for portfolio construction (exposures @ mu_f is a
+                # real expected return). Falling back to the template book
+                # here previously mixed the two unit systems: a z-scored
+                # mean is O(1), a raw daily factor mean is O(1e-4..1e-3),
+                # so that fallback could be ~1000x too large and silently
+                # dominate mu once blended in (predicted_next_proba can
+                # give a low-mass regime a few percent weight, which is
+                # enough for a 1000x-too-large mean to swamp everything
+                # else). This branch keeps the fallback in the right units.
+                self.regime_mean_[rid] = self._raw_regime_mean[rid]
+                self.regime_cov_[rid] = self._raw_regime_cov[rid]
             else:
-                # Negligible belief-weighted mass and no template yet --
-                # fall back to the unconditional sample as a last resort.
+                # Negligible belief-weighted mass and no prior raw-scale
+                # estimate either -- fall back to the unconditional sample
+                # as a last resort (already in raw units).
                 self.regime_mean_[rid] = fr.mean()
                 self.regime_cov_[rid] = fr.cov()
-
-        return self
 
     # -- accessors ------------------------------------------------------
     def expected_dwell_time(self, regime: Optional[int] = None) -> float:
