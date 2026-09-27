@@ -20,6 +20,7 @@ from .regime.regime_engine import (
     RegimeModelConfig,
     RegimeCalibrator,
     PortfolioConstructor,
+    n_hmm_params,
 )
 
 
@@ -68,11 +69,39 @@ def initialize_regime_model(factor_returns: pd.DataFrame, start_date=None, end_d
     cfg_params = dict(
         min_regimes=2,
         max_regimes=4,
-        estimation_window=252,
         refit_frequency=21,
         order_selection_holdout=21,
     )
     cfg_params.update(config_kwargs)
+
+    if "estimation_window" not in config_kwargs:
+        # A fixed estimation_window=252 default silently violated
+        # RegimeModelConfig's OWN min_params_multiplier guardrail (see its
+        # docstring) for any realistic factor count: that guard checks
+        # (estimation_window - order_selection_holdout) against
+        # min_params_multiplier * worst-case-HMM-param-count at
+        # max_regimes, and for a typical ~9-dimensional continuous factor
+        # set with the OTHER defaults (max_regimes=4, min_params_multiplier
+        # =10.0) that requires ~890 usable days -- 252 always fails,
+        # regardless of how much history is actually loaded. That left
+        # callers with no working default: they either had to discover the
+        # right estimation_window themselves or relax min_params_multiplier
+        # (defeating the point of the guard). Derive a default that is
+        # self-consistent with whatever max_regimes/min_params_multiplier/
+        # cov_type/holdout the caller actually ends up with, instead of a
+        # number that only worked for a much smaller regime-factor set.
+        d = fr.shape[1]
+        cov_type = cfg_params.get("cov_type", RegimeModelConfig.cov_type)
+        max_regimes = cfg_params["max_regimes"]
+        min_params_multiplier = cfg_params.get(
+            "min_params_multiplier", RegimeModelConfig.min_params_multiplier
+        )
+        holdout = cfg_params["order_selection_holdout"]
+        worst_case_params = n_hmm_params(d, max_regimes, cov_type)
+        cfg_params["estimation_window"] = (
+            holdout + int(np.ceil(min_params_multiplier * worst_case_params)) + 20
+        )
+
     cfg = RegimeModelConfig(**cfg_params)
 
     cal = RegimeCalibrator(cfg)
