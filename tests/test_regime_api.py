@@ -78,7 +78,13 @@ class TestRegimeApi(unittest.TestCase):
             start_date=self.start_date,
             end_date=self.end_date,
             estimation_window=15,
-            order_selection_holdout=5
+            order_selection_holdout=5,
+            # This fixture has ~24 trading days total -- nowhere near enough
+            # to satisfy the real min_params_multiplier guardrail (B5) for a
+            # 9-dimensional HMM. Disabled here purely to keep this a fast
+            # plumbing smoke test; see test_regime_engine.py for a synthetic
+            # fixture sized to actually exercise the guardrail.
+            min_params_multiplier=0.0,
         )
         if df_summary is None:
             collector = error_collector.get_collector()

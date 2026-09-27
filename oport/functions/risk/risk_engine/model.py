@@ -473,4 +473,34 @@ class FactorRiskModel:
             "max":           fr.max(),
             "avg_t_stat":    self.factor_t_stats.mean(),
         })
+        self._warn_on_implausible_factors(stats)
         return stats.sort_values("sharpe", ascending=False)
+
+    @staticmethod
+    def _warn_on_implausible_factors(
+        stats: pd.DataFrame,
+        max_abs_sharpe: float = 4.0,
+        max_avg_abs_t: float = 1.5,
+    ) -> None:
+        """
+        A cross-sectional factor with |Sharpe| > 4 or an average |t-stat| > 1.5
+        is not a plausible risk-premium estimate -- it is almost always a sign
+        of look-ahead leakage in that factor's exposure construction (the
+        regressand's own information showing up in the regressor). Warn
+        loudly rather than silently reporting numbers nobody should trust.
+        """
+        bad_sharpe = stats.index[stats["sharpe"].abs() > max_abs_sharpe]
+        bad_t      = stats.index[stats["avg_t_stat"].abs() > max_avg_abs_t]
+        for factor in bad_sharpe:
+            logger.warning(
+                "Factor '%s' has |Sharpe|=%.2f > %.1f -- check for look-ahead "
+                "leakage in its exposure construction before trusting this model.",
+                factor, stats.loc[factor, "sharpe"], max_abs_sharpe,
+            )
+        for factor in bad_t:
+            logger.warning(
+                "Factor '%s' has avg |t-stat|=%.2f > %.1f -- check for "
+                "look-ahead leakage in its exposure construction before "
+                "trusting this model.",
+                factor, stats.loc[factor, "avg_t_stat"], max_avg_abs_t,
+            )

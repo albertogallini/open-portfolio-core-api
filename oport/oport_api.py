@@ -1566,12 +1566,18 @@ def regime_calibration_logic(
     estimation_window: int = 252,
     refit_frequency: int = 21,
     order_selection_holdout: int = 21,
+    min_params_multiplier: float = 10.0,
 ) -> pd.DataFrame:
     """
     Calibrate the Wasserstein-HMM regime model off the factor-return
     time series of an ALREADY-CALIBRATED risk model (run
     risk_calibration_logic first -- this reads the same RISK_MODEL_FILE
     pickle that risk_calibration_logic writes).
+
+    min_params_multiplier guards against fitting an HMM with more free
+    parameters than the window can support (see RegimeCalibrator.run);
+    lower it only for small illustrative/test fits where you accept the
+    resulting fit is not statistically meaningful.
     """
     err_collector = error_collector.get_collector()
 
@@ -1626,6 +1632,7 @@ def regime_calibration_logic(
             estimation_window=estimation_window,
             refit_frequency=refit_frequency,
             order_selection_holdout=order_selection_holdout,
+            min_params_multiplier=min_params_multiplier,
         )
 
         # 4. Persist it, same pattern as the risk model pickle
