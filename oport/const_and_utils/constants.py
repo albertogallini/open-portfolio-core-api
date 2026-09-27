@@ -15,10 +15,18 @@ DAILY_PERFORMANCE = "performance.csv"
 WRITE_LOCK = "write.lock"
 
 # --- Metadata paths ---
-METADATA_EXCHANCE_CODES = "./oport/metadata/exchange_to_yahoo_suffix.csv"
-METADATA_CCY_TICKERS = "./oport/metadata/ccys.csv"
-METADATA_ASSET_TYPES = "./oport/metadata/asset_types"
-METADATA_ASSET_TYPES_HEADER_FILE = "./oport/metadata/asset_types.py"
+# Resolved against the installed package, not the working directory, so the
+# library works from any cwd (a service process, a notebook, another repo).
+import os as _os
+
+_METADATA_DIR = _os.path.join(
+    _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), "metadata"
+)
+
+METADATA_EXCHANCE_CODES = _os.path.join(_METADATA_DIR, "exchange_to_yahoo_suffix.csv")
+METADATA_CCY_TICKERS = _os.path.join(_METADATA_DIR, "ccys.csv")
+METADATA_ASSET_TYPES = _os.path.join(_METADATA_DIR, "asset_types")
+METADATA_ASSET_TYPES_HEADER_FILE = _os.path.join(_METADATA_DIR, "asset_types.py")
 
 # --- I/O source identifiers ---
 CONFIG_SOURCE_FS = "filesystem"

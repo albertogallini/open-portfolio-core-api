@@ -567,7 +567,22 @@ class RegimeCalibrator:
 
         self.regime_prob_ = prob_df
         self.regime_label_ = pd.Series(label_rows).sort_index()
-        self.current_regime_ = int(self.regime_label_.iloc[-1])
+
+        # A component that the Wasserstein step could not match to a template
+        # labels its days None, and the walk-forward can leave the tail
+        # unlabelled altogether on a short history. Taking iloc[-1] blindly then
+        # fails with "int() argument must be ... not 'NoneType'", which says
+        # nothing about the cause.
+        labelled = self.regime_label_.dropna()
+        if labelled.empty:
+            raise ValueError(
+                "The walk-forward produced no regime labels: "
+                f"{len(dates)} days with estimation_window="
+                f"{self.cfg.estimation_window}, refit_frequency="
+                f"{self.cfg.refit_frequency} left nothing to label. "
+                "Use a longer factor history or a shorter estimation window."
+            )
+        self.current_regime_ = int(labelled.iloc[-1])
 
         # transition matrix + conditional moments in persistent-ID space,
         # taken from the most recent fit's mapping
