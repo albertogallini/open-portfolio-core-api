@@ -72,9 +72,7 @@ def compute_transaction_pnl(
                 t[fields.TRANSACTION_FIELD_BUY_SELL] == fields.VALUE_TRANSACTION_SELL
             ):  # TODO: generalize 'V'
                 transaction_value_open -= transaction_value
-                transaction_pnl = (transaction_value - eod_mktvalue) * p.at[
-                    daycount, fields.FIELD_FX_RATES
-                ]
+                transaction_pnl = transaction_value - eod_mktvalue
                 p.at[daycount, fields.FIELD_EVAL_PNL_LCL_CCY] += transaction_pnl
                 p.at[daycount, fields.FIELD_EVAL_PNL] += (
                     transaction_pnl * p.at[daycount, fields.FIELD_FX_RATES]
