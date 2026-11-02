@@ -12,6 +12,9 @@ import pandas as pd
 
 # Import the newly copied local risk_engine package
 from .risk.risk_engine import ModelConfig, DailyCalibrator
+from .linking import carino_linking_return_split
+from oport import fields
+
 
 def initialize_risk_model(tickers=None, start_date=None, end_date=None, **config_kwargs):
     """
@@ -366,5 +369,186 @@ def update_model_daily(cal, date):
     Corresponds to running calibrator for a single day.
     """
     return cal.run(start=date, end=date)
+
+
+def get_portfolio_factor_attribution(
+    cal,
+    df_h_agg: pd.DataFrame,
+    port_series: Optional[dict] = None,
+    start_date: Optional[datetime.date] = None,
+    end_date: Optional[datetime.date] = None,
+    include_factor_returns: bool = False,
+) -> pd.DataFrame:
+    """
+    Historical factor-based return attribution for a portfolio.
+
+    For each common trading date, computes:
+      - Portfolio factor exposure: beta_{p, k} = sum_i (w_i * X_{i, k})
+      - Factor return component: c_{k, t} = beta_{p, k} * f_{k, t}
+      - Total factor return: sum_k c_{k, t}
+      - Portfolio holdings return: R_{hlds, t}
+      - Excess return: excess_return_t = R_{hlds, t} - sum_k c_{k, t}
+
+    And links each component over time using Cariño linking (acc_ prefix):
+      - acc_<factor>: Cariño linked factor return component
+      - acc_factor_return: sum of Cariño linked factor return components
+      - acc_return_hlds: compounded portfolio holdings return (R - 1)
+      - acc_excess_return: Cariño linked excess return component (acc_return_hlds - acc_factor_return)
+
+    Invariants satisfied on every single date:
+      1. sum_k (factor_k) + excess_return == return_hlds
+      2. sum_k (acc_factor_k) + acc_excess_return == acc_return_hlds
+    """
+    model = getattr(cal, "model", cal)
+    results = getattr(model, "_results", [])
+    if not results:
+        raise ValueError("The risk model contains no calibrated daily results.")
+
+    def _to_date(d):
+        if isinstance(d, datetime.date):
+            return d
+        return pd.to_datetime(d).date()
+
+    results_by_date = {_to_date(r.date): r for r in results}
+
+    if fields.FIELD_DATE not in df_h_agg.columns:
+        raise ValueError(f"Expected '{fields.FIELD_DATE}' column in portfolio data.")
+
+    port_dates_unique = sorted({_to_date(d) for d in df_h_agg[fields.FIELD_DATE].unique()})
+
+    common_dates = [d for d in port_dates_unique if d in results_by_date]
+    if start_date is not None:
+        dt_s = _to_date(start_date)
+        common_dates = [d for d in common_dates if d >= dt_s]
+    if end_date is not None:
+        dt_e = _to_date(end_date)
+        common_dates = [d for d in common_dates if d <= dt_e]
+
+    if not common_dates:
+        raise ValueError("No overlapping dates found between portfolio holdings and risk model calibration.")
+
+    port_ret_map = {}
+    if port_series and "date" in port_series and "return_hlds" in port_series:
+        for p_dt, p_r in zip(port_series["date"], port_series["return_hlds"]):
+            port_ret_map[_to_date(p_dt)] = p_r
+
+    sample_res = results_by_date[common_dates[0]]
+    factor_names = sample_res.factor_returns.index.tolist()
+
+    rows = []
+    for idx, dt in enumerate(common_dates):
+        res = results_by_date[dt]
+        f_returns = res.factor_returns
+        X = res.exposures
+
+        day_hlds = df_h_agg[df_h_agg[fields.FIELD_DATE].apply(_to_date) == dt]
+
+        w_series = None
+        if fields.FIELD_EVAL_POSITION_BASIS_WEIGHTS in day_hlds.columns:
+            w_series = day_hlds.groupby(fields.FIELD_TICKER)[fields.FIELD_EVAL_POSITION_BASIS_WEIGHTS].sum()
+            if w_series.isna().all() or w_series.sum() == 0:
+                w_series = None
+
+        if w_series is None and fields.FIELD_EVAL_MKTVALUE_WEIGHTS_HLDS in day_hlds.columns:
+            w_series = day_hlds.groupby(fields.FIELD_TICKER)[fields.FIELD_EVAL_MKTVALUE_WEIGHTS_HLDS].sum() / 100.0
+
+        if w_series is None:
+            tickers = day_hlds[fields.FIELD_TICKER].unique()
+            w_series = pd.Series(1.0 / len(tickers) if len(tickers) > 0 else 1.0, index=tickers)
+
+        # Check portfolio return
+        r_val = port_ret_map.get(dt, None)
+        if r_val is None or pd.isna(r_val):
+            if fields.FIELD_EVAL_RETURN_HLDS in day_hlds.columns:
+                r_hlds_vals = day_hlds[fields.FIELD_EVAL_RETURN_HLDS]
+                if r_hlds_vals.isna().all():
+                    r_val = 1.0
+                else:
+                    if (
+                        fields.FIELD_EVAL_POSITION_BASIS_WEIGHTS in day_hlds.columns
+                        and not day_hlds[fields.FIELD_EVAL_POSITION_BASIS_WEIGHTS].isna().all()
+                    ):
+                        w_vals = day_hlds[fields.FIELD_EVAL_POSITION_BASIS_WEIGHTS]
+                    else:
+                        w_vals = day_hlds[fields.FIELD_EVAL_MKTVALUE_WEIGHTS_HLDS] / 100.0
+                    w_sum = w_vals.sum()
+                    if w_sum > 0:
+                        r_val = float(((r_hlds_vals - 1.0) * w_vals).sum() / w_sum + 1.0)
+                    else:
+                        r_val = 1.0
+            else:
+                r_val = 1.0
+
+        # Inception / first day has no return
+        is_inception = (idx == 0) and (pd.isna(r_val) or r_val == 1.0)
+
+        if is_inception:
+            hlds_ret = 0.0
+            factor_comps = np.zeros(len(factor_names))
+            tot_factor_ret = 0.0
+            excess_ret = 0.0
+        else:
+            hlds_ret = float(r_val - 1.0)
+            covered = w_series.index.intersection(X.index)
+            if not covered.empty:
+                w_vec = w_series.loc[covered].values.astype(float)
+                X_mat = X.loc[covered, factor_names].values.astype(float)
+                beta_p = X_mat.T @ w_vec
+            else:
+                beta_p = np.zeros(len(factor_names))
+
+            factor_comps = beta_p * f_returns.loc[factor_names].values.astype(float)
+            tot_factor_ret = float(np.sum(factor_comps))
+            excess_ret = hlds_ret - tot_factor_ret
+
+        row = {
+            "date": str(dt),
+            "return_hlds": hlds_ret,
+            "holdings_return": hlds_ret,
+            "factor_return": tot_factor_ret,
+            "excess_return": excess_ret,
+        }
+        for k_idx, f_name in enumerate(factor_names):
+            row[f_name] = float(factor_comps[k_idx])
+            if include_factor_returns:
+                row[f_name + "_return"] = float(f_returns.loc[f_name])
+        rows.append(row)
+
+    df_attr = pd.DataFrame(rows)
+
+    # Multi-period Cariño linking
+    n = len(df_attr)
+    slice_r_all = 1.0 + df_attr["return_hlds"].values
+
+    acc_dict = {
+        col: np.zeros(n)
+        for col in factor_names + ["return_hlds", "holdings_return", "factor_return", "excess_return"]
+    }
+
+    for i in range(1, n):
+        slice_r = slice_r_all[: i + 1]
+        R_i = float(np.prod(slice_r))
+        acc_dict["return_hlds"][i] = R_i - 1.0
+        acc_dict["holdings_return"][i] = R_i - 1.0
+
+        for f in factor_names:
+            c_slice = 1.0 + df_attr[f].values[: i + 1]
+            acc_dict[f][i] = carino_linking_return_split(c_slice, slice_r, R_i) - 1.0
+
+        c_tot = 1.0 + df_attr["factor_return"].values[: i + 1]
+        acc_dict["factor_return"][i] = carino_linking_return_split(c_tot, slice_r, R_i) - 1.0
+
+        c_exc = 1.0 + df_attr["excess_return"].values[: i + 1]
+        acc_dict["excess_return"][i] = carino_linking_return_split(c_exc, slice_r, R_i) - 1.0
+
+    for col in acc_dict:
+        df_attr["acc_" + col] = acc_dict[col]
+
+    df_attr.set_index("date", drop=False, inplace=True)
+    return df_attr
+
+
+get_factor_attribution = get_portfolio_factor_attribution
+
 
 
