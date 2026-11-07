@@ -38,6 +38,7 @@ REGIME_CALIBRATION = "REGIME_CALIBRATION"
 REGIME_SUMMARY = "REGIME_SUMMARY"
 PORTFOLIO_CONSTRUCTION = "PORTFOLIO_CONSTRUCTION"
 PORTFOLIO_TREE_RISK = "PORTFOLIO_TREE_RISK"
+FACTOR_ATTRIBUTION = "FACTOR_ATTRIBUTION"
 
 # API Names
 ApiNames = {
@@ -53,6 +54,7 @@ ApiNames = {
     REGIME_SUMMARY: "REGIME SUMMARY",
     PORTFOLIO_CONSTRUCTION: "PORTFOLIO CONSTRUCTION",
     PORTFOLIO_TREE_RISK: "PORTFOLIO TREE RISK",
+    FACTOR_ATTRIBUTION: "FACTOR ATTRIBUTION",
 }
 
 RISK_MODEL_FILE = "risk_model.pkl"
@@ -2048,3 +2050,162 @@ def get_portfolio_tree_risk_logic(
         )
 
     return None
+
+
+def get_factor_attribution_logic(
+    portfolio_name: str,
+    source: str = "filesystem",
+    filesystem_folder: Optional[str] = None,
+    bucket_name: Optional[str] = None,
+    access_key_id: Optional[str] = None,
+    secret_access_key: Optional[str] = None,
+    s3_host: Optional[str] = None,
+    s3_port: Optional[str] = None,
+    ftp_host: Optional[str] = None,
+    ftp_user: Optional[str] = None,
+    ftp_pass: Optional[str] = None,
+    start_date: Optional[str] = None,
+    end_date: Optional[str] = None,
+    include_factor_returns: bool = False,
+) -> Optional[pd.DataFrame]:
+    """
+    Historical factor-based return attribution for a given portfolio.
+
+    Loads the calibrated risk model and the portfolio daily holdings/performance,
+    and returns a DataFrame containing:
+      - Daily factor return components for each factor (factor * factor exposure)
+      - Cariño linked accumulated factor return components (acc_<factor>)
+      - Daily portfolio holdings return (return_hlds / holdings_return)
+      - Cariño linked accumulated holdings return (acc_return_hlds / acc_holdings_return)
+      - Daily excess return (excess_return = return_hlds - sum(factor_returns))
+      - Cariño linked accumulated excess return (acc_excess_return)
+      - Total factor return (factor_return) and linked total (acc_factor_return)
+    """
+    err_collector = error_collector.get_collector()
+
+    if filesystem_folder is not None:
+        filesystem_folder = filesystem_folder.replace("|", "/")
+    else:
+        filesystem_folder = ""
+
+    try:
+        from datetime import datetime, timedelta
+        import os
+        import pandas as pd
+
+        config = const_and_utils.Config(
+            source=source,
+            filesystem_folder=filesystem_folder,
+            output_file_name=portfolio_name,
+            bucket_name=bucket_name,
+            access_key_id=access_key_id,
+            secret_access_key=secret_access_key,
+            s3_host=s3_host,
+            s3_port=s3_port,
+            ftp_host=ftp_host,
+            ftp_user=ftp_user,
+            ftp_pass=ftp_pass,
+        )
+        config.validate()
+
+        dt_start = None
+        if start_date:
+            try:
+                dt_start = pd.to_datetime(start_date).date()
+            except Exception:
+                pass
+
+        dt_end = None
+        if end_date:
+            try:
+                dt_end = pd.to_datetime(end_date).date()
+            except Exception:
+                pass
+
+        # 1. Load risk model
+        model_path = filesystem_folder + "/" + RISK_MODEL_FILE if filesystem_folder else RISK_MODEL_FILE
+        cal = const_and_utils.read_pickle(config, model_path)
+        if cal is None and filesystem_folder:
+            idx_path = os.path.join(filesystem_folder, "indexes", RISK_MODEL_FILE)
+            cal = const_and_utils.read_pickle(config, idx_path)
+        if cal is None:
+            raise ValueError("No calibrated risk model found. Please run risk_calibration first.")
+
+        # 2. Resolve portfolio holdings folder
+        portfolio_holdings_prefix = (
+            portfolio_name + "_" + const_and_utils.DAILY_HOLDINGS_PREFIX
+        )
+        current_folder = filesystem_folder
+        portfolio_holdings_files = const_and_utils.list_files(
+            config=config,
+            input_folder=current_folder,
+            prefix=portfolio_holdings_prefix,
+        )
+
+        if not portfolio_holdings_files:
+            subfolder = os.path.join(filesystem_folder, portfolio_name)
+            if os.path.exists(subfolder) and os.path.isdir(subfolder):
+                current_folder = subfolder
+                portfolio_holdings_files = const_and_utils.list_files(
+                    config=config,
+                    input_folder=current_folder,
+                    prefix=portfolio_holdings_prefix,
+                )
+
+        portfolio_config = const_and_utils.Config(
+            source=source,
+            filesystem_folder=current_folder,
+            output_file_name=portfolio_name,
+            bucket_name=bucket_name,
+            access_key_id=access_key_id,
+            secret_access_key=secret_access_key,
+            s3_host=s3_host,
+            s3_port=s3_port,
+            ftp_host=ftp_host,
+            ftp_user=ftp_user,
+            ftp_pass=ftp_pass,
+        )
+
+        # Buffer start date by 15 days so that dt_start has preceding prices and position_basis
+        t_start_buffered = dt_start - timedelta(days=15) if dt_start else None
+
+        df_h_perf = functions_performance_daily.compute_performance_daily(
+            config=portfolio_config,
+            prefix=portfolio_holdings_prefix,
+            start_date=t_start_buffered,
+            end_date=dt_end,
+            holdings_files=portfolio_holdings_files,
+        )
+
+        if df_h_perf.empty:
+            raise ValueError(f"No performance data found for portfolio {portfolio_name}.")
+
+        df_h_agg, port_series, _ = functions_aggregation.aggregate(
+            portfolio_daily_fields=df_h_perf,
+            start_date=dt_start,
+            end_date=dt_end,
+            metrics=df_h_perf.columns.tolist(),
+        )
+
+        if df_h_agg.empty:
+            raise ValueError(f"No holdings data found after aggregation for {portfolio_name}.")
+
+        return functions_risk.get_portfolio_factor_attribution(
+            cal=cal,
+            df_h_agg=df_h_agg,
+            port_series=port_series,
+            start_date=dt_start,
+            end_date=dt_end,
+            include_factor_returns=include_factor_returns,
+        )
+
+    except Exception as err_msg:
+        err_collector.record_error(
+            operation_name=ApiNames[FACTOR_ATTRIBUTION], error_details=str(err_msg)
+        )
+
+    return None
+
+
+get_portfolio_factor_attribution_logic = get_factor_attribution_logic
+
