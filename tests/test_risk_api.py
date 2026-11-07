@@ -8,9 +8,12 @@ from oport.oport_api import (
     get_factor_covariance_logic,
     get_portfolio_risk_logic,
     get_portfolio_tree_risk_logic,
-    RISK_MODEL_FILE
+    get_factor_attribution_logic,
+    get_portfolio_factor_attribution_logic,
+    RISK_MODEL_FILE,
 )
 from oport import fields, error_collector
+from oport.router import get_factor_attribution, get_portfolio_factor_attribution
 
 class TestRiskApi(unittest.TestCase):
     @classmethod
@@ -225,6 +228,188 @@ class TestRiskApi(unittest.TestCase):
         self.assertFalse(df_tree.empty, "Portfolio tree risk (fallback) is empty")
         self.assertIn("portfolio", df_tree.index)
         print("Portfolio Tree Risk (Fallback) successful.")
+
+    def test_07_factor_attribution(self):
+        print("\n=== Testing Factor-Based Attribution ===")
+        df_attr = get_factor_attribution_logic(
+            portfolio_name=self.portfolio_name,
+            source=self.source,
+            filesystem_folder=self.test_data_dir,
+            bucket_name=None,
+            access_key_id=None,
+            secret_access_key=None,
+            s3_host=None,
+            s3_port=None,
+            ftp_host=None,
+            ftp_user=None,
+            ftp_pass=None,
+            start_date=self.start_date,
+            end_date=self.end_date,
+        )
+
+        if df_attr is None:
+            collector = error_collector.get_collector()
+            print("ERRORS:", collector.get_errors())
+
+        self.assertIsInstance(df_attr, pd.DataFrame)
+        self.assertFalse(df_attr.empty, "Factor attribution dataframe is empty")
+
+        # Required core columns
+        for col in [
+            "date",
+            "return_hlds",
+            "holdings_return",
+            "factor_return",
+            "excess_return",
+            "acc_return_hlds",
+            "acc_holdings_return",
+            "acc_factor_return",
+            "acc_excess_return",
+        ]:
+            self.assertIn(col, df_attr.columns, f"Missing required column: {col}")
+
+        # Identify factor columns (columns without 'acc_' and not in core meta columns)
+        meta_cols = {
+            "date",
+            "return_hlds",
+            "holdings_return",
+            "factor_return",
+            "excess_return",
+            "acc_return_hlds",
+            "acc_holdings_return",
+            "acc_factor_return",
+            "acc_excess_return",
+        }
+        factor_cols = [c for c in df_attr.columns if not c.startswith("acc_") and c not in meta_cols]
+        self.assertTrue(len(factor_cols) > 0, "No factor columns found in attribution output")
+
+        # Every factor must have an acc_ counterpart
+        for f in factor_cols:
+            self.assertIn(f"acc_{f}", df_attr.columns, f"Missing accumulated column for factor {f}")
+
+        # Check mathematical invariants across all rows
+        for idx, row in df_attr.iterrows():
+            # 1. Daily sum of factor components == factor_return
+            daily_factor_sum = sum(row[f] for f in factor_cols)
+            self.assertAlmostEqual(
+                daily_factor_sum,
+                row["factor_return"],
+                places=6,
+                msg=f"Row {idx} daily factor sum != factor_return",
+            )
+
+            # 2. Daily factor_return + excess_return == return_hlds
+            self.assertAlmostEqual(
+                row["factor_return"] + row["excess_return"],
+                row["return_hlds"],
+                places=6,
+                msg=f"Row {idx} daily factor_return + excess_return != return_hlds",
+            )
+
+            # 3. Accumulated sum of acc_factor components == acc_factor_return
+            acc_factor_sum = sum(row[f"acc_{f}"] for f in factor_cols)
+            self.assertAlmostEqual(
+                acc_factor_sum,
+                row["acc_factor_return"],
+                places=6,
+                msg=f"Row {idx} acc factor sum != acc_factor_return",
+            )
+
+            # 4. Accumulated acc_factor_return + acc_excess_return == acc_return_hlds
+            self.assertAlmostEqual(
+                row["acc_factor_return"] + row["acc_excess_return"],
+                row["acc_return_hlds"],
+                places=6,
+                msg=f"Row {idx} acc_factor_return + acc_excess_return != acc_return_hlds",
+            )
+
+        # 5. Check alias consistency
+        pd.testing.assert_series_equal(df_attr["return_hlds"], df_attr["holdings_return"], check_names=False)
+        pd.testing.assert_series_equal(df_attr["acc_return_hlds"], df_attr["acc_holdings_return"], check_names=False)
+
+        # 6. Verify get_portfolio_factor_attribution_logic alias gives identical result
+        df_attr_alias = get_portfolio_factor_attribution_logic(
+            portfolio_name=self.portfolio_name,
+            source=self.source,
+            filesystem_folder=self.test_data_dir,
+            bucket_name=None,
+            access_key_id=None,
+            secret_access_key=None,
+            s3_host=None,
+            s3_port=None,
+            ftp_host=None,
+            ftp_user=None,
+            ftp_pass=None,
+            start_date=self.start_date,
+            end_date=self.end_date,
+        )
+        pd.testing.assert_frame_equal(df_attr, df_attr_alias)
+
+        print(f"Factor attribution returned {len(df_attr)} daily observations with {len(factor_cols)} factors.")
+        print("Attribution tail (selected columns):")
+        display_cols = ["date", "return_hlds", "acc_return_hlds", "factor_return", "acc_factor_return", "excess_return", "acc_excess_return"]
+        print(df_attr[display_cols].tail(3).to_string())
+
+    def test_08_factor_attribution_subwindow(self):
+        print("\n=== Testing Factor Attribution Subwindow ===")
+        sub_start = "2021-10-15"
+        sub_end = "2021-10-29"
+        df_attr = get_factor_attribution_logic(
+            portfolio_name=self.portfolio_name,
+            source=self.source,
+            filesystem_folder=self.test_data_dir,
+            bucket_name=None,
+            access_key_id=None,
+            secret_access_key=None,
+            s3_host=None,
+            s3_port=None,
+            ftp_host=None,
+            ftp_user=None,
+            ftp_pass=None,
+            start_date=sub_start,
+            end_date=sub_end,
+        )
+        self.assertIsInstance(df_attr, pd.DataFrame)
+        self.assertFalse(df_attr.empty, "Subwindow factor attribution is empty")
+        dates = df_attr["date"].tolist()
+        self.assertGreaterEqual(dates[0], sub_start)
+        self.assertLessEqual(dates[-1], sub_end)
+        print(f"Subwindow from {dates[0]} to {dates[-1]} ({len(df_attr)} days) successful.")
+
+    def test_09_factor_attribution_router_command(self):
+        print("\n=== Testing Factor Attribution OpenBB Router Commands ===")
+        obb_res1 = get_factor_attribution(
+            portfolio_name=self.portfolio_name,
+            source=self.source,
+            filesystem_folder=self.test_data_dir,
+            start_date=self.start_date,
+            end_date=self.end_date,
+        )
+        self.assertIsNotNone(obb_res1)
+        self.assertIsNotNone(obb_res1.results)
+        self.assertEqual(len(obb_res1.results), 25)
+
+        obb_res2 = get_portfolio_factor_attribution(
+            portfolio_name=self.portfolio_name,
+            source=self.source,
+            filesystem_folder=self.test_data_dir,
+            start_date=self.start_date,
+            end_date=self.end_date,
+        )
+        self.assertIsNotNone(obb_res2)
+        self.assertIsNotNone(obb_res2.results)
+        self.assertEqual(len(obb_res1.results), len(obb_res2.results))
+
+        # Check sample fields on the first result dictionary
+        first_row = obb_res1.results[0]
+        self.assertIn("date", first_row)
+        self.assertIn("return_hlds", first_row)
+        self.assertIn("factor_return", first_row)
+        self.assertIn("excess_return", first_row)
+        self.assertIn("acc_return_hlds", first_row)
+        self.assertIn("acc_factor_return", first_row)
+        self.assertIn("acc_excess_return", first_row)
+        print("Router commands get_factor_attribution and get_portfolio_factor_attribution verified successfully.")
 
     @classmethod
     def tearDownClass(cls):
